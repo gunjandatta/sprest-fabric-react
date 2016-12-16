@@ -1,0 +1,9 @@
+{
+  "name": "sprest.fabric-react.ux",
+  "version": "0.0.0",
+  "description": "SPREST.FabricReact.UX",
+  "main": "server.js",
+  "author": {
+    "name": "gunja"
+  }
+}
