@@ -117,7 +117,7 @@ export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePic
             setTimeout(() => {
                 // Ensure the user has typed in at least 3 characters
                 if (this.state.queryString.length >= 3) {
-                    // Query for the people
+                    // Query for the people picker
                     (new $REST.PeoplePicker())
                         // Set the search query
                         .clientPeoplePickerSearchUser({
