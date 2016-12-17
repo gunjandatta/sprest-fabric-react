@@ -113,7 +113,7 @@ export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePic
 
         // Create a promise
         let promise = new Promise((resolve, reject) => {
-            // Wait two seconds before querying for the user
+            // Wait 1/2 a second before querying for the user
             setTimeout(() => {
                 // Ensure the user has typed in at least 3 characters
                 if (this.state.queryString.length >= 3) {
@@ -145,7 +145,7 @@ export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePic
                             this.setState({ queryString: "", promise: null });
                         });
                 }
-            }, 1500);
+            }, 500);
         });
 
         // Save the promise

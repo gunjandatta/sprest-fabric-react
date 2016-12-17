@@ -38,6 +38,8 @@
     <Content Include="dist\index.html" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="src\components\Datepicker\demo.tsx" />
+    <Content Include="src\components\Datepicker\strings.tsx" />
     <Content Include="src\components\dashboard.tsx" />
     <Content Include="src\components\Dropdown\data.tsx" />
     <Content Include="src\components\Dropdown\demo.tsx" />
@@ -52,6 +54,7 @@
     <Folder Include="src\" />
     <Folder Include="src\components\" />
     <Folder Include="src\components\Dropdown\" />
+    <Folder Include="src\components\Datepicker\" />
     <Folder Include="src\components\PeoplePicker\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->

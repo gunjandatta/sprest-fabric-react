@@ -1,0 +1,40 @@
+﻿import * as React from "react";
+import {
+    DatePicker,
+    DayOfWeek
+} from "office-ui-fabric-react";
+import {
+    Strings
+} from "./strings";
+
+/**
+ * Datepicker Properties
+ */
+interface IDatepickerDemoProps {
+    visible: any;
+}
+
+// Date picker
+export class DatepickerDemo extends React.Component<IDatepickerDemoProps, any> {
+    public render() {
+        return (
+            !this.props.visible ? <div /> :
+            <div>
+                <h1>Demo</h1>
+                <div className="ms-Grid">
+                    <div className="ms-Grid-row">
+                        <div className="ms-Grid-col ms-u-md3">
+                            <DatePicker
+                                label="Select a Date"
+                                isRequired={true}
+                                firstDayOfWeek={DayOfWeek.Sunday}
+                                strings={Strings}
+                                placeholder='Select a date...'
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+}

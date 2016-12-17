@@ -21489,21 +21489,28 @@
 	         */
 	        _this.MenuItems = [
 	            {
+	                key: "datepicker",
+	                name: "Date Picker",
+	                ariaLabel: "Displays the date picker example.",
+	                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDatepicker: true, ShowDropdown: false, ShowPeoplePicker: false }); }
+	            },
+	            {
 	                key: "dropdown",
 	                name: "Drop Down List",
 	                ariaLabel: "Displays the drop down list example.",
-	                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDropdown: true, ShowPeoplePicker: false }); }
+	                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDatepicker: false, ShowDropdown: true, ShowPeoplePicker: false }); }
 	            },
 	            {
 	                key: "peoplePicker",
 	                name: "People Picker",
 	                ariaLabel: "Displays the people picker example.",
-	                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDropdown: false, ShowPeoplePicker: true }); }
+	                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDatepicker: false, ShowDropdown: false, ShowPeoplePicker: true }); }
 	            }
 	        ];
 	        // Default the state
 	        _this.state = {
-	            ShowDropdown: true,
+	            ShowDatepicker: true,
+	            ShowDropdown: false,
 	            ShowPeoplePicker: false
 	        };
 	        return _this;
@@ -21515,6 +21522,7 @@
 	    Dashboard.prototype.render = function () {
 	        return (React.createElement("div", null,
 	            React.createElement(office_ui_fabric_react_1.CommandBar, { items: this.MenuItems }),
+	            React.createElement(_1.DatepickerDemo, { visible: this.state.ShowDatepicker }),
 	            React.createElement(_1.DropdownDemo, { visible: this.state.ShowDropdown }),
 	            React.createElement(_1.PeoplePickerDemo, { visible: this.state.ShowPeoplePicker })));
 	    };
@@ -38763,6 +38771,7 @@
 	}
 	__export(__webpack_require__(449));
 	__export(__webpack_require__(451));
+	__export(__webpack_require__(453));
 
 
 /***/ },
@@ -38777,7 +38786,110 @@
 	};
 	var React = __webpack_require__(1);
 	var office_ui_fabric_react_1 = __webpack_require__(179);
-	var data_1 = __webpack_require__(450);
+	var strings_1 = __webpack_require__(450);
+	// Date picker
+	var DatepickerDemo = (function (_super) {
+	    __extends(DatepickerDemo, _super);
+	    function DatepickerDemo() {
+	        return _super.apply(this, arguments) || this;
+	    }
+	    DatepickerDemo.prototype.render = function () {
+	        return (!this.props.visible ? React.createElement("div", null) :
+	            React.createElement("div", null,
+	                React.createElement("h1", null, "Demo"),
+	                React.createElement("div", { className: "ms-Grid" },
+	                    React.createElement("div", { className: "ms-Grid-row" },
+	                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
+	                            React.createElement(office_ui_fabric_react_1.DatePicker, { label: "Select a Date", isRequired: true, firstDayOfWeek: office_ui_fabric_react_1.DayOfWeek.Sunday, strings: strings_1.Strings, placeholder: 'Select a date...' }))))));
+	    };
+	    return DatepickerDemo;
+	}(React.Component));
+	exports.DatepickerDemo = DatepickerDemo;
+
+
+/***/ },
+/* 450 */
+/***/ function(module, exports) {
+
+	"use strict";
+	/**
+	 * Datepicker Strings
+	 */
+	exports.Strings = {
+	    /**
+	     * Month Information
+	     */
+	    months: [
+	        'January',
+	        'February',
+	        'March',
+	        'April',
+	        'May',
+	        'June',
+	        'July',
+	        'August',
+	        'September',
+	        'October',
+	        'November',
+	        'December'
+	    ],
+	    shortMonths: [
+	        'Jan',
+	        'Feb',
+	        'Mar',
+	        'Apr',
+	        'May',
+	        'Jun',
+	        'Jul',
+	        'Aug',
+	        'Sep',
+	        'Oct',
+	        'Nov',
+	        'Dec'
+	    ],
+	    /**
+	     * Day Information
+	     */
+	    days: [
+	        'Sunday',
+	        'Monday',
+	        'Tuesday',
+	        'Wednesday',
+	        'Thursday',
+	        'Friday',
+	        'Saturday'
+	    ],
+	    shortDays: [
+	        'S',
+	        'M',
+	        'T',
+	        'W',
+	        'T',
+	        'F',
+	        'S'
+	    ],
+	    /**
+	     * Properties
+	     */
+	    goToToday: 'Go to today',
+	    isRequiredErrorMessage: 'This field is required.',
+	    invalidInputErrorMessage: 'Invalid date format.'
+	};
+
+
+/***/ },
+/* 451 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var React = __webpack_require__(1);
+	var office_ui_fabric_react_1 = __webpack_require__(179);
+	var data_1 = __webpack_require__(452);
 	/**
 	 * Dropdown Demo
 	 */
@@ -38880,7 +38992,7 @@
 	        var _this = this;
 	        return !this.props.visible ? React.createElement("div", null) :
 	            (React.createElement("div", null,
-	                React.createElement("h1", null, "Dropdown List Demo"),
+	                React.createElement("h1", null, "Demo"),
 	                React.createElement("div", { className: "ms-Grid" },
 	                    React.createElement("div", { className: "ms-Grid-row" },
 	                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
@@ -38898,7 +39010,7 @@
 
 
 /***/ },
-/* 450 */
+/* 452 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -39259,7 +39371,7 @@
 
 
 /***/ },
-/* 451 */
+/* 453 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -39270,7 +39382,7 @@
 	};
 	var React = __webpack_require__(1);
 	var office_ui_fabric_react_1 = __webpack_require__(179);
-	var peoplepicker_1 = __webpack_require__(452);
+	var peoplepicker_1 = __webpack_require__(454);
 	/**
 	 * People Picker Demo
 	 */
@@ -39283,7 +39395,8 @@
 	    PeoplePickerDemo.prototype.render = function () {
 	        return !this.props.visible ? React.createElement("div", null) :
 	            (React.createElement("div", null,
-	                React.createElement("h1", null, "People Picker Demo"),
+	                React.createElement("h1", null, "Demo"),
+	                React.createElement("h5", null, "The people picker search requires you to type in a minimum of 3 characters."),
 	                React.createElement("div", { className: "ms-Grid" },
 	                    React.createElement("div", { className: "ms-Grid-row" },
 	                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
@@ -39299,7 +39412,7 @@
 
 
 /***/ },
-/* 452 */
+/* 454 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -39376,7 +39489,7 @@
 	        }
 	        // Create a promise
 	        var promise = new Promise(function (resolve, reject) {
-	            // Wait two seconds before querying for the user
+	            // Wait 1/2 a second before querying for the user
 	            setTimeout(function () {
 	                // Ensure the user has typed in at least 3 characters
 	                if (_this.state.queryString.length >= 3) {
@@ -39404,7 +39517,7 @@
 	                        _this.setState({ queryString: "", promise: null });
 	                    });
 	                }
-	            }, 1500);
+	            }, 500);
 	        });
 	        // Save the promise
 	        this.setState({ promise: promise });
