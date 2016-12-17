@@ -5,6 +5,8 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>SPREST.FabricReact.UX</Name>
     <RootNamespace>SPREST.FabricReact.UX</RootNamespace>
+    <NodeExeArguments>
+    </NodeExeArguments>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -21,7 +23,7 @@
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
     <ProjectView>ProjectFiles</ProjectView>
     <NodejsPort>1337</NodejsPort>
-    <StartWebBrowser>true</StartWebBrowser>
+    <StartWebBrowser>True</StartWebBrowser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,17 +32,27 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="src\index.js" />
+    <Compile Include="dist\bundle.js" />
     <Compile Include="tsconfig.json" />
     <Compile Include="webpack.config.js" />
+    <Content Include="dist\index.html" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="src\components\peoplePicker.tsx" />
+    <Content Include="src\components\dashboard.tsx" />
+    <Content Include="src\components\Dropdown\data.tsx" />
+    <Content Include="src\components\Dropdown\demo.tsx" />
+    <Content Include="src\components\index.tsx" />
+    <Content Include="src\components\PeoplePicker\demo.tsx" />
+    <Content Include="src\components\PeoplePicker\peoplePicker.tsx" />
     <Content Include="src\index.html" />
+    <Content Include="src\index.tsx" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="dist\" />
     <Folder Include="src\" />
     <Folder Include="src\components\" />
+    <Folder Include="src\components\Dropdown\" />
+    <Folder Include="src\components\PeoplePicker\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />

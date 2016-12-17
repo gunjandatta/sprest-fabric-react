@@ -1,5 +1,8 @@
 import * as React from "react";
 import {
+    Label
+} from "office-ui-fabric-react";
+import {
     PeoplePicker
 } from "./peoplepicker";
 
@@ -18,7 +21,21 @@ export class PeoplePickerDemo extends React.Component<IPeoplePickerDemoProps, an
     render() {
         return !this.props.visible ? <div /> :
         (
-            <h1>TO DO</h1>
+            <div>
+                <h1>Demo</h1>
+                <div className="ms-Grid">
+                    <div className="ms-Grid-row">
+                        <div className="ms-Grid-col ms-u-md3">
+                            <Label>Single User</Label>
+                            <PeoplePicker />
+                        </div>
+                        <div className="ms-Grid-col ms-u-md3">
+                            <Label>Multiple Users</Label>
+                            <PeoplePicker multiple={true} />
+                        </div>
+                    </div>
+                </div>
+            </div>
         );
     }
 }

@@ -2,5 +2,6 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Scripts">
     <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\gd-sprest.min.js" Url="Scripts/gd-sprest.min.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

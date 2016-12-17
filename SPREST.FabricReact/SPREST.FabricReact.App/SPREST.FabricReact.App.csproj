@@ -46,6 +46,7 @@
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{e2e1ef40-94ce-4b04-a5ec-550933889711}</SharePointProjectItemId>
     </None>
+    <Content Include="Content\fabric.min.css" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
@@ -55,6 +56,7 @@
     </None>
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\gd-sprest.min.js" />
     <Content Include="Scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>
@@ -98,4 +100,10 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup>
+    <PreBuildEvent>copy "$(SolutionDir)\SPREST.FabricReact.UX\node_modules\office-ui-fabric-react\dist\css\fabric.min.css" "$(ProjectDir)Content"
+copy "$(SolutionDir)\SPREST.FabricReact.UX\node_modules\gd-sprest\dist\gd-sprest.min.js" "$(ProjectDir)Scripts"
+copy "$(SolutionDir)\SPREST.FabricReact.UX\dist\bundle.js" "$(ProjectDir)Scripts\App.js"
+</PreBuildEvent>
+  </PropertyGroup>
 </Project>
