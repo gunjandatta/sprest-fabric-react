@@ -107,7 +107,10 @@ export class ListDemo extends React.Component<IListDemoProps, IListDemoState> {
                         item={this.state.SelectedItem}
                         visible={this.state.ShowDialog}
                         />
-                    <NewItemPanel visible={this.state.ShowPanel} />
+                    <NewItemPanel
+                        closePanel={() => this.setState({ ShowPanel: false })}
+                        visible={this.state.ShowPanel}
+                        />
                 </div>
             );
     }

@@ -14,6 +14,7 @@ import {
  * Properties
  */
 interface INewItemPanelProps {
+    closePanel: any;
     visible?: boolean;
 }
 
@@ -90,7 +91,9 @@ export class NewItemPanel extends React.Component<INewItemPanelProps, INewItemPa
     render() {
         return (
             <Panel
-                isOpen={this.props.visible}>
+                headerText="New Location"
+                isOpen={this.props.visible}
+                onDismiss={() => this.props.closePanel()}>
                 <TextField
                     label="City:"
                     required={true}

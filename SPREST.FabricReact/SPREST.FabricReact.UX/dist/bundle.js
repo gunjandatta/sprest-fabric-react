@@ -39510,7 +39510,7 @@
 	                React.createElement(office_ui_fabric_react_1.Button, { buttonType: office_ui_fabric_react_1.ButtonType.hero, icon: "Add", onClick: function (event) { event.preventDefault(); _this.setState({ ShowPanel: true }); } }, "New Location"),
 	                React.createElement(office_ui_fabric_react_1.DetailsList, { items: this.state.Items, onRenderItemColumn: function (item, index, column) { return _this.onRenderItemColumn(item, index, column); }, selectionMode: office_ui_fabric_react_1.SelectionMode.none }),
 	                React.createElement(_1.ViewItemDialog, { closeDialog: function () { return _this.setState({ ShowDialog: false }); }, item: this.state.SelectedItem, visible: this.state.ShowDialog }),
-	                React.createElement(_1.NewItemPanel, { visible: this.state.ShowPanel })));
+	                React.createElement(_1.NewItemPanel, { closePanel: function () { return _this.setState({ ShowPanel: false }); }, visible: this.state.ShowPanel })));
 	    };
 	    return ListDemo;
 	}(React.Component));
@@ -40042,7 +40042,7 @@
 	    // Render the component
 	    NewItemPanel.prototype.render = function () {
 	        var _this = this;
-	        return (React.createElement(office_ui_fabric_react_1.Panel, { isOpen: this.props.visible },
+	        return (React.createElement(office_ui_fabric_react_1.Panel, { headerText: "New Location", isOpen: this.props.visible, onDismiss: function () { return _this.props.closePanel(); } },
 	            React.createElement(office_ui_fabric_react_1.TextField, { label: "City:", required: true, value: this.state.Item.Title, onGetErrorMessage: function (value) { return _this.getErrorMessage(value, "city"); } }),
 	            React.createElement(office_ui_fabric_react_1.TextField, { label: "County:", required: true, value: this.state.Item.County, onGetErrorMessage: function (value) { return _this.getErrorMessage(value, "county"); } }),
 	            React.createElement(office_ui_fabric_react_1.TextField, { label: "State:", required: true, value: this.state.Item.State, onGetErrorMessage: function (value) { return _this.getErrorMessage(value, "state"); } }),
