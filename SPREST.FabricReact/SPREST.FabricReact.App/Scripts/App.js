@@ -38900,6 +38900,7 @@
 	     */
 	    function DropdownDemo(props) {
 	        var _this = _super.call(this, props) || this;
+	        _this.data = [];
 	        // Default the state
 	        _this.state = {
 	            Cities: [],
@@ -38911,19 +38912,24 @@
 	            },
 	            States: []
 	        };
-	        // Read the data
-	        for (var i = 0; i < data_1.Data.length; i++) {
-	            var prevState = _this.state.States.length > 0 ? _this.state.States[_this.state.States.length - 1] : null;
-	            // Remove duplicates
-	            if (prevState && prevState.key == data_1.Data[i].State) {
-	                continue;
+	        // Get the data
+	        data_1.Data.get().then(function (data) {
+	            // Save a reference to the data
+	            _this.data = data;
+	            // Parse the data
+	            for (var i = 0; i < data.length; i++) {
+	                var prevState = _this.state.States.length > 0 ? _this.state.States[_this.state.States.length - 1] : null;
+	                // Remove duplicates
+	                if (prevState && prevState.key == data[i].State) {
+	                    continue;
+	                }
+	                // Add the value
+	                _this.state.States.push({
+	                    key: data[i].State,
+	                    text: data[i].State
+	                });
 	            }
-	            // Add the value
-	            _this.state.States.push({
-	                key: data_1.Data[i].State,
-	                text: data_1.Data[i].State
-	            });
-	        }
+	        });
 	        return _this;
 	    }
 	    /**
@@ -38939,8 +38945,8 @@
 	            State: this.state.SelectedItem.State
 	        };
 	        // Parse the data
-	        for (var _i = 0, Data_1 = data_1.Data; _i < Data_1.length; _i++) {
-	            var data = Data_1[_i];
+	        for (var _i = 0, _a = this.data; _i < _a.length; _i++) {
+	            var data = _a[_i];
 	            var prevState = cities.length > 0 ? cities[cities.length - 1] : null;
 	            // Remove duplicates
 	            if (prevState && prevState.key == data.City) {
@@ -38968,8 +38974,8 @@
 	            State: option.text
 	        };
 	        // Parse the data
-	        for (var _i = 0, Data_2 = data_1.Data; _i < Data_2.length; _i++) {
-	            var data = Data_2[_i];
+	        for (var _i = 0, _a = this.data; _i < _a.length; _i++) {
+	            var data = _a[_i];
 	            var prevState = counties.length > 0 ? counties[counties.length - 1] : null;
 	            // Remove duplicates
 	            if (prevState && prevState.key == data.County) {
@@ -39014,7 +39020,53 @@
 /***/ function(module, exports) {
 
 	"use strict";
-	exports.Data = [
+	/**
+	 * Data Source
+	 */
+	var Data = (function () {
+	    function Data() {
+	    }
+	    // Method to get the data
+	    Data.get = function () {
+	        // Return a promise
+	        return new Promise(function (resolve, reject) {
+	            // See if the $REST library exists
+	            if (window.hasOwnProperty("$REST")) {
+	                // Get the list
+	                (new $REST.List("Locations"))
+	                    .Items()
+	                    .query({
+	                    OrderBy: ["State", "County", "Title"]
+	                })
+	                    .execute(function (items) {
+	                    var data = [];
+	                    // Parse the items
+	                    for (var _i = 0, _a = items.results; _i < _a.length; _i++) {
+	                        var item = _a[_i];
+	                        // Add the item to the data array
+	                        data.push({
+	                            City: item["Title"],
+	                            County: item["County"],
+	                            State: item["State"]
+	                        });
+	                    }
+	                    // Resolve the request
+	                    resolve(data);
+	                });
+	            }
+	            else {
+	                // Resolve the request with test data
+	                resolve(TestData);
+	            }
+	        });
+	    };
+	    return Data;
+	}());
+	exports.Data = Data;
+	/**
+	 * Test Data
+	 */
+	var TestData = [
 	    { City: "Anchorage", County: "Anchorage", State: "AK" },
 	    { City: "Fairbanks", County: "Fairbanks North Star", State: "AK" },
 	    { City: "Little Rock", County: "Pulaski", State: "AR" },
@@ -39493,7 +39545,7 @@
 	            setTimeout(function () {
 	                // Ensure the user has typed in at least 3 characters
 	                if (_this.state.queryString.length >= 3) {
-	                    // Query for the people
+	                    // Query for the people picker
 	                    (new $REST.PeoplePicker())
 	                        .clientPeoplePickerSearchUser({
 	                        MaximumEntitySuggestions: 10,

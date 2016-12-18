@@ -1,10 +1,64 @@
+/**
+ * Promise
+ */
+declare var Promise: PromiseConstructorLike;
+
+/**
+ * The interface for the data.
+ */
 export interface IData {
     City: string;
     County: string;
     State: string;
 }
 
-export const Data:IData[] = [
+/**
+ * Data Source
+ */
+export class Data {
+    // Method to get the data
+    static get(): PromiseLike<IData[]> {
+        // Return a promise
+        return new Promise((resolve, reject) => {
+            // See if the $REST library exists
+            if (window.hasOwnProperty("$REST")) {
+                // Get the list
+                (new $REST.List("Locations"))
+                    // Get the items
+                    .Items()
+                    // Query the data
+                    .query({
+                        OrderBy: ["State", "County", "Title"]
+                    })
+                    // Execute the request
+                    .execute((items: $REST.Types.IListItems) => {
+                        let data: IData[] = [];
+
+                        // Parse the items
+                        for (let item of items.results) {
+                            // Add the item to the data array
+                            data.push({
+                                City: item["Title"],
+                                County: item["County"],
+                                State: item["State"]
+                            });
+                        }
+
+                        // Resolve the request
+                        resolve(data);
+                    });
+            } else {
+                // Resolve the request with test data
+                resolve(TestData);
+            }
+        });
+    }
+}
+
+/**
+ * Test Data
+ */
+const TestData:IData[] = [
     { City: "Anchorage", County: "Anchorage", State: "AK" },
     { City: "Fairbanks", County: "Fairbanks North Star", State: "AK" },
     { City: "Little Rock", County: "Pulaski", State: "AR" },

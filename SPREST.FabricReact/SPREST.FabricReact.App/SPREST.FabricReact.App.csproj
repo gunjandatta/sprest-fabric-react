@@ -43,10 +43,19 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="Lists\Locations\LocationsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8554df24-82bf-434d-bf8e-7c56c98f60cb}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Locations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5f97de92-358d-4654-b9ca-c9836c452722}</SharePointProjectItemId>
+    </None>
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{e2e1ef40-94ce-4b04-a5ec-550933889711}</SharePointProjectItemId>
     </None>
     <Content Include="Content\fabric.min.css" />
+    <Content Include="Lists\Locations\Elements.xml" />
+    <Content Include="Lists\Locations\LocationsInstance\Elements.xml" />
+    <Content Include="Lists\Locations\Schema.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
@@ -82,11 +91,11 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="Features\Feature1\Feature1.feature">
+    <None Include="Features\App.Feature\App.Feature.feature">
       <FeatureId>{c4a7f97e-94e7-49c1-b2fb-57100ac47634}</FeatureId>
     </None>
-    <None Include="Features\Feature1\Feature1.Template.xml">
-      <DependentUpon>Feature1.feature</DependentUpon>
+    <None Include="Features\App.Feature\App.Feature.Template.xml">
+      <DependentUpon>App.Feature.feature</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +103,7 @@
       <SubType>Designer</SubType>
     </AppManifestFile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
