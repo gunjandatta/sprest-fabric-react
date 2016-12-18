@@ -21492,25 +21492,32 @@
 	                key: "datepicker",
 	                name: "Date Picker",
 	                ariaLabel: "Displays the date picker example.",
-	                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDatepicker: true, ShowDropdown: false, ShowPeoplePicker: false }); }
+	                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDatepicker: true, ShowDropdown: false, ShowList: false, ShowPeoplePicker: false }); }
 	            },
 	            {
 	                key: "dropdown",
-	                name: "Drop Down List",
+	                name: "Drop Down",
 	                ariaLabel: "Displays the drop down list example.",
-	                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDatepicker: false, ShowDropdown: true, ShowPeoplePicker: false }); }
+	                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDatepicker: false, ShowDropdown: true, ShowList: false, ShowPeoplePicker: false }); }
+	            },
+	            {
+	                key: "list",
+	                name: "List",
+	                ariaLabel: "Displays the list example.",
+	                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDatepicker: false, ShowDropdown: false, ShowList: true, ShowPeoplePicker: false }); }
 	            },
 	            {
 	                key: "peoplePicker",
 	                name: "People Picker",
 	                ariaLabel: "Displays the people picker example.",
-	                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDatepicker: false, ShowDropdown: false, ShowPeoplePicker: true }); }
+	                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDatepicker: false, ShowDropdown: false, ShowList: false, ShowPeoplePicker: true }); }
 	            }
 	        ];
 	        // Default the state
 	        _this.state = {
 	            ShowDatepicker: true,
 	            ShowDropdown: false,
+	            ShowList: false,
 	            ShowPeoplePicker: false
 	        };
 	        return _this;
@@ -21524,6 +21531,7 @@
 	            React.createElement(office_ui_fabric_react_1.CommandBar, { items: this.MenuItems }),
 	            React.createElement(_1.DatepickerDemo, { visible: this.state.ShowDatepicker }),
 	            React.createElement(_1.DropdownDemo, { visible: this.state.ShowDropdown }),
+	            React.createElement(_1.ListDemo, { visible: this.state.ShowList }),
 	            React.createElement(_1.PeoplePickerDemo, { visible: this.state.ShowPeoplePicker })));
 	    };
 	    return Dashboard;
@@ -27096,7 +27104,9 @@
 	    __extends(Calendar, _super);
 	    function Calendar(props) {
 	        _super.call(this);
-	        var currentDate = props.value || new Date();
+	        var currentDate = props.value && !isNaN(props.value.getTime()) ?
+	            props.value
+	            : new Date();
 	        this.state = {
 	            selectedDate: currentDate,
 	            navigatedDate: currentDate
@@ -36371,7 +36381,7 @@
 	"use strict";
 	/* tslint:disable */
 	var load_themed_styles_1 = __webpack_require__(216);
-	load_themed_styles_1.loadStyles([{ "rawString": ".ms-Panel{pointer-events:inherit;overflow:hidden}.ms-Panel .ms-Panel-main{position:absolute;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch}.ms-Panel{bottom:0;left:0;position:fixed;right:0;top:0;display:none;pointer-events:none}.ms-Panel .ms-Overlay{display:none;pointer-events:none;opacity:1;cursor:pointer;-webkit-transition:opacity 367ms cubic-bezier(.1,.9,.2,1);transition:opacity 367ms cubic-bezier(.1,.9,.2,1)}.ms-Panel-main{background-color:" }, { "theme": "white", "defaultValue": "#ffffff" }, { "rawString": ";bottom:0;position:fixed;top:0;display:none;width:100%}html[dir=ltr] .ms-Panel-main{right:0}html[dir=rtl] .ms-Panel-main{left:0}@media (min-width:480px){.ms-Panel-main{border-left:1px solid " }, { "theme": "neutralLight", "defaultValue": "#eaeaea" }, { "rawString": ";border-right:1px solid " }, { "theme": "neutralLight", "defaultValue": "#eaeaea" }, { "rawString": ";pointer-events:auto;width:340px;box-shadow:-30px 0 30px -30px rgba(0,0,0,.2)}html[dir=ltr] .ms-Panel-main{left:auto}html[dir=rtl] .ms-Panel-main{right:auto}}.ms-Panel.ms-Panel--sm .ms-Panel-main{width:272px}@media (min-width:480px){.ms-Panel.ms-Panel--sm .ms-Panel-main{width:340px}}.ms-Panel.ms-Panel--smLeft .ms-Panel-main{width:272px}html[dir=ltr] .ms-Panel.ms-Panel--smLeft .ms-Panel-main{right:auto}html[dir=rtl] .ms-Panel.ms-Panel--smLeft .ms-Panel-main{left:auto}html[dir=ltr] .ms-Panel.ms-Panel--smLeft .ms-Panel-main{left:0}html[dir=rtl] .ms-Panel.ms-Panel--smLeft .ms-Panel-main{right:0}.ms-Panel.ms-Panel--smFluid .ms-Panel-main{width:100%}@media (min-width:640px){.ms-Panel.ms-Panel--lg .ms-Panel-main,.ms-Panel.ms-Panel--md .ms-Panel-main,.ms-Panel.ms-Panel--xl .ms-Panel-main{width:auto}html[dir=ltr] .ms-Panel.ms-Panel--lg .ms-Panel-main,html[dir=ltr] .ms-Panel.ms-Panel--md .ms-Panel-main,html[dir=ltr] .ms-Panel.ms-Panel--xl .ms-Panel-main{left:48px}html[dir=rtl] .ms-Panel.ms-Panel--lg .ms-Panel-main,html[dir=rtl] .ms-Panel.ms-Panel--md .ms-Panel-main,html[dir=rtl] .ms-Panel.ms-Panel--xl .ms-Panel-main{right:48px}}@media (min-width:1024px){.ms-Panel.ms-Panel--md .ms-Panel-main{width:643px}html[dir=ltr] .ms-Panel.ms-Panel--md .ms-Panel-main{left:auto}html[dir=rtl] .ms-Panel.ms-Panel--md .ms-Panel-main{right:auto}}@media (min-width:1366px){html[dir=ltr] .ms-Panel.ms-Panel--lg .ms-Panel-main{left:428px}html[dir=rtl] .ms-Panel.ms-Panel--lg .ms-Panel-main{right:428px}}@media (min-width:1366px){.ms-Panel.ms-Panel--lg.ms-Panel--fixed .ms-Panel-main{width:940px}html[dir=ltr] .ms-Panel.ms-Panel--lg.ms-Panel--fixed .ms-Panel-main{left:auto}html[dir=rtl] .ms-Panel.ms-Panel--lg.ms-Panel--fixed .ms-Panel-main{right:auto}}@media (min-width:1366px){html[dir=ltr] .ms-Panel.ms-Panel--xl .ms-Panel-main{left:176px}html[dir=rtl] .ms-Panel.ms-Panel--xl .ms-Panel-main{right:176px}}.ms-Panel.is-open{display:block}.ms-Panel.is-open .ms-Panel-main{opacity:1;pointer-events:auto;display:block}.ms-Panel.is-open .ms-Overlay{display:block;pointer-events:auto}@media screen and (-ms-high-contrast:active){.ms-Panel.is-open .ms-Overlay{opacity:0}}.ms-Panel.is-open.ms-Panel-animateIn .ms-Panel-main{-webkit-animation-duration:367ms;-webkit-animation-name:fadeIn;-webkit-animation-fill-mode:both;animation-duration:367ms;animation-name:fadeIn;animation-fill-mode:both;-webkit-animation-duration:167ms;animation-duration:167ms}.ms-Panel.is-open.ms-Panel-animateOut .ms-Panel-main{-webkit-animation-duration:367ms;-webkit-animation-name:fadeOut;-webkit-animation-fill-mode:both;animation-duration:367ms;animation-name:fadeOut;animation-fill-mode:both;-webkit-animation-duration:.1s;animation-duration:.1s}.ms-Panel.is-open.ms-Panel-animateOut .ms-Overlay{display:none}@media (min-width:480px){.ms-Panel.is-open.ms-Panel--openRight.ms-Panel-animateIn .ms-Panel-main{-webkit-animation-name:fadeIn,slideLeftIn40;animation-name:fadeIn,slideLeftIn40;-webkit-animation-duration:367ms;-moz-animation-duration:367ms;-ms-animation-duration:367ms;-o-animation-duration:367ms;-webkit-animation-timing-function:cubic-bezier(.1,.9,.2,1);animation-timing-function:cubic-bezier(.1,.9,.2,1);-webkit-animation-fill-mode:both;animation-fill-mode:both}.ms-Panel.is-open.ms-Panel--openRight.ms-Panel-animateIn .ms-Overlay{-webkit-animation-duration:367ms;-webkit-animation-name:fadeIn;-webkit-animation-fill-mode:both;animation-duration:367ms;animation-name:fadeIn;animation-fill-mode:both;-webkit-animation-duration:267ms;animation-duration:267ms}.ms-Panel.is-open.ms-Panel--openRight.ms-Panel-animateOut .ms-Panel-main{-webkit-animation-name:fadeOut,slideRightOut40;animation-name:fadeOut,slideRightOut40;-webkit-animation-duration:167ms;-moz-animation-duration:167ms;-ms-animation-duration:167ms;-o-animation-duration:167ms;-webkit-animation-timing-function:cubic-bezier(.1,.25,.75,.9);animation-timing-function:cubic-bezier(.1,.25,.75,.9);-webkit-animation-fill-mode:both;animation-fill-mode:both}.ms-Panel.is-open.ms-Panel--openRight.ms-Panel-animateOut .ms-Overlay{-webkit-animation-duration:367ms;-webkit-animation-name:fadeOut;-webkit-animation-fill-mode:both;animation-duration:367ms;animation-name:fadeOut;animation-fill-mode:both;-webkit-animation-duration:167ms;animation-duration:167ms}.ms-Panel.is-open.ms-Panel--openLeft.ms-Panel-animateIn .ms-Panel-main{-webkit-animation-name:fadeIn,slideRightIn40;animation-name:fadeIn,slideRightIn40;-webkit-animation-duration:367ms;-moz-animation-duration:367ms;-ms-animation-duration:367ms;-o-animation-duration:367ms;-webkit-animation-timing-function:cubic-bezier(.1,.9,.2,1);animation-timing-function:cubic-bezier(.1,.9,.2,1);-webkit-animation-fill-mode:both;animation-fill-mode:both}.ms-Panel.is-open.ms-Panel--openLeft.ms-Panel-animateIn .ms-Overlay{-webkit-animation-duration:367ms;-webkit-animation-name:fadeIn;-webkit-animation-fill-mode:both;animation-duration:367ms;animation-name:fadeIn;animation-fill-mode:both;-webkit-animation-duration:267ms;animation-duration:267ms}.ms-Panel.is-open.ms-Panel--openLeft.ms-Panel-animateOut .ms-Panel-main{-webkit-animation-name:fadeOut,slideLeftOut40;animation-name:fadeOut,slideLeftOut40;-webkit-animation-duration:167ms;-moz-animation-duration:167ms;-ms-animation-duration:167ms;-o-animation-duration:167ms;-webkit-animation-timing-function:cubic-bezier(.1,.25,.75,.9);animation-timing-function:cubic-bezier(.1,.25,.75,.9);-webkit-animation-fill-mode:both;animation-fill-mode:both}.ms-Panel.is-open.ms-Panel--openLeft.ms-Panel-animateOut .ms-Overlay{-webkit-animation-duration:367ms;-webkit-animation-name:fadeOut;-webkit-animation-fill-mode:both;animation-duration:367ms;animation-name:fadeOut;animation-fill-mode:both;-webkit-animation-duration:167ms;animation-duration:167ms}.ms-Panel.is-open .ms-Overlay{cursor:pointer;opacity:1;pointer-events:auto}}@media screen and (min-width:480px) and (-ms-high-contrast:active){.ms-Panel.is-open.ms-Panel--openLeft.ms-Panel-animateIn .ms-Overlay,.ms-Panel.is-open.ms-Panel--openRight.ms-Panel-animateIn .ms-Overlay{opacity:0;-webkit-animation-name:none;animation-name:none}}.ms-Panel-closeButton{background:0 0;border:0;cursor:pointer;position:absolute;top:0;height:40px;width:40px;line-height:40px;padding:0;color:" }, { "theme": "neutralSecondary", "defaultValue": "#666666" }, { "rawString": ";font-size:16px}html[dir=ltr] .ms-Panel-closeButton{right:8px}html[dir=rtl] .ms-Panel-closeButton{left:8px}.ms-Panel-closeButton:hover{color:" }, { "theme": "neutralPrimary", "defaultValue": "#333333" }, { "rawString": "}.ms-Panel-contentInner{position:absolute;top:40px;bottom:0;left:0;right:0;padding:0 16px 20px;overflow-y:auto;-webkit-overflow-scrolling:touch;-webkit-transform:translateZ(0);transform:translateZ(0)}@media (min-width:640px){.ms-Panel-contentInner{padding:0 32px 20px}}@media (min-width:1366px){.ms-Panel-contentInner{padding:0 40px 20px}}.ms-Panel-headerText{font-family:\"Segoe UI WestEuropean\",\"Segoe UI\",-apple-system,BlinkMacSystemFont,Roboto,\"Helvetica Neue\",sans-serif;-webkit-font-smoothing:antialiased;font-size:21px;font-weight:100;color:" }, { "theme": "neutralPrimary", "defaultValue": "#333333" }, { "rawString": ";margin:10px 0;padding:4px 0;line-height:1;text-overflow:ellipsis;overflow:hidden}@media (min-width:1024px){.ms-Panel-headerText{margin-top:30px}}" }]);
+	load_themed_styles_1.loadStyles([{ "rawString": ".ms-Panel{pointer-events:inherit;overflow:hidden}.ms-Panel .ms-Panel-main{position:absolute;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch}.ms-Panel{bottom:0;left:0;position:fixed;right:0;top:0;display:none;pointer-events:none}.ms-Panel .ms-Overlay{display:none;pointer-events:none;opacity:1;cursor:pointer;-webkit-transition:opacity 367ms cubic-bezier(.1,.9,.2,1);transition:opacity 367ms cubic-bezier(.1,.9,.2,1)}.ms-Panel-main{background-color:" }, { "theme": "white", "defaultValue": "#ffffff" }, { "rawString": ";bottom:0;position:fixed;top:0;display:none;width:100%}html[dir=ltr] .ms-Panel-main{right:0}html[dir=rtl] .ms-Panel-main{left:0}@media (min-width:480px){.ms-Panel-main{border-left:1px solid " }, { "theme": "neutralLight", "defaultValue": "#eaeaea" }, { "rawString": ";border-right:1px solid " }, { "theme": "neutralLight", "defaultValue": "#eaeaea" }, { "rawString": ";pointer-events:auto;width:340px;box-shadow:-30px 0 30px -30px rgba(0,0,0,.2)}html[dir=ltr] .ms-Panel-main{left:auto}html[dir=rtl] .ms-Panel-main{right:auto}}.ms-Panel.ms-Panel--sm .ms-Panel-main{width:272px}@media (min-width:480px){.ms-Panel.ms-Panel--sm .ms-Panel-main{width:340px}}.ms-Panel.ms-Panel--smLeft .ms-Panel-main{width:272px}html[dir=ltr] .ms-Panel.ms-Panel--smLeft .ms-Panel-main{right:auto}html[dir=rtl] .ms-Panel.ms-Panel--smLeft .ms-Panel-main{left:auto}html[dir=ltr] .ms-Panel.ms-Panel--smLeft .ms-Panel-main{left:0}html[dir=rtl] .ms-Panel.ms-Panel--smLeft .ms-Panel-main{right:0}.ms-Panel.ms-Panel--smFluid .ms-Panel-main{width:100%}@media (min-width:640px){.ms-Panel.ms-Panel--lg .ms-Panel-main,.ms-Panel.ms-Panel--md .ms-Panel-main,.ms-Panel.ms-Panel--xl .ms-Panel-main{width:auto}html[dir=ltr] .ms-Panel.ms-Panel--lg .ms-Panel-main,html[dir=ltr] .ms-Panel.ms-Panel--md .ms-Panel-main,html[dir=ltr] .ms-Panel.ms-Panel--xl .ms-Panel-main{left:48px}html[dir=rtl] .ms-Panel.ms-Panel--lg .ms-Panel-main,html[dir=rtl] .ms-Panel.ms-Panel--md .ms-Panel-main,html[dir=rtl] .ms-Panel.ms-Panel--xl .ms-Panel-main{right:48px}}@media (min-width:1024px){.ms-Panel.ms-Panel--md .ms-Panel-main{width:643px}html[dir=ltr] .ms-Panel.ms-Panel--md .ms-Panel-main{left:auto}html[dir=rtl] .ms-Panel.ms-Panel--md .ms-Panel-main{right:auto}}@media (min-width:1366px){html[dir=ltr] .ms-Panel.ms-Panel--lg .ms-Panel-main{left:428px}html[dir=rtl] .ms-Panel.ms-Panel--lg .ms-Panel-main{right:428px}}@media (min-width:1366px){.ms-Panel.ms-Panel--lg.ms-Panel--fixed .ms-Panel-main{width:940px}html[dir=ltr] .ms-Panel.ms-Panel--lg.ms-Panel--fixed .ms-Panel-main{left:auto}html[dir=rtl] .ms-Panel.ms-Panel--lg.ms-Panel--fixed .ms-Panel-main{right:auto}}@media (min-width:1366px){html[dir=ltr] .ms-Panel.ms-Panel--xl .ms-Panel-main{left:176px}html[dir=rtl] .ms-Panel.ms-Panel--xl .ms-Panel-main{right:176px}}.ms-Panel.is-open{display:block}.ms-Panel.is-open .ms-Panel-main{opacity:1;pointer-events:auto;display:block}.ms-Panel.is-open .ms-Overlay{display:block;pointer-events:auto}@media screen and (-ms-high-contrast:active){.ms-Panel.is-open .ms-Overlay{opacity:0}}.ms-Panel.is-open.ms-Panel-animateIn .ms-Panel-main{-webkit-animation-duration:367ms;-webkit-animation-name:fadeIn;-webkit-animation-fill-mode:both;animation-duration:367ms;animation-name:fadeIn;animation-fill-mode:both;-webkit-animation-duration:167ms;animation-duration:167ms}.ms-Panel.is-open.ms-Panel-animateOut .ms-Panel-main{-webkit-animation-duration:367ms;-webkit-animation-name:fadeOut;-webkit-animation-fill-mode:both;animation-duration:367ms;animation-name:fadeOut;animation-fill-mode:both;-webkit-animation-duration:.1s;animation-duration:.1s}.ms-Panel.is-open.ms-Panel-animateOut .ms-Overlay{display:none}@media (min-width:480px){.ms-Panel.is-open.ms-Panel--openRight.ms-Panel-animateIn .ms-Panel-main{position:fixed;-webkit-animation-name:fadeIn,slideLeftIn40;animation-name:fadeIn,slideLeftIn40;-webkit-animation-duration:367ms;-moz-animation-duration:367ms;-ms-animation-duration:367ms;-o-animation-duration:367ms;-webkit-animation-timing-function:cubic-bezier(.1,.9,.2,1);animation-timing-function:cubic-bezier(.1,.9,.2,1);-webkit-animation-fill-mode:both;animation-fill-mode:both}.ms-Panel.is-open.ms-Panel--openRight.ms-Panel-animateIn .ms-Overlay{-webkit-animation-duration:367ms;-webkit-animation-name:fadeIn;-webkit-animation-fill-mode:both;animation-duration:367ms;animation-name:fadeIn;animation-fill-mode:both;-webkit-animation-duration:267ms;animation-duration:267ms}.ms-Panel.is-open.ms-Panel--openRight.ms-Panel-animateOut .ms-Panel-main{-webkit-animation-name:fadeOut,slideRightOut40;animation-name:fadeOut,slideRightOut40;-webkit-animation-duration:167ms;-moz-animation-duration:167ms;-ms-animation-duration:167ms;-o-animation-duration:167ms;-webkit-animation-timing-function:cubic-bezier(.1,.25,.75,.9);animation-timing-function:cubic-bezier(.1,.25,.75,.9);-webkit-animation-fill-mode:both;animation-fill-mode:both}.ms-Panel.is-open.ms-Panel--openRight.ms-Panel-animateOut .ms-Overlay{-webkit-animation-duration:367ms;-webkit-animation-name:fadeOut;-webkit-animation-fill-mode:both;animation-duration:367ms;animation-name:fadeOut;animation-fill-mode:both;-webkit-animation-duration:167ms;animation-duration:167ms}.ms-Panel.is-open.ms-Panel--openLeft.ms-Panel-animateIn .ms-Panel-main{-webkit-animation-name:fadeIn,slideRightIn40;animation-name:fadeIn,slideRightIn40;-webkit-animation-duration:367ms;-moz-animation-duration:367ms;-ms-animation-duration:367ms;-o-animation-duration:367ms;-webkit-animation-timing-function:cubic-bezier(.1,.9,.2,1);animation-timing-function:cubic-bezier(.1,.9,.2,1);-webkit-animation-fill-mode:both;animation-fill-mode:both}.ms-Panel.is-open.ms-Panel--openLeft.ms-Panel-animateIn .ms-Overlay{-webkit-animation-duration:367ms;-webkit-animation-name:fadeIn;-webkit-animation-fill-mode:both;animation-duration:367ms;animation-name:fadeIn;animation-fill-mode:both;-webkit-animation-duration:267ms;animation-duration:267ms}.ms-Panel.is-open.ms-Panel--openLeft.ms-Panel-animateOut .ms-Panel-main{-webkit-animation-name:fadeOut,slideLeftOut40;animation-name:fadeOut,slideLeftOut40;-webkit-animation-duration:167ms;-moz-animation-duration:167ms;-ms-animation-duration:167ms;-o-animation-duration:167ms;-webkit-animation-timing-function:cubic-bezier(.1,.25,.75,.9);animation-timing-function:cubic-bezier(.1,.25,.75,.9);-webkit-animation-fill-mode:both;animation-fill-mode:both}.ms-Panel.is-open.ms-Panel--openLeft.ms-Panel-animateOut .ms-Overlay{-webkit-animation-duration:367ms;-webkit-animation-name:fadeOut;-webkit-animation-fill-mode:both;animation-duration:367ms;animation-name:fadeOut;animation-fill-mode:both;-webkit-animation-duration:167ms;animation-duration:167ms}.ms-Panel.is-open .ms-Overlay{cursor:pointer;opacity:1;pointer-events:auto}}@media screen and (min-width:480px) and (-ms-high-contrast:active){.ms-Panel.is-open.ms-Panel--openLeft.ms-Panel-animateIn .ms-Overlay,.ms-Panel.is-open.ms-Panel--openRight.ms-Panel-animateIn .ms-Overlay{opacity:0;-webkit-animation-name:none;animation-name:none}}.ms-Panel-closeButton{background:0 0;border:0;cursor:pointer;position:absolute;top:0;height:40px;width:40px;line-height:40px;padding:0;color:" }, { "theme": "neutralSecondary", "defaultValue": "#666666" }, { "rawString": ";font-size:16px}html[dir=ltr] .ms-Panel-closeButton{right:8px}html[dir=rtl] .ms-Panel-closeButton{left:8px}.ms-Panel-closeButton:hover{color:" }, { "theme": "neutralPrimary", "defaultValue": "#333333" }, { "rawString": "}.ms-Panel-contentInner{position:absolute;top:40px;bottom:0;left:0;right:0;padding:0 16px 20px;overflow-y:auto;-webkit-overflow-scrolling:touch;-webkit-transform:translateZ(0);transform:translateZ(0)}@media (min-width:640px){.ms-Panel-contentInner{padding:0 32px 20px}}@media (min-width:1366px){.ms-Panel-contentInner{padding:0 40px 20px}}.ms-Panel-headerText{font-family:\"Segoe UI WestEuropean\",\"Segoe UI\",-apple-system,BlinkMacSystemFont,Roboto,\"Helvetica Neue\",sans-serif;-webkit-font-smoothing:antialiased;font-size:21px;font-weight:100;color:" }, { "theme": "neutralPrimary", "defaultValue": "#333333" }, { "rawString": ";margin:10px 0;padding:4px 0;line-height:1;text-overflow:ellipsis;overflow:hidden}@media (min-width:1024px){.ms-Panel-headerText{margin-top:30px}}" }]);
 	/* tslint:enable */ 
 
 	//# sourceMappingURL=Panel.scss.js.map
@@ -38772,6 +38782,7 @@
 	__export(__webpack_require__(449));
 	__export(__webpack_require__(451));
 	__export(__webpack_require__(453));
+	__export(__webpack_require__(458));
 
 
 /***/ },
@@ -39026,12 +39037,21 @@
 	var Data = (function () {
 	    function Data() {
 	    }
+	    Object.defineProperty(Data, "IsSPOnline", {
+	        /**
+	         * Properties
+	         */
+	        get: function () { return window.hasOwnProperty("$REST"); },
+	        enumerable: true,
+	        configurable: true
+	    });
 	    // Method to get the data
 	    Data.get = function () {
+	        var _this = this;
 	        // Return a promise
 	        return new Promise(function (resolve, reject) {
 	            // See if the $REST library exists
-	            if (window.hasOwnProperty("$REST")) {
+	            if (_this.IsSPOnline) {
 	                // Get the list
 	                (new $REST.List("Locations"))
 	                    .Items()
@@ -39434,7 +39454,651 @@
 	};
 	var React = __webpack_require__(1);
 	var office_ui_fabric_react_1 = __webpack_require__(179);
-	var peoplepicker_1 = __webpack_require__(454);
+	var _1 = __webpack_require__(454);
+	/**
+	 * List Demo
+	 */
+	var ListDemo = (function (_super) {
+	    __extends(ListDemo, _super);
+	    /**
+	     * Constructor
+	     */
+	    function ListDemo(props) {
+	        var _this = _super.call(this, props) || this;
+	        // Default the state
+	        _this.state = {
+	            Items: [],
+	            SelectedItem: { County: "", State: "", Title: "" },
+	            ShowDialog: false,
+	            ShowPanel: false
+	        };
+	        // Get the data
+	        _1.Data.get().then(function (data) {
+	            // Update the state
+	            _this.setState({ Items: data });
+	        });
+	        return _this;
+	    }
+	    /**
+	     * Methods
+	     */
+	    // Render cell event
+	    ListDemo.prototype.onRenderItemColumn = function (item, index, column) {
+	        var _this = this;
+	        // See if this is the 'Title' column
+	        if (column.key == "Title") {
+	            // Return the view item button
+	            return (React.createElement(office_ui_fabric_react_1.Button, { buttonType: office_ui_fabric_react_1.ButtonType.normal, onClick: function (event) {
+	                    // Disable postback
+	                    event.preventDefault();
+	                    // Update the state
+	                    _this.setState({
+	                        SelectedItem: item,
+	                        ShowDialog: true
+	                    });
+	                } }, item[column.key]));
+	        }
+	        // Return the field value
+	        return item[column.key];
+	    };
+	    // Render the component
+	    ListDemo.prototype.render = function () {
+	        var _this = this;
+	        return !this.props.visible ? React.createElement("div", null) :
+	            (React.createElement("div", null,
+	                React.createElement("h1", null, "Demo"),
+	                React.createElement(office_ui_fabric_react_1.Button, { buttonType: office_ui_fabric_react_1.ButtonType.hero, icon: "Add", onClick: function (event) { event.preventDefault(); _this.setState({ ShowPanel: true }); } }, "New Location"),
+	                React.createElement(office_ui_fabric_react_1.DetailsList, { items: this.state.Items, onRenderItemColumn: function (item, index, column) { return _this.onRenderItemColumn(item, index, column); }, selectionMode: office_ui_fabric_react_1.SelectionMode.none }),
+	                React.createElement(_1.ViewItemDialog, { closeDialog: function () { return _this.setState({ ShowDialog: false }); }, item: this.state.SelectedItem, visible: this.state.ShowDialog }),
+	                React.createElement(_1.NewItemPanel, { visible: this.state.ShowPanel })));
+	    };
+	    return ListDemo;
+	}(React.Component));
+	exports.ListDemo = ListDemo;
+
+
+/***/ },
+/* 454 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	function __export(m) {
+	    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+	}
+	__export(__webpack_require__(455));
+	__export(__webpack_require__(456));
+	__export(__webpack_require__(457));
+
+
+/***/ },
+/* 455 */
+/***/ function(module, exports) {
+
+	"use strict";
+	/**
+	 * Data Source
+	 */
+	var Data = (function () {
+	    function Data() {
+	    }
+	    Object.defineProperty(Data, "IsSPOnline", {
+	        /**
+	         * Properties
+	         */
+	        get: function () { return window.hasOwnProperty("$REST"); },
+	        enumerable: true,
+	        configurable: true
+	    });
+	    /**
+	     * Public Methods
+	     */
+	    // Method to add an item to the list
+	    Data.addItem = function (item) {
+	        var _this = this;
+	        return new Promise(function (resolve, reject) {
+	            // Ensure we are online
+	            if (!_this.IsSPOnline) {
+	                // Resolve the promise
+	                resolve();
+	                return;
+	            }
+	            // Get the list
+	            (new $REST.List("Locations"))
+	                .Items()
+	                .add(item)
+	                .execute(function (item) {
+	                // Resolve the promise
+	                resolve(item);
+	            });
+	        });
+	    };
+	    // Method to get the data
+	    Data.get = function () {
+	        var _this = this;
+	        // Return a promise
+	        return new Promise(function (resolve, reject) {
+	            // See if the $REST library exists
+	            if (_this.IsSPOnline) {
+	                // Get the list
+	                (new $REST.List("Locations"))
+	                    .Items()
+	                    .query({
+	                    GetAllItems: true,
+	                    OrderBy: ["State", "County", "Title"],
+	                    Top: 500
+	                })
+	                    .execute(function (items) {
+	                    var data = [];
+	                    // Parse the items
+	                    for (var _i = 0, _a = items.results; _i < _a.length; _i++) {
+	                        var item = _a[_i];
+	                        // Add the item to the data array
+	                        data.push({
+	                            Title: item["Title"],
+	                            County: item["County"],
+	                            State: item["State"]
+	                        });
+	                    }
+	                    // Resolve the request
+	                    resolve(data);
+	                });
+	            }
+	            else {
+	                // Resolve the request with test data
+	                resolve(TestData);
+	            }
+	        });
+	    };
+	    return Data;
+	}());
+	exports.Data = Data;
+	/**
+	 * Test Data
+	 */
+	var TestData = [
+	    { Title: "Anchorage", County: "Anchorage", State: "AK" },
+	    { Title: "Fairbanks", County: "Fairbanks North Star", State: "AK" },
+	    { Title: "Little Rock", County: "Pulaski", State: "AR" },
+	    { Title: "Mesa", County: "Maricopa", State: "AZ" },
+	    { Title: "Peoria", County: "Maricopa", State: "AZ" },
+	    { Title: "Phoenix", County: "Maricopa", State: "AZ" },
+	    { Title: "Scottsdale", County: "Maricopa", State: "AZ" },
+	    { Title: "Berkeley", County: "Alameda", State: "CA" },
+	    { Title: "Hayward", County: "Alameda", State: "CA" },
+	    { Title: "Oakland", County: "Alameda", State: "CA" },
+	    { Title: "San Leandro", County: "Alameda", State: "CA" },
+	    { Title: "Oroville", County: "Butte", State: "CA" },
+	    { Title: "Concord", County: "Contra Costa", State: "CA" },
+	    { Title: "Oakley", County: "Contra Costa", State: "CA" },
+	    { Title: "San Ramon", County: "Contra Costa", State: "CA" },
+	    { Title: "Bellflower", County: "Los Angeles", State: "CA" },
+	    { Title: "Beverly Hills", County: "Los Angeles", State: "CA" },
+	    { Title: "El Monte", County: "Los Angeles", State: "CA" },
+	    { Title: "Gardena", County: "Los Angeles", State: "CA" },
+	    { Title: "Los Angeles", County: "Los Angeles", State: "CA" },
+	    { Title: "Northridge", County: "Los Angeles", State: "CA" },
+	    { Title: "Pasadena", County: "Los Angeles", State: "CA" },
+	    { Title: "Pomona", County: "Los Angeles", State: "CA" },
+	    { Title: "San Gabriel", County: "Los Angeles", State: "CA" },
+	    { Title: "Van Nuys", County: "Los Angeles", State: "CA" },
+	    { Title: "Novato", County: "Marin", State: "CA" },
+	    { Title: "Anaheim", County: "Orange", State: "CA" },
+	    { Title: "Costa Mesa", County: "Orange", State: "CA" },
+	    { Title: "Huntington Beach", County: "Orange", State: "CA" },
+	    { Title: "Santa Ana", County: "Orange", State: "CA" },
+	    { Title: "Roseville", County: "Placer", State: "CA" },
+	    { Title: "Cathedral City", County: "Riverside", State: "CA" },
+	    { Title: "Riverside", County: "Riverside", State: "CA" },
+	    { Title: "Thousand Palms", County: "Riverside", State: "CA" },
+	    { Title: "Sacramento", County: "Sacramento", State: "CA" },
+	    { Title: "Ontario", County: "San Bernardino", State: "CA" },
+	    { Title: "San Bernardino", County: "San Bernardino", State: "CA" },
+	    { Title: "El Cajon", County: "San Diego", State: "CA" },
+	    { Title: "Escondido", County: "San Diego", State: "CA" },
+	    { Title: "La Mesa", County: "San Diego", State: "CA" },
+	    { Title: "San Diego", County: "San Diego", State: "CA" },
+	    { Title: "San Francisco", County: "San Francisco", State: "CA" },
+	    { Title: "Stockton", County: "San Joaquin", State: "CA" },
+	    { Title: "Burlingame", County: "San Mateo", State: "CA" },
+	    { Title: "Pacifica", County: "San Mateo", State: "CA" },
+	    { Title: "San Carlos", County: "San Mateo", State: "CA" },
+	    { Title: "San Mateo", County: "San Mateo", State: "CA" },
+	    { Title: "South San Francisco", County: "San Mateo", State: "CA" },
+	    { Title: "San Jose", County: "Santa Clara", State: "CA" },
+	    { Title: "Santa Clara", County: "Santa Clara", State: "CA" },
+	    { Title: "Saratoga", County: "Santa Clara", State: "CA" },
+	    { Title: "Rohnert Park", County: "Sonoma", State: "CA" },
+	    { Title: "Santa Rosa", County: "Sonoma", State: "CA" },
+	    { Title: "Camarillo", County: "Ventura", State: "CA" },
+	    { Title: "Thousand Oaks", County: "Ventura", State: "CA" },
+	    { Title: "Englewood", County: "Arapahoe", State: "CO" },
+	    { Title: "Boulder", County: "Boulder", State: "CO" },
+	    { Title: "Denver", County: "Denver", State: "CO" },
+	    { Title: "Littleton", County: "Douglas", State: "CO" },
+	    { Title: "Colorado Springs", County: "El Paso", State: "CO" },
+	    { Title: "Bridgeport", County: "Fairfield", State: "CT" },
+	    { Title: "Norwalk", County: "Fairfield", State: "CT" },
+	    { Title: "New Haven", County: "New Haven", State: "CT" },
+	    { Title: "North Haven", County: "New Haven", State: "CT" },
+	    { Title: "Washington", County: "District of Columbia", State: "DC" },
+	    { Title: "Cocoa", County: "Brevard", State: "FL" },
+	    { Title: "Satellite Beach", County: "Brevard", State: "FL" },
+	    { Title: "Crystal River", County: "Citrus", State: "FL" },
+	    { Title: "Homosassa", County: "Citrus", State: "FL" },
+	    { Title: "Jacksonville", County: "Duval", State: "FL" },
+	    { Title: "Brandon", County: "Hillsborough", State: "FL" },
+	    { Title: "Tampa", County: "Hillsborough", State: "FL" },
+	    { Title: "Hialeah", County: "Miami-Dade", State: "FL" },
+	    { Title: "Homestead", County: "Miami-Dade", State: "FL" },
+	    { Title: "Miami", County: "Miami-Dade", State: "FL" },
+	    { Title: "Opa Locka", County: "Miami-Dade", State: "FL" },
+	    { Title: "Crestview", County: "Okaloosa", State: "FL" },
+	    { Title: "Orlando", County: "Orange", State: "FL" },
+	    { Title: "Lake Worth", County: "Palm Beach", State: "FL" },
+	    { Title: "Longwood", County: "Seminole", State: "FL" },
+	    { Title: "Daytona Beach", County: "Volusia", State: "FL" },
+	    { Title: "Oak Hill", County: "Volusia", State: "FL" },
+	    { Title: "Trion", County: "Chattooga", State: "GA" },
+	    { Title: "Atlanta", County: "Dekalb", State: "GA" },
+	    { Title: "Albany", County: "Dougherty", State: "GA" },
+	    { Title: "Douglasville", County: "Douglas", State: "GA" },
+	    { Title: "Atlanta", County: "Fulton", State: "GA" },
+	    { Title: "Hilo", County: "Hawaii", State: "HI" },
+	    { Title: "Honolulu", County: "Honolulu", State: "HI" },
+	    { Title: "Pearl City", County: "Honolulu", State: "HI" },
+	    { Title: "Des Moines", County: "Polk", State: "IA" },
+	    { Title: "Boise", County: "Ada", State: "ID" },
+	    { Title: "Moscow", County: "Latah", State: "ID" },
+	    { Title: "Arlington Heights", County: "Cook", State: "IL" },
+	    { Title: "Chicago", County: "Cook", State: "IL" },
+	    { Title: "Elk Grove Village", County: "Cook", State: "IL" },
+	    { Title: "Evanston", County: "Cook", State: "IL" },
+	    { Title: "Palatine", County: "Cook", State: "IL" },
+	    { Title: "Rolling Meadows", County: "Cook", State: "IL" },
+	    { Title: "Wheeling", County: "Cook", State: "IL" },
+	    { Title: "Highland Park", County: "Lake", State: "IL" },
+	    { Title: "Rockford", County: "Winnebago", State: "IL" },
+	    { Title: "Fort Wayne", County: "Allen", State: "IN" },
+	    { Title: "Elkhart", County: "Elkhart", State: "IN" },
+	    { Title: "Fortville", County: "Hancock", State: "IN" },
+	    { Title: "Indianapolis", County: "Marion", State: "IN" },
+	    { Title: "Bloomington", County: "Monroe", State: "IN" },
+	    { Title: "South Bend", County: "St Joseph", State: "IN" },
+	    { Title: "Abilene", County: "Dickinson", State: "KS" },
+	    { Title: "Hays", County: "Ellis", State: "KS" },
+	    { Title: "Overland Park", County: "Johnson", State: "KS" },
+	    { Title: "Shawnee", County: "Johnson", State: "KS" },
+	    { Title: "Burlington", County: "Boone", State: "KY" },
+	    { Title: "Metairie", County: "Jefferson", State: "LA" },
+	    { Title: "Broussard", County: "Lafayette", State: "LA" },
+	    { Title: "Lafayette", County: "Lafayette", State: "LA" },
+	    { Title: "New Orleans", County: "Orleans", State: "LA" },
+	    { Title: "Houma", County: "Terrebonne", State: "LA" },
+	    { Title: "New Bedford", County: "Bristol", State: "MA" },
+	    { Title: "North Attleboro", County: "Bristol", State: "MA" },
+	    { Title: "Cambridge", County: "Middlesex", State: "MA" },
+	    { Title: "Concord", County: "Middlesex", State: "MA" },
+	    { Title: "Wilmington", County: "Middlesex", State: "MA" },
+	    { Title: "Middleboro", County: "Plymouth", State: "MA" },
+	    { Title: "Boston", County: "Suffolk", State: "MA" },
+	    { Title: "Westborough", County: "Worcester", State: "MA" },
+	    { Title: "Worcester", County: "Worcester", State: "MA" },
+	    { Title: "Glen Burnie", County: "Anne Arundel", State: "MD" },
+	    { Title: "Hanover", County: "Anne Arundel", State: "MD" },
+	    { Title: "Owings Mills", County: "Baltimore", State: "MD" },
+	    { Title: "Parkville", County: "Baltimore", State: "MD" },
+	    { Title: "Baltimore", County: "Baltimore City", State: "MD" },
+	    { Title: "Preston", County: "Caroline", State: "MD" },
+	    { Title: "Hampstead", County: "Carroll", State: "MD" },
+	    { Title: "Aberdeen", County: "Harford", State: "MD" },
+	    { Title: "Bladensburg", County: "Prince Georges", State: "MD" },
+	    { Title: "Clinton", County: "Prince Georges", State: "MD" },
+	    { Title: "Hyattsville", County: "Prince Georges", State: "MD" },
+	    { Title: "Easton", County: "Talbot", State: "MD" },
+	    { Title: "Salisbury", County: "Wicomico", State: "MD" },
+	    { Title: "Warren", County: "Knox", State: "ME" },
+	    { Title: "Bangor", County: "Penobscot", State: "ME" },
+	    { Title: "Niles", County: "Berrien", State: "MI" },
+	    { Title: "East Lansing", County: "Ingham", State: "MI" },
+	    { Title: "Lansing", County: "Ingham", State: "MI" },
+	    { Title: "Grand Rapids", County: "Kent", State: "MI" },
+	    { Title: "Brighton", County: "Livingston", State: "MI" },
+	    { Title: "Sterling Heights", County: "Macomb", State: "MI" },
+	    { Title: "Milan", County: "Monroe", State: "MI" },
+	    { Title: "Muskegon", County: "Muskegon", State: "MI" },
+	    { Title: "Rochester", County: "Oakland", State: "MI" },
+	    { Title: "Southfield", County: "Oakland", State: "MI" },
+	    { Title: "Waterford", County: "Oakland", State: "MI" },
+	    { Title: "Ann Arbor", County: "Washtenaw", State: "MI" },
+	    { Title: "Dearborn", County: "Wayne", State: "MI" },
+	    { Title: "Taylor", County: "Wayne", State: "MI" },
+	    { Title: "Burnsville", County: "Dakota", State: "MN" },
+	    { Title: "Hopkins", County: "Hennepin", State: "MN" },
+	    { Title: "Minneapolis", County: "Hennepin", State: "MN" },
+	    { Title: "Saint Paul", County: "Ramsey", State: "MN" },
+	    { Title: "Northfield", County: "Rice", State: "MN" },
+	    { Title: "Shakopee", County: "Scott", State: "MN" },
+	    { Title: "Saint Joseph", County: "Buchanan", State: "MO" },
+	    { Title: "Valley Park", County: "Saint Louis", State: "MO" },
+	    { Title: "Saint Louis", County: "Saint Louis City", State: "MO" },
+	    { Title: "Biloxi", County: "Harrison", State: "MS" },
+	    { Title: "Jackson", County: "Hinds", State: "MS" },
+	    { Title: "Meridian", County: "Lauderdale", State: "MS" },
+	    { Title: "Pearl", County: "Rankin", State: "MS" },
+	    { Title: "Butte", County: "Silver Bow", State: "MT" },
+	    { Title: "Burlington", County: "Alamance", State: "NC" },
+	    { Title: "Fayetteville", County: "Cumberland", State: "NC" },
+	    { Title: "Greensboro", County: "Guilford", State: "NC" },
+	    { Title: "High Point", County: "Guilford", State: "NC" },
+	    { Title: "Smithfield", County: "Johnston", State: "NC" },
+	    { Title: "Chapel Hill", County: "Orange", State: "NC" },
+	    { Title: "Raleigh", County: "Wake", State: "NC" },
+	    { Title: "Fargo", County: "Cass", State: "ND" },
+	    { Title: "Alliance", County: "Box Butte", State: "NE" },
+	    { Title: "Omaha", County: "Douglas", State: "NE" },
+	    { Title: "Plaistow", County: "Rockingham", State: "NH" },
+	    { Title: "Absecon", County: "Atlantic", State: "NJ" },
+	    { Title: "Atlantic City", County: "Atlantic", State: "NJ" },
+	    { Title: "Margate City", County: "Atlantic", State: "NJ" },
+	    { Title: "Englewood", County: "Bergen", State: "NJ" },
+	    { Title: "Hackensack", County: "Bergen", State: "NJ" },
+	    { Title: "Lyndhurst", County: "Bergen", State: "NJ" },
+	    { Title: "Paramus", County: "Bergen", State: "NJ" },
+	    { Title: "Ramsey", County: "Bergen", State: "NJ" },
+	    { Title: "Ridgefield Park", County: "Bergen", State: "NJ" },
+	    { Title: "Riverton", County: "Burlington", State: "NJ" },
+	    { Title: "Cherry Hill", County: "Camden", State: "NJ" },
+	    { Title: "Bloomfield", County: "Essex", State: "NJ" },
+	    { Title: "Cedar Grove", County: "Essex", State: "NJ" },
+	    { Title: "Fairfield", County: "Essex", State: "NJ" },
+	    { Title: "Livingston", County: "Essex", State: "NJ" },
+	    { Title: "Newark", County: "Essex", State: "NJ" },
+	    { Title: "Nutley", County: "Essex", State: "NJ" },
+	    { Title: "Orange", County: "Essex", State: "NJ" },
+	    { Title: "Bridgeport", County: "Gloucester", State: "NJ" },
+	    { Title: "Harrison", County: "Hudson", State: "NJ" },
+	    { Title: "Jersey City", County: "Hudson", State: "NJ" },
+	    { Title: "Kearny", County: "Hudson", State: "NJ" },
+	    { Title: "Union City", County: "Hudson", State: "NJ" },
+	    { Title: "Flemington", County: "Hunterdon", State: "NJ" },
+	    { Title: "Pittstown", County: "Hunterdon", State: "NJ" },
+	    { Title: "Trenton", County: "Mercer", State: "NJ" },
+	    { Title: "Dunellen", County: "Middlesex", State: "NJ" },
+	    { Title: "Middlesex", County: "Middlesex", State: "NJ" },
+	    { Title: "Monroe Township", County: "Middlesex", State: "NJ" },
+	    { Title: "Freehold", County: "Monmouth", State: "NJ" },
+	    { Title: "Denville", County: "Morris", State: "NJ" },
+	    { Title: "Randolph", County: "Morris", State: "NJ" },
+	    { Title: "Rockaway", County: "Morris", State: "NJ" },
+	    { Title: "Whippany", County: "Morris", State: "NJ" },
+	    { Title: "Toms River", County: "Ocean", State: "NJ" },
+	    { Title: "Clifton", County: "Passaic", State: "NJ" },
+	    { Title: "Little Falls", County: "Passaic", State: "NJ" },
+	    { Title: "Passaic", County: "Passaic", State: "NJ" },
+	    { Title: "Paterson", County: "Passaic", State: "NJ" },
+	    { Title: "Bridgewater", County: "Somerset", State: "NJ" },
+	    { Title: "Somerset", County: "Somerset", State: "NJ" },
+	    { Title: "Somerville", County: "Somerset", State: "NJ" },
+	    { Title: "Plainfield", County: "Union", State: "NJ" },
+	    { Title: "Clovis", County: "Curry", State: "NM" },
+	    { Title: "Las Cruces", County: "Dona Ana", State: "NM" },
+	    { Title: "Carson City", County: "Carson City", State: "NV" },
+	    { Title: "Reno", County: "Washoe", State: "NV" },
+	    { Title: "Albany", County: "Albany", State: "NY" },
+	    { Title: "Wellsville", County: "Allegany", State: "NY" },
+	    { Title: "Bronx", County: "Bronx", State: "NY" },
+	    { Title: "Vestal", County: "Broome", State: "NY" },
+	    { Title: "Buffalo", County: "Erie", State: "NY" },
+	    { Title: "Brooklyn", County: "Kings", State: "NY" },
+	    { Title: "Garden City", County: "Nassau", State: "NY" },
+	    { Title: "Hicksville", County: "Nassau", State: "NY" },
+	    { Title: "Lynbrook", County: "Nassau", State: "NY" },
+	    { Title: "Massapequa", County: "Nassau", State: "NY" },
+	    { Title: "Syosset", County: "Nassau", State: "NY" },
+	    { Title: "Westbury", County: "Nassau", State: "NY" },
+	    { Title: "New York", County: "New York", State: "NY" },
+	    { Title: "Utica", County: "Oneida", State: "NY" },
+	    { Title: "Syracuse", County: "Onondaga", State: "NY" },
+	    { Title: "Port Jervis", County: "Orange", State: "NY" },
+	    { Title: "Astoria", County: "Queens", State: "NY" },
+	    { Title: "Long Island City", County: "Queens", State: "NY" },
+	    { Title: "Troy", County: "Rensselaer", State: "NY" },
+	    { Title: "Staten Island", County: "Richmond", State: "NY" },
+	    { Title: "Bohemia", County: "Suffolk", State: "NY" },
+	    { Title: "Coram", County: "Suffolk", State: "NY" },
+	    { Title: "Deer Park", County: "Suffolk", State: "NY" },
+	    { Title: "Middle Island", County: "Suffolk", State: "NY" },
+	    { Title: "Ronkonkoma", County: "Suffolk", State: "NY" },
+	    { Title: "Katonah", County: "Westchester", State: "NY" },
+	    { Title: "Mount Vernon", County: "Westchester", State: "NY" },
+	    { Title: "Pelham", County: "Westchester", State: "NY" },
+	    { Title: "Yonkers", County: "Westchester", State: "NY" },
+	    { Title: "Ashland", County: "Ashland", State: "OH" },
+	    { Title: "Hamilton", County: "Butler", State: "OH" },
+	    { Title: "Bucyrus", County: "Crawford", State: "OH" },
+	    { Title: "Beachwood", County: "Cuyahoga", State: "OH" },
+	    { Title: "Brook Park", County: "Cuyahoga", State: "OH" },
+	    { Title: "Cleveland", County: "Cuyahoga", State: "OH" },
+	    { Title: "Strongsville", County: "Cuyahoga", State: "OH" },
+	    { Title: "Columbus", County: "Franklin", State: "OH" },
+	    { Title: "Chagrin Falls", County: "Geauga", State: "OH" },
+	    { Title: "Cincinnati", County: "Hamilton", State: "OH" },
+	    { Title: "Findlay", County: "Hancock", State: "OH" },
+	    { Title: "Toledo", County: "Lucas", State: "OH" },
+	    { Title: "London", County: "Madison", State: "OH" },
+	    { Title: "Canton", County: "Stark", State: "OH" },
+	    { Title: "Akron", County: "Summit", State: "OH" },
+	    { Title: "Barberton", County: "Summit", State: "OH" },
+	    { Title: "Bowling Green", County: "Wood", State: "OH" },
+	    { Title: "Perrysburg", County: "Wood", State: "OH" },
+	    { Title: "Tulsa", County: "Tulsa", State: "OK" },
+	    { Title: "Prineville", County: "Crook", State: "OR" },
+	    { Title: "Eugene", County: "Lane", State: "OR" },
+	    { Title: "Salem", County: "Marion", State: "OR" },
+	    { Title: "Portland", County: "Multnomah", State: "OR" },
+	    { Title: "Beaverton", County: "Washington", State: "OR" },
+	    { Title: "Portland", County: "Washington", State: "OR" },
+	    { Title: "Richboro", County: "Bucks", State: "PA" },
+	    { Title: "Southampton", County: "Bucks", State: "PA" },
+	    { Title: "Coatesville", County: "Chester", State: "PA" },
+	    { Title: "Harrisburg", County: "Dauphin", State: "PA" },
+	    { Title: "Aston", County: "Delaware", State: "PA" },
+	    { Title: "Wayne", County: "Delaware", State: "PA" },
+	    { Title: "Erie", County: "Erie", State: "PA" },
+	    { Title: "Clarks Summit", County: "Lackawanna", State: "PA" },
+	    { Title: "Old Forge", County: "Lackawanna", State: "PA" },
+	    { Title: "Scranton", County: "Lackawanna", State: "PA" },
+	    { Title: "Denver", County: "Lancaster", State: "PA" },
+	    { Title: "Lancaster", County: "Lancaster", State: "PA" },
+	    { Title: "Hazleton", County: "Luzerne", State: "PA" },
+	    { Title: "Hatfield", County: "Montgomery", State: "PA" },
+	    { Title: "Huntingdon Valley", County: "Montgomery", State: "PA" },
+	    { Title: "Jenkintown", County: "Montgomery", State: "PA" },
+	    { Title: "King of Prussia", County: "Montgomery", State: "PA" },
+	    { Title: "Kulpsville", County: "Montgomery", State: "PA" },
+	    { Title: "Philadelphia", County: "Philadelphia", State: "PA" },
+	    { Title: "York", County: "York", State: "PA" },
+	    { Title: "Johnston", County: "Providence", State: "RI" },
+	    { Title: "Providence", County: "Providence", State: "RI" },
+	    { Title: "Columbia", County: "Richland", State: "SC" },
+	    { Title: "Spartanburg", County: "Spartanburg", State: "SC" },
+	    { Title: "Sioux Falls", County: "Minnehaha", State: "SD" },
+	    { Title: "Moss", County: "Clay", State: "TN" },
+	    { Title: "Tullahoma", County: "Coffee", State: "TN" },
+	    { Title: "Nashville", County: "Davidson", State: "TN" },
+	    { Title: "Memphis", County: "Shelby", State: "TN" },
+	    { Title: "Mc Minnville", County: "Warren", State: "TN" },
+	    { Title: "San Antonio", County: "Bexar", State: "TX" },
+	    { Title: "College Station", County: "Brazos", State: "TX" },
+	    { Title: "Plano", County: "Collin", State: "TX" },
+	    { Title: "Dallas", County: "Dallas", State: "TX" },
+	    { Title: "Irving", County: "Dallas", State: "TX" },
+	    { Title: "Mesquite", County: "Dallas", State: "TX" },
+	    { Title: "El Paso", County: "El Paso", State: "TX" },
+	    { Title: "Kerrville", County: "Kerr", State: "TX" },
+	    { Title: "Waco", County: "McLennan", State: "TX" },
+	    { Title: "Conroe", County: "Montgomery", State: "TX" },
+	    { Title: "Amarillo", County: "Randall", State: "TX" },
+	    { Title: "Arlington", County: "Tarrant", State: "TX" },
+	    { Title: "Euless", County: "Tarrant", State: "TX" },
+	    { Title: "Fort Worth", County: "Tarrant", State: "TX" },
+	    { Title: "Kennedale", County: "Tarrant", State: "TX" },
+	    { Title: "Abilene", County: "Taylor", State: "TX" },
+	    { Title: "Austin", County: "Travis", State: "TX" },
+	    { Title: "Laredo", County: "Webb", State: "TX" },
+	    { Title: "Wichita Falls", County: "Wichita", State: "TX" },
+	    { Title: "Round Rock", County: "Williamson", State: "TX" },
+	    { Title: "Salt Lake City", County: "Salt Lake", State: "UT" },
+	    { Title: "Annandale", County: "Fairfax", State: "VA" },
+	    { Title: "McLean", County: "Fairfax", State: "VA" },
+	    { Title: "Fairfax", County: "Fairfax City", State: "VA" },
+	    { Title: "Newport News", County: "Newport News City", State: "VA" },
+	    { Title: "Richmond", County: "Richmond City", State: "VA" },
+	    { Title: "Richland", County: "Benton", State: "WA" },
+	    { Title: "Kent", County: "King", State: "WA" },
+	    { Title: "Seattle", County: "King", State: "WA" },
+	    { Title: "Vashon", County: "King", State: "WA" },
+	    { Title: "Tacoma", County: "Pierce", State: "WA" },
+	    { Title: "Bothell", County: "Snohomish", State: "WA" },
+	    { Title: "Green Bay", County: "Brown", State: "WI" },
+	    { Title: "Madison", County: "Dane", State: "WI" },
+	    { Title: "Milwaukee", County: "Milwaukee", State: "WI" },
+	    { Title: "Stevens Point", County: "Portage", State: "WI" },
+	    { Title: "Beloit", County: "Rock", State: "WI" },
+	    { Title: "Riverton", County: "Fremont", State: "WY" },
+	    { Title: "Cheyenne", County: "Laramie", State: "WY" },
+	    { Title: "Rock Springs", County: "Sweetwater", State: "WY" }
+	];
+
+
+/***/ },
+/* 456 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var React = __webpack_require__(1);
+	var office_ui_fabric_react_1 = __webpack_require__(179);
+	var data_1 = __webpack_require__(455);
+	/**
+	 * New Item Panel
+	 */
+	var NewItemPanel = (function (_super) {
+	    __extends(NewItemPanel, _super);
+	    /**
+	     * Constructor
+	     */
+	    function NewItemPanel(props) {
+	        var _this = _super.call(this, props) || this;
+	        // Default the state
+	        _this.state = {
+	            IsValid: false,
+	            Item: {
+	                County: "",
+	                State: "",
+	                Title: ""
+	            }
+	        };
+	        return _this;
+	    }
+	    /**
+	     * Methods
+	     */
+	    // Method to add a new item
+	    NewItemPanel.prototype.addItem = function (event) {
+	        // Disable postback
+	        event.preventDefault();
+	        // Add the item
+	        data_1.Data.addItem(this.state.Item).then(function (item) {
+	            // Refresh the page
+	            document.location.reload();
+	        });
+	    };
+	    // Method to get the error message
+	    NewItemPanel.prototype.getErrorMessage = function (value, fieldName) {
+	        // Save the value
+	        switch (fieldName) {
+	            case "city":
+	                this.state.Item.Title = value;
+	                break;
+	            case "county":
+	                this.state.Item.County = value;
+	                break;
+	            case "state":
+	                this.state.Item.State = value;
+	                break;
+	        }
+	        // Save the state
+	        this.setState({
+	            IsValid: this.state.Item.County.length > 0 && this.state.Item.State.length > 0 && this.state.Item.Title.length > 0
+	        });
+	        // Return the error message
+	        return value && value.length > 0 ? "" : "The " + fieldName + " is required.";
+	    };
+	    // Render the component
+	    NewItemPanel.prototype.render = function () {
+	        var _this = this;
+	        return (React.createElement(office_ui_fabric_react_1.Panel, { isOpen: this.props.visible },
+	            React.createElement(office_ui_fabric_react_1.TextField, { label: "City:", required: true, value: this.state.Item.Title, onGetErrorMessage: function (value) { return _this.getErrorMessage(value, "city"); } }),
+	            React.createElement(office_ui_fabric_react_1.TextField, { label: "County:", required: true, value: this.state.Item.County, onGetErrorMessage: function (value) { return _this.getErrorMessage(value, "county"); } }),
+	            React.createElement(office_ui_fabric_react_1.TextField, { label: "State:", required: true, value: this.state.Item.State, onGetErrorMessage: function (value) { return _this.getErrorMessage(value, "state"); } }),
+	            React.createElement(office_ui_fabric_react_1.Button, { disabled: !this.state.IsValid, onClick: function (event) { return _this.addItem(event); } }, "Save")));
+	    };
+	    return NewItemPanel;
+	}(React.Component));
+	exports.NewItemPanel = NewItemPanel;
+
+
+/***/ },
+/* 457 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var React = __webpack_require__(1);
+	var office_ui_fabric_react_1 = __webpack_require__(179);
+	/**
+	 * View Item Dialog
+	 */
+	var ViewItemDialog = (function (_super) {
+	    __extends(ViewItemDialog, _super);
+	    function ViewItemDialog() {
+	        return _super.apply(this, arguments) || this;
+	    }
+	    // Render the component
+	    ViewItemDialog.prototype.render = function () {
+	        var _this = this;
+	        return (React.createElement(office_ui_fabric_react_1.Dialog, { isBlocking: true, isOpen: this.props.visible, title: "Location", type: office_ui_fabric_react_1.DialogType.close, onDismiss: function () { return _this.props.closeDialog(); } },
+	            React.createElement(office_ui_fabric_react_1.TextField, { label: "City:", readOnly: true, value: this.props.item.Title }),
+	            React.createElement(office_ui_fabric_react_1.TextField, { label: "County:", readOnly: true, value: this.props.item.County }),
+	            React.createElement(office_ui_fabric_react_1.TextField, { label: "State:", readOnly: true, value: this.props.item.State })));
+	    };
+	    return ViewItemDialog;
+	}(React.Component));
+	exports.ViewItemDialog = ViewItemDialog;
+
+
+/***/ },
+/* 458 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var React = __webpack_require__(1);
+	var office_ui_fabric_react_1 = __webpack_require__(179);
+	var peoplepicker_1 = __webpack_require__(459);
 	/**
 	 * People Picker Demo
 	 */
@@ -39464,7 +40128,7 @@
 
 
 /***/ },
-/* 454 */
+/* 459 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";

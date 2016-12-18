@@ -44,6 +44,11 @@
     <Content Include="src\components\Dropdown\data.tsx" />
     <Content Include="src\components\Dropdown\demo.tsx" />
     <Content Include="src\components\index.tsx" />
+    <Content Include="src\components\List\data.tsx" />
+    <Content Include="src\components\List\demo.tsx" />
+    <Content Include="src\components\List\index.tsx" />
+    <Content Include="src\components\List\newItemPanel.tsx" />
+    <Content Include="src\components\List\viewItemDialog.tsx" />
     <Content Include="src\components\PeoplePicker\demo.tsx" />
     <Content Include="src\components\PeoplePicker\peoplePicker.tsx" />
     <Content Include="src\index.html" />
@@ -55,6 +60,7 @@
     <Folder Include="src\components\" />
     <Folder Include="src\components\Dropdown\" />
     <Folder Include="src\components\Datepicker\" />
+    <Folder Include="src\components\List\" />
     <Folder Include="src\components\PeoplePicker\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->

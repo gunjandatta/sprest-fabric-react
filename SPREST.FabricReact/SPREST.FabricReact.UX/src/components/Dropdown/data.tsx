@@ -16,12 +16,17 @@ export interface IData {
  * Data Source
  */
 export class Data {
+    /**
+     * Properties
+     */
+    private static get IsSPOnline(): boolean { return window.hasOwnProperty("$REST"); }
+
     // Method to get the data
     static get(): PromiseLike<IData[]> {
         // Return a promise
         return new Promise((resolve, reject) => {
             // See if the $REST library exists
-            if (window.hasOwnProperty("$REST")) {
+            if (this.IsSPOnline) {
                 // Get the list
                 (new $REST.List("Locations"))
                     // Get the items

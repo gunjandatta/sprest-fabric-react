@@ -6,6 +6,7 @@ import {
 import {
     DatepickerDemo,
     DropdownDemo,
+    ListDemo,
     PeoplePickerDemo
 } from ".";
 
@@ -23,6 +24,7 @@ export class Dashboard extends React.Component<any, any> {
         this.state = {
             ShowDatepicker: true,
             ShowDropdown: false,
+            ShowList: false,
             ShowPeoplePicker: false
         }
     }
@@ -36,19 +38,25 @@ export class Dashboard extends React.Component<any, any> {
             key: "datepicker",
             name: "Date Picker",
             ariaLabel: "Displays the date picker example.",
-            onClick: event => { event.preventDefault(); this.setState({ ShowDatepicker: true, ShowDropdown: false, ShowPeoplePicker: false }); }
+            onClick: event => { event.preventDefault(); this.setState({ ShowDatepicker: true, ShowDropdown: false, ShowList: false, ShowPeoplePicker: false }); }
         },
         {
             key: "dropdown",
-            name: "Drop Down List",
+            name: "Drop Down",
             ariaLabel: "Displays the drop down list example.",
-            onClick: event => { event.preventDefault(); this.setState({ ShowDatepicker: false, ShowDropdown: true, ShowPeoplePicker: false }); }
+            onClick: event => { event.preventDefault(); this.setState({ ShowDatepicker: false, ShowDropdown: true, ShowList: false, ShowPeoplePicker: false }); }
+        },
+        {
+            key: "list",
+            name: "List",
+            ariaLabel: "Displays the list example.",
+            onClick: event => { event.preventDefault(); this.setState({ ShowDatepicker: false, ShowDropdown: false, ShowList: true, ShowPeoplePicker: false }); }
         },
         {
             key: "peoplePicker",
             name: "People Picker",
             ariaLabel: "Displays the people picker example.",
-            onClick: event => { event.preventDefault(); this.setState({ ShowDatepicker: false, ShowDropdown: false, ShowPeoplePicker: true }); }
+            onClick: event => { event.preventDefault(); this.setState({ ShowDatepicker: false, ShowDropdown: false, ShowList: false, ShowPeoplePicker: true }); }
         }
     ];
 
@@ -63,6 +71,7 @@ export class Dashboard extends React.Component<any, any> {
                 <CommandBar items={this.MenuItems} />
                 <DatepickerDemo visible={this.state.ShowDatepicker} />
                 <DropdownDemo visible={this.state.ShowDropdown} />
+                <ListDemo visible={this.state.ShowList} />
                 <PeoplePickerDemo visible={this.state.ShowPeoplePicker} />
             </div>
         );
