@@ -1,16 +1,12 @@
 ﻿/// <reference path="../../../node_modules/gd-sprest/dist/gd-sprest.d.ts" />
 import * as React from "react";
+import { Promise } from "es6-promise";
 import {
     IBasePickerSuggestionsProps,
     IPersonaProps,
     ListPeoplePicker,
     NormalPeoplePicker
 } from "office-ui-fabric-react";
-
-/**
- * Promise
- */
-declare var Promise: PromiseConstructorLike;
 
 /**
  * People Picker Properties

@@ -1,7 +1,4 @@
-/**
- * Promise
- */
-declare var Promise: PromiseConstructorLike;
+import { Promise } from "es6-promise";
 
 /**
  * The interface for the data.
