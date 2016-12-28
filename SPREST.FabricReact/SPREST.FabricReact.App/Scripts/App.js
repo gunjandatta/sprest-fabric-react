@@ -41332,6 +41332,15 @@
 	     */
 	    function PeoplePicker(props) {
 	        var _this = _super.call(this, props) || this;
+	        /**
+	         * Global Variables
+	         */
+	        // The search query promise
+	        _this._promise = null;
+	        // The query string
+	        _this._queryString = "";
+	        // The search results
+	        _this._results = {};
 	        // Default the state values
 	        _this.state = { pickerProps: props.pickerProps || {}, queryString: "" };
 	        _this.state.pickerProps.loadingText = _this.state.pickerProps.loadingText || DefaultProps.loadingText;
@@ -41351,65 +41360,74 @@
 	            if (!this.props.multiple) {
 	                // Remove all items but the last one
 	                items.splice(0, items.length - 1);
+	                // Get the web
+	                (new $REST.Web())
+	                    .ensureUser(items[0].key)
+	                    .execute(function (user) {
+	                    // Call the on change event
+	                    _this.props.onChange(_this.props.fieldName, user.existsFl ? user : null);
+	                });
 	            }
-	            // Get the web
-	            (new $REST.Web())
-	                .ensureUser(items[0].key)
-	                .execute(function (user) {
-	                // Call the on change event
-	                _this.props.onChange(_this.props.fieldName, user.existsFl ? user : null);
-	            });
 	        }
 	    };
 	    // Method to query the people picker api for the inputed text
 	    PeoplePicker.prototype.resolveSuggestions = function (filterText, currentPersonas) {
 	        var _this = this;
-	        // Set the query string
-	        this.setState({ queryString: filterText });
+	        // Save the query string
+	        this._queryString = filterText.toLowerCase();
+	        // See if we have already searched for this result
+	        if (this._results[this._queryString] != null) {
+	            return this._results[this._queryString];
+	        }
+	        // See if we are executing a query
+	        if (this._promise != null) {
+	            return this._promise;
+	        }
 	        // Ensure the min required characters has been entered
 	        if (filterText.length < 3) {
-	            return this.state.promise || [];
-	        }
-	        // Return if the promise already exists
-	        if (this.state.promise) {
-	            return this.state.promise;
+	            return this._promise;
 	        }
 	        // Create a promise
-	        var promise = new es6_promise_1.Promise(function (resolve, reject) {
-	            // Wait 1/2 a second before querying for the user
+	        this._promise = new es6_promise_1.Promise(function (resolve, reject) {
+	            // Wait two seconds before querying for the user
 	            setTimeout(function () {
-	                // Ensure the user has typed in at least 3 characters
-	                if (_this.state.queryString.length >= 3) {
-	                    // Query for the people picker
-	                    (new $REST.PeoplePicker())
-	                        .clientPeoplePickerSearchUser({
-	                        MaximumEntitySuggestions: 10,
-	                        QueryString: filterText
-	                    })
-	                        .execute(function (results) {
-	                        var personas = [];
-	                        // Parse the results
-	                        for (var _i = 0, _a = results.ClientPeoplePickerSearchUser; _i < _a.length; _i++) {
-	                            var result = _a[_i];
+	                // Query for the people
+	                (new $REST.PeoplePicker())
+	                    .clientPeoplePickerSearchUser({
+	                    MaximumEntitySuggestions: 10,
+	                    QueryString: filterText
+	                })
+	                    .execute(function (results) {
+	                    var personas = [];
+	                    // Add the result
+	                    var key = filterText.toLowerCase();
+	                    _this._results[key] = [];
+	                    // Parse the results
+	                    for (var _i = 0, _a = results.ClientPeoplePickerSearchUser; _i < _a.length; _i++) {
+	                        var result = _a[_i];
+	                        var persona = {
+	                            key: result.Key,
+	                            primaryText: result.DisplayText,
+	                            secondaryText: result.EntityData.Email
+	                        };
+	                        // Add the persona to the results array
+	                        _this._results[key].push(persona);
+	                        // Ensure the persona matches the query string
+	                        // Note - This is to ensure the latest query string is applied
+	                        if (result.DisplayText.toLowerCase().indexOf(_this._queryString) >= 0) {
 	                            // Add the persona
-	                            personas.push({
-	                                key: result.Key,
-	                                primaryText: result.DisplayText,
-	                                secondaryText: result.EntityData.Email
-	                            });
+	                            personas.push(persona);
 	                        }
-	                        // Resolve the promise
-	                        resolve(personas);
-	                        // Update the state
-	                        _this.setState({ queryString: "", promise: null });
-	                    });
-	                }
-	            }, 500);
+	                    }
+	                    // Resolve the promise
+	                    resolve(personas);
+	                    // Clear the promise
+	                    _this._promise = null;
+	                });
+	            }, 2000);
 	        });
-	        // Save the promise
-	        this.setState({ promise: promise });
 	        // Return the promise
-	        return promise;
+	        return this._promise;
 	    };
 	    // Render the component
 	    PeoplePicker.prototype.render = function () {

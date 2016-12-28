@@ -71,6 +71,19 @@ export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePic
     }
 
     /**
+     * Global Variables
+     */
+
+    // The search query promise
+    _promise = null;
+
+    // The query string
+    _queryString = "";
+
+    // The search results
+    _results = {};
+
+    /**
      * Methods
      */
 
@@ -81,74 +94,84 @@ export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePic
             // See if this is a single people picker
             if (!this.props.multiple) {
                 // Remove all items but the last one
-                items.splice(0, items.length - 1)
-            }
+                items.splice(0, items.length - 1);
 
-            // Get the web
-            (new $REST.Web())
-                // Get the user
-                .ensureUser(items[0].key)
-                // Execute the request
-                .execute((user: $REST.Types.IUser) => {
-                    // Call the on change event
-                    this.props.onChange(this.props.fieldName, user.existsFl ? user : null);
-                });
+                // Get the web
+                (new $REST.Web())
+                    // Get the user
+                    .ensureUser(items[0].key)
+                    // Execute the request
+                    .execute((user: $REST.Types.IUser) => {
+                        // Call the on change event
+                        this.props.onChange(this.props.fieldName, user.existsFl ? user : null);
+                    });
+            }
         }
     }
 
     // Method to query the people picker api for the inputed text
     private resolveSuggestions(filterText: string, currentPersonas: IPersonaProps[]): IPersonaProps[] | PromiseLike<IPersonaProps[]> {
-        // Set the query string
-        this.setState({ queryString: filterText });
+        // Save the query string
+        this._queryString = filterText.toLowerCase();
+
+        // See if we have already searched for this result
+        if (this._results[this._queryString] != null) { return this._results[this._queryString]; }
+
+        // See if we are executing a query
+        if (this._promise != null) { return this._promise }
 
         // Ensure the min required characters has been entered
-        if (filterText.length < 3) { return this.state.promise || []; }
-
-        // Return if the promise already exists
-        if (this.state.promise) { return this.state.promise; }
+        if (filterText.length < 3) { return this._promise }
 
         // Create a promise
-        let promise = new Promise((resolve, reject) => {
-            // Wait 1/2 a second before querying for the user
+        this._promise = new Promise((resolve, reject) => {
+            // Wait two seconds before querying for the user
             setTimeout(() => {
-                // Ensure the user has typed in at least 3 characters
-                if (this.state.queryString.length >= 3) {
-                    // Query for the people picker
-                    (new $REST.PeoplePicker())
-                        // Set the search query
-                        .clientPeoplePickerSearchUser({
-                            MaximumEntitySuggestions: 10,
-                            QueryString: filterText
-                        })
-                        // Execute the request
-                        .execute((results: $REST.Types.IPeoplePickerSearchUser) => {
-                            let personas = [];
+                // Query for the people
+                (new $REST.PeoplePicker())
+                    // Set the search query
+                    .clientPeoplePickerSearchUser({
+                        MaximumEntitySuggestions: 10,
+                        QueryString: filterText
+                    })
+                    // Execute the request
+                    .execute((results: $REST.Types.IPeoplePickerSearchUser) => {
+                        let personas = [];
 
-                            // Parse the results
-                            for (let result of results.ClientPeoplePickerSearchUser) {
+                        // Add the result
+                        let key = filterText.toLowerCase();
+                        this._results[key] = [];
+
+                        // Parse the results
+                        for (let result of results.ClientPeoplePickerSearchUser) {
+                            let persona = {
+                                key: result.Key,
+                                primaryText: result.DisplayText,
+                                secondaryText: result.EntityData.Email
+                            };
+
+                            // Add the persona to the results array
+                            this._results[key].push(persona);
+
+                            // Ensure the persona matches the query string
+                            // Note - This is to ensure the latest query string is applied
+                            if (result.DisplayText.toLowerCase().indexOf(this._queryString) >= 0) {
                                 // Add the persona
-                                personas.push({
-                                    key: result.Key,
-                                    primaryText: result.DisplayText,
-                                    secondaryText: result.EntityData.Email
-                                });
+                                personas.push(persona);
                             }
+                        }
 
-                            // Resolve the promise
-                            resolve(personas);
+                        // Resolve the promise
+                        resolve(personas);
 
-                            // Update the state
-                            this.setState({ queryString: "", promise: null });
-                        });
-                }
-            }, 500);
+                        // Clear the promise
+                        this._promise = null;
+                    });
+            }, 2000);
         });
 
-        // Save the promise
-        this.setState({ promise: promise });
-
         // Return the promise
-        return promise;
+        return this._promise;
     }
 
     // Render the component
