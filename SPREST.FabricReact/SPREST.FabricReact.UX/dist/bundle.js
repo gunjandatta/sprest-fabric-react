@@ -41391,6 +41391,8 @@
 	        this._promise = new es6_promise_1.Promise(function (resolve, reject) {
 	            // Wait two seconds before querying for the user
 	            setTimeout(function () {
+	                // Update the filter text
+	                filterText = _this._queryString;
 	                // Query for the people
 	                (new $REST.PeoplePicker())
 	                    .clientPeoplePickerSearchUser({
@@ -41410,15 +41412,11 @@
 	                            primaryText: result.DisplayText,
 	                            secondaryText: result.EntityData.Email
 	                        };
-	                        // Add the persona to the results array
-	                        _this._results[key].push(persona);
-	                        // Ensure the persona matches the query string
-	                        // Note - This is to ensure the latest query string is applied
-	                        if (result.DisplayText.toLowerCase().indexOf(_this._queryString) >= 0) {
-	                            // Add the persona
-	                            personas.push(persona);
-	                        }
+	                        // Add the persona
+	                        personas.push(persona);
 	                    }
+	                    // Save the results for this filter
+	                    _this._results[key].push(personas);
 	                    // Resolve the promise
 	                    resolve(personas);
 	                    // Clear the promise

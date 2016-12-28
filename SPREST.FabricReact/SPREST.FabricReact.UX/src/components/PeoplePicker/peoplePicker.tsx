@@ -127,6 +127,9 @@ export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePic
         this._promise = new Promise((resolve, reject) => {
             // Wait two seconds before querying for the user
             setTimeout(() => {
+                // Update the filter text
+                filterText = this._queryString;
+
                 // Query for the people
                 (new $REST.PeoplePicker())
                     // Set the search query
@@ -150,16 +153,12 @@ export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePic
                                 secondaryText: result.EntityData.Email
                             };
 
-                            // Add the persona to the results array
-                            this._results[key].push(persona);
-
-                            // Ensure the persona matches the query string
-                            // Note - This is to ensure the latest query string is applied
-                            if (result.DisplayText.toLowerCase().indexOf(this._queryString) >= 0) {
-                                // Add the persona
-                                personas.push(persona);
-                            }
+                            // Add the persona
+                            personas.push(persona);
                         }
+
+                        // Save the results for this filter
+                        this._results[key].push(personas);
 
                         // Resolve the promise
                         resolve(personas);
