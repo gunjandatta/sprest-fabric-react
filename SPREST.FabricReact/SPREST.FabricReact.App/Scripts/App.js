@@ -41381,11 +41381,11 @@
 	        }
 	        // See if we are executing a query
 	        if (this._promise != null) {
-	            return this._promise;
+	            return this._promise || [];
 	        }
 	        // Ensure the min required characters has been entered
 	        if (filterText.length < 3) {
-	            return this._promise;
+	            return this._promise || [];
 	        }
 	        // Create a promise
 	        this._promise = new es6_promise_1.Promise(function (resolve, reject) {

@@ -118,10 +118,10 @@ export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePic
         if (this._results[this._queryString] != null) { return this._results[this._queryString]; }
 
         // See if we are executing a query
-        if (this._promise != null) { return this._promise }
+        if (this._promise != null) { return this._promise || []; }
 
         // Ensure the min required characters has been entered
-        if (filterText.length < 3) { return this._promise }
+        if (filterText.length < 3) { return this._promise || []; }
 
         // Create a promise
         this._promise = new Promise((resolve, reject) => {
