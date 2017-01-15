@@ -1,4 +1,5 @@
 ﻿import * as React from "react";
+import {IListItem} from "gd-sprest";
 import {
     Button,
     ButtonType,
@@ -57,7 +58,7 @@ export class NewItemPanel extends React.Component<INewItemPanelProps, INewItemPa
         event.preventDefault();
 
         // Add the item
-        Data.addItem(this.state.Item).then((item: $REST.Types.IListItem) => {
+        Data.addItem(this.state.Item).then((item: IListItem) => {
             // Refresh the page
             document.location.reload();
         });

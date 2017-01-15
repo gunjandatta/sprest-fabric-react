@@ -1,4 +1,8 @@
 import { Promise } from "es6-promise";
+import {
+    $REST,
+    IListItems
+} from "gd-sprest";
 
 /**
  * The interface for the data.
@@ -16,7 +20,7 @@ export class Data {
     /**
      * Properties
      */
-    private static get IsSPOnline(): boolean { return window.hasOwnProperty("$REST"); }
+    private static get IsSPOnline(): boolean { return $REST.ContextInfo.existsFl; }
 
     // Method to get the data
     static get(): PromiseLike<IData[]> {
@@ -33,7 +37,7 @@ export class Data {
                         OrderBy: ["State", "County", "Title"]
                     })
                     // Execute the request
-                    .execute((items: $REST.Types.IListItems) => {
+                    .execute((items: IListItems) => {
                         let data: IData[] = [];
 
                         // Parse the items

@@ -2,6 +2,11 @@
 import * as React from "react";
 import { Promise } from "es6-promise";
 import {
+    $REST,
+    IPeoplePickerSearchUser,
+    IUser
+} from "gd-sprest";
+import {
     IBasePickerSuggestionsProps,
     IPersonaProps,
     ListPeoplePicker,
@@ -19,7 +24,7 @@ export interface IPeoplePickerProps {
     multiple?: boolean;
 
     /** The on change event. */
-    onChange?: (fieldName: string, persona: $REST.Types.IUser) => any;
+    onChange?: (fieldName: string, persona: IUser) => any;
 
     /** The people picker properties */
     pickerProps?: IBasePickerSuggestionsProps;
@@ -101,7 +106,7 @@ export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePic
                     // Get the user
                     .ensureUser(items[0].key)
                     // Execute the request
-                    .execute((user: $REST.Types.IUser) => {
+                    .execute((user: IUser) => {
                         // Call the on change event
                         this.props.onChange(this.props.fieldName, user.existsFl ? user : null);
                     });
@@ -138,7 +143,7 @@ export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePic
                         QueryString: filterText
                     })
                     // Execute the request
-                    .execute((results: $REST.Types.IPeoplePickerSearchUser) => {
+                    .execute((results: IPeoplePickerSearchUser) => {
                         let personas = [];
 
                         // Add the result

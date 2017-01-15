@@ -1,4 +1,10 @@
 ﻿import { Promise } from "es6-promise";
+import {
+    $REST,
+    IListItem,
+    IListItems,
+    SPTypes
+} from "gd-sprest";
 
 /**
  * The interface for the data.
@@ -23,7 +29,7 @@ export class Data {
      */
 
     // Method to add an item to the list
-    static addItem(item: IData): PromiseLike<$REST.Types.IListItem> {
+    static addItem(item: IData): PromiseLike<any> {
         return new Promise((resolve, reject) => {
             // Ensure we are online
             if (!this.IsSPOnline) {
@@ -39,7 +45,7 @@ export class Data {
                 // Add the item
                 .add(item)
                 // Execute the request
-                .execute((item: $REST.Types.IListItem) => {
+                .execute((item:IListItem) => {
                     // Resolve the promise
                     resolve(item);
                 });
@@ -63,7 +69,7 @@ export class Data {
                         Top: 500
                     })
                     // Execute the request
-                    .execute((items: $REST.Types.IListItems) => {
+                    .execute((items:IListItems) => {
                         let data: IData[] = [];
 
                         // Parse the items
