@@ -3,7 +3,7 @@ import {
     Label
 } from "office-ui-fabric-react";
 import {
-    PeoplePicker
+    MyPeoplePicker
 } from "./peoplepicker";
 
 /**
@@ -28,11 +28,11 @@ export class PeoplePickerDemo extends React.Component<IPeoplePickerDemoProps, an
                     <div className="ms-Grid-row">
                         <div className="ms-Grid-col ms-u-md3">
                             <Label>Single User</Label>
-                            <PeoplePicker />
+                            <MyPeoplePicker />
                         </div>
                         <div className="ms-Grid-col ms-u-md3">
                             <Label>Multiple Users</Label>
-                            <PeoplePicker multiple={true} />
+                            <MyPeoplePicker multiple={true} />
                         </div>
                     </div>
                 </div>

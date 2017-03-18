@@ -1,9 +1,10 @@
 ﻿{
     "compilerOptions": {
         "jsx": "react",
+        "outDir": "./build",
         "target": "es5"
     },
-    "exclude": [
-        "node_modules", "dist"
+    "include": [
+        "./src/**/*"
     ]
 }

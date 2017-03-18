@@ -1,9 +1,9 @@
 ﻿import { Promise } from "es6-promise";
 import {
-    $REST,
-    IListItem,
-    IListItems,
-    SPTypes
+    ContextInfo,
+    List,
+    SPTypes,
+    Types
 } from "gd-sprest";
 
 /**
@@ -22,7 +22,7 @@ export class Data {
     /**
      * Properties
      */
-    private static get IsSPOnline(): boolean { return window.hasOwnProperty("$REST"); }
+    private static get IsSPOnline(): boolean { return ContextInfo.existsFl; }
 
     /**
      * Public Methods
@@ -39,13 +39,13 @@ export class Data {
             }
 
             // Get the list
-            (new $REST.List("Locations"))
+            (new List("Locations"))
                 // Get the items
                 .Items()
                 // Add the item
                 .add(item)
                 // Execute the request
-                .execute((item:IListItem) => {
+                .execute((item:Types.IListItem) => {
                     // Resolve the promise
                     resolve(item);
                 });
@@ -59,7 +59,7 @@ export class Data {
             // See if the $REST library exists
             if (this.IsSPOnline) {
                 // Get the list
-                (new $REST.List("Locations"))
+                (new List("Locations"))
                     // Get the items
                     .Items()
                     // Query the data
@@ -69,7 +69,7 @@ export class Data {
                         Top: 500
                     })
                     // Execute the request
-                    .execute((items:IListItems) => {
+                    .execute((items:Types.IListItems) => {
                         let data: IData[] = [];
 
                         // Parse the items

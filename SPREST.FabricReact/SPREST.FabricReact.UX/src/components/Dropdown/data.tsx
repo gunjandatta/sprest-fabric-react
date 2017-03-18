@@ -1,7 +1,8 @@
-import { Promise } from "es6-promise";
+import {Promise} from "es6-promise";
 import {
-    $REST,
-    IListItems
+    ContextInfo,
+    List,
+    Types
 } from "gd-sprest";
 
 /**
@@ -20,7 +21,7 @@ export class Data {
     /**
      * Properties
      */
-    private static get IsSPOnline(): boolean { return $REST.ContextInfo.existsFl; }
+    private static get IsSPOnline(): boolean { return ContextInfo.existsFl; }
 
     // Method to get the data
     static get(): PromiseLike<IData[]> {
@@ -29,7 +30,7 @@ export class Data {
             // See if the $REST library exists
             if (this.IsSPOnline) {
                 // Get the list
-                (new $REST.List("Locations"))
+                (new List("Locations"))
                     // Get the items
                     .Items()
                     // Query the data
@@ -37,7 +38,7 @@ export class Data {
                         OrderBy: ["State", "County", "Title"]
                     })
                     // Execute the request
-                    .execute((items: IListItems) => {
+                    .execute((items: Types.IListItems) => {
                         let data: IData[] = [];
 
                         // Parse the items

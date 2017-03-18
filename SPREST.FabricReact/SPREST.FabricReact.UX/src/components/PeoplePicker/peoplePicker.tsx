@@ -1,10 +1,9 @@
-﻿/// <reference path="../../../node_modules/gd-sprest/dist/gd-sprest.d.ts" />
-import * as React from "react";
+﻿import * as React from "react";
 import { Promise } from "es6-promise";
 import {
-    $REST,
-    IPeoplePickerSearchUser,
-    IUser
+    PeoplePicker as PeoplePickerAPI,
+    Web,
+    Types
 } from "gd-sprest";
 import {
     IBasePickerSuggestionsProps,
@@ -24,7 +23,7 @@ export interface IPeoplePickerProps {
     multiple?: boolean;
 
     /** The on change event. */
-    onChange?: (fieldName: string, persona: IUser) => any;
+    onChange?: (fieldName: string, persona: Types.IUser) => any;
 
     /** The people picker properties */
     pickerProps?: IBasePickerSuggestionsProps;
@@ -59,9 +58,9 @@ const DefaultProps: IBasePickerSuggestionsProps = {
 };
 
 /**
- * People Picker
+ * My People Picker
  */
-export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePickerState> {
+export class MyPeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePickerState> {
     /**
      * Constructor
      */
@@ -102,11 +101,11 @@ export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePic
                 items.splice(0, items.length - 1);
 
                 // Get the web
-                (new $REST.Web())
+                (new Web())
                     // Get the user
                     .ensureUser(items[0].key)
                     // Execute the request
-                    .execute((user: IUser) => {
+                    .execute((user: Types.IUser) => {
                         // Call the on change event
                         this.props.onChange(this.props.fieldName, user.existsFl ? user : null);
                     });
@@ -136,14 +135,14 @@ export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePic
                 filterText = this._queryString;
 
                 // Query for the people
-                (new $REST.PeoplePicker())
+                (new PeoplePickerAPI())
                     // Set the search query
                     .clientPeoplePickerSearchUser({
                         MaximumEntitySuggestions: 10,
                         QueryString: filterText
                     })
                     // Execute the request
-                    .execute((results: IPeoplePickerSearchUser) => {
+                    .execute((results: Types.IPeoplePickerSearchUser) => {
                         let personas = [];
 
                         // Add the result
@@ -180,13 +179,14 @@ export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePic
 
     // Render the component
     render() {
+        let {pickerProps} = this.state;
         return (
             this.props.multiple ?
                 <NormalPeoplePicker
                     onChange={items => this.onChange(items)}
                     onResolveSuggestions={(filterText, currentPersonas) => this.resolveSuggestions(filterText, currentPersonas)}
                     getTextFromItem={(persona: IPersonaProps) => persona.primaryText}
-                    pickerSuggestionsProps={this.state.pickerProps}
+                    pickerSuggestionsProps={pickerProps}
                     className={'ms-PeoplePicker'}>
                 </NormalPeoplePicker>
                 :
@@ -194,7 +194,7 @@ export class PeoplePicker extends React.Component<IPeoplePickerProps, IPeoplePic
                     onChange={items => this.onChange(items)}
                     onResolveSuggestions={(filterText, currentPersonas) => this.resolveSuggestions(filterText, currentPersonas)}
                     getTextFromItem={(persona: IPersonaProps) => persona.primaryText}
-                    pickerSuggestionsProps={this.state.pickerProps}
+                    pickerSuggestionsProps={pickerProps}
                     className={'ms-PeoplePicker'}>
                 </ListPeoplePicker>
         );

@@ -17,8 +17,10 @@ interface IDatepickerDemoProps {
 // Date picker
 export class DatepickerDemo extends React.Component<IDatepickerDemoProps, any> {
     public render() {
+        let {visible} = this.props;
+
         return (
-            !this.props.visible ? <div /> :
+            !visible ? <div /> :
             <div>
                 <h1>Demo</h1>
                 <div className="ms-Grid">

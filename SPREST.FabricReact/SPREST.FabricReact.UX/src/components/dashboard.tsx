@@ -11,9 +11,19 @@ import {
 } from ".";
 
 /**
+ * Dashboard State
+ */
+interface IDashboardState {
+    ShowDatepicker:boolean,
+    ShowDropdown:boolean,
+    ShowList:boolean,
+    ShowPeoplePicker:boolean
+};
+
+/**
  * Dashboard
  */
-export class Dashboard extends React.Component<any, any> {
+export class Dashboard extends React.Component<any, IDashboardState> {
     /**
      * Constructor
      */
@@ -66,13 +76,14 @@ export class Dashboard extends React.Component<any, any> {
 
     // Render the component
     render() {
+        let {ShowDatepicker, ShowDropdown, ShowList, ShowPeoplePicker} = this.state;
         return (
             <div>
                 <CommandBar items={this.MenuItems} />
-                <DatepickerDemo visible={this.state.ShowDatepicker} />
-                <DropdownDemo visible={this.state.ShowDropdown} />
-                <ListDemo visible={this.state.ShowList} />
-                <PeoplePickerDemo visible={this.state.ShowPeoplePicker} />
+                <DatepickerDemo visible={ShowDatepicker} />
+                <DropdownDemo visible={ShowDropdown} />
+                <ListDemo visible={ShowList} />
+                <PeoplePickerDemo visible={ShowPeoplePicker} />
             </div>
         );
     }

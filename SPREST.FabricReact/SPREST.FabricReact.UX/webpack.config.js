@@ -1,43 +1,38 @@
-﻿var path = require("path");
-var webpack = require("webpack");
+﻿var path = require('path');
 
 module.exports = {
-    // Root folder of source code
-    context: path.join(__dirname, "src"),
+    // Target the output of the typescript compiler
+    context: path.join(__dirname, "build"),
 
-    // Entry point(s)
-    entry: {
-        html: "./index.html",
-        javascript: "./index.tsx"
-    },
+    // File(s) to target in the 'build' directory
+    entry: './index.js',
 
     // Output
     output: {
-        filename: "bundle.js",
-        path: path.join(__dirname, "dist")
+        filename: 'bundle.js',
+        path: path.resolve(__dirname, 'dist')
     },
 
-    // Include the typescript files as resolvable extensions
-    resolve: {
-        extensions: ["", ".webpack.js", ".web.js", ".ts", ".tsx", ".js"]
-    },
-
-    // Module
+    // Module to define what libraries with the compiler
     module: {
-        // Loaders
-        loaders: [
+        // Rules
+        rules: [
             {
-                test: /.tsx?$/,
-                loader: "ts-loader",
+                // Target the .js files
+                test: /\.js$/,
+                // Exclude the node modules folder
                 exclude: /node_modules/,
-                query: {
-                    presets: ["es2015", "react"]
+                // Define the compiler to use
+                use: {
+                    // Use the 'babel-loader' library
+                    loader: "babel-loader",
+                    // Options
+                    options: {
+                        // Use the 'babel-preset-es2015' library
+                        presets: ["es2015"]
+                    }
                 }
-            },
-            {
-                test: /.html?$/,
-                loader: "file?name=[name].[ext]"
             }
         ]
     }
-}
+};
