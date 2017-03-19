@@ -2,10 +2,10 @@
 
 module.exports = {
     // Target the output of the typescript compiler
-    context: path.join(__dirname, "build"),
+    context: path.join(__dirname, "src"),
 
     // File(s) to target in the 'build' directory
-    entry: './index.js',
+    entry: './index.tsx',
 
     // Output
     output: {
@@ -13,19 +13,24 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
 
+    // Resolve the file extensions
+    resolve: {
+        extensions: [".js", ".jsx", ".ts", ".tsx"]
+    },
+
     // Module to define what libraries with the compiler
     module: {
         // Rules
         rules: [
             {
-                // Target the .js files
-                test: /\.js$/,
+                // Target the .ts and .tsx files
+                test: /\.tsx$/,
                 // Exclude the node modules folder
                 exclude: /node_modules/,
                 // Define the compiler to use
                 use: {
-                    // Use the 'babel-loader' library
-                    loader: "babel-loader",
+                    // Use the 'ts-loader' library
+                    loader: "ts-loader",
                     // Options
                     options: {
                         // Use the 'babel-preset-es2015' library

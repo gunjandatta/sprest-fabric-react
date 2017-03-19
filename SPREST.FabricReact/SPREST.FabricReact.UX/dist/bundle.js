@@ -525,9 +525,9 @@ function shouldUseCssText() {
 
 "use strict";
 
-var requestType_1 = __webpack_require__(286);
+var requestType_1 = __webpack_require__(275);
 exports.RequestType = requestType_1.RequestType;
-var SPTypes = __webpack_require__(287);
+var SPTypes = __webpack_require__(276);
 exports.SPTypes = SPTypes;
 //# sourceMappingURL=index.js.map
 
@@ -827,7 +827,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 var _prodInvariant = __webpack_require__(7);
 
 var DOMProperty = __webpack_require__(22);
-var ReactDOMComponentFlags = __webpack_require__(156);
+var ReactDOMComponentFlags = __webpack_require__(155);
 
 var invariant = __webpack_require__(5);
 
@@ -1058,7 +1058,7 @@ module.exports = ExecutionEnvironment;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(385));
+__export(__webpack_require__(374));
 
 //# sourceMappingURL=FocusZone.js.map
 
@@ -1072,13 +1072,13 @@ __export(__webpack_require__(385));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(288));
-__export(__webpack_require__(289));
-__export(__webpack_require__(290));
-__export(__webpack_require__(291));
-__export(__webpack_require__(292));
-__export(__webpack_require__(293));
-__export(__webpack_require__(294));
+__export(__webpack_require__(277));
+__export(__webpack_require__(278));
+__export(__webpack_require__(279));
+__export(__webpack_require__(280));
+__export(__webpack_require__(281));
+__export(__webpack_require__(282));
+__export(__webpack_require__(283));
 //# sourceMappingURL=index.js.map
 
 /***/ }),
@@ -1090,7 +1090,7 @@ __export(__webpack_require__(294));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(329));
+__export(__webpack_require__(318));
 
 //# sourceMappingURL=Button.js.map
 
@@ -1527,7 +1527,7 @@ var DirectionalHint;
 var debugTool = null;
 
 if (process.env.NODE_ENV !== 'production') {
-  var ReactDebugTool = __webpack_require__(496);
+  var ReactDebugTool = __webpack_require__(485);
   debugTool = ReactDebugTool;
 }
 
@@ -1598,9 +1598,9 @@ module.exports = emptyFunction;
 var _prodInvariant = __webpack_require__(7),
     _assign = __webpack_require__(8);
 
-var CallbackQueue = __webpack_require__(154);
+var CallbackQueue = __webpack_require__(153);
 var PooledClass = __webpack_require__(25);
-var ReactFeatureFlags = __webpack_require__(159);
+var ReactFeatureFlags = __webpack_require__(158);
 var ReactReconciler = __webpack_require__(36);
 var Transaction = __webpack_require__(53);
 
@@ -2158,48 +2158,48 @@ function getPooledWarningPropertyDefinition(propName, getVal) {
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(295));
+__export(__webpack_require__(284));
 __export(__webpack_require__(13));
-__export(__webpack_require__(104));
+__export(__webpack_require__(103));
 __export(__webpack_require__(23));
-__export(__webpack_require__(296));
-__export(__webpack_require__(297));
-__export(__webpack_require__(298));
-__export(__webpack_require__(299));
+__export(__webpack_require__(285));
+__export(__webpack_require__(286));
+__export(__webpack_require__(287));
+__export(__webpack_require__(288));
 __export(__webpack_require__(45));
-__export(__webpack_require__(300));
-__export(__webpack_require__(301));
-__export(__webpack_require__(302));
-__export(__webpack_require__(303));
-__export(__webpack_require__(304));
-__export(__webpack_require__(105));
-__export(__webpack_require__(305));
-__export(__webpack_require__(306));
+__export(__webpack_require__(289));
+__export(__webpack_require__(290));
+__export(__webpack_require__(291));
+__export(__webpack_require__(292));
+__export(__webpack_require__(293));
+__export(__webpack_require__(104));
+__export(__webpack_require__(294));
+__export(__webpack_require__(295));
 __export(__webpack_require__(11));
-__export(__webpack_require__(106));
+__export(__webpack_require__(105));
 __export(__webpack_require__(29));
 __export(__webpack_require__(30));
 __export(__webpack_require__(31));
 __export(__webpack_require__(46));
 __export(__webpack_require__(62));
 __export(__webpack_require__(47));
-__export(__webpack_require__(308));
-__export(__webpack_require__(307));
-__export(__webpack_require__(309));
+__export(__webpack_require__(297));
+__export(__webpack_require__(296));
+__export(__webpack_require__(298));
 __export(__webpack_require__(63));
-__export(__webpack_require__(107));
-__export(__webpack_require__(310));
+__export(__webpack_require__(106));
+__export(__webpack_require__(299));
 __export(__webpack_require__(39));
-__export(__webpack_require__(311));
-__export(__webpack_require__(312));
-__export(__webpack_require__(313));
-__export(__webpack_require__(314));
-__export(__webpack_require__(315));
+__export(__webpack_require__(300));
+__export(__webpack_require__(301));
+__export(__webpack_require__(302));
+__export(__webpack_require__(303));
+__export(__webpack_require__(304));
 __export(__webpack_require__(64));
-__export(__webpack_require__(316));
+__export(__webpack_require__(305));
 __export(__webpack_require__(65));
-__export(__webpack_require__(317));
-__export(__webpack_require__(318));
+__export(__webpack_require__(306));
+__export(__webpack_require__(307));
 __export(__webpack_require__(1));
 
 //# sourceMappingURL=index.js.map
@@ -2430,7 +2430,7 @@ module.exports = DOMProperty;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(337));
+__export(__webpack_require__(326));
 
 //# sourceMappingURL=Callout.js.map
 
@@ -2445,9 +2445,9 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 __export(__webpack_require__(34));
-__export(__webpack_require__(466));
-__export(__webpack_require__(152));
-__export(__webpack_require__(467));
+__export(__webpack_require__(455));
+__export(__webpack_require__(151));
+__export(__webpack_require__(456));
 
 //# sourceMappingURL=index.js.map
 
@@ -2595,7 +2595,7 @@ var warning = __webpack_require__(6);
 var canDefineProperty = __webpack_require__(94);
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
-var REACT_ELEMENT_TYPE = __webpack_require__(174);
+var REACT_ELEMENT_TYPE = __webpack_require__(173);
 
 var RESERVED_PROPS = {
   key: true,
@@ -2970,19 +2970,19 @@ module.exports = reactProdInvariant;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
+__export(__webpack_require__(213));
+__export(__webpack_require__(214));
+__export(__webpack_require__(216));
+__export(__webpack_require__(219));
+__export(__webpack_require__(220));
+__export(__webpack_require__(221));
+__export(__webpack_require__(222));
+__export(__webpack_require__(223));
 __export(__webpack_require__(224));
 __export(__webpack_require__(225));
+__export(__webpack_require__(226));
 __export(__webpack_require__(227));
-__export(__webpack_require__(230));
-__export(__webpack_require__(231));
-__export(__webpack_require__(232));
-__export(__webpack_require__(233));
-__export(__webpack_require__(234));
-__export(__webpack_require__(235));
-__export(__webpack_require__(236));
-__export(__webpack_require__(237));
-__export(__webpack_require__(238));
-__export(__webpack_require__(239));
+__export(__webpack_require__(228));
 //# sourceMappingURL=index.js.map
 
 /***/ }),
@@ -2994,7 +2994,7 @@ __export(__webpack_require__(239));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(396));
+__export(__webpack_require__(385));
 
 //# sourceMappingURL=Icon.js.map
 
@@ -3008,7 +3008,7 @@ __export(__webpack_require__(396));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(398));
+__export(__webpack_require__(387));
 
 //# sourceMappingURL=Image.js.map
 
@@ -3022,7 +3022,7 @@ __export(__webpack_require__(398));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(401));
+__export(__webpack_require__(390));
 
 //# sourceMappingURL=Label.js.map
 
@@ -3040,7 +3040,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-var BaseButton_scss_1 = __webpack_require__(322);
+var BaseButton_scss_1 = __webpack_require__(311);
 var BaseButton = (function (_super) {
     __extends(BaseButton, _super);
     function BaseButton(props, rootClassName, deprecationMap) {
@@ -3228,7 +3228,7 @@ var DOMNamespaces = __webpack_require__(77);
 var setInnerHTML = __webpack_require__(55);
 
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(84);
-var setTextContent = __webpack_require__(172);
+var setTextContent = __webpack_require__(171);
 
 var ELEMENT_NODE_TYPE = 1;
 var DOCUMENT_FRAGMENT_NODE_TYPE = 11;
@@ -3347,7 +3347,7 @@ module.exports = DOMLazyTree;
 
 
 
-var ReactRef = __webpack_require__(510);
+var ReactRef = __webpack_require__(499);
 var ReactInstrumentation = __webpack_require__(16);
 
 var warning = __webpack_require__(6);
@@ -3523,16 +3523,16 @@ module.exports = ReactReconciler;
 
 var _assign = __webpack_require__(8);
 
-var ReactChildren = __webpack_require__(541);
+var ReactChildren = __webpack_require__(530);
 var ReactComponent = __webpack_require__(91);
-var ReactPureComponent = __webpack_require__(545);
-var ReactClass = __webpack_require__(542);
-var ReactDOMFactories = __webpack_require__(543);
+var ReactPureComponent = __webpack_require__(534);
+var ReactClass = __webpack_require__(531);
+var ReactDOMFactories = __webpack_require__(532);
 var ReactElement = __webpack_require__(26);
-var ReactPropTypes = __webpack_require__(544);
-var ReactVersion = __webpack_require__(546);
+var ReactPropTypes = __webpack_require__(533);
+var ReactVersion = __webpack_require__(535);
 
-var onlyChild = __webpack_require__(548);
+var onlyChild = __webpack_require__(537);
 var warning = __webpack_require__(6);
 
 var createElement = ReactElement.createElement;
@@ -3540,7 +3540,7 @@ var createFactory = ReactElement.createFactory;
 var cloneElement = ReactElement.cloneElement;
 
 if (process.env.NODE_ENV !== 'production') {
-  var ReactElementValidator = __webpack_require__(175);
+  var ReactElementValidator = __webpack_require__(174);
   createElement = ReactElementValidator.createElement;
   createFactory = ReactElementValidator.createFactory;
   cloneElement = ReactElementValidator.cloneElement;
@@ -3634,7 +3634,7 @@ module.exports = emptyObject;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(425));
+__export(__webpack_require__(414));
 
 //# sourceMappingURL=Persona.js.map
 
@@ -3662,8 +3662,8 @@ var EventPluginRegistry = __webpack_require__(50);
 var EventPluginUtils = __webpack_require__(78);
 var ReactErrorUtils = __webpack_require__(82);
 
-var accumulateInto = __webpack_require__(166);
-var forEachAccumulated = __webpack_require__(167);
+var accumulateInto = __webpack_require__(165);
+var forEachAccumulated = __webpack_require__(166);
 var invariant = __webpack_require__(5);
 
 /**
@@ -3943,8 +3943,8 @@ module.exports = EventPluginHub;
 var EventPluginHub = __webpack_require__(40);
 var EventPluginUtils = __webpack_require__(78);
 
-var accumulateInto = __webpack_require__(166);
-var forEachAccumulated = __webpack_require__(167);
+var accumulateInto = __webpack_require__(165);
+var forEachAccumulated = __webpack_require__(166);
 var warning = __webpack_require__(6);
 
 var getListener = EventPluginHub.getListener;
@@ -4351,7 +4351,7 @@ function isVirtualElement(element) {
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(357));
+__export(__webpack_require__(346));
 
 //# sourceMappingURL=ContextualMenu.js.map
 
@@ -4365,7 +4365,7 @@ __export(__webpack_require__(357));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(404));
+__export(__webpack_require__(393));
 
 //# sourceMappingURL=Layer.js.map
 
@@ -4379,7 +4379,7 @@ __export(__webpack_require__(404));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(409));
+__export(__webpack_require__(398));
 
 //# sourceMappingURL=List.js.map
 
@@ -4460,7 +4460,7 @@ var CheckboxVisibility;
 var React = __webpack_require__(0);
 /* tslint:enable:no-unused-variable */
 var Utilities_1 = __webpack_require__(1);
-var GroupSpacer_scss_1 = __webpack_require__(390);
+var GroupSpacer_scss_1 = __webpack_require__(379);
 var SPACER_WIDTH = 36;
 exports.GroupSpacer = function (props) {
     return props.count > 0 && (React.createElement("span", { className: Utilities_1.css('ms-GroupSpacer', GroupSpacer_scss_1.default.root), style: { width: props.count * SPACER_WIDTH } }));
@@ -4750,10 +4750,10 @@ module.exports = EventPluginRegistry;
 var _assign = __webpack_require__(8);
 
 var EventPluginRegistry = __webpack_require__(50);
-var ReactEventEmitterMixin = __webpack_require__(500);
-var ViewportMetrics = __webpack_require__(165);
+var ReactEventEmitterMixin = __webpack_require__(489);
+var ViewportMetrics = __webpack_require__(164);
 
-var getVendorPrefixedEventName = __webpack_require__(536);
+var getVendorPrefixedEventName = __webpack_require__(525);
 var isEventSupported = __webpack_require__(88);
 
 /**
@@ -5081,7 +5081,7 @@ module.exports = ReactBrowserEventEmitter;
 
 
 var SyntheticUIEvent = __webpack_require__(43);
-var ViewportMetrics = __webpack_require__(165);
+var ViewportMetrics = __webpack_require__(164);
 
 var getEventModifierState = __webpack_require__(86);
 
@@ -5609,7 +5609,7 @@ module.exports = setInnerHTML;
 "use strict";
 
 
-module.exports = __webpack_require__(481);
+module.exports = __webpack_require__(470);
 
 
 /***/ }),
@@ -7123,7 +7123,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ***************************************************************************************************/
-var Types = __webpack_require__(221);
+var Types = __webpack_require__(210);
 exports.Types = Types;
 var types_1 = __webpack_require__(4);
 exports.RequestType = types_1.RequestType;
@@ -7175,7 +7175,7 @@ exports.$REST = gd_sprest;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(340));
+__export(__webpack_require__(329));
 
 //# sourceMappingURL=Check.js.map
 
@@ -7189,7 +7189,7 @@ __export(__webpack_require__(340));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(407));
+__export(__webpack_require__(396));
 
 //# sourceMappingURL=Link.js.map
 
@@ -7203,7 +7203,7 @@ __export(__webpack_require__(407));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(420));
+__export(__webpack_require__(409));
 
 //# sourceMappingURL=Overlay.js.map
 
@@ -7217,7 +7217,7 @@ __export(__webpack_require__(420));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(443));
+__export(__webpack_require__(432));
 
 //# sourceMappingURL=Spinner.js.map
 
@@ -7231,7 +7231,7 @@ __export(__webpack_require__(443));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(448));
+__export(__webpack_require__(437));
 
 //# sourceMappingURL=TextField.js.map
 
@@ -7390,7 +7390,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_18ca946c{display:inline-b
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(383));
+__export(__webpack_require__(372));
 
 //# sourceMappingURL=index.js.map
 
@@ -7410,9 +7410,9 @@ var __extends = (this && this.__extends) || function (d, b) {
 var React = __webpack_require__(0);
 var ReactDOM = __webpack_require__(56);
 /* tslint:enable:no-unused-variable */
-var Fabric_1 = __webpack_require__(105);
+var Fabric_1 = __webpack_require__(104);
 var Utilities_1 = __webpack_require__(1);
-var Layer_scss_1 = __webpack_require__(402);
+var Layer_scss_1 = __webpack_require__(391);
 var _layersByHostId = {};
 var Layer = (function (_super) {
     __extends(Layer, _super);
@@ -7643,10 +7643,10 @@ var Utilities_1 = __webpack_require__(1);
 var FocusZone_1 = __webpack_require__(11);
 var Callout_1 = __webpack_require__(23);
 var index_1 = __webpack_require__(24);
-var Suggestions_1 = __webpack_require__(146);
-var SuggestionsController_1 = __webpack_require__(147);
-var BaseAutoFill_1 = __webpack_require__(143);
-var BasePicker_scss_1 = __webpack_require__(454);
+var Suggestions_1 = __webpack_require__(145);
+var SuggestionsController_1 = __webpack_require__(146);
+var BaseAutoFill_1 = __webpack_require__(142);
+var BasePicker_scss_1 = __webpack_require__(443);
 var BasePicker = (function (_super) {
     __extends(BasePicker, _super);
     function BasePicker(basePickerProps) {
@@ -8011,13 +8011,13 @@ exports.BasePickerListBelow = BasePickerListBelow;
 
 
 var DOMLazyTree = __webpack_require__(35);
-var Danger = __webpack_require__(473);
+var Danger = __webpack_require__(462);
 var ReactDOMComponentTree = __webpack_require__(9);
 var ReactInstrumentation = __webpack_require__(16);
 
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(84);
 var setInnerHTML = __webpack_require__(55);
-var setTextContent = __webpack_require__(172);
+var setTextContent = __webpack_require__(171);
 
 function getNodeAfter(parentNode, node) {
   // Special case for text components, which return [open, close] comments
@@ -8565,7 +8565,7 @@ module.exports = KeyEscapeUtils;
 var _prodInvariant = __webpack_require__(7);
 
 var React = __webpack_require__(37);
-var ReactPropTypesSecret = __webpack_require__(164);
+var ReactPropTypesSecret = __webpack_require__(163);
 
 var invariant = __webpack_require__(5);
 var warning = __webpack_require__(6);
@@ -10635,92 +10635,6 @@ exports.findScrollableParent = findScrollableParent;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var es6_promise_1 = __webpack_require__(58);
-var gd_sprest_1 = __webpack_require__(60);
-/**
- * Data Source
- */
-var Data = function () {
-    function Data() {}
-    Object.defineProperty(Data, "IsSPOnline", {
-        /**
-         * Properties
-         */
-        get: function get() {
-            return gd_sprest_1.ContextInfo.existsFl;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Public Methods
-     */
-    // Method to add an item to the list
-    Data.addItem = function (item) {
-        var _this = this;
-        return new es6_promise_1.Promise(function (resolve, reject) {
-            // Ensure we are online
-            if (!_this.IsSPOnline) {
-                // Resolve the promise
-                resolve();
-                return;
-            }
-            // Get the list
-            new gd_sprest_1.List("Locations").Items().add(item).execute(function (item) {
-                // Resolve the promise
-                resolve(item);
-            });
-        });
-    };
-    // Method to get the data
-    Data.get = function () {
-        var _this = this;
-        // Return a promise
-        return new es6_promise_1.Promise(function (resolve, reject) {
-            // See if the $REST library exists
-            if (_this.IsSPOnline) {
-                // Get the list
-                new gd_sprest_1.List("Locations").Items().query({
-                    GetAllItems: true,
-                    OrderBy: ["State", "County", "Title"],
-                    Top: 500
-                }).execute(function (items) {
-                    var data = [];
-                    // Parse the items
-                    for (var _i = 0, _a = items.results; _i < _a.length; _i++) {
-                        var item = _a[_i];
-                        // Add the item to the data array
-                        data.push({
-                            Title: item["Title"],
-                            County: item["County"],
-                            State: item["State"]
-                        });
-                    }
-                    // Resolve the request
-                    resolve(data);
-                });
-            } else {
-                // Resolve the request with test data
-                resolve(TestData);
-            }
-        });
-    };
-    return Data;
-}();
-exports.Data = Data;
-/**
- * Test Data
- */
-var TestData = [{ Title: "Anchorage", County: "Anchorage", State: "AK" }, { Title: "Fairbanks", County: "Fairbanks North Star", State: "AK" }, { Title: "Little Rock", County: "Pulaski", State: "AR" }, { Title: "Mesa", County: "Maricopa", State: "AZ" }, { Title: "Peoria", County: "Maricopa", State: "AZ" }, { Title: "Phoenix", County: "Maricopa", State: "AZ" }, { Title: "Scottsdale", County: "Maricopa", State: "AZ" }, { Title: "Berkeley", County: "Alameda", State: "CA" }, { Title: "Hayward", County: "Alameda", State: "CA" }, { Title: "Oakland", County: "Alameda", State: "CA" }, { Title: "San Leandro", County: "Alameda", State: "CA" }, { Title: "Oroville", County: "Butte", State: "CA" }, { Title: "Concord", County: "Contra Costa", State: "CA" }, { Title: "Oakley", County: "Contra Costa", State: "CA" }, { Title: "San Ramon", County: "Contra Costa", State: "CA" }, { Title: "Bellflower", County: "Los Angeles", State: "CA" }, { Title: "Beverly Hills", County: "Los Angeles", State: "CA" }, { Title: "El Monte", County: "Los Angeles", State: "CA" }, { Title: "Gardena", County: "Los Angeles", State: "CA" }, { Title: "Los Angeles", County: "Los Angeles", State: "CA" }, { Title: "Northridge", County: "Los Angeles", State: "CA" }, { Title: "Pasadena", County: "Los Angeles", State: "CA" }, { Title: "Pomona", County: "Los Angeles", State: "CA" }, { Title: "San Gabriel", County: "Los Angeles", State: "CA" }, { Title: "Van Nuys", County: "Los Angeles", State: "CA" }, { Title: "Novato", County: "Marin", State: "CA" }, { Title: "Anaheim", County: "Orange", State: "CA" }, { Title: "Costa Mesa", County: "Orange", State: "CA" }, { Title: "Huntington Beach", County: "Orange", State: "CA" }, { Title: "Santa Ana", County: "Orange", State: "CA" }, { Title: "Roseville", County: "Placer", State: "CA" }, { Title: "Cathedral City", County: "Riverside", State: "CA" }, { Title: "Riverside", County: "Riverside", State: "CA" }, { Title: "Thousand Palms", County: "Riverside", State: "CA" }, { Title: "Sacramento", County: "Sacramento", State: "CA" }, { Title: "Ontario", County: "San Bernardino", State: "CA" }, { Title: "San Bernardino", County: "San Bernardino", State: "CA" }, { Title: "El Cajon", County: "San Diego", State: "CA" }, { Title: "Escondido", County: "San Diego", State: "CA" }, { Title: "La Mesa", County: "San Diego", State: "CA" }, { Title: "San Diego", County: "San Diego", State: "CA" }, { Title: "San Francisco", County: "San Francisco", State: "CA" }, { Title: "Stockton", County: "San Joaquin", State: "CA" }, { Title: "Burlingame", County: "San Mateo", State: "CA" }, { Title: "Pacifica", County: "San Mateo", State: "CA" }, { Title: "San Carlos", County: "San Mateo", State: "CA" }, { Title: "San Mateo", County: "San Mateo", State: "CA" }, { Title: "South San Francisco", County: "San Mateo", State: "CA" }, { Title: "San Jose", County: "Santa Clara", State: "CA" }, { Title: "Santa Clara", County: "Santa Clara", State: "CA" }, { Title: "Saratoga", County: "Santa Clara", State: "CA" }, { Title: "Rohnert Park", County: "Sonoma", State: "CA" }, { Title: "Santa Rosa", County: "Sonoma", State: "CA" }, { Title: "Camarillo", County: "Ventura", State: "CA" }, { Title: "Thousand Oaks", County: "Ventura", State: "CA" }, { Title: "Englewood", County: "Arapahoe", State: "CO" }, { Title: "Boulder", County: "Boulder", State: "CO" }, { Title: "Denver", County: "Denver", State: "CO" }, { Title: "Littleton", County: "Douglas", State: "CO" }, { Title: "Colorado Springs", County: "El Paso", State: "CO" }, { Title: "Bridgeport", County: "Fairfield", State: "CT" }, { Title: "Norwalk", County: "Fairfield", State: "CT" }, { Title: "New Haven", County: "New Haven", State: "CT" }, { Title: "North Haven", County: "New Haven", State: "CT" }, { Title: "Washington", County: "District of Columbia", State: "DC" }, { Title: "Cocoa", County: "Brevard", State: "FL" }, { Title: "Satellite Beach", County: "Brevard", State: "FL" }, { Title: "Crystal River", County: "Citrus", State: "FL" }, { Title: "Homosassa", County: "Citrus", State: "FL" }, { Title: "Jacksonville", County: "Duval", State: "FL" }, { Title: "Brandon", County: "Hillsborough", State: "FL" }, { Title: "Tampa", County: "Hillsborough", State: "FL" }, { Title: "Hialeah", County: "Miami-Dade", State: "FL" }, { Title: "Homestead", County: "Miami-Dade", State: "FL" }, { Title: "Miami", County: "Miami-Dade", State: "FL" }, { Title: "Opa Locka", County: "Miami-Dade", State: "FL" }, { Title: "Crestview", County: "Okaloosa", State: "FL" }, { Title: "Orlando", County: "Orange", State: "FL" }, { Title: "Lake Worth", County: "Palm Beach", State: "FL" }, { Title: "Longwood", County: "Seminole", State: "FL" }, { Title: "Daytona Beach", County: "Volusia", State: "FL" }, { Title: "Oak Hill", County: "Volusia", State: "FL" }, { Title: "Trion", County: "Chattooga", State: "GA" }, { Title: "Atlanta", County: "Dekalb", State: "GA" }, { Title: "Albany", County: "Dougherty", State: "GA" }, { Title: "Douglasville", County: "Douglas", State: "GA" }, { Title: "Atlanta", County: "Fulton", State: "GA" }, { Title: "Hilo", County: "Hawaii", State: "HI" }, { Title: "Honolulu", County: "Honolulu", State: "HI" }, { Title: "Pearl City", County: "Honolulu", State: "HI" }, { Title: "Des Moines", County: "Polk", State: "IA" }, { Title: "Boise", County: "Ada", State: "ID" }, { Title: "Moscow", County: "Latah", State: "ID" }, { Title: "Arlington Heights", County: "Cook", State: "IL" }, { Title: "Chicago", County: "Cook", State: "IL" }, { Title: "Elk Grove Village", County: "Cook", State: "IL" }, { Title: "Evanston", County: "Cook", State: "IL" }, { Title: "Palatine", County: "Cook", State: "IL" }, { Title: "Rolling Meadows", County: "Cook", State: "IL" }, { Title: "Wheeling", County: "Cook", State: "IL" }, { Title: "Highland Park", County: "Lake", State: "IL" }, { Title: "Rockford", County: "Winnebago", State: "IL" }, { Title: "Fort Wayne", County: "Allen", State: "IN" }, { Title: "Elkhart", County: "Elkhart", State: "IN" }, { Title: "Fortville", County: "Hancock", State: "IN" }, { Title: "Indianapolis", County: "Marion", State: "IN" }, { Title: "Bloomington", County: "Monroe", State: "IN" }, { Title: "South Bend", County: "St Joseph", State: "IN" }, { Title: "Abilene", County: "Dickinson", State: "KS" }, { Title: "Hays", County: "Ellis", State: "KS" }, { Title: "Overland Park", County: "Johnson", State: "KS" }, { Title: "Shawnee", County: "Johnson", State: "KS" }, { Title: "Burlington", County: "Boone", State: "KY" }, { Title: "Metairie", County: "Jefferson", State: "LA" }, { Title: "Broussard", County: "Lafayette", State: "LA" }, { Title: "Lafayette", County: "Lafayette", State: "LA" }, { Title: "New Orleans", County: "Orleans", State: "LA" }, { Title: "Houma", County: "Terrebonne", State: "LA" }, { Title: "New Bedford", County: "Bristol", State: "MA" }, { Title: "North Attleboro", County: "Bristol", State: "MA" }, { Title: "Cambridge", County: "Middlesex", State: "MA" }, { Title: "Concord", County: "Middlesex", State: "MA" }, { Title: "Wilmington", County: "Middlesex", State: "MA" }, { Title: "Middleboro", County: "Plymouth", State: "MA" }, { Title: "Boston", County: "Suffolk", State: "MA" }, { Title: "Westborough", County: "Worcester", State: "MA" }, { Title: "Worcester", County: "Worcester", State: "MA" }, { Title: "Glen Burnie", County: "Anne Arundel", State: "MD" }, { Title: "Hanover", County: "Anne Arundel", State: "MD" }, { Title: "Owings Mills", County: "Baltimore", State: "MD" }, { Title: "Parkville", County: "Baltimore", State: "MD" }, { Title: "Baltimore", County: "Baltimore City", State: "MD" }, { Title: "Preston", County: "Caroline", State: "MD" }, { Title: "Hampstead", County: "Carroll", State: "MD" }, { Title: "Aberdeen", County: "Harford", State: "MD" }, { Title: "Bladensburg", County: "Prince Georges", State: "MD" }, { Title: "Clinton", County: "Prince Georges", State: "MD" }, { Title: "Hyattsville", County: "Prince Georges", State: "MD" }, { Title: "Easton", County: "Talbot", State: "MD" }, { Title: "Salisbury", County: "Wicomico", State: "MD" }, { Title: "Warren", County: "Knox", State: "ME" }, { Title: "Bangor", County: "Penobscot", State: "ME" }, { Title: "Niles", County: "Berrien", State: "MI" }, { Title: "East Lansing", County: "Ingham", State: "MI" }, { Title: "Lansing", County: "Ingham", State: "MI" }, { Title: "Grand Rapids", County: "Kent", State: "MI" }, { Title: "Brighton", County: "Livingston", State: "MI" }, { Title: "Sterling Heights", County: "Macomb", State: "MI" }, { Title: "Milan", County: "Monroe", State: "MI" }, { Title: "Muskegon", County: "Muskegon", State: "MI" }, { Title: "Rochester", County: "Oakland", State: "MI" }, { Title: "Southfield", County: "Oakland", State: "MI" }, { Title: "Waterford", County: "Oakland", State: "MI" }, { Title: "Ann Arbor", County: "Washtenaw", State: "MI" }, { Title: "Dearborn", County: "Wayne", State: "MI" }, { Title: "Taylor", County: "Wayne", State: "MI" }, { Title: "Burnsville", County: "Dakota", State: "MN" }, { Title: "Hopkins", County: "Hennepin", State: "MN" }, { Title: "Minneapolis", County: "Hennepin", State: "MN" }, { Title: "Saint Paul", County: "Ramsey", State: "MN" }, { Title: "Northfield", County: "Rice", State: "MN" }, { Title: "Shakopee", County: "Scott", State: "MN" }, { Title: "Saint Joseph", County: "Buchanan", State: "MO" }, { Title: "Valley Park", County: "Saint Louis", State: "MO" }, { Title: "Saint Louis", County: "Saint Louis City", State: "MO" }, { Title: "Biloxi", County: "Harrison", State: "MS" }, { Title: "Jackson", County: "Hinds", State: "MS" }, { Title: "Meridian", County: "Lauderdale", State: "MS" }, { Title: "Pearl", County: "Rankin", State: "MS" }, { Title: "Butte", County: "Silver Bow", State: "MT" }, { Title: "Burlington", County: "Alamance", State: "NC" }, { Title: "Fayetteville", County: "Cumberland", State: "NC" }, { Title: "Greensboro", County: "Guilford", State: "NC" }, { Title: "High Point", County: "Guilford", State: "NC" }, { Title: "Smithfield", County: "Johnston", State: "NC" }, { Title: "Chapel Hill", County: "Orange", State: "NC" }, { Title: "Raleigh", County: "Wake", State: "NC" }, { Title: "Fargo", County: "Cass", State: "ND" }, { Title: "Alliance", County: "Box Butte", State: "NE" }, { Title: "Omaha", County: "Douglas", State: "NE" }, { Title: "Plaistow", County: "Rockingham", State: "NH" }, { Title: "Absecon", County: "Atlantic", State: "NJ" }, { Title: "Atlantic City", County: "Atlantic", State: "NJ" }, { Title: "Margate City", County: "Atlantic", State: "NJ" }, { Title: "Englewood", County: "Bergen", State: "NJ" }, { Title: "Hackensack", County: "Bergen", State: "NJ" }, { Title: "Lyndhurst", County: "Bergen", State: "NJ" }, { Title: "Paramus", County: "Bergen", State: "NJ" }, { Title: "Ramsey", County: "Bergen", State: "NJ" }, { Title: "Ridgefield Park", County: "Bergen", State: "NJ" }, { Title: "Riverton", County: "Burlington", State: "NJ" }, { Title: "Cherry Hill", County: "Camden", State: "NJ" }, { Title: "Bloomfield", County: "Essex", State: "NJ" }, { Title: "Cedar Grove", County: "Essex", State: "NJ" }, { Title: "Fairfield", County: "Essex", State: "NJ" }, { Title: "Livingston", County: "Essex", State: "NJ" }, { Title: "Newark", County: "Essex", State: "NJ" }, { Title: "Nutley", County: "Essex", State: "NJ" }, { Title: "Orange", County: "Essex", State: "NJ" }, { Title: "Bridgeport", County: "Gloucester", State: "NJ" }, { Title: "Harrison", County: "Hudson", State: "NJ" }, { Title: "Jersey City", County: "Hudson", State: "NJ" }, { Title: "Kearny", County: "Hudson", State: "NJ" }, { Title: "Union City", County: "Hudson", State: "NJ" }, { Title: "Flemington", County: "Hunterdon", State: "NJ" }, { Title: "Pittstown", County: "Hunterdon", State: "NJ" }, { Title: "Trenton", County: "Mercer", State: "NJ" }, { Title: "Dunellen", County: "Middlesex", State: "NJ" }, { Title: "Middlesex", County: "Middlesex", State: "NJ" }, { Title: "Monroe Township", County: "Middlesex", State: "NJ" }, { Title: "Freehold", County: "Monmouth", State: "NJ" }, { Title: "Denville", County: "Morris", State: "NJ" }, { Title: "Randolph", County: "Morris", State: "NJ" }, { Title: "Rockaway", County: "Morris", State: "NJ" }, { Title: "Whippany", County: "Morris", State: "NJ" }, { Title: "Toms River", County: "Ocean", State: "NJ" }, { Title: "Clifton", County: "Passaic", State: "NJ" }, { Title: "Little Falls", County: "Passaic", State: "NJ" }, { Title: "Passaic", County: "Passaic", State: "NJ" }, { Title: "Paterson", County: "Passaic", State: "NJ" }, { Title: "Bridgewater", County: "Somerset", State: "NJ" }, { Title: "Somerset", County: "Somerset", State: "NJ" }, { Title: "Somerville", County: "Somerset", State: "NJ" }, { Title: "Plainfield", County: "Union", State: "NJ" }, { Title: "Clovis", County: "Curry", State: "NM" }, { Title: "Las Cruces", County: "Dona Ana", State: "NM" }, { Title: "Carson City", County: "Carson City", State: "NV" }, { Title: "Reno", County: "Washoe", State: "NV" }, { Title: "Albany", County: "Albany", State: "NY" }, { Title: "Wellsville", County: "Allegany", State: "NY" }, { Title: "Bronx", County: "Bronx", State: "NY" }, { Title: "Vestal", County: "Broome", State: "NY" }, { Title: "Buffalo", County: "Erie", State: "NY" }, { Title: "Brooklyn", County: "Kings", State: "NY" }, { Title: "Garden City", County: "Nassau", State: "NY" }, { Title: "Hicksville", County: "Nassau", State: "NY" }, { Title: "Lynbrook", County: "Nassau", State: "NY" }, { Title: "Massapequa", County: "Nassau", State: "NY" }, { Title: "Syosset", County: "Nassau", State: "NY" }, { Title: "Westbury", County: "Nassau", State: "NY" }, { Title: "New York", County: "New York", State: "NY" }, { Title: "Utica", County: "Oneida", State: "NY" }, { Title: "Syracuse", County: "Onondaga", State: "NY" }, { Title: "Port Jervis", County: "Orange", State: "NY" }, { Title: "Astoria", County: "Queens", State: "NY" }, { Title: "Long Island City", County: "Queens", State: "NY" }, { Title: "Troy", County: "Rensselaer", State: "NY" }, { Title: "Staten Island", County: "Richmond", State: "NY" }, { Title: "Bohemia", County: "Suffolk", State: "NY" }, { Title: "Coram", County: "Suffolk", State: "NY" }, { Title: "Deer Park", County: "Suffolk", State: "NY" }, { Title: "Middle Island", County: "Suffolk", State: "NY" }, { Title: "Ronkonkoma", County: "Suffolk", State: "NY" }, { Title: "Katonah", County: "Westchester", State: "NY" }, { Title: "Mount Vernon", County: "Westchester", State: "NY" }, { Title: "Pelham", County: "Westchester", State: "NY" }, { Title: "Yonkers", County: "Westchester", State: "NY" }, { Title: "Ashland", County: "Ashland", State: "OH" }, { Title: "Hamilton", County: "Butler", State: "OH" }, { Title: "Bucyrus", County: "Crawford", State: "OH" }, { Title: "Beachwood", County: "Cuyahoga", State: "OH" }, { Title: "Brook Park", County: "Cuyahoga", State: "OH" }, { Title: "Cleveland", County: "Cuyahoga", State: "OH" }, { Title: "Strongsville", County: "Cuyahoga", State: "OH" }, { Title: "Columbus", County: "Franklin", State: "OH" }, { Title: "Chagrin Falls", County: "Geauga", State: "OH" }, { Title: "Cincinnati", County: "Hamilton", State: "OH" }, { Title: "Findlay", County: "Hancock", State: "OH" }, { Title: "Toledo", County: "Lucas", State: "OH" }, { Title: "London", County: "Madison", State: "OH" }, { Title: "Canton", County: "Stark", State: "OH" }, { Title: "Akron", County: "Summit", State: "OH" }, { Title: "Barberton", County: "Summit", State: "OH" }, { Title: "Bowling Green", County: "Wood", State: "OH" }, { Title: "Perrysburg", County: "Wood", State: "OH" }, { Title: "Tulsa", County: "Tulsa", State: "OK" }, { Title: "Prineville", County: "Crook", State: "OR" }, { Title: "Eugene", County: "Lane", State: "OR" }, { Title: "Salem", County: "Marion", State: "OR" }, { Title: "Portland", County: "Multnomah", State: "OR" }, { Title: "Beaverton", County: "Washington", State: "OR" }, { Title: "Portland", County: "Washington", State: "OR" }, { Title: "Richboro", County: "Bucks", State: "PA" }, { Title: "Southampton", County: "Bucks", State: "PA" }, { Title: "Coatesville", County: "Chester", State: "PA" }, { Title: "Harrisburg", County: "Dauphin", State: "PA" }, { Title: "Aston", County: "Delaware", State: "PA" }, { Title: "Wayne", County: "Delaware", State: "PA" }, { Title: "Erie", County: "Erie", State: "PA" }, { Title: "Clarks Summit", County: "Lackawanna", State: "PA" }, { Title: "Old Forge", County: "Lackawanna", State: "PA" }, { Title: "Scranton", County: "Lackawanna", State: "PA" }, { Title: "Denver", County: "Lancaster", State: "PA" }, { Title: "Lancaster", County: "Lancaster", State: "PA" }, { Title: "Hazleton", County: "Luzerne", State: "PA" }, { Title: "Hatfield", County: "Montgomery", State: "PA" }, { Title: "Huntingdon Valley", County: "Montgomery", State: "PA" }, { Title: "Jenkintown", County: "Montgomery", State: "PA" }, { Title: "King of Prussia", County: "Montgomery", State: "PA" }, { Title: "Kulpsville", County: "Montgomery", State: "PA" }, { Title: "Philadelphia", County: "Philadelphia", State: "PA" }, { Title: "York", County: "York", State: "PA" }, { Title: "Johnston", County: "Providence", State: "RI" }, { Title: "Providence", County: "Providence", State: "RI" }, { Title: "Columbia", County: "Richland", State: "SC" }, { Title: "Spartanburg", County: "Spartanburg", State: "SC" }, { Title: "Sioux Falls", County: "Minnehaha", State: "SD" }, { Title: "Moss", County: "Clay", State: "TN" }, { Title: "Tullahoma", County: "Coffee", State: "TN" }, { Title: "Nashville", County: "Davidson", State: "TN" }, { Title: "Memphis", County: "Shelby", State: "TN" }, { Title: "Mc Minnville", County: "Warren", State: "TN" }, { Title: "San Antonio", County: "Bexar", State: "TX" }, { Title: "College Station", County: "Brazos", State: "TX" }, { Title: "Plano", County: "Collin", State: "TX" }, { Title: "Dallas", County: "Dallas", State: "TX" }, { Title: "Irving", County: "Dallas", State: "TX" }, { Title: "Mesquite", County: "Dallas", State: "TX" }, { Title: "El Paso", County: "El Paso", State: "TX" }, { Title: "Kerrville", County: "Kerr", State: "TX" }, { Title: "Waco", County: "McLennan", State: "TX" }, { Title: "Conroe", County: "Montgomery", State: "TX" }, { Title: "Amarillo", County: "Randall", State: "TX" }, { Title: "Arlington", County: "Tarrant", State: "TX" }, { Title: "Euless", County: "Tarrant", State: "TX" }, { Title: "Fort Worth", County: "Tarrant", State: "TX" }, { Title: "Kennedale", County: "Tarrant", State: "TX" }, { Title: "Abilene", County: "Taylor", State: "TX" }, { Title: "Austin", County: "Travis", State: "TX" }, { Title: "Laredo", County: "Webb", State: "TX" }, { Title: "Wichita Falls", County: "Wichita", State: "TX" }, { Title: "Round Rock", County: "Williamson", State: "TX" }, { Title: "Salt Lake City", County: "Salt Lake", State: "UT" }, { Title: "Annandale", County: "Fairfax", State: "VA" }, { Title: "McLean", County: "Fairfax", State: "VA" }, { Title: "Fairfax", County: "Fairfax City", State: "VA" }, { Title: "Newport News", County: "Newport News City", State: "VA" }, { Title: "Richmond", County: "Richmond City", State: "VA" }, { Title: "Richland", County: "Benton", State: "WA" }, { Title: "Kent", County: "King", State: "WA" }, { Title: "Seattle", County: "King", State: "WA" }, { Title: "Vashon", County: "King", State: "WA" }, { Title: "Tacoma", County: "Pierce", State: "WA" }, { Title: "Bothell", County: "Snohomish", State: "WA" }, { Title: "Green Bay", County: "Brown", State: "WI" }, { Title: "Madison", County: "Dane", State: "WI" }, { Title: "Milwaukee", County: "Milwaukee", State: "WI" }, { Title: "Stevens Point", County: "Portage", State: "WI" }, { Title: "Beloit", County: "Rock", State: "WI" }, { Title: "Riverton", County: "Fremont", State: "WY" }, { Title: "Cheyenne", County: "Laramie", State: "WY" }, { Title: "Rock Springs", County: "Sweetwater", State: "WY" }];
-
-/***/ }),
-/* 101 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
 /**
@@ -10807,7 +10721,7 @@ module.exports = EventListener;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 102 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10839,7 +10753,7 @@ function focusNode(node) {
 module.exports = focusNode;
 
 /***/ }),
-/* 103 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10879,6 +10793,20 @@ function getActiveElement() /*?DOMElement*/{
 module.exports = getActiveElement;
 
 /***/ }),
+/* 103 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(322));
+
+//# sourceMappingURL=Calendar.js.map
+
+
+/***/ }),
 /* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10887,9 +10815,9 @@ module.exports = getActiveElement;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(333));
+__export(__webpack_require__(368));
 
-//# sourceMappingURL=Calendar.js.map
+//# sourceMappingURL=Fabric.js.map
 
 
 /***/ }),
@@ -10901,9 +10829,9 @@ __export(__webpack_require__(333));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(379));
+__export(__webpack_require__(382));
 
-//# sourceMappingURL=Fabric.js.map
+//# sourceMappingURL=GroupedList.js.map
 
 
 /***/ }),
@@ -10915,9 +10843,9 @@ __export(__webpack_require__(379));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(393));
+__export(__webpack_require__(412));
 
-//# sourceMappingURL=GroupedList.js.map
+//# sourceMappingURL=Panel.js.map
 
 
 /***/ }),
@@ -10929,27 +10857,13 @@ __export(__webpack_require__(393));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(423));
-
-//# sourceMappingURL=Panel.js.map
-
-
-/***/ }),
-/* 108 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(__webpack_require__(135));
+__export(__webpack_require__(134));
 
 //# sourceMappingURL=Popup.js.map
 
 
 /***/ }),
-/* 109 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10976,7 +10890,7 @@ var ButtonType;
 
 
 /***/ }),
-/* 110 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10987,7 +10901,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var BaseButton_1 = __webpack_require__(32);
-var CommandButton_scss_1 = __webpack_require__(324);
+var CommandButton_scss_1 = __webpack_require__(313);
 var CommandButton = (function (_super) {
     __extends(CommandButton, _super);
     function CommandButton() {
@@ -11013,7 +10927,7 @@ exports.CommandButton = CommandButton;
 
 
 /***/ }),
-/* 111 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11024,7 +10938,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var BaseButton_1 = __webpack_require__(32);
-var CompoundButton_scss_1 = __webpack_require__(325);
+var CompoundButton_scss_1 = __webpack_require__(314);
 var CompoundButton = (function (_super) {
     __extends(CompoundButton, _super);
     function CompoundButton() {
@@ -11050,7 +10964,7 @@ exports.CompoundButton = CompoundButton;
 
 
 /***/ }),
-/* 112 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11061,7 +10975,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var BaseButton_1 = __webpack_require__(32);
-var DefaultButton_scss_1 = __webpack_require__(326);
+var DefaultButton_scss_1 = __webpack_require__(315);
 var DefaultButton = (function (_super) {
     __extends(DefaultButton, _super);
     function DefaultButton() {
@@ -11086,7 +11000,7 @@ exports.DefaultButton = DefaultButton;
 
 
 /***/ }),
-/* 113 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11097,7 +11011,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var BaseButton_1 = __webpack_require__(32);
-var IconButton_scss_1 = __webpack_require__(327);
+var IconButton_scss_1 = __webpack_require__(316);
 var IconButton = (function (_super) {
     __extends(IconButton, _super);
     function IconButton() {
@@ -11122,7 +11036,7 @@ exports.IconButton = IconButton;
 
 
 /***/ }),
-/* 114 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11133,7 +11047,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var BaseButton_1 = __webpack_require__(32);
-var PrimaryButton_scss_1 = __webpack_require__(328);
+var PrimaryButton_scss_1 = __webpack_require__(317);
 var PrimaryButton = (function (_super) {
     __extends(PrimaryButton, _super);
     function PrimaryButton() {
@@ -11158,13 +11072,13 @@ exports.PrimaryButton = PrimaryButton;
 
 
 /***/ }),
-/* 115 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Utilities_1 = __webpack_require__(1);
-var colorValues_1 = __webpack_require__(350);
+var colorValues_1 = __webpack_require__(339);
 exports.MAX_COLOR_SATURATION = 100;
 exports.MAX_COLOR_HUE = 359;
 exports.MAX_COLOR_VALUE = 100;
@@ -11419,7 +11333,7 @@ function _hsla(str) {
 
 
 /***/ }),
-/* 116 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11437,7 +11351,7 @@ var ContextualMenuItemType;
 
 
 /***/ }),
-/* 117 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11458,9 +11372,9 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var DetailsList_Props_1 = __webpack_require__(48);
-var DetailsRowCheck_1 = __webpack_require__(118);
+var DetailsRowCheck_1 = __webpack_require__(117);
 var GroupSpacer_1 = __webpack_require__(49);
-var DetailsRowFields_1 = __webpack_require__(365);
+var DetailsRowFields_1 = __webpack_require__(354);
 var FocusZone_1 = __webpack_require__(11);
 var interfaces_1 = __webpack_require__(34);
 var DetailsRow_scss_1 = __webpack_require__(69);
@@ -11657,7 +11571,7 @@ exports.DetailsRow = DetailsRow;
 
 
 /***/ }),
-/* 118 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11679,7 +11593,7 @@ exports.DetailsRowCheck = function (props) {
 
 
 /***/ }),
-/* 119 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11698,7 +11612,7 @@ var DialogType;
 
 
 /***/ }),
-/* 120 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11732,7 +11646,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_5cddfd97{font-family:\"Se
 
 
 /***/ }),
-/* 121 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11744,7 +11658,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-var Dialog_scss_1 = __webpack_require__(120);
+var Dialog_scss_1 = __webpack_require__(119);
 var DialogFooter = (function (_super) {
     __extends(DialogFooter, _super);
     function DialogFooter() {
@@ -11767,7 +11681,7 @@ exports.DialogFooter = DialogFooter;
 
 
 /***/ }),
-/* 122 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11775,15 +11689,15 @@ exports.DialogFooter = DialogFooter;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(367));
-__export(__webpack_require__(121));
-__export(__webpack_require__(119));
+__export(__webpack_require__(356));
+__export(__webpack_require__(120));
+__export(__webpack_require__(118));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 123 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11804,7 +11718,7 @@ var DocumentCardType;
 
 
 /***/ }),
-/* 124 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11825,7 +11739,7 @@ var OverflowButtonType;
 
 
 /***/ }),
-/* 125 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11844,7 +11758,7 @@ var FocusZoneDirection;
 
 
 /***/ }),
-/* 126 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11865,7 +11779,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_3ecf4e4e{position:relativ
 
 
 /***/ }),
-/* 127 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11881,7 +11795,7 @@ var IconType;
 
 
 /***/ }),
-/* 128 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11939,7 +11853,7 @@ var ImageLoadState;
 
 
 /***/ }),
-/* 129 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11967,8 +11881,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var React = __webpack_require__(0);
 /* tslint:enable:no-unused-variable */
 var Utilities_1 = __webpack_require__(1);
-var Image_Props_1 = __webpack_require__(128);
-var Image_scss_1 = __webpack_require__(397);
+var Image_Props_1 = __webpack_require__(127);
+var Image_scss_1 = __webpack_require__(386);
 var CoverStyle;
 (function (CoverStyle) {
     CoverStyle[CoverStyle["landscape"] = 0] = "landscape";
@@ -12120,7 +12034,7 @@ var _a, _b;
 
 
 /***/ }),
-/* 130 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12150,7 +12064,7 @@ var MessageBarType;
 
 
 /***/ }),
-/* 131 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12230,7 +12144,7 @@ var PanelType;
 
 
 /***/ }),
-/* 132 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12293,13 +12207,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_4acd59ea{font-family:\"Se
 
 
 /***/ }),
-/* 133 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Persona_Props_1 = __webpack_require__(72);
-var Persona_scss_1 = __webpack_require__(132);
+var Persona_scss_1 = __webpack_require__(131);
 exports.PERSONA_SIZE = (_a = {},
     _a[Persona_Props_1.PersonaSize.tiny] = 'ms-Persona--tiny ' + Persona_scss_1.default.rootIsTiny,
     _a[Persona_Props_1.PersonaSize.extraExtraSmall] = 'ms-Persona--xxs ' + Persona_scss_1.default.rootIsExtraExtraSmall,
@@ -12340,7 +12254,7 @@ var _a, _b, _c;
 
 
 /***/ }),
-/* 134 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12367,7 +12281,7 @@ exports.PivotItem = PivotItem;
 
 
 /***/ }),
-/* 135 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12375,13 +12289,13 @@ exports.PivotItem = PivotItem;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(429));
+__export(__webpack_require__(418));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 136 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12396,7 +12310,7 @@ var RatingSize;
 
 
 /***/ }),
-/* 137 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12422,7 +12336,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_91a6052a{font-family:\"Se
 
 
 /***/ }),
-/* 138 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12466,7 +12380,7 @@ var SpinnerType;
 
 
 /***/ }),
-/* 139 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12495,7 +12409,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_9ded063e{display:block;ma
 
 
 /***/ }),
-/* 140 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12519,7 +12433,7 @@ var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var Button_1 = __webpack_require__(13);
 var Image_1 = __webpack_require__(30);
-var TeachingBubble_scss_1 = __webpack_require__(139);
+var TeachingBubble_scss_1 = __webpack_require__(138);
 var TeachingBubbleContent = (function (_super) {
     __extends(TeachingBubbleContent, _super);
     // Constructor
@@ -12583,7 +12497,7 @@ exports.TeachingBubbleContent = TeachingBubbleContent;
 
 
 /***/ }),
-/* 141 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12608,7 +12522,7 @@ var Utilities_1 = __webpack_require__(1);
 var Tooltip_Props_1 = __webpack_require__(74);
 var Callout_1 = __webpack_require__(23);
 var DirectionalHint_1 = __webpack_require__(15);
-var Tooltip_scss_1 = __webpack_require__(142);
+var Tooltip_scss_1 = __webpack_require__(141);
 var Tooltip = (function (_super) {
     __extends(Tooltip, _super);
     function Tooltip() {
@@ -12643,7 +12557,7 @@ exports.Tooltip = Tooltip;
 
 
 /***/ }),
-/* 142 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12665,7 +12579,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_d59fb501{max-width:364px;
 
 
 /***/ }),
-/* 143 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12867,7 +12781,7 @@ exports.BaseAutoFill = BaseAutoFill;
 
 
 /***/ }),
-/* 144 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12889,7 +12803,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".resultContent_c4702a35{display
 
 
 /***/ }),
-/* 145 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12913,7 +12827,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".personaContainer_ad0f63e4{disp
 
 
 /***/ }),
-/* 146 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12935,7 +12849,7 @@ var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var Button_1 = __webpack_require__(13);
 var Spinner_1 = __webpack_require__(64);
-var Suggestions_scss_1 = __webpack_require__(459);
+var Suggestions_scss_1 = __webpack_require__(448);
 var SuggestionsItem = (function (_super) {
     __extends(SuggestionsItem, _super);
     function SuggestionsItem() {
@@ -13012,7 +12926,7 @@ exports.Suggestions = Suggestions;
 
 
 /***/ }),
-/* 147 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13108,7 +13022,7 @@ exports.SuggestionsController = SuggestionsController;
 
 
 /***/ }),
-/* 148 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13117,7 +13031,7 @@ exports.SuggestionsController = SuggestionsController;
 var React = __webpack_require__(0);
 /* tslint:enable */
 var Utilities_1 = __webpack_require__(1);
-var TagItem_scss_1 = __webpack_require__(460);
+var TagItem_scss_1 = __webpack_require__(449);
 exports.TagItem = function (props) { return (React.createElement("div", { className: Utilities_1.css('ms-TagItem', TagItem_scss_1.default.root, { 'is-selected': props.selected }, props.selected && TagItem_scss_1.default.isSelected), key: props.index, "data-selection-index": props.index, "data-is-focusable": true },
     React.createElement("span", { className: Utilities_1.css('ms-TagItem-text', TagItem_scss_1.default.tagItemText) }, props.children),
     React.createElement("span", { className: Utilities_1.css('ms-TagItem-close', TagItem_scss_1.default.tagItemClose), onClick: props.onRemoveItem },
@@ -13127,7 +13041,7 @@ exports.TagItem = function (props) { return (React.createElement("div", { classN
 
 
 /***/ }),
-/* 149 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13224,7 +13138,7 @@ exports.compareDates = compareDates;
 
 
 /***/ }),
-/* 150 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13265,7 +13179,7 @@ exports.BaseDecorator = BaseDecorator;
 
 
 /***/ }),
-/* 151 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13284,7 +13198,7 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 var React = __webpack_require__(0);
-var BaseDecorator_1 = __webpack_require__(150);
+var BaseDecorator_1 = __webpack_require__(149);
 var Utilities_1 = __webpack_require__(1);
 var ResponsiveMode;
 (function (ResponsiveMode) {
@@ -13368,7 +13282,7 @@ exports.withResponsiveMode = withResponsiveMode;
 
 
 /***/ }),
-/* 152 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13398,7 +13312,7 @@ exports.SelectionLayout = SelectionLayout;
 
 
 /***/ }),
-/* 153 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13551,7 +13465,7 @@ var CSSProperty = {
 module.exports = CSSProperty;
 
 /***/ }),
-/* 154 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13676,7 +13590,7 @@ module.exports = PooledClass.addPoolingTo(CallbackQueue);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 155 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13696,7 +13610,7 @@ var DOMProperty = __webpack_require__(22);
 var ReactDOMComponentTree = __webpack_require__(9);
 var ReactInstrumentation = __webpack_require__(16);
 
-var quoteAttributeValueForBrowser = __webpack_require__(537);
+var quoteAttributeValueForBrowser = __webpack_require__(526);
 var warning = __webpack_require__(6);
 
 var VALID_ATTRIBUTE_NAME_REGEX = new RegExp('^[' + DOMProperty.ATTRIBUTE_NAME_START_CHAR + '][' + DOMProperty.ATTRIBUTE_NAME_CHAR + ']*$');
@@ -13919,7 +13833,7 @@ module.exports = DOMPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 156 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13942,7 +13856,7 @@ var ReactDOMComponentFlags = {
 module.exports = ReactDOMComponentFlags;
 
 /***/ }),
-/* 157 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14148,7 +14062,7 @@ module.exports = ReactDOMSelect;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 158 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14183,7 +14097,7 @@ ReactEmptyComponent.injection = ReactEmptyComponentInjection;
 module.exports = ReactEmptyComponent;
 
 /***/ }),
-/* 159 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14210,7 +14124,7 @@ var ReactFeatureFlags = {
 module.exports = ReactFeatureFlags;
 
 /***/ }),
-/* 160 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14284,7 +14198,7 @@ module.exports = ReactHostComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 161 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14300,11 +14214,11 @@ module.exports = ReactHostComponent;
 
 
 
-var ReactDOMSelection = __webpack_require__(491);
+var ReactDOMSelection = __webpack_require__(480);
 
-var containsNode = __webpack_require__(208);
-var focusNode = __webpack_require__(102);
-var getActiveElement = __webpack_require__(103);
+var containsNode = __webpack_require__(197);
+var focusNode = __webpack_require__(101);
+var getActiveElement = __webpack_require__(102);
 
 function isInDocument(node) {
   return containsNode(document.documentElement, node);
@@ -14413,7 +14327,7 @@ var ReactInputSelection = {
 module.exports = ReactInputSelection;
 
 /***/ }),
-/* 162 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14437,18 +14351,18 @@ var React = __webpack_require__(37);
 var ReactBrowserEventEmitter = __webpack_require__(51);
 var ReactCurrentOwner = __webpack_require__(19);
 var ReactDOMComponentTree = __webpack_require__(9);
-var ReactDOMContainerInfo = __webpack_require__(483);
-var ReactDOMFeatureFlags = __webpack_require__(485);
-var ReactFeatureFlags = __webpack_require__(159);
+var ReactDOMContainerInfo = __webpack_require__(472);
+var ReactDOMFeatureFlags = __webpack_require__(474);
+var ReactFeatureFlags = __webpack_require__(158);
 var ReactInstanceMap = __webpack_require__(42);
 var ReactInstrumentation = __webpack_require__(16);
-var ReactMarkupChecksum = __webpack_require__(505);
+var ReactMarkupChecksum = __webpack_require__(494);
 var ReactReconciler = __webpack_require__(36);
 var ReactUpdateQueue = __webpack_require__(83);
 var ReactUpdates = __webpack_require__(18);
 
 var emptyObject = __webpack_require__(38);
-var instantiateReactComponent = __webpack_require__(170);
+var instantiateReactComponent = __webpack_require__(169);
 var invariant = __webpack_require__(5);
 var setInnerHTML = __webpack_require__(55);
 var shouldUpdateReactComponent = __webpack_require__(89);
@@ -14957,7 +14871,7 @@ module.exports = ReactMount;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 163 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15003,7 +14917,7 @@ module.exports = ReactNodeTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 164 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15025,7 +14939,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
 /***/ }),
-/* 165 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15057,7 +14971,7 @@ var ViewportMetrics = {
 module.exports = ViewportMetrics;
 
 /***/ }),
-/* 166 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15121,7 +15035,7 @@ module.exports = accumulateInto;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 167 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15157,7 +15071,7 @@ function forEachAccumulated(arr, cb, scope) {
 module.exports = forEachAccumulated;
 
 /***/ }),
-/* 168 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15173,7 +15087,7 @@ module.exports = forEachAccumulated;
 
 
 
-var ReactNodeTypes = __webpack_require__(163);
+var ReactNodeTypes = __webpack_require__(162);
 
 function getHostComponentFromComposite(inst) {
   var type;
@@ -15192,7 +15106,7 @@ function getHostComponentFromComposite(inst) {
 module.exports = getHostComponentFromComposite;
 
 /***/ }),
-/* 169 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15230,7 +15144,7 @@ function getTextContentAccessor() {
 module.exports = getTextContentAccessor;
 
 /***/ }),
-/* 170 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15249,11 +15163,11 @@ module.exports = getTextContentAccessor;
 var _prodInvariant = __webpack_require__(7),
     _assign = __webpack_require__(8);
 
-var ReactCompositeComponent = __webpack_require__(480);
-var ReactEmptyComponent = __webpack_require__(158);
-var ReactHostComponent = __webpack_require__(160);
+var ReactCompositeComponent = __webpack_require__(469);
+var ReactEmptyComponent = __webpack_require__(157);
+var ReactHostComponent = __webpack_require__(159);
 
-var getNextDebugID = __webpack_require__(534);
+var getNextDebugID = __webpack_require__(523);
 var invariant = __webpack_require__(5);
 var warning = __webpack_require__(6);
 
@@ -15364,7 +15278,7 @@ module.exports = instantiateReactComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 171 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15420,7 +15334,7 @@ function isTextInputElement(elem) {
 module.exports = isTextInputElement;
 
 /***/ }),
-/* 172 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15477,7 +15391,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = setTextContent;
 
 /***/ }),
-/* 173 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15496,9 +15410,9 @@ module.exports = setTextContent;
 var _prodInvariant = __webpack_require__(7);
 
 var ReactCurrentOwner = __webpack_require__(19);
-var REACT_ELEMENT_TYPE = __webpack_require__(499);
+var REACT_ELEMENT_TYPE = __webpack_require__(488);
 
-var getIteratorFn = __webpack_require__(533);
+var getIteratorFn = __webpack_require__(522);
 var invariant = __webpack_require__(5);
 var KeyEscapeUtils = __webpack_require__(79);
 var warning = __webpack_require__(6);
@@ -15659,7 +15573,7 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 174 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15684,7 +15598,7 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-/* 175 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15711,7 +15625,7 @@ var ReactCurrentOwner = __webpack_require__(19);
 var ReactComponentTreeHook = __webpack_require__(14);
 var ReactElement = __webpack_require__(26);
 
-var checkReactTypeSpec = __webpack_require__(547);
+var checkReactTypeSpec = __webpack_require__(536);
 
 var canDefineProperty = __webpack_require__(94);
 var getIteratorFn = __webpack_require__(95);
@@ -15924,7 +15838,7 @@ module.exports = ReactElementValidator;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 176 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15944,6 +15858,450 @@ module.exports = ReactElementValidator;
 var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
+
+/***/ }),
+/* 176 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var es6_promise_1 = __webpack_require__(58);
+var gd_sprest_1 = __webpack_require__(60);
+/**
+ * Data Source
+ */
+var Data = (function () {
+    function Data() {
+    }
+    Object.defineProperty(Data, "IsSPOnline", {
+        /**
+         * Properties
+         */
+        get: function () { return gd_sprest_1.ContextInfo.existsFl; },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Public Methods
+     */
+    // Method to add an item to the list
+    Data.addItem = function (item) {
+        var _this = this;
+        return new es6_promise_1.Promise(function (resolve, reject) {
+            // Ensure we are online
+            if (!_this.IsSPOnline) {
+                // Resolve the promise
+                resolve();
+                return;
+            }
+            // Get the list
+            (new gd_sprest_1.List("Locations"))
+                .Items()
+                .add(item)
+                .execute(function (item) {
+                // Resolve the promise
+                resolve(item);
+            });
+        });
+    };
+    // Method to get the data
+    Data.get = function () {
+        var _this = this;
+        // Return a promise
+        return new es6_promise_1.Promise(function (resolve, reject) {
+            // See if the $REST library exists
+            if (_this.IsSPOnline) {
+                // Get the list
+                (new gd_sprest_1.List("Locations"))
+                    .Items()
+                    .query({
+                    GetAllItems: true,
+                    OrderBy: ["State", "County", "Title"],
+                    Top: 500
+                })
+                    .execute(function (items) {
+                    var data = [];
+                    // Parse the items
+                    for (var _i = 0, _a = items.results; _i < _a.length; _i++) {
+                        var item = _a[_i];
+                        // Add the item to the data array
+                        data.push({
+                            Title: item["Title"],
+                            County: item["County"],
+                            State: item["State"]
+                        });
+                    }
+                    // Resolve the request
+                    resolve(data);
+                });
+            }
+            else {
+                // Resolve the request with test data
+                resolve(TestData);
+            }
+        });
+    };
+    return Data;
+}());
+exports.Data = Data;
+/**
+ * Test Data
+ */
+var TestData = [
+    { Title: "Anchorage", County: "Anchorage", State: "AK" },
+    { Title: "Fairbanks", County: "Fairbanks North Star", State: "AK" },
+    { Title: "Little Rock", County: "Pulaski", State: "AR" },
+    { Title: "Mesa", County: "Maricopa", State: "AZ" },
+    { Title: "Peoria", County: "Maricopa", State: "AZ" },
+    { Title: "Phoenix", County: "Maricopa", State: "AZ" },
+    { Title: "Scottsdale", County: "Maricopa", State: "AZ" },
+    { Title: "Berkeley", County: "Alameda", State: "CA" },
+    { Title: "Hayward", County: "Alameda", State: "CA" },
+    { Title: "Oakland", County: "Alameda", State: "CA" },
+    { Title: "San Leandro", County: "Alameda", State: "CA" },
+    { Title: "Oroville", County: "Butte", State: "CA" },
+    { Title: "Concord", County: "Contra Costa", State: "CA" },
+    { Title: "Oakley", County: "Contra Costa", State: "CA" },
+    { Title: "San Ramon", County: "Contra Costa", State: "CA" },
+    { Title: "Bellflower", County: "Los Angeles", State: "CA" },
+    { Title: "Beverly Hills", County: "Los Angeles", State: "CA" },
+    { Title: "El Monte", County: "Los Angeles", State: "CA" },
+    { Title: "Gardena", County: "Los Angeles", State: "CA" },
+    { Title: "Los Angeles", County: "Los Angeles", State: "CA" },
+    { Title: "Northridge", County: "Los Angeles", State: "CA" },
+    { Title: "Pasadena", County: "Los Angeles", State: "CA" },
+    { Title: "Pomona", County: "Los Angeles", State: "CA" },
+    { Title: "San Gabriel", County: "Los Angeles", State: "CA" },
+    { Title: "Van Nuys", County: "Los Angeles", State: "CA" },
+    { Title: "Novato", County: "Marin", State: "CA" },
+    { Title: "Anaheim", County: "Orange", State: "CA" },
+    { Title: "Costa Mesa", County: "Orange", State: "CA" },
+    { Title: "Huntington Beach", County: "Orange", State: "CA" },
+    { Title: "Santa Ana", County: "Orange", State: "CA" },
+    { Title: "Roseville", County: "Placer", State: "CA" },
+    { Title: "Cathedral City", County: "Riverside", State: "CA" },
+    { Title: "Riverside", County: "Riverside", State: "CA" },
+    { Title: "Thousand Palms", County: "Riverside", State: "CA" },
+    { Title: "Sacramento", County: "Sacramento", State: "CA" },
+    { Title: "Ontario", County: "San Bernardino", State: "CA" },
+    { Title: "San Bernardino", County: "San Bernardino", State: "CA" },
+    { Title: "El Cajon", County: "San Diego", State: "CA" },
+    { Title: "Escondido", County: "San Diego", State: "CA" },
+    { Title: "La Mesa", County: "San Diego", State: "CA" },
+    { Title: "San Diego", County: "San Diego", State: "CA" },
+    { Title: "San Francisco", County: "San Francisco", State: "CA" },
+    { Title: "Stockton", County: "San Joaquin", State: "CA" },
+    { Title: "Burlingame", County: "San Mateo", State: "CA" },
+    { Title: "Pacifica", County: "San Mateo", State: "CA" },
+    { Title: "San Carlos", County: "San Mateo", State: "CA" },
+    { Title: "San Mateo", County: "San Mateo", State: "CA" },
+    { Title: "South San Francisco", County: "San Mateo", State: "CA" },
+    { Title: "San Jose", County: "Santa Clara", State: "CA" },
+    { Title: "Santa Clara", County: "Santa Clara", State: "CA" },
+    { Title: "Saratoga", County: "Santa Clara", State: "CA" },
+    { Title: "Rohnert Park", County: "Sonoma", State: "CA" },
+    { Title: "Santa Rosa", County: "Sonoma", State: "CA" },
+    { Title: "Camarillo", County: "Ventura", State: "CA" },
+    { Title: "Thousand Oaks", County: "Ventura", State: "CA" },
+    { Title: "Englewood", County: "Arapahoe", State: "CO" },
+    { Title: "Boulder", County: "Boulder", State: "CO" },
+    { Title: "Denver", County: "Denver", State: "CO" },
+    { Title: "Littleton", County: "Douglas", State: "CO" },
+    { Title: "Colorado Springs", County: "El Paso", State: "CO" },
+    { Title: "Bridgeport", County: "Fairfield", State: "CT" },
+    { Title: "Norwalk", County: "Fairfield", State: "CT" },
+    { Title: "New Haven", County: "New Haven", State: "CT" },
+    { Title: "North Haven", County: "New Haven", State: "CT" },
+    { Title: "Washington", County: "District of Columbia", State: "DC" },
+    { Title: "Cocoa", County: "Brevard", State: "FL" },
+    { Title: "Satellite Beach", County: "Brevard", State: "FL" },
+    { Title: "Crystal River", County: "Citrus", State: "FL" },
+    { Title: "Homosassa", County: "Citrus", State: "FL" },
+    { Title: "Jacksonville", County: "Duval", State: "FL" },
+    { Title: "Brandon", County: "Hillsborough", State: "FL" },
+    { Title: "Tampa", County: "Hillsborough", State: "FL" },
+    { Title: "Hialeah", County: "Miami-Dade", State: "FL" },
+    { Title: "Homestead", County: "Miami-Dade", State: "FL" },
+    { Title: "Miami", County: "Miami-Dade", State: "FL" },
+    { Title: "Opa Locka", County: "Miami-Dade", State: "FL" },
+    { Title: "Crestview", County: "Okaloosa", State: "FL" },
+    { Title: "Orlando", County: "Orange", State: "FL" },
+    { Title: "Lake Worth", County: "Palm Beach", State: "FL" },
+    { Title: "Longwood", County: "Seminole", State: "FL" },
+    { Title: "Daytona Beach", County: "Volusia", State: "FL" },
+    { Title: "Oak Hill", County: "Volusia", State: "FL" },
+    { Title: "Trion", County: "Chattooga", State: "GA" },
+    { Title: "Atlanta", County: "Dekalb", State: "GA" },
+    { Title: "Albany", County: "Dougherty", State: "GA" },
+    { Title: "Douglasville", County: "Douglas", State: "GA" },
+    { Title: "Atlanta", County: "Fulton", State: "GA" },
+    { Title: "Hilo", County: "Hawaii", State: "HI" },
+    { Title: "Honolulu", County: "Honolulu", State: "HI" },
+    { Title: "Pearl City", County: "Honolulu", State: "HI" },
+    { Title: "Des Moines", County: "Polk", State: "IA" },
+    { Title: "Boise", County: "Ada", State: "ID" },
+    { Title: "Moscow", County: "Latah", State: "ID" },
+    { Title: "Arlington Heights", County: "Cook", State: "IL" },
+    { Title: "Chicago", County: "Cook", State: "IL" },
+    { Title: "Elk Grove Village", County: "Cook", State: "IL" },
+    { Title: "Evanston", County: "Cook", State: "IL" },
+    { Title: "Palatine", County: "Cook", State: "IL" },
+    { Title: "Rolling Meadows", County: "Cook", State: "IL" },
+    { Title: "Wheeling", County: "Cook", State: "IL" },
+    { Title: "Highland Park", County: "Lake", State: "IL" },
+    { Title: "Rockford", County: "Winnebago", State: "IL" },
+    { Title: "Fort Wayne", County: "Allen", State: "IN" },
+    { Title: "Elkhart", County: "Elkhart", State: "IN" },
+    { Title: "Fortville", County: "Hancock", State: "IN" },
+    { Title: "Indianapolis", County: "Marion", State: "IN" },
+    { Title: "Bloomington", County: "Monroe", State: "IN" },
+    { Title: "South Bend", County: "St Joseph", State: "IN" },
+    { Title: "Abilene", County: "Dickinson", State: "KS" },
+    { Title: "Hays", County: "Ellis", State: "KS" },
+    { Title: "Overland Park", County: "Johnson", State: "KS" },
+    { Title: "Shawnee", County: "Johnson", State: "KS" },
+    { Title: "Burlington", County: "Boone", State: "KY" },
+    { Title: "Metairie", County: "Jefferson", State: "LA" },
+    { Title: "Broussard", County: "Lafayette", State: "LA" },
+    { Title: "Lafayette", County: "Lafayette", State: "LA" },
+    { Title: "New Orleans", County: "Orleans", State: "LA" },
+    { Title: "Houma", County: "Terrebonne", State: "LA" },
+    { Title: "New Bedford", County: "Bristol", State: "MA" },
+    { Title: "North Attleboro", County: "Bristol", State: "MA" },
+    { Title: "Cambridge", County: "Middlesex", State: "MA" },
+    { Title: "Concord", County: "Middlesex", State: "MA" },
+    { Title: "Wilmington", County: "Middlesex", State: "MA" },
+    { Title: "Middleboro", County: "Plymouth", State: "MA" },
+    { Title: "Boston", County: "Suffolk", State: "MA" },
+    { Title: "Westborough", County: "Worcester", State: "MA" },
+    { Title: "Worcester", County: "Worcester", State: "MA" },
+    { Title: "Glen Burnie", County: "Anne Arundel", State: "MD" },
+    { Title: "Hanover", County: "Anne Arundel", State: "MD" },
+    { Title: "Owings Mills", County: "Baltimore", State: "MD" },
+    { Title: "Parkville", County: "Baltimore", State: "MD" },
+    { Title: "Baltimore", County: "Baltimore City", State: "MD" },
+    { Title: "Preston", County: "Caroline", State: "MD" },
+    { Title: "Hampstead", County: "Carroll", State: "MD" },
+    { Title: "Aberdeen", County: "Harford", State: "MD" },
+    { Title: "Bladensburg", County: "Prince Georges", State: "MD" },
+    { Title: "Clinton", County: "Prince Georges", State: "MD" },
+    { Title: "Hyattsville", County: "Prince Georges", State: "MD" },
+    { Title: "Easton", County: "Talbot", State: "MD" },
+    { Title: "Salisbury", County: "Wicomico", State: "MD" },
+    { Title: "Warren", County: "Knox", State: "ME" },
+    { Title: "Bangor", County: "Penobscot", State: "ME" },
+    { Title: "Niles", County: "Berrien", State: "MI" },
+    { Title: "East Lansing", County: "Ingham", State: "MI" },
+    { Title: "Lansing", County: "Ingham", State: "MI" },
+    { Title: "Grand Rapids", County: "Kent", State: "MI" },
+    { Title: "Brighton", County: "Livingston", State: "MI" },
+    { Title: "Sterling Heights", County: "Macomb", State: "MI" },
+    { Title: "Milan", County: "Monroe", State: "MI" },
+    { Title: "Muskegon", County: "Muskegon", State: "MI" },
+    { Title: "Rochester", County: "Oakland", State: "MI" },
+    { Title: "Southfield", County: "Oakland", State: "MI" },
+    { Title: "Waterford", County: "Oakland", State: "MI" },
+    { Title: "Ann Arbor", County: "Washtenaw", State: "MI" },
+    { Title: "Dearborn", County: "Wayne", State: "MI" },
+    { Title: "Taylor", County: "Wayne", State: "MI" },
+    { Title: "Burnsville", County: "Dakota", State: "MN" },
+    { Title: "Hopkins", County: "Hennepin", State: "MN" },
+    { Title: "Minneapolis", County: "Hennepin", State: "MN" },
+    { Title: "Saint Paul", County: "Ramsey", State: "MN" },
+    { Title: "Northfield", County: "Rice", State: "MN" },
+    { Title: "Shakopee", County: "Scott", State: "MN" },
+    { Title: "Saint Joseph", County: "Buchanan", State: "MO" },
+    { Title: "Valley Park", County: "Saint Louis", State: "MO" },
+    { Title: "Saint Louis", County: "Saint Louis City", State: "MO" },
+    { Title: "Biloxi", County: "Harrison", State: "MS" },
+    { Title: "Jackson", County: "Hinds", State: "MS" },
+    { Title: "Meridian", County: "Lauderdale", State: "MS" },
+    { Title: "Pearl", County: "Rankin", State: "MS" },
+    { Title: "Butte", County: "Silver Bow", State: "MT" },
+    { Title: "Burlington", County: "Alamance", State: "NC" },
+    { Title: "Fayetteville", County: "Cumberland", State: "NC" },
+    { Title: "Greensboro", County: "Guilford", State: "NC" },
+    { Title: "High Point", County: "Guilford", State: "NC" },
+    { Title: "Smithfield", County: "Johnston", State: "NC" },
+    { Title: "Chapel Hill", County: "Orange", State: "NC" },
+    { Title: "Raleigh", County: "Wake", State: "NC" },
+    { Title: "Fargo", County: "Cass", State: "ND" },
+    { Title: "Alliance", County: "Box Butte", State: "NE" },
+    { Title: "Omaha", County: "Douglas", State: "NE" },
+    { Title: "Plaistow", County: "Rockingham", State: "NH" },
+    { Title: "Absecon", County: "Atlantic", State: "NJ" },
+    { Title: "Atlantic City", County: "Atlantic", State: "NJ" },
+    { Title: "Margate City", County: "Atlantic", State: "NJ" },
+    { Title: "Englewood", County: "Bergen", State: "NJ" },
+    { Title: "Hackensack", County: "Bergen", State: "NJ" },
+    { Title: "Lyndhurst", County: "Bergen", State: "NJ" },
+    { Title: "Paramus", County: "Bergen", State: "NJ" },
+    { Title: "Ramsey", County: "Bergen", State: "NJ" },
+    { Title: "Ridgefield Park", County: "Bergen", State: "NJ" },
+    { Title: "Riverton", County: "Burlington", State: "NJ" },
+    { Title: "Cherry Hill", County: "Camden", State: "NJ" },
+    { Title: "Bloomfield", County: "Essex", State: "NJ" },
+    { Title: "Cedar Grove", County: "Essex", State: "NJ" },
+    { Title: "Fairfield", County: "Essex", State: "NJ" },
+    { Title: "Livingston", County: "Essex", State: "NJ" },
+    { Title: "Newark", County: "Essex", State: "NJ" },
+    { Title: "Nutley", County: "Essex", State: "NJ" },
+    { Title: "Orange", County: "Essex", State: "NJ" },
+    { Title: "Bridgeport", County: "Gloucester", State: "NJ" },
+    { Title: "Harrison", County: "Hudson", State: "NJ" },
+    { Title: "Jersey City", County: "Hudson", State: "NJ" },
+    { Title: "Kearny", County: "Hudson", State: "NJ" },
+    { Title: "Union City", County: "Hudson", State: "NJ" },
+    { Title: "Flemington", County: "Hunterdon", State: "NJ" },
+    { Title: "Pittstown", County: "Hunterdon", State: "NJ" },
+    { Title: "Trenton", County: "Mercer", State: "NJ" },
+    { Title: "Dunellen", County: "Middlesex", State: "NJ" },
+    { Title: "Middlesex", County: "Middlesex", State: "NJ" },
+    { Title: "Monroe Township", County: "Middlesex", State: "NJ" },
+    { Title: "Freehold", County: "Monmouth", State: "NJ" },
+    { Title: "Denville", County: "Morris", State: "NJ" },
+    { Title: "Randolph", County: "Morris", State: "NJ" },
+    { Title: "Rockaway", County: "Morris", State: "NJ" },
+    { Title: "Whippany", County: "Morris", State: "NJ" },
+    { Title: "Toms River", County: "Ocean", State: "NJ" },
+    { Title: "Clifton", County: "Passaic", State: "NJ" },
+    { Title: "Little Falls", County: "Passaic", State: "NJ" },
+    { Title: "Passaic", County: "Passaic", State: "NJ" },
+    { Title: "Paterson", County: "Passaic", State: "NJ" },
+    { Title: "Bridgewater", County: "Somerset", State: "NJ" },
+    { Title: "Somerset", County: "Somerset", State: "NJ" },
+    { Title: "Somerville", County: "Somerset", State: "NJ" },
+    { Title: "Plainfield", County: "Union", State: "NJ" },
+    { Title: "Clovis", County: "Curry", State: "NM" },
+    { Title: "Las Cruces", County: "Dona Ana", State: "NM" },
+    { Title: "Carson City", County: "Carson City", State: "NV" },
+    { Title: "Reno", County: "Washoe", State: "NV" },
+    { Title: "Albany", County: "Albany", State: "NY" },
+    { Title: "Wellsville", County: "Allegany", State: "NY" },
+    { Title: "Bronx", County: "Bronx", State: "NY" },
+    { Title: "Vestal", County: "Broome", State: "NY" },
+    { Title: "Buffalo", County: "Erie", State: "NY" },
+    { Title: "Brooklyn", County: "Kings", State: "NY" },
+    { Title: "Garden City", County: "Nassau", State: "NY" },
+    { Title: "Hicksville", County: "Nassau", State: "NY" },
+    { Title: "Lynbrook", County: "Nassau", State: "NY" },
+    { Title: "Massapequa", County: "Nassau", State: "NY" },
+    { Title: "Syosset", County: "Nassau", State: "NY" },
+    { Title: "Westbury", County: "Nassau", State: "NY" },
+    { Title: "New York", County: "New York", State: "NY" },
+    { Title: "Utica", County: "Oneida", State: "NY" },
+    { Title: "Syracuse", County: "Onondaga", State: "NY" },
+    { Title: "Port Jervis", County: "Orange", State: "NY" },
+    { Title: "Astoria", County: "Queens", State: "NY" },
+    { Title: "Long Island City", County: "Queens", State: "NY" },
+    { Title: "Troy", County: "Rensselaer", State: "NY" },
+    { Title: "Staten Island", County: "Richmond", State: "NY" },
+    { Title: "Bohemia", County: "Suffolk", State: "NY" },
+    { Title: "Coram", County: "Suffolk", State: "NY" },
+    { Title: "Deer Park", County: "Suffolk", State: "NY" },
+    { Title: "Middle Island", County: "Suffolk", State: "NY" },
+    { Title: "Ronkonkoma", County: "Suffolk", State: "NY" },
+    { Title: "Katonah", County: "Westchester", State: "NY" },
+    { Title: "Mount Vernon", County: "Westchester", State: "NY" },
+    { Title: "Pelham", County: "Westchester", State: "NY" },
+    { Title: "Yonkers", County: "Westchester", State: "NY" },
+    { Title: "Ashland", County: "Ashland", State: "OH" },
+    { Title: "Hamilton", County: "Butler", State: "OH" },
+    { Title: "Bucyrus", County: "Crawford", State: "OH" },
+    { Title: "Beachwood", County: "Cuyahoga", State: "OH" },
+    { Title: "Brook Park", County: "Cuyahoga", State: "OH" },
+    { Title: "Cleveland", County: "Cuyahoga", State: "OH" },
+    { Title: "Strongsville", County: "Cuyahoga", State: "OH" },
+    { Title: "Columbus", County: "Franklin", State: "OH" },
+    { Title: "Chagrin Falls", County: "Geauga", State: "OH" },
+    { Title: "Cincinnati", County: "Hamilton", State: "OH" },
+    { Title: "Findlay", County: "Hancock", State: "OH" },
+    { Title: "Toledo", County: "Lucas", State: "OH" },
+    { Title: "London", County: "Madison", State: "OH" },
+    { Title: "Canton", County: "Stark", State: "OH" },
+    { Title: "Akron", County: "Summit", State: "OH" },
+    { Title: "Barberton", County: "Summit", State: "OH" },
+    { Title: "Bowling Green", County: "Wood", State: "OH" },
+    { Title: "Perrysburg", County: "Wood", State: "OH" },
+    { Title: "Tulsa", County: "Tulsa", State: "OK" },
+    { Title: "Prineville", County: "Crook", State: "OR" },
+    { Title: "Eugene", County: "Lane", State: "OR" },
+    { Title: "Salem", County: "Marion", State: "OR" },
+    { Title: "Portland", County: "Multnomah", State: "OR" },
+    { Title: "Beaverton", County: "Washington", State: "OR" },
+    { Title: "Portland", County: "Washington", State: "OR" },
+    { Title: "Richboro", County: "Bucks", State: "PA" },
+    { Title: "Southampton", County: "Bucks", State: "PA" },
+    { Title: "Coatesville", County: "Chester", State: "PA" },
+    { Title: "Harrisburg", County: "Dauphin", State: "PA" },
+    { Title: "Aston", County: "Delaware", State: "PA" },
+    { Title: "Wayne", County: "Delaware", State: "PA" },
+    { Title: "Erie", County: "Erie", State: "PA" },
+    { Title: "Clarks Summit", County: "Lackawanna", State: "PA" },
+    { Title: "Old Forge", County: "Lackawanna", State: "PA" },
+    { Title: "Scranton", County: "Lackawanna", State: "PA" },
+    { Title: "Denver", County: "Lancaster", State: "PA" },
+    { Title: "Lancaster", County: "Lancaster", State: "PA" },
+    { Title: "Hazleton", County: "Luzerne", State: "PA" },
+    { Title: "Hatfield", County: "Montgomery", State: "PA" },
+    { Title: "Huntingdon Valley", County: "Montgomery", State: "PA" },
+    { Title: "Jenkintown", County: "Montgomery", State: "PA" },
+    { Title: "King of Prussia", County: "Montgomery", State: "PA" },
+    { Title: "Kulpsville", County: "Montgomery", State: "PA" },
+    { Title: "Philadelphia", County: "Philadelphia", State: "PA" },
+    { Title: "York", County: "York", State: "PA" },
+    { Title: "Johnston", County: "Providence", State: "RI" },
+    { Title: "Providence", County: "Providence", State: "RI" },
+    { Title: "Columbia", County: "Richland", State: "SC" },
+    { Title: "Spartanburg", County: "Spartanburg", State: "SC" },
+    { Title: "Sioux Falls", County: "Minnehaha", State: "SD" },
+    { Title: "Moss", County: "Clay", State: "TN" },
+    { Title: "Tullahoma", County: "Coffee", State: "TN" },
+    { Title: "Nashville", County: "Davidson", State: "TN" },
+    { Title: "Memphis", County: "Shelby", State: "TN" },
+    { Title: "Mc Minnville", County: "Warren", State: "TN" },
+    { Title: "San Antonio", County: "Bexar", State: "TX" },
+    { Title: "College Station", County: "Brazos", State: "TX" },
+    { Title: "Plano", County: "Collin", State: "TX" },
+    { Title: "Dallas", County: "Dallas", State: "TX" },
+    { Title: "Irving", County: "Dallas", State: "TX" },
+    { Title: "Mesquite", County: "Dallas", State: "TX" },
+    { Title: "El Paso", County: "El Paso", State: "TX" },
+    { Title: "Kerrville", County: "Kerr", State: "TX" },
+    { Title: "Waco", County: "McLennan", State: "TX" },
+    { Title: "Conroe", County: "Montgomery", State: "TX" },
+    { Title: "Amarillo", County: "Randall", State: "TX" },
+    { Title: "Arlington", County: "Tarrant", State: "TX" },
+    { Title: "Euless", County: "Tarrant", State: "TX" },
+    { Title: "Fort Worth", County: "Tarrant", State: "TX" },
+    { Title: "Kennedale", County: "Tarrant", State: "TX" },
+    { Title: "Abilene", County: "Taylor", State: "TX" },
+    { Title: "Austin", County: "Travis", State: "TX" },
+    { Title: "Laredo", County: "Webb", State: "TX" },
+    { Title: "Wichita Falls", County: "Wichita", State: "TX" },
+    { Title: "Round Rock", County: "Williamson", State: "TX" },
+    { Title: "Salt Lake City", County: "Salt Lake", State: "UT" },
+    { Title: "Annandale", County: "Fairfax", State: "VA" },
+    { Title: "McLean", County: "Fairfax", State: "VA" },
+    { Title: "Fairfax", County: "Fairfax City", State: "VA" },
+    { Title: "Newport News", County: "Newport News City", State: "VA" },
+    { Title: "Richmond", County: "Richmond City", State: "VA" },
+    { Title: "Richland", County: "Benton", State: "WA" },
+    { Title: "Kent", County: "King", State: "WA" },
+    { Title: "Seattle", County: "King", State: "WA" },
+    { Title: "Vashon", County: "King", State: "WA" },
+    { Title: "Tacoma", County: "Pierce", State: "WA" },
+    { Title: "Bothell", County: "Snohomish", State: "WA" },
+    { Title: "Green Bay", County: "Brown", State: "WI" },
+    { Title: "Madison", County: "Dane", State: "WI" },
+    { Title: "Milwaukee", County: "Milwaukee", State: "WI" },
+    { Title: "Stevens Point", County: "Portage", State: "WI" },
+    { Title: "Beloit", County: "Rock", State: "WI" },
+    { Title: "Riverton", County: "Fremont", State: "WY" },
+    { Title: "Cheyenne", County: "Laramie", State: "WY" },
+    { Title: "Rock Springs", County: "Sweetwater", State: "WY" }
+];
+
 
 /***/ }),
 /* 177 */
@@ -15978,32 +16336,24 @@ module.exports = g;
 
 "use strict";
 
-
-var __extends = undefined && undefined.__extends || function () {
-    var extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function (d, b) {
-        d.__proto__ = b;
-    } || function (d, b) {
-        for (var p in b) {
-            if (b.hasOwnProperty(p)) d[p] = b[p];
-        }
-    };
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
     return function (d, b) {
         extendStatics(d, b);
-        function __() {
-            this.constructor = d;
-        }
+        function __() { this.constructor = d; }
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
-}();
-Object.defineProperty(exports, "__esModule", { value: true });
+})();
 var React = __webpack_require__(0);
 var office_ui_fabric_react_1 = __webpack_require__(21);
-var _1 = __webpack_require__(199);
+var _1 = __webpack_require__(543);
 ;
 /**
  * Dashboard
  */
-var Dashboard = function (_super) {
+var Dashboard = (function (_super) {
     __extends(Dashboard, _super);
     /**
      * Constructor
@@ -16014,35 +16364,32 @@ var Dashboard = function (_super) {
          * Menu Items
          * Note - event.preventDefault() is needed for the SP App, otherwise a postback will occur.
          */
-        _this.MenuItems = [{
-            key: "datepicker",
-            name: "Date Picker",
-            ariaLabel: "Displays the date picker example.",
-            onClick: function onClick(event) {
-                event.preventDefault();_this.setState({ ShowDatepicker: true, ShowDropdown: false, ShowList: false, ShowPeoplePicker: false });
+        _this.MenuItems = [
+            {
+                key: "datepicker",
+                name: "Date Picker",
+                ariaLabel: "Displays the date picker example.",
+                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDatepicker: true, ShowDropdown: false, ShowList: false, ShowPeoplePicker: false }); }
+            },
+            {
+                key: "dropdown",
+                name: "Drop Down",
+                ariaLabel: "Displays the drop down list example.",
+                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDatepicker: false, ShowDropdown: true, ShowList: false, ShowPeoplePicker: false }); }
+            },
+            {
+                key: "list",
+                name: "List",
+                ariaLabel: "Displays the list example.",
+                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDatepicker: false, ShowDropdown: false, ShowList: true, ShowPeoplePicker: false }); }
+            },
+            {
+                key: "peoplePicker",
+                name: "People Picker",
+                ariaLabel: "Displays the people picker example.",
+                onClick: function (event) { event.preventDefault(); _this.setState({ ShowDatepicker: false, ShowDropdown: false, ShowList: false, ShowPeoplePicker: true }); }
             }
-        }, {
-            key: "dropdown",
-            name: "Drop Down",
-            ariaLabel: "Displays the drop down list example.",
-            onClick: function onClick(event) {
-                event.preventDefault();_this.setState({ ShowDatepicker: false, ShowDropdown: true, ShowList: false, ShowPeoplePicker: false });
-            }
-        }, {
-            key: "list",
-            name: "List",
-            ariaLabel: "Displays the list example.",
-            onClick: function onClick(event) {
-                event.preventDefault();_this.setState({ ShowDatepicker: false, ShowDropdown: false, ShowList: true, ShowPeoplePicker: false });
-            }
-        }, {
-            key: "peoplePicker",
-            name: "People Picker",
-            ariaLabel: "Displays the people picker example.",
-            onClick: function onClick(event) {
-                event.preventDefault();_this.setState({ ShowDatepicker: false, ShowDropdown: false, ShowList: false, ShowPeoplePicker: true });
-            }
-        }];
+        ];
         // Default the state
         _this.state = {
             ShowDatepicker: true,
@@ -16057,16 +16404,18 @@ var Dashboard = function (_super) {
      */
     // Render the component
     Dashboard.prototype.render = function () {
-        var _a = this.state,
-            ShowDatepicker = _a.ShowDatepicker,
-            ShowDropdown = _a.ShowDropdown,
-            ShowList = _a.ShowList,
-            ShowPeoplePicker = _a.ShowPeoplePicker;
-        return React.createElement("div", null, React.createElement(office_ui_fabric_react_1.CommandBar, { items: this.MenuItems }), React.createElement(_1.DatepickerDemo, { visible: ShowDatepicker }), React.createElement(_1.DropdownDemo, { visible: ShowDropdown }), React.createElement(_1.ListDemo, { visible: ShowList }), React.createElement(_1.PeoplePickerDemo, { visible: ShowPeoplePicker }));
+        var _a = this.state, ShowDatepicker = _a.ShowDatepicker, ShowDropdown = _a.ShowDropdown, ShowList = _a.ShowList, ShowPeoplePicker = _a.ShowPeoplePicker;
+        return (React.createElement("div", null,
+            React.createElement(office_ui_fabric_react_1.CommandBar, { items: this.MenuItems }),
+            React.createElement(_1.DatepickerDemo, { visible: ShowDatepicker }),
+            React.createElement(_1.DropdownDemo, { visible: ShowDropdown }),
+            React.createElement(_1.ListDemo, { visible: ShowList }),
+            React.createElement(_1.PeoplePickerDemo, { visible: ShowPeoplePicker })));
     };
     return Dashboard;
-}(React.Component);
+}(React.Component));
 exports.Dashboard = Dashboard;
+
 
 /***/ }),
 /* 179 */
@@ -17267,760 +17616,6 @@ exports.format = format;
 "use strict";
 
 
-var __extends = undefined && undefined.__extends || function () {
-    var extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function (d, b) {
-        d.__proto__ = b;
-    } || function (d, b) {
-        for (var p in b) {
-            if (b.hasOwnProperty(p)) d[p] = b[p];
-        }
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() {
-            this.constructor = d;
-        }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-}();
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var office_ui_fabric_react_1 = __webpack_require__(21);
-var strings_1 = __webpack_require__(196);
-// Date picker
-var DatepickerDemo = function (_super) {
-    __extends(DatepickerDemo, _super);
-    function DatepickerDemo() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    DatepickerDemo.prototype.render = function () {
-        var visible = this.props.visible;
-        return !visible ? React.createElement("div", null) : React.createElement("div", null, React.createElement("h1", null, "Demo"), React.createElement("div", { className: "ms-Grid" }, React.createElement("div", { className: "ms-Grid-row" }, React.createElement("div", { className: "ms-Grid-col ms-u-md3" }, React.createElement(office_ui_fabric_react_1.DatePicker, { label: "Select a Date", isRequired: true, firstDayOfWeek: office_ui_fabric_react_1.DayOfWeek.Sunday, strings: strings_1.Strings, placeholder: 'Select a date...' })))));
-    };
-    return DatepickerDemo;
-}(React.Component);
-exports.DatepickerDemo = DatepickerDemo;
-
-/***/ }),
-/* 196 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", { value: true });
-/**
- * Datepicker Strings
- */
-exports.Strings = {
-    /**
-     * Month Information
-     */
-    months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-    shortMonths: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-    /**
-     * Day Information
-     */
-    days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-    shortDays: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
-    /**
-     * Properties
-     */
-    goToToday: 'Go to today',
-    isRequiredErrorMessage: 'This field is required.',
-    invalidInputErrorMessage: 'Invalid date format.'
-};
-
-/***/ }),
-/* 197 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var es6_promise_1 = __webpack_require__(58);
-var gd_sprest_1 = __webpack_require__(60);
-/**
- * Data Source
- */
-var Data = function () {
-    function Data() {}
-    Object.defineProperty(Data, "IsSPOnline", {
-        /**
-         * Properties
-         */
-        get: function get() {
-            return gd_sprest_1.ContextInfo.existsFl;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    // Method to get the data
-    Data.get = function () {
-        var _this = this;
-        // Return a promise
-        return new es6_promise_1.Promise(function (resolve, reject) {
-            // See if the $REST library exists
-            if (_this.IsSPOnline) {
-                // Get the list
-                new gd_sprest_1.List("Locations").Items().query({
-                    OrderBy: ["State", "County", "Title"]
-                }).execute(function (items) {
-                    var data = [];
-                    // Parse the items
-                    for (var _i = 0, _a = items.results; _i < _a.length; _i++) {
-                        var item = _a[_i];
-                        // Add the item to the data array
-                        data.push({
-                            City: item["Title"],
-                            County: item["County"],
-                            State: item["State"]
-                        });
-                    }
-                    // Resolve the request
-                    resolve(data);
-                });
-            } else {
-                // Resolve the request with test data
-                resolve(TestData);
-            }
-        });
-    };
-    return Data;
-}();
-exports.Data = Data;
-/**
- * Test Data
- */
-var TestData = [{ City: "Anchorage", County: "Anchorage", State: "AK" }, { City: "Fairbanks", County: "Fairbanks North Star", State: "AK" }, { City: "Little Rock", County: "Pulaski", State: "AR" }, { City: "Mesa", County: "Maricopa", State: "AZ" }, { City: "Peoria", County: "Maricopa", State: "AZ" }, { City: "Phoenix", County: "Maricopa", State: "AZ" }, { City: "Scottsdale", County: "Maricopa", State: "AZ" }, { City: "Berkeley", County: "Alameda", State: "CA" }, { City: "Hayward", County: "Alameda", State: "CA" }, { City: "Oakland", County: "Alameda", State: "CA" }, { City: "San Leandro", County: "Alameda", State: "CA" }, { City: "Oroville", County: "Butte", State: "CA" }, { City: "Concord", County: "Contra Costa", State: "CA" }, { City: "Oakley", County: "Contra Costa", State: "CA" }, { City: "San Ramon", County: "Contra Costa", State: "CA" }, { City: "Bellflower", County: "Los Angeles", State: "CA" }, { City: "Beverly Hills", County: "Los Angeles", State: "CA" }, { City: "El Monte", County: "Los Angeles", State: "CA" }, { City: "Gardena", County: "Los Angeles", State: "CA" }, { City: "Los Angeles", County: "Los Angeles", State: "CA" }, { City: "Northridge", County: "Los Angeles", State: "CA" }, { City: "Pasadena", County: "Los Angeles", State: "CA" }, { City: "Pomona", County: "Los Angeles", State: "CA" }, { City: "San Gabriel", County: "Los Angeles", State: "CA" }, { City: "Van Nuys", County: "Los Angeles", State: "CA" }, { City: "Novato", County: "Marin", State: "CA" }, { City: "Anaheim", County: "Orange", State: "CA" }, { City: "Costa Mesa", County: "Orange", State: "CA" }, { City: "Huntington Beach", County: "Orange", State: "CA" }, { City: "Santa Ana", County: "Orange", State: "CA" }, { City: "Roseville", County: "Placer", State: "CA" }, { City: "Cathedral City", County: "Riverside", State: "CA" }, { City: "Riverside", County: "Riverside", State: "CA" }, { City: "Thousand Palms", County: "Riverside", State: "CA" }, { City: "Sacramento", County: "Sacramento", State: "CA" }, { City: "Ontario", County: "San Bernardino", State: "CA" }, { City: "San Bernardino", County: "San Bernardino", State: "CA" }, { City: "El Cajon", County: "San Diego", State: "CA" }, { City: "Escondido", County: "San Diego", State: "CA" }, { City: "La Mesa", County: "San Diego", State: "CA" }, { City: "San Diego", County: "San Diego", State: "CA" }, { City: "San Francisco", County: "San Francisco", State: "CA" }, { City: "Stockton", County: "San Joaquin", State: "CA" }, { City: "Burlingame", County: "San Mateo", State: "CA" }, { City: "Pacifica", County: "San Mateo", State: "CA" }, { City: "San Carlos", County: "San Mateo", State: "CA" }, { City: "San Mateo", County: "San Mateo", State: "CA" }, { City: "South San Francisco", County: "San Mateo", State: "CA" }, { City: "San Jose", County: "Santa Clara", State: "CA" }, { City: "Santa Clara", County: "Santa Clara", State: "CA" }, { City: "Saratoga", County: "Santa Clara", State: "CA" }, { City: "Rohnert Park", County: "Sonoma", State: "CA" }, { City: "Santa Rosa", County: "Sonoma", State: "CA" }, { City: "Camarillo", County: "Ventura", State: "CA" }, { City: "Thousand Oaks", County: "Ventura", State: "CA" }, { City: "Englewood", County: "Arapahoe", State: "CO" }, { City: "Boulder", County: "Boulder", State: "CO" }, { City: "Denver", County: "Denver", State: "CO" }, { City: "Littleton", County: "Douglas", State: "CO" }, { City: "Colorado Springs", County: "El Paso", State: "CO" }, { City: "Bridgeport", County: "Fairfield", State: "CT" }, { City: "Norwalk", County: "Fairfield", State: "CT" }, { City: "New Haven", County: "New Haven", State: "CT" }, { City: "North Haven", County: "New Haven", State: "CT" }, { City: "Washington", County: "District of Columbia", State: "DC" }, { City: "Cocoa", County: "Brevard", State: "FL" }, { City: "Satellite Beach", County: "Brevard", State: "FL" }, { City: "Crystal River", County: "Citrus", State: "FL" }, { City: "Homosassa", County: "Citrus", State: "FL" }, { City: "Jacksonville", County: "Duval", State: "FL" }, { City: "Brandon", County: "Hillsborough", State: "FL" }, { City: "Tampa", County: "Hillsborough", State: "FL" }, { City: "Hialeah", County: "Miami-Dade", State: "FL" }, { City: "Homestead", County: "Miami-Dade", State: "FL" }, { City: "Miami", County: "Miami-Dade", State: "FL" }, { City: "Opa Locka", County: "Miami-Dade", State: "FL" }, { City: "Crestview", County: "Okaloosa", State: "FL" }, { City: "Orlando", County: "Orange", State: "FL" }, { City: "Lake Worth", County: "Palm Beach", State: "FL" }, { City: "Longwood", County: "Seminole", State: "FL" }, { City: "Daytona Beach", County: "Volusia", State: "FL" }, { City: "Oak Hill", County: "Volusia", State: "FL" }, { City: "Trion", County: "Chattooga", State: "GA" }, { City: "Atlanta", County: "Dekalb", State: "GA" }, { City: "Albany", County: "Dougherty", State: "GA" }, { City: "Douglasville", County: "Douglas", State: "GA" }, { City: "Atlanta", County: "Fulton", State: "GA" }, { City: "Hilo", County: "Hawaii", State: "HI" }, { City: "Honolulu", County: "Honolulu", State: "HI" }, { City: "Pearl City", County: "Honolulu", State: "HI" }, { City: "Des Moines", County: "Polk", State: "IA" }, { City: "Boise", County: "Ada", State: "ID" }, { City: "Moscow", County: "Latah", State: "ID" }, { City: "Arlington Heights", County: "Cook", State: "IL" }, { City: "Chicago", County: "Cook", State: "IL" }, { City: "Elk Grove Village", County: "Cook", State: "IL" }, { City: "Evanston", County: "Cook", State: "IL" }, { City: "Palatine", County: "Cook", State: "IL" }, { City: "Rolling Meadows", County: "Cook", State: "IL" }, { City: "Wheeling", County: "Cook", State: "IL" }, { City: "Highland Park", County: "Lake", State: "IL" }, { City: "Rockford", County: "Winnebago", State: "IL" }, { City: "Fort Wayne", County: "Allen", State: "IN" }, { City: "Elkhart", County: "Elkhart", State: "IN" }, { City: "Fortville", County: "Hancock", State: "IN" }, { City: "Indianapolis", County: "Marion", State: "IN" }, { City: "Bloomington", County: "Monroe", State: "IN" }, { City: "South Bend", County: "St Joseph", State: "IN" }, { City: "Abilene", County: "Dickinson", State: "KS" }, { City: "Hays", County: "Ellis", State: "KS" }, { City: "Overland Park", County: "Johnson", State: "KS" }, { City: "Shawnee", County: "Johnson", State: "KS" }, { City: "Burlington", County: "Boone", State: "KY" }, { City: "Metairie", County: "Jefferson", State: "LA" }, { City: "Broussard", County: "Lafayette", State: "LA" }, { City: "Lafayette", County: "Lafayette", State: "LA" }, { City: "New Orleans", County: "Orleans", State: "LA" }, { City: "Houma", County: "Terrebonne", State: "LA" }, { City: "New Bedford", County: "Bristol", State: "MA" }, { City: "North Attleboro", County: "Bristol", State: "MA" }, { City: "Cambridge", County: "Middlesex", State: "MA" }, { City: "Concord", County: "Middlesex", State: "MA" }, { City: "Wilmington", County: "Middlesex", State: "MA" }, { City: "Middleboro", County: "Plymouth", State: "MA" }, { City: "Boston", County: "Suffolk", State: "MA" }, { City: "Westborough", County: "Worcester", State: "MA" }, { City: "Worcester", County: "Worcester", State: "MA" }, { City: "Glen Burnie", County: "Anne Arundel", State: "MD" }, { City: "Hanover", County: "Anne Arundel", State: "MD" }, { City: "Owings Mills", County: "Baltimore", State: "MD" }, { City: "Parkville", County: "Baltimore", State: "MD" }, { City: "Baltimore", County: "Baltimore City", State: "MD" }, { City: "Preston", County: "Caroline", State: "MD" }, { City: "Hampstead", County: "Carroll", State: "MD" }, { City: "Aberdeen", County: "Harford", State: "MD" }, { City: "Bladensburg", County: "Prince Georges", State: "MD" }, { City: "Clinton", County: "Prince Georges", State: "MD" }, { City: "Hyattsville", County: "Prince Georges", State: "MD" }, { City: "Easton", County: "Talbot", State: "MD" }, { City: "Salisbury", County: "Wicomico", State: "MD" }, { City: "Warren", County: "Knox", State: "ME" }, { City: "Bangor", County: "Penobscot", State: "ME" }, { City: "Niles", County: "Berrien", State: "MI" }, { City: "East Lansing", County: "Ingham", State: "MI" }, { City: "Lansing", County: "Ingham", State: "MI" }, { City: "Grand Rapids", County: "Kent", State: "MI" }, { City: "Brighton", County: "Livingston", State: "MI" }, { City: "Sterling Heights", County: "Macomb", State: "MI" }, { City: "Milan", County: "Monroe", State: "MI" }, { City: "Muskegon", County: "Muskegon", State: "MI" }, { City: "Rochester", County: "Oakland", State: "MI" }, { City: "Southfield", County: "Oakland", State: "MI" }, { City: "Waterford", County: "Oakland", State: "MI" }, { City: "Ann Arbor", County: "Washtenaw", State: "MI" }, { City: "Dearborn", County: "Wayne", State: "MI" }, { City: "Taylor", County: "Wayne", State: "MI" }, { City: "Burnsville", County: "Dakota", State: "MN" }, { City: "Hopkins", County: "Hennepin", State: "MN" }, { City: "Minneapolis", County: "Hennepin", State: "MN" }, { City: "Saint Paul", County: "Ramsey", State: "MN" }, { City: "Northfield", County: "Rice", State: "MN" }, { City: "Shakopee", County: "Scott", State: "MN" }, { City: "Saint Joseph", County: "Buchanan", State: "MO" }, { City: "Valley Park", County: "Saint Louis", State: "MO" }, { City: "Saint Louis", County: "Saint Louis City", State: "MO" }, { City: "Biloxi", County: "Harrison", State: "MS" }, { City: "Jackson", County: "Hinds", State: "MS" }, { City: "Meridian", County: "Lauderdale", State: "MS" }, { City: "Pearl", County: "Rankin", State: "MS" }, { City: "Butte", County: "Silver Bow", State: "MT" }, { City: "Burlington", County: "Alamance", State: "NC" }, { City: "Fayetteville", County: "Cumberland", State: "NC" }, { City: "Greensboro", County: "Guilford", State: "NC" }, { City: "High Point", County: "Guilford", State: "NC" }, { City: "Smithfield", County: "Johnston", State: "NC" }, { City: "Chapel Hill", County: "Orange", State: "NC" }, { City: "Raleigh", County: "Wake", State: "NC" }, { City: "Fargo", County: "Cass", State: "ND" }, { City: "Alliance", County: "Box Butte", State: "NE" }, { City: "Omaha", County: "Douglas", State: "NE" }, { City: "Plaistow", County: "Rockingham", State: "NH" }, { City: "Absecon", County: "Atlantic", State: "NJ" }, { City: "Atlantic City", County: "Atlantic", State: "NJ" }, { City: "Margate City", County: "Atlantic", State: "NJ" }, { City: "Englewood", County: "Bergen", State: "NJ" }, { City: "Hackensack", County: "Bergen", State: "NJ" }, { City: "Lyndhurst", County: "Bergen", State: "NJ" }, { City: "Paramus", County: "Bergen", State: "NJ" }, { City: "Ramsey", County: "Bergen", State: "NJ" }, { City: "Ridgefield Park", County: "Bergen", State: "NJ" }, { City: "Riverton", County: "Burlington", State: "NJ" }, { City: "Cherry Hill", County: "Camden", State: "NJ" }, { City: "Bloomfield", County: "Essex", State: "NJ" }, { City: "Cedar Grove", County: "Essex", State: "NJ" }, { City: "Fairfield", County: "Essex", State: "NJ" }, { City: "Livingston", County: "Essex", State: "NJ" }, { City: "Newark", County: "Essex", State: "NJ" }, { City: "Nutley", County: "Essex", State: "NJ" }, { City: "Orange", County: "Essex", State: "NJ" }, { City: "Bridgeport", County: "Gloucester", State: "NJ" }, { City: "Harrison", County: "Hudson", State: "NJ" }, { City: "Jersey City", County: "Hudson", State: "NJ" }, { City: "Kearny", County: "Hudson", State: "NJ" }, { City: "Union City", County: "Hudson", State: "NJ" }, { City: "Flemington", County: "Hunterdon", State: "NJ" }, { City: "Pittstown", County: "Hunterdon", State: "NJ" }, { City: "Trenton", County: "Mercer", State: "NJ" }, { City: "Dunellen", County: "Middlesex", State: "NJ" }, { City: "Middlesex", County: "Middlesex", State: "NJ" }, { City: "Monroe Township", County: "Middlesex", State: "NJ" }, { City: "Freehold", County: "Monmouth", State: "NJ" }, { City: "Denville", County: "Morris", State: "NJ" }, { City: "Randolph", County: "Morris", State: "NJ" }, { City: "Rockaway", County: "Morris", State: "NJ" }, { City: "Whippany", County: "Morris", State: "NJ" }, { City: "Toms River", County: "Ocean", State: "NJ" }, { City: "Clifton", County: "Passaic", State: "NJ" }, { City: "Little Falls", County: "Passaic", State: "NJ" }, { City: "Passaic", County: "Passaic", State: "NJ" }, { City: "Paterson", County: "Passaic", State: "NJ" }, { City: "Bridgewater", County: "Somerset", State: "NJ" }, { City: "Somerset", County: "Somerset", State: "NJ" }, { City: "Somerville", County: "Somerset", State: "NJ" }, { City: "Plainfield", County: "Union", State: "NJ" }, { City: "Clovis", County: "Curry", State: "NM" }, { City: "Las Cruces", County: "Dona Ana", State: "NM" }, { City: "Carson City", County: "Carson City", State: "NV" }, { City: "Reno", County: "Washoe", State: "NV" }, { City: "Albany", County: "Albany", State: "NY" }, { City: "Wellsville", County: "Allegany", State: "NY" }, { City: "Bronx", County: "Bronx", State: "NY" }, { City: "Vestal", County: "Broome", State: "NY" }, { City: "Buffalo", County: "Erie", State: "NY" }, { City: "Brooklyn", County: "Kings", State: "NY" }, { City: "Garden City", County: "Nassau", State: "NY" }, { City: "Hicksville", County: "Nassau", State: "NY" }, { City: "Lynbrook", County: "Nassau", State: "NY" }, { City: "Massapequa", County: "Nassau", State: "NY" }, { City: "Syosset", County: "Nassau", State: "NY" }, { City: "Westbury", County: "Nassau", State: "NY" }, { City: "New York", County: "New York", State: "NY" }, { City: "Utica", County: "Oneida", State: "NY" }, { City: "Syracuse", County: "Onondaga", State: "NY" }, { City: "Port Jervis", County: "Orange", State: "NY" }, { City: "Astoria", County: "Queens", State: "NY" }, { City: "Long Island City", County: "Queens", State: "NY" }, { City: "Troy", County: "Rensselaer", State: "NY" }, { City: "Staten Island", County: "Richmond", State: "NY" }, { City: "Bohemia", County: "Suffolk", State: "NY" }, { City: "Coram", County: "Suffolk", State: "NY" }, { City: "Deer Park", County: "Suffolk", State: "NY" }, { City: "Middle Island", County: "Suffolk", State: "NY" }, { City: "Ronkonkoma", County: "Suffolk", State: "NY" }, { City: "Katonah", County: "Westchester", State: "NY" }, { City: "Mount Vernon", County: "Westchester", State: "NY" }, { City: "Pelham", County: "Westchester", State: "NY" }, { City: "Yonkers", County: "Westchester", State: "NY" }, { City: "Ashland", County: "Ashland", State: "OH" }, { City: "Hamilton", County: "Butler", State: "OH" }, { City: "Bucyrus", County: "Crawford", State: "OH" }, { City: "Beachwood", County: "Cuyahoga", State: "OH" }, { City: "Brook Park", County: "Cuyahoga", State: "OH" }, { City: "Cleveland", County: "Cuyahoga", State: "OH" }, { City: "Strongsville", County: "Cuyahoga", State: "OH" }, { City: "Columbus", County: "Franklin", State: "OH" }, { City: "Chagrin Falls", County: "Geauga", State: "OH" }, { City: "Cincinnati", County: "Hamilton", State: "OH" }, { City: "Findlay", County: "Hancock", State: "OH" }, { City: "Toledo", County: "Lucas", State: "OH" }, { City: "London", County: "Madison", State: "OH" }, { City: "Canton", County: "Stark", State: "OH" }, { City: "Akron", County: "Summit", State: "OH" }, { City: "Barberton", County: "Summit", State: "OH" }, { City: "Bowling Green", County: "Wood", State: "OH" }, { City: "Perrysburg", County: "Wood", State: "OH" }, { City: "Tulsa", County: "Tulsa", State: "OK" }, { City: "Prineville", County: "Crook", State: "OR" }, { City: "Eugene", County: "Lane", State: "OR" }, { City: "Salem", County: "Marion", State: "OR" }, { City: "Portland", County: "Multnomah", State: "OR" }, { City: "Beaverton", County: "Washington", State: "OR" }, { City: "Portland", County: "Washington", State: "OR" }, { City: "Richboro", County: "Bucks", State: "PA" }, { City: "Southampton", County: "Bucks", State: "PA" }, { City: "Coatesville", County: "Chester", State: "PA" }, { City: "Harrisburg", County: "Dauphin", State: "PA" }, { City: "Aston", County: "Delaware", State: "PA" }, { City: "Wayne", County: "Delaware", State: "PA" }, { City: "Erie", County: "Erie", State: "PA" }, { City: "Clarks Summit", County: "Lackawanna", State: "PA" }, { City: "Old Forge", County: "Lackawanna", State: "PA" }, { City: "Scranton", County: "Lackawanna", State: "PA" }, { City: "Denver", County: "Lancaster", State: "PA" }, { City: "Lancaster", County: "Lancaster", State: "PA" }, { City: "Hazleton", County: "Luzerne", State: "PA" }, { City: "Hatfield", County: "Montgomery", State: "PA" }, { City: "Huntingdon Valley", County: "Montgomery", State: "PA" }, { City: "Jenkintown", County: "Montgomery", State: "PA" }, { City: "King of Prussia", County: "Montgomery", State: "PA" }, { City: "Kulpsville", County: "Montgomery", State: "PA" }, { City: "Philadelphia", County: "Philadelphia", State: "PA" }, { City: "York", County: "York", State: "PA" }, { City: "Johnston", County: "Providence", State: "RI" }, { City: "Providence", County: "Providence", State: "RI" }, { City: "Columbia", County: "Richland", State: "SC" }, { City: "Spartanburg", County: "Spartanburg", State: "SC" }, { City: "Sioux Falls", County: "Minnehaha", State: "SD" }, { City: "Moss", County: "Clay", State: "TN" }, { City: "Tullahoma", County: "Coffee", State: "TN" }, { City: "Nashville", County: "Davidson", State: "TN" }, { City: "Memphis", County: "Shelby", State: "TN" }, { City: "Mc Minnville", County: "Warren", State: "TN" }, { City: "San Antonio", County: "Bexar", State: "TX" }, { City: "College Station", County: "Brazos", State: "TX" }, { City: "Plano", County: "Collin", State: "TX" }, { City: "Dallas", County: "Dallas", State: "TX" }, { City: "Irving", County: "Dallas", State: "TX" }, { City: "Mesquite", County: "Dallas", State: "TX" }, { City: "El Paso", County: "El Paso", State: "TX" }, { City: "Kerrville", County: "Kerr", State: "TX" }, { City: "Waco", County: "McLennan", State: "TX" }, { City: "Conroe", County: "Montgomery", State: "TX" }, { City: "Amarillo", County: "Randall", State: "TX" }, { City: "Arlington", County: "Tarrant", State: "TX" }, { City: "Euless", County: "Tarrant", State: "TX" }, { City: "Fort Worth", County: "Tarrant", State: "TX" }, { City: "Kennedale", County: "Tarrant", State: "TX" }, { City: "Abilene", County: "Taylor", State: "TX" }, { City: "Austin", County: "Travis", State: "TX" }, { City: "Laredo", County: "Webb", State: "TX" }, { City: "Wichita Falls", County: "Wichita", State: "TX" }, { City: "Round Rock", County: "Williamson", State: "TX" }, { City: "Salt Lake City", County: "Salt Lake", State: "UT" }, { City: "Annandale", County: "Fairfax", State: "VA" }, { City: "Mc Lean", County: "Fairfax", State: "VA" }, { City: "Fairfax", County: "Fairfax City", State: "VA" }, { City: "Newport News", County: "Newport News City", State: "VA" }, { City: "Richmond", County: "Richmond City", State: "VA" }, { City: "Richland", County: "Benton", State: "WA" }, { City: "Kent", County: "King", State: "WA" }, { City: "Seattle", County: "King", State: "WA" }, { City: "Vashon", County: "King", State: "WA" }, { City: "Tacoma", County: "Pierce", State: "WA" }, { City: "Bothell", County: "Snohomish", State: "WA" }, { City: "Green Bay", County: "Brown", State: "WI" }, { City: "Madison", County: "Dane", State: "WI" }, { City: "Milwaukee", County: "Milwaukee", State: "WI" }, { City: "Stevens Point", County: "Portage", State: "WI" }, { City: "Beloit", County: "Rock", State: "WI" }, { City: "Riverton", County: "Fremont", State: "WY" }, { City: "Cheyenne", County: "Laramie", State: "WY" }, { City: "Rock Springs", County: "Sweetwater", State: "WY" }];
-
-/***/ }),
-/* 198 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __extends = undefined && undefined.__extends || function () {
-    var extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function (d, b) {
-        d.__proto__ = b;
-    } || function (d, b) {
-        for (var p in b) {
-            if (b.hasOwnProperty(p)) d[p] = b[p];
-        }
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() {
-            this.constructor = d;
-        }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-}();
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var office_ui_fabric_react_1 = __webpack_require__(21);
-var data_1 = __webpack_require__(197);
-/**
- * Dropdown Demo
- */
-var DropdownDemo = function (_super) {
-    __extends(DropdownDemo, _super);
-    /**
-     * Constructor
-     */
-    function DropdownDemo(props) {
-        var _this = _super.call(this, props) || this;
-        _this.data = [];
-        // Default the state
-        _this.state = {
-            Cities: [],
-            Counties: [],
-            SelectedItem: {
-                City: "",
-                County: "",
-                State: ""
-            },
-            States: []
-        };
-        // Get the data
-        data_1.Data.get().then(function (data) {
-            // Save a reference to the data
-            _this.data = data;
-            // Parse the data
-            for (var i = 0; i < data.length; i++) {
-                var prevState = _this.state.States.length > 0 ? _this.state.States[_this.state.States.length - 1] : null;
-                // Remove duplicates
-                if (prevState && prevState.key == data[i].State) {
-                    continue;
-                }
-                // Add the value
-                _this.state.States.push({
-                    key: data[i].State,
-                    text: data[i].State
-                });
-            }
-        });
-        return _this;
-    }
-    /**
-     * Events
-     */
-    // County change event
-    DropdownDemo.prototype.onCountyChange = function (option) {
-        var cities = [];
-        // Update the selected values
-        var item = {
-            City: "",
-            County: option.text,
-            State: this.state.SelectedItem.State
-        };
-        // Parse the data
-        for (var _i = 0, _a = this.data; _i < _a.length; _i++) {
-            var data = _a[_i];
-            var prevState = cities.length > 0 ? cities[cities.length - 1] : null;
-            // Remove duplicates
-            if (prevState && prevState.key == data.City) {
-                continue;
-            }
-            // See if this is the selected state and county
-            if (data.County == option.key && data.State == item.State) {
-                // Add the county
-                cities.push({
-                    key: data.City,
-                    text: data.City
-                });
-            }
-        }
-        // Update the state
-        this.setState({ Cities: cities, SelectedItem: item });
-    };
-    // State change event
-    DropdownDemo.prototype.onStateChange = function (option) {
-        var counties = [];
-        // Update the selected values
-        var item = {
-            City: "",
-            County: "",
-            State: option.text
-        };
-        // Parse the data
-        for (var _i = 0, _a = this.data; _i < _a.length; _i++) {
-            var data = _a[_i];
-            var prevState = counties.length > 0 ? counties[counties.length - 1] : null;
-            // Remove duplicates
-            if (prevState && prevState.key == data.County) {
-                continue;
-            }
-            // See if this is the selected state
-            if (data.State == option.key) {
-                // Add the county
-                counties.push({
-                    key: data.County,
-                    text: data.County
-                });
-            }
-        }
-        // Update the state
-        this.setState({ Cities: [], Counties: counties, SelectedItem: item });
-    };
-    // Render the component
-    DropdownDemo.prototype.render = function () {
-        var _this = this;
-        return !this.props.visible ? React.createElement("div", null) : React.createElement("div", null, React.createElement("h1", null, "Demo"), React.createElement("div", { className: "ms-Grid" }, React.createElement("div", { className: "ms-Grid-row" }, React.createElement("div", { className: "ms-Grid-col ms-u-md3" }, React.createElement(office_ui_fabric_react_1.Dropdown, { label: "State", onChanged: function onChanged(option) {
-                return _this.onStateChange(option);
-            }, options: this.state.States, selectedKey: this.state.SelectedItem.State }))), React.createElement("div", { className: "ms-Grid-row" }, React.createElement("div", { className: "ms-Grid-col ms-u-md3" }, React.createElement(office_ui_fabric_react_1.Dropdown, { label: "County", onChanged: function onChanged(option) {
-                return _this.onCountyChange(option);
-            }, options: this.state.Counties, selectedKey: this.state.SelectedItem.County }))), React.createElement("div", { className: "ms-Grid-row" }, React.createElement("div", { className: "ms-Grid-col ms-u-md3" }, React.createElement(office_ui_fabric_react_1.Dropdown, { label: "City", options: this.state.Cities, selectedKey: this.state.SelectedItem.City })))));
-    };
-    return DropdownDemo;
-}(React.Component);
-exports.DropdownDemo = DropdownDemo;
-
-/***/ }),
-/* 199 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function __export(m) {
-    for (var p in m) {
-        if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-    }
-}
-Object.defineProperty(exports, "__esModule", { value: true });
-__export(__webpack_require__(195));
-__export(__webpack_require__(198));
-__export(__webpack_require__(200));
-__export(__webpack_require__(204));
-
-/***/ }),
-/* 200 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __extends = undefined && undefined.__extends || function () {
-    var extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function (d, b) {
-        d.__proto__ = b;
-    } || function (d, b) {
-        for (var p in b) {
-            if (b.hasOwnProperty(p)) d[p] = b[p];
-        }
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() {
-            this.constructor = d;
-        }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-}();
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var office_ui_fabric_react_1 = __webpack_require__(21);
-var _1 = __webpack_require__(201);
-/**
- * List Demo
- */
-var ListDemo = function (_super) {
-    __extends(ListDemo, _super);
-    /**
-     * Constructor
-     */
-    function ListDemo(props) {
-        var _this = _super.call(this, props) || this;
-        // Default the state
-        _this.state = {
-            Items: [],
-            SelectedItem: { County: "", State: "", Title: "" },
-            ShowDialog: false,
-            ShowPanel: false
-        };
-        // Get the data
-        _1.Data.get().then(function (data) {
-            // Update the state
-            _this.setState({ Items: data });
-        });
-        return _this;
-    }
-    /**
-     * Methods
-     */
-    // Render cell event
-    ListDemo.prototype.onRenderItemColumn = function (item, index, column) {
-        var _this = this;
-        // See if this is the 'Title' column
-        if (column.key == "Title") {
-            // Return the view item button
-            return React.createElement(office_ui_fabric_react_1.Button, { buttonType: office_ui_fabric_react_1.ButtonType.normal, onClick: function onClick(event) {
-                    // Disable postback
-                    event.preventDefault();
-                    // Update the state
-                    _this.setState({
-                        SelectedItem: item,
-                        ShowDialog: true
-                    });
-                } }, item[column.key]);
-        }
-        // Return the field value
-        return item[column.key];
-    };
-    // Render the component
-    ListDemo.prototype.render = function () {
-        var _this = this;
-        return !this.props.visible ? React.createElement("div", null) : React.createElement("div", null, React.createElement("h1", null, "Demo"), React.createElement(office_ui_fabric_react_1.Button, { buttonType: office_ui_fabric_react_1.ButtonType.hero, icon: "Add", onClick: function onClick(event) {
-                event.preventDefault();_this.setState({ ShowPanel: true });
-            } }, "New Location"), React.createElement(office_ui_fabric_react_1.DetailsList, { items: this.state.Items, onRenderItemColumn: function onRenderItemColumn(item, index, column) {
-                return _this.onRenderItemColumn(item, index, column);
-            }, selectionMode: office_ui_fabric_react_1.SelectionMode.none }), React.createElement(_1.ViewItemDialog, { closeDialog: function closeDialog() {
-                return _this.setState({ ShowDialog: false });
-            }, item: this.state.SelectedItem, visible: this.state.ShowDialog }), React.createElement(_1.NewItemPanel, { closePanel: function closePanel() {
-                return _this.setState({ ShowPanel: false });
-            }, visible: this.state.ShowPanel }));
-    };
-    return ListDemo;
-}(React.Component);
-exports.ListDemo = ListDemo;
-
-/***/ }),
-/* 201 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function __export(m) {
-    for (var p in m) {
-        if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-    }
-}
-Object.defineProperty(exports, "__esModule", { value: true });
-__export(__webpack_require__(100));
-__export(__webpack_require__(202));
-__export(__webpack_require__(203));
-
-/***/ }),
-/* 202 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __extends = undefined && undefined.__extends || function () {
-    var extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function (d, b) {
-        d.__proto__ = b;
-    } || function (d, b) {
-        for (var p in b) {
-            if (b.hasOwnProperty(p)) d[p] = b[p];
-        }
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() {
-            this.constructor = d;
-        }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-}();
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var office_ui_fabric_react_1 = __webpack_require__(21);
-var data_1 = __webpack_require__(100);
-/**
- * New Item Panel
- */
-var NewItemPanel = function (_super) {
-    __extends(NewItemPanel, _super);
-    /**
-     * Constructor
-     */
-    function NewItemPanel(props) {
-        var _this = _super.call(this, props) || this;
-        // Default the state
-        _this.state = {
-            IsValid: false,
-            Item: {
-                County: "",
-                State: "",
-                Title: ""
-            }
-        };
-        return _this;
-    }
-    /**
-     * Methods
-     */
-    // Method to add a new item
-    NewItemPanel.prototype.addItem = function (event) {
-        // Disable postback
-        event.preventDefault();
-        // Add the item
-        data_1.Data.addItem(this.state.Item).then(function (item) {
-            // Refresh the page
-            document.location.reload();
-        });
-    };
-    // Method to get the error message
-    NewItemPanel.prototype.getErrorMessage = function (value, fieldName) {
-        // Save the value
-        switch (fieldName) {
-            case "city":
-                this.state.Item.Title = value;
-                break;
-            case "county":
-                this.state.Item.County = value;
-                break;
-            case "state":
-                this.state.Item.State = value;
-                break;
-        }
-        // Save the state
-        this.setState({
-            IsValid: this.state.Item.County.length > 0 && this.state.Item.State.length > 0 && this.state.Item.Title.length > 0
-        });
-        // Return the error message
-        return value && value.length > 0 ? "" : "The " + fieldName + " is required.";
-    };
-    // Render the component
-    NewItemPanel.prototype.render = function () {
-        var _this = this;
-        return React.createElement(office_ui_fabric_react_1.Panel, { headerText: "New Location", isOpen: this.props.visible, onDismiss: function onDismiss() {
-                return _this.props.closePanel();
-            } }, React.createElement(office_ui_fabric_react_1.TextField, { label: "City:", required: true, value: this.state.Item.Title, onGetErrorMessage: function onGetErrorMessage(value) {
-                return _this.getErrorMessage(value, "city");
-            } }), React.createElement(office_ui_fabric_react_1.TextField, { label: "County:", required: true, value: this.state.Item.County, onGetErrorMessage: function onGetErrorMessage(value) {
-                return _this.getErrorMessage(value, "county");
-            } }), React.createElement(office_ui_fabric_react_1.TextField, { label: "State:", required: true, value: this.state.Item.State, onGetErrorMessage: function onGetErrorMessage(value) {
-                return _this.getErrorMessage(value, "state");
-            } }), React.createElement(office_ui_fabric_react_1.Button, { disabled: !this.state.IsValid, onClick: function onClick(event) {
-                return _this.addItem(event);
-            } }, "Save"));
-    };
-    return NewItemPanel;
-}(React.Component);
-exports.NewItemPanel = NewItemPanel;
-
-/***/ }),
-/* 203 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __extends = undefined && undefined.__extends || function () {
-    var extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function (d, b) {
-        d.__proto__ = b;
-    } || function (d, b) {
-        for (var p in b) {
-            if (b.hasOwnProperty(p)) d[p] = b[p];
-        }
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() {
-            this.constructor = d;
-        }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-}();
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var office_ui_fabric_react_1 = __webpack_require__(21);
-/**
- * View Item Dialog
- */
-var ViewItemDialog = function (_super) {
-    __extends(ViewItemDialog, _super);
-    function ViewItemDialog() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    // Render the component
-    ViewItemDialog.prototype.render = function () {
-        var _this = this;
-        return React.createElement(office_ui_fabric_react_1.Dialog, { isBlocking: true, isOpen: this.props.visible, title: "Location", type: office_ui_fabric_react_1.DialogType.close, onDismiss: function onDismiss() {
-                return _this.props.closeDialog();
-            } }, React.createElement(office_ui_fabric_react_1.TextField, { label: "City:", readOnly: true, value: this.props.item.Title }), React.createElement(office_ui_fabric_react_1.TextField, { label: "County:", readOnly: true, value: this.props.item.County }), React.createElement(office_ui_fabric_react_1.TextField, { label: "State:", readOnly: true, value: this.props.item.State }));
-    };
-    return ViewItemDialog;
-}(React.Component);
-exports.ViewItemDialog = ViewItemDialog;
-
-/***/ }),
-/* 204 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __extends = undefined && undefined.__extends || function () {
-    var extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function (d, b) {
-        d.__proto__ = b;
-    } || function (d, b) {
-        for (var p in b) {
-            if (b.hasOwnProperty(p)) d[p] = b[p];
-        }
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() {
-            this.constructor = d;
-        }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-}();
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var office_ui_fabric_react_1 = __webpack_require__(21);
-var peoplepicker_1 = __webpack_require__(205);
-/**
- * People Picker Demo
- */
-var PeoplePickerDemo = function (_super) {
-    __extends(PeoplePickerDemo, _super);
-    function PeoplePickerDemo() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    // Render the component
-    PeoplePickerDemo.prototype.render = function () {
-        return !this.props.visible ? React.createElement("div", null) : React.createElement("div", null, React.createElement("h1", null, "Demo"), React.createElement("h5", null, "The people picker search requires you to type in a minimum of 3 characters."), React.createElement("div", { className: "ms-Grid" }, React.createElement("div", { className: "ms-Grid-row" }, React.createElement("div", { className: "ms-Grid-col ms-u-md3" }, React.createElement(office_ui_fabric_react_1.Label, null, "Single User"), React.createElement(peoplepicker_1.MyPeoplePicker, null)), React.createElement("div", { className: "ms-Grid-col ms-u-md3" }, React.createElement(office_ui_fabric_react_1.Label, null, "Multiple Users"), React.createElement(peoplepicker_1.MyPeoplePicker, { multiple: true })))));
-    };
-    return PeoplePickerDemo;
-}(React.Component);
-exports.PeoplePickerDemo = PeoplePickerDemo;
-
-/***/ }),
-/* 205 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __extends = undefined && undefined.__extends || function () {
-    var extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function (d, b) {
-        d.__proto__ = b;
-    } || function (d, b) {
-        for (var p in b) {
-            if (b.hasOwnProperty(p)) d[p] = b[p];
-        }
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() {
-            this.constructor = d;
-        }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-}();
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var es6_promise_1 = __webpack_require__(58);
-var gd_sprest_1 = __webpack_require__(60);
-var office_ui_fabric_react_1 = __webpack_require__(21);
-/**
- * People Picker Default Properties
- */
-var DefaultProps = {
-    /** The loading text */
-    loadingText: "Loading...",
-    /** Text displayed when no results are found */
-    noResultsFoundText: "No results found",
-    /** Text displayed when displaying suggestions */
-    suggestionsHeaderText: "Suggested People"
-};
-/**
- * My People Picker
- */
-var MyPeoplePicker = function (_super) {
-    __extends(MyPeoplePicker, _super);
-    /**
-     * Constructor
-     */
-    function MyPeoplePicker(props) {
-        var _this = _super.call(this, props) || this;
-        /**
-         * Global Variables
-         */
-        // The search query promise
-        _this._promise = null;
-        // The query string
-        _this._queryString = "";
-        // The search results
-        _this._results = {};
-        // Default the state values
-        _this.state = { pickerProps: props.pickerProps || {}, queryString: "" };
-        _this.state.pickerProps.loadingText = _this.state.pickerProps.loadingText || DefaultProps.loadingText;
-        _this.state.pickerProps.noResultsFoundText = _this.state.pickerProps.noResultsFoundText || DefaultProps.noResultsFoundText;
-        _this.state.pickerProps.suggestionsHeaderText = _this.state.pickerProps.suggestionsHeaderText || DefaultProps.suggestionsHeaderText;
-        return _this;
-    }
-    /**
-     * Methods
-     */
-    // The on change event
-    MyPeoplePicker.prototype.onChange = function (items) {
-        var _this = this;
-        // See if more than one item has been selected
-        if (items && items.length > 0) {
-            // See if this is a single people picker
-            if (!this.props.multiple) {
-                // Remove all items but the last one
-                items.splice(0, items.length - 1);
-                // Get the web
-                new gd_sprest_1.Web().ensureUser(items[0].key).execute(function (user) {
-                    // Call the on change event
-                    _this.props.onChange(_this.props.fieldName, user.existsFl ? user : null);
-                });
-            }
-        }
-    };
-    // Method to query the people picker api for the inputed text
-    MyPeoplePicker.prototype.resolveSuggestions = function (filterText, currentPersonas) {
-        var _this = this;
-        // Save the query string
-        this._queryString = filterText.toLowerCase();
-        // See if we have already searched for this result
-        if (this._results[this._queryString] != null) {
-            return this._results[this._queryString];
-        }
-        // See if we are executing a query
-        if (this._promise != null) {
-            return this._promise || [];
-        }
-        // Ensure the min required characters has been entered
-        if (filterText.length < 3) {
-            return this._promise || [];
-        }
-        // Create a promise
-        this._promise = new es6_promise_1.Promise(function (resolve, reject) {
-            // Wait two seconds before querying for the user
-            setTimeout(function () {
-                // Update the filter text
-                filterText = _this._queryString;
-                // Query for the people
-                new gd_sprest_1.PeoplePicker().clientPeoplePickerSearchUser({
-                    MaximumEntitySuggestions: 10,
-                    QueryString: filterText
-                }).execute(function (results) {
-                    var personas = [];
-                    // Add the result
-                    var key = filterText.toLowerCase();
-                    _this._results[key] = [];
-                    // Parse the results
-                    for (var _i = 0, _a = results.ClientPeoplePickerSearchUser; _i < _a.length; _i++) {
-                        var result = _a[_i];
-                        var persona = {
-                            key: result.Key,
-                            primaryText: result.DisplayText,
-                            secondaryText: result.EntityData.Email
-                        };
-                        // Add the persona
-                        personas.push(persona);
-                    }
-                    // Save the results for this filter
-                    _this._results[key].push(personas);
-                    // Resolve the promise
-                    resolve(personas);
-                    // Clear the promise
-                    _this._promise = null;
-                });
-            }, 2000);
-        });
-        // Return the promise
-        return this._promise;
-    };
-    // Render the component
-    MyPeoplePicker.prototype.render = function () {
-        var _this = this;
-        var pickerProps = this.state.pickerProps;
-        return this.props.multiple ? React.createElement(office_ui_fabric_react_1.NormalPeoplePicker, { onChange: function onChange(items) {
-                return _this.onChange(items);
-            }, onResolveSuggestions: function onResolveSuggestions(filterText, currentPersonas) {
-                return _this.resolveSuggestions(filterText, currentPersonas);
-            }, getTextFromItem: function getTextFromItem(persona) {
-                return persona.primaryText;
-            }, pickerSuggestionsProps: pickerProps, className: 'ms-PeoplePicker' }) : React.createElement(office_ui_fabric_react_1.ListPeoplePicker, { onChange: function onChange(items) {
-                return _this.onChange(items);
-            }, onResolveSuggestions: function onResolveSuggestions(filterText, currentPersonas) {
-                return _this.resolveSuggestions(filterText, currentPersonas);
-            }, getTextFromItem: function getTextFromItem(persona) {
-                return persona.primaryText;
-            }, pickerSuggestionsProps: pickerProps, className: 'ms-PeoplePicker' });
-    };
-    return MyPeoplePicker;
-}(React.Component);
-exports.MyPeoplePicker = MyPeoplePicker;
-
-/***/ }),
-/* 206 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18052,7 +17647,7 @@ function camelize(string) {
 module.exports = camelize;
 
 /***/ }),
-/* 207 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18069,7 +17664,7 @@ module.exports = camelize;
 
 
 
-var camelize = __webpack_require__(206);
+var camelize = __webpack_require__(195);
 
 var msPattern = /^-ms-/;
 
@@ -18097,7 +17692,7 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 
 /***/ }),
-/* 208 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18114,7 +17709,7 @@ module.exports = camelizeStyleName;
  * 
  */
 
-var isTextNode = __webpack_require__(216);
+var isTextNode = __webpack_require__(205);
 
 /*eslint-disable no-bitwise */
 
@@ -18142,7 +17737,7 @@ function containsNode(outerNode, innerNode) {
 module.exports = containsNode;
 
 /***/ }),
-/* 209 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18275,7 +17870,7 @@ module.exports = createArrayFromMixed;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 210 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18296,8 +17891,8 @@ module.exports = createArrayFromMixed;
 
 var ExecutionEnvironment = __webpack_require__(10);
 
-var createArrayFromMixed = __webpack_require__(209);
-var getMarkupWrap = __webpack_require__(211);
+var createArrayFromMixed = __webpack_require__(198);
+var getMarkupWrap = __webpack_require__(200);
 var invariant = __webpack_require__(5);
 
 /**
@@ -18365,7 +17960,7 @@ module.exports = createNodesFromMarkup;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 211 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18466,7 +18061,7 @@ module.exports = getMarkupWrap;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 212 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18510,7 +18105,7 @@ function getUnboundedScrollPosition(scrollable) {
 module.exports = getUnboundedScrollPosition;
 
 /***/ }),
-/* 213 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18548,7 +18143,7 @@ function hyphenate(string) {
 module.exports = hyphenate;
 
 /***/ }),
-/* 214 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18565,7 +18160,7 @@ module.exports = hyphenate;
 
 
 
-var hyphenate = __webpack_require__(213);
+var hyphenate = __webpack_require__(202);
 
 var msPattern = /^ms-/;
 
@@ -18592,7 +18187,7 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 
 /***/ }),
-/* 215 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18620,7 +18215,7 @@ function isNode(object) {
 module.exports = isNode;
 
 /***/ }),
-/* 216 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18637,7 +18232,7 @@ module.exports = isNode;
  * @typechecks
  */
 
-var isNode = __webpack_require__(215);
+var isNode = __webpack_require__(204);
 
 /**
  * @param {*} object The object to check.
@@ -18650,7 +18245,7 @@ function isTextNode(object) {
 module.exports = isTextNode;
 
 /***/ }),
-/* 217 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18685,7 +18280,7 @@ function memoizeStringOnly(callback) {
 module.exports = memoizeStringOnly;
 
 /***/ }),
-/* 218 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18713,7 +18308,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = performance || {};
 
 /***/ }),
-/* 219 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18730,7 +18325,7 @@ module.exports = performance || {};
  * @typechecks
  */
 
-var performance = __webpack_require__(218);
+var performance = __webpack_require__(207);
 
 var performanceNow;
 
@@ -18752,7 +18347,7 @@ if (performance.now) {
 module.exports = performanceNow;
 
 /***/ }),
-/* 220 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18760,21 +18355,21 @@ module.exports = performanceNow;
 //# sourceMappingURL=complexTypes.js.map
 
 /***/ }),
-/* 221 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ComplexTypes = __webpack_require__(220);
+var ComplexTypes = __webpack_require__(209);
 exports.ComplexTypes = ComplexTypes;
-var Results = __webpack_require__(222);
+var Results = __webpack_require__(211);
 exports.Results = Results;
-var SPTypes = __webpack_require__(223);
+var SPTypes = __webpack_require__(212);
 exports.SPTypes = SPTypes;
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 222 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18782,7 +18377,7 @@ exports.SPTypes = SPTypes;
 //# sourceMappingURL=results.js.map
 
 /***/ }),
-/* 223 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18790,7 +18385,7 @@ exports.SPTypes = SPTypes;
 //# sourceMappingURL=sptypes.js.map
 
 /***/ }),
-/* 224 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19045,7 +18640,7 @@ exports.ContextInfo = new _ContextInfo();
 //# sourceMappingURL=contextInfo.js.map
 
 /***/ }),
-/* 225 */
+/* 214 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19110,7 +18705,7 @@ exports.Email = new _Email();
 //# sourceMappingURL=email.js.map
 
 /***/ }),
-/* 226 */
+/* 215 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19410,14 +19005,14 @@ exports.AppHelper = {
 //# sourceMappingURL=app.js.map
 
 /***/ }),
-/* 227 */
+/* 216 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var app_1 = __webpack_require__(226);
-var jslink_1 = __webpack_require__(228);
-var list_1 = __webpack_require__(229);
+var app_1 = __webpack_require__(215);
+var jslink_1 = __webpack_require__(217);
+var list_1 = __webpack_require__(218);
 /**
  * Helper Methods
  */
@@ -19429,7 +19024,7 @@ exports.Helper = {
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 228 */
+/* 217 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19801,7 +19396,7 @@ exports.JSLinkHelper = {
 //# sourceMappingURL=jslink.js.map
 
 /***/ }),
-/* 229 */
+/* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19835,7 +19430,7 @@ exports.ListHelper = {
 //# sourceMappingURL=list.js.map
 
 /***/ }),
-/* 230 */
+/* 219 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19942,7 +19537,7 @@ exports.JSLink = JSLink;
 //# sourceMappingURL=jslink.js.map
 
 /***/ }),
-/* 231 */
+/* 220 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19978,7 +19573,7 @@ exports.List = _List;
 //# sourceMappingURL=list.js.map
 
 /***/ }),
-/* 232 */
+/* 221 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20013,7 +19608,7 @@ exports.PeopleManager = _PeopleManager;
 //# sourceMappingURL=peopleManager.js.map
 
 /***/ }),
-/* 233 */
+/* 222 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20048,7 +19643,7 @@ exports.PeoplePicker = _PeoplePicker;
 //# sourceMappingURL=peoplePicker.js.map
 
 /***/ }),
-/* 234 */
+/* 223 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20084,7 +19679,7 @@ exports.ProfileLoader = _ProfileLoader;
 //# sourceMappingURL=profileLoader.js.map
 
 /***/ }),
-/* 235 */
+/* 224 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20157,7 +19752,7 @@ exports.Search = _Search;
 //# sourceMappingURL=search.js.map
 
 /***/ }),
-/* 236 */
+/* 225 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20207,7 +19802,7 @@ exports.Site = _Site;
 //# sourceMappingURL=site.js.map
 
 /***/ }),
-/* 237 */
+/* 226 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20270,7 +19865,7 @@ exports.SocialFeed = (new _SocialFeed());
 //# sourceMappingURL=socialFeed.js.map
 
 /***/ }),
-/* 238 */
+/* 227 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20306,7 +19901,7 @@ exports.UserProfile = _UserProfile;
 //# sourceMappingURL=userProfile.js.map
 
 /***/ }),
-/* 239 */
+/* 228 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20352,7 +19947,7 @@ exports.Web = _Web;
 //# sourceMappingURL=web.js.map
 
 /***/ }),
-/* 240 */
+/* 229 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20380,7 +19975,7 @@ exports.attachmentfiles = {
 //# sourceMappingURL=attachmentFiles.js.map
 
 /***/ }),
-/* 241 */
+/* 230 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20392,7 +19987,7 @@ exports.attachment = {};
 //# sourceMappingURL=attachment.js.map
 
 /***/ }),
-/* 242 */
+/* 231 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20411,7 +20006,7 @@ exports.audit = {
 //# sourceMappingURL=audit.js.map
 
 /***/ }),
-/* 243 */
+/* 232 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20442,7 +20037,7 @@ exports.contenttype = {
 //# sourceMappingURL=contentType.js.map
 
 /***/ }),
-/* 244 */
+/* 233 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20478,7 +20073,7 @@ exports.contenttypes = {
 //# sourceMappingURL=contentTypes.js.map
 
 /***/ }),
-/* 245 */
+/* 234 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20503,7 +20098,7 @@ exports.eventreceiver = {
 //# sourceMappingURL=eventReceiver.js.map
 
 /***/ }),
-/* 246 */
+/* 235 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20534,7 +20129,7 @@ exports.eventreceivers = {
 //# sourceMappingURL=eventReceivers.js.map
 
 /***/ }),
-/* 247 */
+/* 236 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20566,7 +20161,7 @@ exports.fieldlinks = {
 //# sourceMappingURL=fieldLinks.js.map
 
 /***/ }),
-/* 248 */
+/* 237 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20606,7 +20201,7 @@ exports.field = {
 //# sourceMappingURL=field.js.map
 
 /***/ }),
-/* 249 */
+/* 238 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20674,7 +20269,7 @@ exports.fields = {
 //# sourceMappingURL=fields.js.map
 
 /***/ }),
-/* 250 */
+/* 239 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20696,7 +20291,7 @@ exports.fileversion = {
 //# sourceMappingURL=fileVersion.js.map
 
 /***/ }),
-/* 251 */
+/* 240 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20719,7 +20314,7 @@ exports.fileversions = {
 //# sourceMappingURL=fileVersions.js.map
 
 /***/ }),
-/* 252 */
+/* 241 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20858,7 +20453,7 @@ exports.file = {
 //# sourceMappingURL=file.js.map
 
 /***/ }),
-/* 253 */
+/* 242 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20894,7 +20489,7 @@ exports.files = {
 //# sourceMappingURL=files.js.map
 
 /***/ }),
-/* 254 */
+/* 243 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20936,7 +20531,7 @@ exports.folder = {
 //# sourceMappingURL=folder.js.map
 
 /***/ }),
-/* 255 */
+/* 244 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20976,7 +20571,7 @@ exports.folders = {
 //# sourceMappingURL=folders.js.map
 
 /***/ }),
-/* 256 */
+/* 245 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20992,7 +20587,7 @@ exports.group = {
 //# sourceMappingURL=group.js.map
 
 /***/ }),
-/* 257 */
+/* 246 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21039,56 +20634,56 @@ exports.sitegroups = {
 //# sourceMappingURL=siteGroups.js.map
 
 /***/ }),
-/* 258 */
+/* 247 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var attachment_1 = __webpack_require__(241);
-var attachmentFiles_1 = __webpack_require__(240);
-var audit_1 = __webpack_require__(242);
-var contentType_1 = __webpack_require__(243);
-var contentTypes_1 = __webpack_require__(244);
-var eventReceiver_1 = __webpack_require__(245);
-var eventReceivers_1 = __webpack_require__(246);
-var field_1 = __webpack_require__(248);
-var fields_1 = __webpack_require__(249);
-var fieldLinks_1 = __webpack_require__(247);
-var file_1 = __webpack_require__(252);
-var files_1 = __webpack_require__(253);
-var fileVersion_1 = __webpack_require__(250);
-var fileVersions_1 = __webpack_require__(251);
-var folder_1 = __webpack_require__(254);
-var folders_1 = __webpack_require__(255);
-var group_1 = __webpack_require__(256);
-var siteGroups_1 = __webpack_require__(257);
-var items_1 = __webpack_require__(259);
-var limitedWebPartManager_1 = __webpack_require__(261);
-var list_1 = __webpack_require__(262);
-var listItem_1 = __webpack_require__(260);
-var lists_1 = __webpack_require__(263);
-var peopleManager_1 = __webpack_require__(264);
-var peoplePicker_1 = __webpack_require__(265);
-var profileLoader_1 = __webpack_require__(266);
-var propertyValues_1 = __webpack_require__(267);
-var roleAssignment_1 = __webpack_require__(268);
-var roleAssignments_1 = __webpack_require__(269);
-var roleDefinition_1 = __webpack_require__(270);
-var roleDefinitions_1 = __webpack_require__(271);
-var search_1 = __webpack_require__(272);
-var site_1 = __webpack_require__(273);
-var socialFeed_1 = __webpack_require__(274);
-var user_1 = __webpack_require__(278);
-var users_1 = __webpack_require__(279);
-var userCustomAction_1 = __webpack_require__(275);
-var userCustomActions_1 = __webpack_require__(276);
-var userProfile_1 = __webpack_require__(277);
-var version_1 = __webpack_require__(280);
-var view_1 = __webpack_require__(282);
-var views_1 = __webpack_require__(283);
-var viewFieldCollection_1 = __webpack_require__(281);
-var web_1 = __webpack_require__(284);
-var webs_1 = __webpack_require__(285);
+var attachment_1 = __webpack_require__(230);
+var attachmentFiles_1 = __webpack_require__(229);
+var audit_1 = __webpack_require__(231);
+var contentType_1 = __webpack_require__(232);
+var contentTypes_1 = __webpack_require__(233);
+var eventReceiver_1 = __webpack_require__(234);
+var eventReceivers_1 = __webpack_require__(235);
+var field_1 = __webpack_require__(237);
+var fields_1 = __webpack_require__(238);
+var fieldLinks_1 = __webpack_require__(236);
+var file_1 = __webpack_require__(241);
+var files_1 = __webpack_require__(242);
+var fileVersion_1 = __webpack_require__(239);
+var fileVersions_1 = __webpack_require__(240);
+var folder_1 = __webpack_require__(243);
+var folders_1 = __webpack_require__(244);
+var group_1 = __webpack_require__(245);
+var siteGroups_1 = __webpack_require__(246);
+var items_1 = __webpack_require__(248);
+var limitedWebPartManager_1 = __webpack_require__(250);
+var list_1 = __webpack_require__(251);
+var listItem_1 = __webpack_require__(249);
+var lists_1 = __webpack_require__(252);
+var peopleManager_1 = __webpack_require__(253);
+var peoplePicker_1 = __webpack_require__(254);
+var profileLoader_1 = __webpack_require__(255);
+var propertyValues_1 = __webpack_require__(256);
+var roleAssignment_1 = __webpack_require__(257);
+var roleAssignments_1 = __webpack_require__(258);
+var roleDefinition_1 = __webpack_require__(259);
+var roleDefinitions_1 = __webpack_require__(260);
+var search_1 = __webpack_require__(261);
+var site_1 = __webpack_require__(262);
+var socialFeed_1 = __webpack_require__(263);
+var user_1 = __webpack_require__(267);
+var users_1 = __webpack_require__(268);
+var userCustomAction_1 = __webpack_require__(264);
+var userCustomActions_1 = __webpack_require__(265);
+var userProfile_1 = __webpack_require__(266);
+var version_1 = __webpack_require__(269);
+var view_1 = __webpack_require__(271);
+var views_1 = __webpack_require__(272);
+var viewFieldCollection_1 = __webpack_require__(270);
+var web_1 = __webpack_require__(273);
+var webs_1 = __webpack_require__(274);
 /**
  * Mapper
  */
@@ -21127,7 +20722,7 @@ exports.Mapper = {
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 259 */
+/* 248 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21158,7 +20753,7 @@ exports.items = {
 //# sourceMappingURL=items.js.map
 
 /***/ }),
-/* 260 */
+/* 249 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21217,7 +20812,7 @@ exports.listitem = {
 //# sourceMappingURL=listItem.js.map
 
 /***/ }),
-/* 261 */
+/* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21237,7 +20832,7 @@ exports.limitedwebpartmanager = {
 //# sourceMappingURL=limitedWebPartManager.js.map
 
 /***/ }),
-/* 262 */
+/* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21364,7 +20959,7 @@ exports.list = {
 //# sourceMappingURL=list.js.map
 
 /***/ }),
-/* 263 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21409,7 +21004,7 @@ exports.lists = {
 //# sourceMappingURL=lists.js.map
 
 /***/ }),
-/* 264 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21497,7 +21092,7 @@ exports.peoplemanager = {
 //# sourceMappingURL=peopleManager.js.map
 
 /***/ }),
-/* 265 */
+/* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21525,7 +21120,7 @@ exports.peoplepicker = {
 //# sourceMappingURL=peoplePicker.js.map
 
 /***/ }),
-/* 266 */
+/* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21553,7 +21148,7 @@ exports.profileloader = {
 //# sourceMappingURL=profileLoader.js.map
 
 /***/ }),
-/* 267 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21572,7 +21167,7 @@ exports.propertyvalues = {
 //# sourceMappingURL=propertyValues.js.map
 
 /***/ }),
-/* 268 */
+/* 257 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21596,7 +21191,7 @@ exports.roleassignment = {
 //# sourceMappingURL=roleAssignment.js.map
 
 /***/ }),
-/* 269 */
+/* 258 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21631,7 +21226,7 @@ exports.roleassignments = {
 //# sourceMappingURL=roleAssignments.js.map
 
 /***/ }),
-/* 270 */
+/* 259 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21649,7 +21244,7 @@ exports.roledefinition = {
 //# sourceMappingURL=roleDefinition.js.map
 
 /***/ }),
-/* 271 */
+/* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21686,7 +21281,7 @@ exports.roledefinitions = {
 //# sourceMappingURL=roleDefinitions.js.map
 
 /***/ }),
-/* 272 */
+/* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21705,7 +21300,7 @@ exports.search = {
 //# sourceMappingURL=search.js.map
 
 /***/ }),
-/* 273 */
+/* 262 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21800,7 +21395,7 @@ exports.site = {
 //# sourceMappingURL=site.js.map
 
 /***/ }),
-/* 274 */
+/* 263 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21856,7 +21451,7 @@ exports.socialfeed = {
 //# sourceMappingURL=socialFeed.js.map
 
 /***/ }),
-/* 275 */
+/* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21874,7 +21469,7 @@ exports.usercustomaction = {
 //# sourceMappingURL=userCustomAction.js.map
 
 /***/ }),
-/* 276 */
+/* 265 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21909,7 +21504,7 @@ exports.usercustomactions = {
 //# sourceMappingURL=userCustomActions.js.map
 
 /***/ }),
-/* 277 */
+/* 266 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21938,7 +21533,7 @@ exports.userprofile = {
 //# sourceMappingURL=userProfile.js.map
 
 /***/ }),
-/* 278 */
+/* 267 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21962,7 +21557,7 @@ exports.user = {
 //# sourceMappingURL=user.js.map
 
 /***/ }),
-/* 279 */
+/* 268 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22017,7 +21612,7 @@ exports.users = {
 //# sourceMappingURL=users.js.map
 
 /***/ }),
-/* 280 */
+/* 269 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22056,7 +21651,7 @@ exports.version = {
 //# sourceMappingURL=version.js.map
 
 /***/ }),
-/* 281 */
+/* 270 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22094,7 +21689,7 @@ exports.viewfieldcollection = {
 //# sourceMappingURL=viewFieldCollection.js.map
 
 /***/ }),
-/* 282 */
+/* 271 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22129,7 +21724,7 @@ exports.view = {
 //# sourceMappingURL=view.js.map
 
 /***/ }),
-/* 283 */
+/* 272 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22166,7 +21761,7 @@ exports.views = {
 //# sourceMappingURL=views.js.map
 
 /***/ }),
-/* 284 */
+/* 273 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22391,7 +21986,7 @@ exports.web = {
 //# sourceMappingURL=web.js.map
 
 /***/ }),
-/* 285 */
+/* 274 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22415,7 +22010,7 @@ exports.webs = {
 //# sourceMappingURL=webs.js.map
 
 /***/ }),
-/* 286 */
+/* 275 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22446,7 +22041,7 @@ exports.RequestType = {
 //# sourceMappingURL=requestType.js.map
 
 /***/ }),
-/* 287 */
+/* 276 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22994,13 +22589,13 @@ exports.ViewType = {
 //# sourceMappingURL=sptypes.js.map
 
 /***/ }),
-/* 288 */
+/* 277 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var lib_1 = __webpack_require__(28);
-var mapper_1 = __webpack_require__(258);
+var mapper_1 = __webpack_require__(247);
 var types_1 = __webpack_require__(4);
 var _1 = __webpack_require__(12);
 /*********************************************************************************************************************************/
@@ -23568,7 +23163,7 @@ exports.Base = Base;
 //# sourceMappingURL=base.js.map
 
 /***/ }),
-/* 289 */
+/* 278 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23654,7 +23249,7 @@ exports.Dependencies = Dependencies;
 //# sourceMappingURL=dependencies.js.map
 
 /***/ }),
-/* 290 */
+/* 279 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23907,7 +23502,7 @@ exports.MethodInfo = MethodInfo;
 //# sourceMappingURL=methodInfo.js.map
 
 /***/ }),
-/* 291 */
+/* 280 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24024,7 +23619,7 @@ exports.OData = OData;
 //# sourceMappingURL=oData.js.map
 
 /***/ }),
-/* 292 */
+/* 281 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24084,7 +23679,7 @@ exports.Promise = Promise;
 //# sourceMappingURL=promise.js.map
 
 /***/ }),
-/* 293 */
+/* 282 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24222,7 +23817,7 @@ exports.TargetInfo = TargetInfo;
 //# sourceMappingURL=targetInfo.js.map
 
 /***/ }),
-/* 294 */
+/* 283 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24374,7 +23969,7 @@ exports.XHRRequest = XHRRequest;
 //# sourceMappingURL=xhrRequest.js.map
 
 /***/ }),
-/* 295 */
+/* 284 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24382,13 +23977,55 @@ exports.XHRRequest = XHRRequest;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(321));
+__export(__webpack_require__(310));
 
 //# sourceMappingURL=Breadcrumb.js.map
 
 
 /***/ }),
-/* 296 */
+/* 285 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(332));
+
+//# sourceMappingURL=Checkbox.js.map
+
+
+/***/ }),
+/* 286 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(335));
+
+//# sourceMappingURL=ChoiceGroup.js.map
+
+
+/***/ }),
+/* 287 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(340));
+
+//# sourceMappingURL=ColorPicker.js.map
+
+
+/***/ }),
+/* 288 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24398,53 +24035,11 @@ function __export(m) {
 }
 __export(__webpack_require__(343));
 
-//# sourceMappingURL=Checkbox.js.map
-
-
-/***/ }),
-/* 297 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(__webpack_require__(346));
-
-//# sourceMappingURL=ChoiceGroup.js.map
-
-
-/***/ }),
-/* 298 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(__webpack_require__(351));
-
-//# sourceMappingURL=ColorPicker.js.map
-
-
-/***/ }),
-/* 299 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(__webpack_require__(354));
-
 //# sourceMappingURL=CommandBar.js.map
 
 
 /***/ }),
-/* 300 */
+/* 289 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24452,13 +24047,57 @@ __export(__webpack_require__(354));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(360));
+__export(__webpack_require__(349));
 
 //# sourceMappingURL=DatePicker.js.map
 
 
 /***/ }),
-/* 301 */
+/* 290 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(355));
+
+//# sourceMappingURL=DetailsList.js.map
+
+
+/***/ }),
+/* 291 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(121));
+var index_1 = __webpack_require__(121);
+exports.default = index_1.Dialog;
+
+//# sourceMappingURL=Dialog.js.map
+
+
+/***/ }),
+/* 292 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(363));
+
+//# sourceMappingURL=DocumentCard.js.map
+
+
+/***/ }),
+/* 293 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24468,55 +24107,11 @@ function __export(m) {
 }
 __export(__webpack_require__(366));
 
-//# sourceMappingURL=DetailsList.js.map
-
-
-/***/ }),
-/* 302 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(__webpack_require__(122));
-var index_1 = __webpack_require__(122);
-exports.default = index_1.Dialog;
-
-//# sourceMappingURL=Dialog.js.map
-
-
-/***/ }),
-/* 303 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(__webpack_require__(374));
-
-//# sourceMappingURL=DocumentCard.js.map
-
-
-/***/ }),
-/* 304 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(__webpack_require__(377));
-
 //# sourceMappingURL=Dropdown.js.map
 
 
 /***/ }),
-/* 305 */
+/* 294 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24524,13 +24119,13 @@ __export(__webpack_require__(377));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(382));
+__export(__webpack_require__(371));
 
 //# sourceMappingURL=Facepile.js.map
 
 
 /***/ }),
-/* 306 */
+/* 295 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24544,7 +24139,7 @@ __export(__webpack_require__(70));
 
 
 /***/ }),
-/* 307 */
+/* 296 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24552,14 +24147,14 @@ __export(__webpack_require__(70));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(410));
+__export(__webpack_require__(399));
 __export(__webpack_require__(24));
 
 //# sourceMappingURL=MarqueeSelection.js.map
 
 
 /***/ }),
-/* 308 */
+/* 297 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24567,13 +24162,13 @@ __export(__webpack_require__(24));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(414));
+__export(__webpack_require__(403));
 
 //# sourceMappingURL=MessageBar.js.map
 
 
 /***/ }),
-/* 309 */
+/* 298 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24581,111 +24176,13 @@ __export(__webpack_require__(414));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(417));
+__export(__webpack_require__(406));
 
 //# sourceMappingURL=Nav.js.map
 
 
 /***/ }),
-/* 310 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(__webpack_require__(462));
-
-//# sourceMappingURL=Pickers.js.map
-
-
-/***/ }),
-/* 311 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(__webpack_require__(428));
-
-//# sourceMappingURL=Pivot.js.map
-
-
-/***/ }),
-/* 312 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(__webpack_require__(432));
-
-//# sourceMappingURL=ProgressIndicator.js.map
-
-
-/***/ }),
-/* 313 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(__webpack_require__(435));
-
-//# sourceMappingURL=Rating.js.map
-
-
-/***/ }),
-/* 314 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(__webpack_require__(437));
-
-//# sourceMappingURL=SearchBox.js.map
-
-
-/***/ }),
-/* 315 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(__webpack_require__(440));
-
-//# sourceMappingURL=Slider.js.map
-
-
-/***/ }),
-/* 316 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(__webpack_require__(445));
-
-//# sourceMappingURL=TeachingBubble.js.map
-
-
-/***/ }),
-/* 317 */
+/* 299 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24695,11 +24192,11 @@ function __export(m) {
 }
 __export(__webpack_require__(451));
 
-//# sourceMappingURL=Toggle.js.map
+//# sourceMappingURL=Pickers.js.map
 
 
 /***/ }),
-/* 318 */
+/* 300 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24707,13 +24204,111 @@ __export(__webpack_require__(451));
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(453));
+__export(__webpack_require__(417));
+
+//# sourceMappingURL=Pivot.js.map
+
+
+/***/ }),
+/* 301 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(421));
+
+//# sourceMappingURL=ProgressIndicator.js.map
+
+
+/***/ }),
+/* 302 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(424));
+
+//# sourceMappingURL=Rating.js.map
+
+
+/***/ }),
+/* 303 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(426));
+
+//# sourceMappingURL=SearchBox.js.map
+
+
+/***/ }),
+/* 304 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(429));
+
+//# sourceMappingURL=Slider.js.map
+
+
+/***/ }),
+/* 305 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(434));
+
+//# sourceMappingURL=TeachingBubble.js.map
+
+
+/***/ }),
+/* 306 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(440));
+
+//# sourceMappingURL=Toggle.js.map
+
+
+/***/ }),
+/* 307 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(442));
 
 //# sourceMappingURL=Tooltip.js.map
 
 
 /***/ }),
-/* 319 */
+/* 308 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24735,7 +24330,7 @@ var FocusZone_1 = __webpack_require__(11);
 var ContextualMenu_1 = __webpack_require__(45);
 var Link_1 = __webpack_require__(62);
 var DirectionalHint_1 = __webpack_require__(15);
-var Breadcrumb_scss_1 = __webpack_require__(320);
+var Breadcrumb_scss_1 = __webpack_require__(309);
 var OVERFLOW_KEY = 'overflow';
 var OVERFLOW_WIDTH = 44;
 var Breadcrumb = (function (_super) {
@@ -24891,7 +24486,7 @@ exports.Breadcrumb = Breadcrumb;
 
 
 /***/ }),
-/* 320 */
+/* 309 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24917,7 +24512,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_0b8fb8bc{font-family:\"Se
 
 
 /***/ }),
-/* 321 */
+/* 310 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24925,13 +24520,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_0b8fb8bc{font-family:\"Se
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(319));
+__export(__webpack_require__(308));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 322 */
+/* 311 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24952,7 +24547,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".flexContainer_2cae8d12{display
 
 
 /***/ }),
-/* 323 */
+/* 312 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24974,12 +24569,12 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 var React = __webpack_require__(0);
 /* tslint:enable:no-unused-variable */
 var Utilities_1 = __webpack_require__(1);
-var Button_Props_1 = __webpack_require__(109);
-var DefaultButton_1 = __webpack_require__(112);
-var CommandButton_1 = __webpack_require__(110);
-var CompoundButton_1 = __webpack_require__(111);
-var IconButton_1 = __webpack_require__(113);
-var PrimaryButton_1 = __webpack_require__(114);
+var Button_Props_1 = __webpack_require__(108);
+var DefaultButton_1 = __webpack_require__(111);
+var CommandButton_1 = __webpack_require__(109);
+var CompoundButton_1 = __webpack_require__(110);
+var IconButton_1 = __webpack_require__(112);
+var PrimaryButton_1 = __webpack_require__(113);
 /**
  * @deprecated
  * This class is deprecated. Use the individual *Button components instead.
@@ -25017,7 +24612,7 @@ exports.Button = Button;
 
 
 /***/ }),
-/* 324 */
+/* 313 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25041,7 +24636,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_8f7e935a{font-family:\"Se
 
 
 /***/ }),
-/* 325 */
+/* 314 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25065,7 +24660,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_89481688{font-family:\"Se
 
 
 /***/ }),
-/* 326 */
+/* 315 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25088,7 +24683,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_c956ce6f{font-family:\"Se
 
 
 /***/ }),
-/* 327 */
+/* 316 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25110,7 +24705,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_5f161e84{font-family:\"Se
 
 
 /***/ }),
-/* 328 */
+/* 317 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25133,7 +24728,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_df17f565{font-family:\"Se
 
 
 /***/ }),
-/* 329 */
+/* 318 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25142,19 +24737,19 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 __export(__webpack_require__(32));
+__export(__webpack_require__(108));
+__export(__webpack_require__(312));
 __export(__webpack_require__(109));
-__export(__webpack_require__(323));
 __export(__webpack_require__(110));
 __export(__webpack_require__(111));
-__export(__webpack_require__(112));
-__export(__webpack_require__(114));
 __export(__webpack_require__(113));
+__export(__webpack_require__(112));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 330 */
+/* 319 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25172,8 +24767,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var React = __webpack_require__(0);
 var Calendar_Props_1 = __webpack_require__(66);
-var CalendarDay_1 = __webpack_require__(331);
-var CalendarMonth_1 = __webpack_require__(332);
+var CalendarDay_1 = __webpack_require__(320);
+var CalendarMonth_1 = __webpack_require__(321);
 var Utilities_1 = __webpack_require__(1);
 var Calendar_scss_1 = __webpack_require__(67);
 var Calendar = (function (_super) {
@@ -25308,7 +24903,7 @@ exports.Calendar = Calendar;
 
 
 /***/ }),
-/* 331 */
+/* 320 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25321,7 +24916,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var FocusZone_1 = __webpack_require__(11);
-var DateMath_1 = __webpack_require__(149);
+var DateMath_1 = __webpack_require__(148);
 var Calendar_scss_1 = __webpack_require__(67);
 var DAYS_IN_WEEK = 7;
 var CalendarDay = (function (_super) {
@@ -25458,7 +25053,7 @@ exports.CalendarDay = CalendarDay;
 
 
 /***/ }),
-/* 332 */
+/* 321 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25471,7 +25066,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var FocusZone_1 = __webpack_require__(11);
-var DateMath_1 = __webpack_require__(149);
+var DateMath_1 = __webpack_require__(148);
 var Calendar_scss_1 = __webpack_require__(67);
 var CalendarMonth = (function (_super) {
     __extends(CalendarMonth, _super);
@@ -25529,7 +25124,7 @@ exports.CalendarMonth = CalendarMonth;
 
 
 /***/ }),
-/* 333 */
+/* 322 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25537,14 +25132,14 @@ exports.CalendarMonth = CalendarMonth;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(330));
+__export(__webpack_require__(319));
 __export(__webpack_require__(66));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 334 */
+/* 323 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25566,7 +25161,7 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 var React = __webpack_require__(0);
 /* tslint:enable:no-unused-variable */
 var Utilities_1 = __webpack_require__(1);
-var CalloutContent_1 = __webpack_require__(336);
+var CalloutContent_1 = __webpack_require__(325);
 var Layer_1 = __webpack_require__(46);
 var Callout = (function (_super) {
     __extends(Callout, _super);
@@ -25585,7 +25180,7 @@ exports.Callout = Callout;
 
 
 /***/ }),
-/* 335 */
+/* 324 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25608,7 +25203,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_89ab6109{font-family:\"Se
 
 
 /***/ }),
-/* 336 */
+/* 325 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25628,9 +25223,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var React = __webpack_require__(0);
 var DirectionalHint_1 = __webpack_require__(15);
 var Utilities_1 = __webpack_require__(1);
-var positioning_1 = __webpack_require__(465);
-var Popup_1 = __webpack_require__(108);
-var Callout_scss_1 = __webpack_require__(335);
+var positioning_1 = __webpack_require__(454);
+var Popup_1 = __webpack_require__(107);
+var Callout_scss_1 = __webpack_require__(324);
 var BEAK_ORIGIN_POSITION = { top: 0, left: 0 };
 var OFF_SCREEN_STYLE = { opacity: 0 };
 var BORDER_WIDTH = 1;
@@ -25869,7 +25464,7 @@ exports.CalloutContent = CalloutContent;
 
 
 /***/ }),
-/* 337 */
+/* 326 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25877,14 +25472,14 @@ exports.CalloutContent = CalloutContent;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(334));
+__export(__webpack_require__(323));
 __export(__webpack_require__(15));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 338 */
+/* 327 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25896,7 +25491,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-var Check_scss_1 = __webpack_require__(339);
+var Check_scss_1 = __webpack_require__(328);
 var Check = (function (_super) {
     __extends(Check, _super);
     function Check() {
@@ -25926,7 +25521,7 @@ exports.Check = Check;
 
 
 /***/ }),
-/* 339 */
+/* 328 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25948,7 +25543,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_5d9fbb49{line-height:1;wi
 
 
 /***/ }),
-/* 340 */
+/* 329 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25956,13 +25551,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_5d9fbb49{line-height:1;wi
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(338));
+__export(__webpack_require__(327));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 341 */
+/* 330 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25988,7 +25583,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-var Checkbox_scss_1 = __webpack_require__(342);
+var Checkbox_scss_1 = __webpack_require__(331);
 var Checkbox = (function (_super) {
     __extends(Checkbox, _super);
     function Checkbox(props) {
@@ -26072,7 +25667,7 @@ exports.Checkbox = Checkbox;
 
 
 /***/ }),
-/* 342 */
+/* 331 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26098,7 +25693,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_dc02ab71{box-sizing:borde
 
 
 /***/ }),
-/* 343 */
+/* 332 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26106,13 +25701,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_dc02ab71{box-sizing:borde
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(341));
+__export(__webpack_require__(330));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 344 */
+/* 333 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26135,7 +25730,7 @@ var Image_1 = __webpack_require__(30);
 var Label_1 = __webpack_require__(31);
 var Icon_1 = __webpack_require__(29);
 var Utilities_1 = __webpack_require__(1);
-var ChoiceGroup_scss_1 = __webpack_require__(345);
+var ChoiceGroup_scss_1 = __webpack_require__(334);
 var ChoiceGroup = (function (_super) {
     __extends(ChoiceGroup, _super);
     function ChoiceGroup(props) {
@@ -26262,7 +25857,7 @@ exports.ChoiceGroup = ChoiceGroup;
 
 
 /***/ }),
-/* 345 */
+/* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26295,7 +25890,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_bf4db1c9{font-family:\"Se
 
 
 /***/ }),
-/* 346 */
+/* 335 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26303,13 +25898,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_bf4db1c9{font-family:\"Se
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(344));
+__export(__webpack_require__(333));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 347 */
+/* 336 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26328,9 +25923,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var TextField_1 = __webpack_require__(65);
-var ColorRectangle_1 = __webpack_require__(348);
-var ColorSlider_1 = __webpack_require__(349);
-var colors_1 = __webpack_require__(115);
+var ColorRectangle_1 = __webpack_require__(337);
+var ColorSlider_1 = __webpack_require__(338);
+var colors_1 = __webpack_require__(114);
 var ColorPicker_scss_1 = __webpack_require__(68);
 var ColorPicker = (function (_super) {
     __extends(ColorPicker, _super);
@@ -26412,7 +26007,7 @@ exports.ColorPicker = ColorPicker;
 
 
 /***/ }),
-/* 348 */
+/* 337 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26430,7 +26025,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-var colors_1 = __webpack_require__(115);
+var colors_1 = __webpack_require__(114);
 var ColorPicker_scss_1 = __webpack_require__(68);
 var ColorRectangle = (function (_super) {
     __extends(ColorRectangle, _super);
@@ -26517,7 +26112,7 @@ exports.ColorRectangle = ColorRectangle;
 
 
 /***/ }),
-/* 349 */
+/* 338 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26612,7 +26207,7 @@ exports.ColorSlider = ColorSlider;
 
 
 /***/ }),
-/* 350 */
+/* 339 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26772,7 +26367,7 @@ exports.COLOR_VALUES = {
 
 
 /***/ }),
-/* 351 */
+/* 340 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26780,13 +26375,13 @@ exports.COLOR_VALUES = {
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(347));
+__export(__webpack_require__(336));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 352 */
+/* 341 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26816,7 +26411,7 @@ var FocusZone_1 = __webpack_require__(11);
 var ContextualMenu_1 = __webpack_require__(45);
 var DirectionalHint_1 = __webpack_require__(15);
 var Icon_1 = __webpack_require__(29);
-var CommandBar_scss_1 = __webpack_require__(353);
+var CommandBar_scss_1 = __webpack_require__(342);
 var OVERFLOW_KEY = 'overflow';
 var OVERFLOW_WIDTH = 41.5;
 var CommandBar = (function (_super) {
@@ -27064,7 +26659,7 @@ exports.CommandBar = CommandBar;
 
 
 /***/ }),
-/* 353 */
+/* 342 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27101,7 +26696,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_aad490f9{font-family:\"Se
 
 
 /***/ }),
-/* 354 */
+/* 343 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27109,13 +26704,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_aad490f9{font-family:\"Se
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(352));
+__export(__webpack_require__(341));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 355 */
+/* 344 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27140,13 +26735,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var React = __webpack_require__(0);
-var ContextualMenu_Props_1 = __webpack_require__(116);
+var ContextualMenu_Props_1 = __webpack_require__(115);
 var DirectionalHint_1 = __webpack_require__(15);
 var FocusZone_1 = __webpack_require__(11);
 var Utilities_1 = __webpack_require__(1);
 var Callout_1 = __webpack_require__(23);
 var Icon_1 = __webpack_require__(29);
-var ContextualMenu_scss_1 = __webpack_require__(356);
+var ContextualMenu_scss_1 = __webpack_require__(345);
 var ContextualMenuType;
 (function (ContextualMenuType) {
     ContextualMenuType[ContextualMenuType["vertical"] = 0] = "vertical";
@@ -27492,7 +27087,7 @@ exports.ContextualMenu = ContextualMenu;
 
 
 /***/ }),
-/* 356 */
+/* 345 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27524,7 +27119,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_5b135d67{background-color
 
 
 /***/ }),
-/* 357 */
+/* 346 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27532,14 +27127,14 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_5b135d67{background-color
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(355));
-__export(__webpack_require__(116));
+__export(__webpack_require__(344));
+__export(__webpack_require__(115));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 358 */
+/* 347 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27556,12 +27151,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var React = __webpack_require__(0);
-var Calendar_1 = __webpack_require__(104);
+var Calendar_1 = __webpack_require__(103);
 var Callout_1 = __webpack_require__(23);
 var DirectionalHint_1 = __webpack_require__(15);
 var TextField_1 = __webpack_require__(65);
 var Utilities_1 = __webpack_require__(1);
-var DatePicker_scss_1 = __webpack_require__(359);
+var DatePicker_scss_1 = __webpack_require__(348);
 var DEFAULT_STRINGS = {
     months: [
         'January',
@@ -27859,7 +27454,7 @@ exports.DatePicker = DatePicker;
 
 
 /***/ }),
-/* 359 */
+/* 348 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27881,7 +27476,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_f6677c61{box-sizing:borde
 
 
 /***/ }),
-/* 360 */
+/* 349 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27889,14 +27484,14 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_f6677c61{box-sizing:borde
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(358));
+__export(__webpack_require__(347));
 __export(__webpack_require__(66));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 361 */
+/* 350 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27921,7 +27516,7 @@ var Icon_1 = __webpack_require__(29);
 var Layer_1 = __webpack_require__(46);
 var GroupSpacer_1 = __webpack_require__(49);
 var interfaces_1 = __webpack_require__(34);
-var DetailsHeader_scss_1 = __webpack_require__(362);
+var DetailsHeader_scss_1 = __webpack_require__(351);
 var MOUSEDOWN_PRIMARY_BUTTON = 0; // for mouse down event we are using ev.button property, 0 means left button
 var MOUSEMOVE_PRIMARY_BUTTON = 1; // for mouse move event we are using ev.buttons property, 1 means left button
 var INNER_PADDING = 16;
@@ -28155,7 +27750,7 @@ exports.DetailsHeader = DetailsHeader;
 
 
 /***/ }),
-/* 362 */
+/* 351 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28188,7 +27783,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_df9e485b{display:inline-b
 
 
 /***/ }),
-/* 363 */
+/* 352 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28215,15 +27810,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var DetailsList_Props_1 = __webpack_require__(48);
-var DetailsHeader_1 = __webpack_require__(361);
-var DetailsRow_1 = __webpack_require__(117);
+var DetailsHeader_1 = __webpack_require__(350);
+var DetailsRow_1 = __webpack_require__(116);
 var FocusZone_1 = __webpack_require__(11);
-var GroupedList_1 = __webpack_require__(106);
+var GroupedList_1 = __webpack_require__(105);
 var List_1 = __webpack_require__(47);
-var withViewport_1 = __webpack_require__(463);
+var withViewport_1 = __webpack_require__(452);
 var index_1 = __webpack_require__(24);
-var DragDropHelper_1 = __webpack_require__(464);
-var DetailsList_scss_1 = __webpack_require__(364);
+var DragDropHelper_1 = __webpack_require__(453);
+var DetailsList_scss_1 = __webpack_require__(353);
 var MIN_COLUMN_WIDTH = 100; // this is the global min width
 var CHECKBOX_WIDTH = 36;
 var GROUP_EXPAND_WIDTH = 36;
@@ -28664,7 +28259,7 @@ exports.buildColumns = buildColumns;
 
 
 /***/ }),
-/* 364 */
+/* 353 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28685,7 +28280,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_6c956f8d{position:relativ
 
 
 /***/ }),
-/* 365 */
+/* 354 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28750,7 +28345,7 @@ exports.DetailsRowFields = DetailsRowFields;
 
 
 /***/ }),
-/* 366 */
+/* 355 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28759,16 +28354,16 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 __export(__webpack_require__(24));
-__export(__webpack_require__(363));
+__export(__webpack_require__(352));
 __export(__webpack_require__(48));
+__export(__webpack_require__(116));
 __export(__webpack_require__(117));
-__export(__webpack_require__(118));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 367 */
+/* 356 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28795,14 +28390,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var index_1 = __webpack_require__(70);
-var Dialog_Props_1 = __webpack_require__(119);
+var Dialog_Props_1 = __webpack_require__(118);
 var Overlay_1 = __webpack_require__(63);
 var Layer_1 = __webpack_require__(46);
 var Button_1 = __webpack_require__(13);
-var DialogFooter_1 = __webpack_require__(121);
-var index_2 = __webpack_require__(135);
-var withResponsiveMode_1 = __webpack_require__(151);
-var Dialog_scss_1 = __webpack_require__(120);
+var DialogFooter_1 = __webpack_require__(120);
+var index_2 = __webpack_require__(134);
+var withResponsiveMode_1 = __webpack_require__(150);
+var Dialog_scss_1 = __webpack_require__(119);
 var Dialog = (function (_super) {
     __extends(Dialog, _super);
     function Dialog(props) {
@@ -28940,7 +28535,7 @@ exports.Dialog = Dialog;
 
 
 /***/ }),
-/* 368 */
+/* 357 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28957,7 +28552,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var React = __webpack_require__(0);
-var DocumentCard_Props_1 = __webpack_require__(123);
+var DocumentCard_Props_1 = __webpack_require__(122);
 var Utilities_1 = __webpack_require__(1);
 var DocumentCard_scss_1 = __webpack_require__(33);
 var DocumentCard = (function (_super) {
@@ -29024,7 +28619,7 @@ exports.DocumentCard = DocumentCard;
 
 
 /***/ }),
-/* 369 */
+/* 358 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29071,7 +28666,7 @@ exports.DocumentCardActions = DocumentCardActions;
 
 
 /***/ }),
-/* 370 */
+/* 359 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29127,7 +28722,7 @@ exports.DocumentCardActivity = DocumentCardActivity;
 
 
 /***/ }),
-/* 371 */
+/* 360 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29157,7 +28752,7 @@ exports.DocumentCardLocation = DocumentCardLocation;
 
 
 /***/ }),
-/* 372 */
+/* 361 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29244,7 +28839,7 @@ exports.DocumentCardPreview = DocumentCardPreview;
 
 
 /***/ }),
-/* 373 */
+/* 362 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29379,7 +28974,7 @@ exports.DocumentCardTitle = DocumentCardTitle;
 
 
 /***/ }),
-/* 374 */
+/* 363 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29387,19 +28982,19 @@ exports.DocumentCardTitle = DocumentCardTitle;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(368));
-__export(__webpack_require__(123));
-__export(__webpack_require__(369));
-__export(__webpack_require__(370));
-__export(__webpack_require__(371));
-__export(__webpack_require__(372));
-__export(__webpack_require__(373));
+__export(__webpack_require__(357));
+__export(__webpack_require__(122));
+__export(__webpack_require__(358));
+__export(__webpack_require__(359));
+__export(__webpack_require__(360));
+__export(__webpack_require__(361));
+__export(__webpack_require__(362));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 375 */
+/* 364 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29428,11 +29023,11 @@ var DirectionalHint_1 = __webpack_require__(15);
 var Callout_1 = __webpack_require__(23);
 var Label_1 = __webpack_require__(31);
 var Button_1 = __webpack_require__(13);
-var Panel_1 = __webpack_require__(107);
+var Panel_1 = __webpack_require__(106);
 var FocusZone_1 = __webpack_require__(11);
-var withResponsiveMode_1 = __webpack_require__(151);
+var withResponsiveMode_1 = __webpack_require__(150);
 var Utilities_1 = __webpack_require__(1);
-var Dropdown_scss_1 = __webpack_require__(376);
+var Dropdown_scss_1 = __webpack_require__(365);
 var Dropdown = Dropdown_1 = (function (_super) {
     __extends(Dropdown, _super);
     function Dropdown(props) {
@@ -29672,7 +29267,7 @@ var Dropdown_1;
 
 
 /***/ }),
-/* 376 */
+/* 365 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29700,7 +29295,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_ac1e6fd2{box-sizing:borde
 
 
 /***/ }),
-/* 377 */
+/* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29708,13 +29303,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_ac1e6fd2{box-sizing:borde
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(375));
+__export(__webpack_require__(364));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 378 */
+/* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29800,7 +29395,7 @@ exports.Fabric = Fabric;
 
 
 /***/ }),
-/* 379 */
+/* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29808,13 +29403,13 @@ exports.Fabric = Fabric;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(378));
+__export(__webpack_require__(367));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 380 */
+/* 369 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29834,11 +29429,11 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-var Facepile_Props_1 = __webpack_require__(124);
+var Facepile_Props_1 = __webpack_require__(123);
 var FocusZone_1 = __webpack_require__(11);
 var Button_1 = __webpack_require__(13);
 var Persona_1 = __webpack_require__(39);
-var Facepile_scss_1 = __webpack_require__(381);
+var Facepile_scss_1 = __webpack_require__(370);
 var Facepile = (function (_super) {
     __extends(Facepile, _super);
     function Facepile() {
@@ -29938,7 +29533,7 @@ exports.Facepile = Facepile;
 
 
 /***/ }),
-/* 381 */
+/* 370 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29962,7 +29557,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_c62ebf35{position:relativ
 
 
 /***/ }),
-/* 382 */
+/* 371 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29970,14 +29565,14 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_c62ebf35{position:relativ
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(124));
-__export(__webpack_require__(380));
+__export(__webpack_require__(123));
+__export(__webpack_require__(369));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 383 */
+/* 372 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30127,7 +29722,7 @@ exports.FocusTrapZone = FocusTrapZone;
 
 
 /***/ }),
-/* 384 */
+/* 373 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30152,7 +29747,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var React = __webpack_require__(0);
-var FocusZone_Props_1 = __webpack_require__(125);
+var FocusZone_Props_1 = __webpack_require__(124);
 var Utilities_1 = __webpack_require__(1);
 var IS_FOCUSABLE_ATTRIBUTE = 'data-is-focusable';
 var IS_ENTER_DISABLED_ATTRIBUTE = 'data-disable-click-on-enter';
@@ -30662,7 +30257,7 @@ exports.FocusZone = FocusZone;
 
 
 /***/ }),
-/* 385 */
+/* 374 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30670,14 +30265,14 @@ exports.FocusZone = FocusZone;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(384));
-__export(__webpack_require__(125));
+__export(__webpack_require__(373));
+__export(__webpack_require__(124));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 386 */
+/* 375 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30697,7 +30292,7 @@ var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var Link_1 = __webpack_require__(62);
 var GroupSpacer_1 = __webpack_require__(49);
-var GroupFooter_scss_1 = __webpack_require__(387);
+var GroupFooter_scss_1 = __webpack_require__(376);
 var GroupFooter = (function (_super) {
     __extends(GroupFooter, _super);
     function GroupFooter() {
@@ -30725,7 +30320,7 @@ exports.GroupFooter = GroupFooter;
 
 
 /***/ }),
-/* 387 */
+/* 376 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30744,7 +30339,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_f4f85813{position:relativ
 
 
 /***/ }),
-/* 388 */
+/* 377 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30768,7 +30363,7 @@ var Icon_1 = __webpack_require__(29);
 var GroupSpacer_1 = __webpack_require__(49);
 var Spinner_1 = __webpack_require__(64);
 var FocusZone_1 = __webpack_require__(11);
-var GroupHeader_scss_1 = __webpack_require__(389);
+var GroupHeader_scss_1 = __webpack_require__(378);
 var GroupHeader = (function (_super) {
     __extends(GroupHeader, _super);
     function GroupHeader(props) {
@@ -30870,7 +30465,7 @@ exports.GroupHeader = GroupHeader;
 
 
 /***/ }),
-/* 389 */
+/* 378 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30897,7 +30492,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_8894976e{cursor:default;-
 
 
 /***/ }),
-/* 390 */
+/* 379 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30916,7 +30511,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_6ac4d1a6{display:inline-b
 
 
 /***/ }),
-/* 391 */
+/* 380 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30934,10 +30529,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-var GroupedListSection_1 = __webpack_require__(392);
+var GroupedListSection_1 = __webpack_require__(381);
 var List_1 = __webpack_require__(47);
 var index_1 = __webpack_require__(24);
-var GroupedList_scss_1 = __webpack_require__(126);
+var GroupedList_scss_1 = __webpack_require__(125);
 var GroupedList = (function (_super) {
     __extends(GroupedList, _super);
     function GroupedList(props) {
@@ -31103,7 +30698,7 @@ exports.GroupedList = GroupedList;
 
 
 /***/ }),
-/* 392 */
+/* 381 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31130,11 +30725,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var index_1 = __webpack_require__(24);
-var GroupFooter_1 = __webpack_require__(386);
-var GroupHeader_1 = __webpack_require__(388);
+var GroupFooter_1 = __webpack_require__(375);
+var GroupHeader_1 = __webpack_require__(377);
 var List_1 = __webpack_require__(47);
 var Utilities_2 = __webpack_require__(1);
-var GroupedList_scss_1 = __webpack_require__(126);
+var GroupedList_scss_1 = __webpack_require__(125);
 var DEFAULT_DROPPING_CSS_CLASS = 'is-dropping';
 var GroupedListSection = (function (_super) {
     __extends(GroupedListSection, _super);
@@ -31328,7 +30923,7 @@ exports.GroupedListSection = GroupedListSection;
 
 
 /***/ }),
-/* 393 */
+/* 382 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31336,13 +30931,13 @@ exports.GroupedListSection = GroupedListSection;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(391));
+__export(__webpack_require__(380));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 394 */
+/* 383 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31357,9 +30952,9 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 /* tslint:disable */
 var React = __webpack_require__(0);
-var Icon_scss_1 = __webpack_require__(395);
-var IconType_1 = __webpack_require__(127);
-var Image_1 = __webpack_require__(129);
+var Icon_scss_1 = __webpack_require__(384);
+var IconType_1 = __webpack_require__(126);
+var Image_1 = __webpack_require__(128);
 var Utilities_1 = __webpack_require__(1);
 exports.Icon = function (props) {
     var customIcon = props.iconName === 'None';
@@ -31379,7 +30974,7 @@ exports.Icon = function (props) {
 
 
 /***/ }),
-/* 395 */
+/* 384 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31398,7 +30993,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".imageContainer_f0343474{overfl
 
 
 /***/ }),
-/* 396 */
+/* 385 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31406,14 +31001,14 @@ load_themed_styles_1.loadStyles([{ "rawString": ".imageContainer_f0343474{overfl
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(394));
-__export(__webpack_require__(127));
+__export(__webpack_require__(383));
+__export(__webpack_require__(126));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 397 */
+/* 386 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31444,7 +31039,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_260c16f2{overflow:hidden}
 
 
 /***/ }),
-/* 398 */
+/* 387 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31452,14 +31047,14 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_260c16f2{overflow:hidden}
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(129));
 __export(__webpack_require__(128));
+__export(__webpack_require__(127));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 399 */
+/* 388 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31479,7 +31074,7 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-var Label_scss_1 = __webpack_require__(400);
+var Label_scss_1 = __webpack_require__(389);
 var Label = (function (_super) {
     __extends(Label, _super);
     function Label() {
@@ -31504,7 +31099,7 @@ exports.Label = Label;
 
 
 /***/ }),
-/* 400 */
+/* 389 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31525,7 +31120,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_0b139ddc{font-family:\"Se
 
 
 /***/ }),
-/* 401 */
+/* 390 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31533,13 +31128,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_0b139ddc{font-family:\"Se
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(399));
+__export(__webpack_require__(388));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 402 */
+/* 391 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31559,7 +31154,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".rootIsFixed_536bd882{position:
 
 
 /***/ }),
-/* 403 */
+/* 392 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31605,7 +31200,7 @@ exports.LayerHost = LayerHost;
 
 
 /***/ }),
-/* 404 */
+/* 393 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31614,13 +31209,13 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 __export(__webpack_require__(71));
-__export(__webpack_require__(403));
+__export(__webpack_require__(392));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 405 */
+/* 394 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31646,7 +31241,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-var Link_scss_1 = __webpack_require__(406);
+var Link_scss_1 = __webpack_require__(395);
 var Link = (function (_super) {
     __extends(Link, _super);
     function Link() {
@@ -31688,7 +31283,7 @@ exports.Link = Link;
 
 
 /***/ }),
-/* 406 */
+/* 395 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31709,7 +31304,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_3c4ee1d6{font-family:\"Se
 
 
 /***/ }),
-/* 407 */
+/* 396 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31717,13 +31312,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_3c4ee1d6{font-family:\"Se
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(405));
+__export(__webpack_require__(394));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 408 */
+/* 397 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32308,7 +31903,7 @@ function _mergeRect(targetRect, newRect) {
 
 
 /***/ }),
-/* 409 */
+/* 398 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32316,13 +31911,13 @@ function _mergeRect(targetRect, newRect) {
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(408));
+__export(__webpack_require__(397));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 410 */
+/* 399 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32348,7 +31943,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-var MarqueeSelection_scss_1 = __webpack_require__(411);
+var MarqueeSelection_scss_1 = __webpack_require__(400);
 // We want to make the marquee selection start when the user drags a minimum distance. Otherwise we'd start
 // the drag even if they just click an item without moving.
 var MIN_DRAG_DISTANCE = 5;
@@ -32553,7 +32148,7 @@ exports.MarqueeSelection = MarqueeSelection;
 
 
 /***/ }),
-/* 411 */
+/* 400 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32575,7 +32170,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_c0d0c655{position:relativ
 
 
 /***/ }),
-/* 412 */
+/* 401 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32588,8 +32183,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var Button_1 = __webpack_require__(13);
-var MessageBar_Props_1 = __webpack_require__(130);
-var MessageBar_scss_1 = __webpack_require__(413);
+var MessageBar_Props_1 = __webpack_require__(129);
+var MessageBar_scss_1 = __webpack_require__(402);
 var MessageBar = (function (_super) {
     __extends(MessageBar, _super);
     function MessageBar(props) {
@@ -32704,7 +32299,7 @@ exports.MessageBar = MessageBar;
 
 
 /***/ }),
-/* 413 */
+/* 402 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32740,7 +32335,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_0a7bd317{font-family:\"Se
 
 
 /***/ }),
-/* 414 */
+/* 403 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32748,14 +32343,14 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_0a7bd317{font-family:\"Se
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(412));
-__export(__webpack_require__(130));
+__export(__webpack_require__(401));
+__export(__webpack_require__(129));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 415 */
+/* 404 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32769,7 +32364,7 @@ var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var FocusZone_1 = __webpack_require__(11);
 var Button_1 = __webpack_require__(13);
-var Nav_scss_1 = __webpack_require__(416);
+var Nav_scss_1 = __webpack_require__(405);
 // The number pixels per indentation level for Nav links.
 var _indentationSize = 14;
 // Tne number of pixels of left margin when there is expand/collaps button
@@ -32953,7 +32548,7 @@ exports.Nav = Nav;
 
 
 /***/ }),
-/* 416 */
+/* 405 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32993,7 +32588,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_77f33dcb{overflow-y:auto;
 
 
 /***/ }),
-/* 417 */
+/* 406 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33001,13 +32596,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_77f33dcb{overflow-y:auto;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(415));
+__export(__webpack_require__(404));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 418 */
+/* 407 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33027,7 +32622,7 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-var Overlay_scss_1 = __webpack_require__(419);
+var Overlay_scss_1 = __webpack_require__(408);
 var Overlay = (function (_super) {
     __extends(Overlay, _super);
     function Overlay() {
@@ -33050,7 +32645,7 @@ exports.Overlay = Overlay;
 
 
 /***/ }),
-/* 419 */
+/* 408 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33071,7 +32666,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_6b6168f6{background-color
 
 
 /***/ }),
-/* 420 */
+/* 409 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33079,13 +32674,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_6b6168f6{background-color
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(418));
+__export(__webpack_require__(407));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 421 */
+/* 410 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33114,12 +32709,12 @@ var React = __webpack_require__(0);
 /* tslint:enable:no-unused-variable */
 var Utilities_1 = __webpack_require__(1);
 var index_1 = __webpack_require__(70);
-var Panel_Props_1 = __webpack_require__(131);
+var Panel_Props_1 = __webpack_require__(130);
 var Layer_1 = __webpack_require__(71);
 var Overlay_1 = __webpack_require__(63);
-var Popup_1 = __webpack_require__(108);
+var Popup_1 = __webpack_require__(107);
 var Button_1 = __webpack_require__(13);
-var Panel_scss_1 = __webpack_require__(422);
+var Panel_scss_1 = __webpack_require__(411);
 // Animation class constants.
 var FADE_IN_200 = 'ms-u-fadeIn200';
 var FADE_OUT_200 = 'ms-u-fadeOut200';
@@ -33308,7 +32903,7 @@ exports.Panel = Panel;
 
 
 /***/ }),
-/* 422 */
+/* 411 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33346,7 +32941,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_bb26195f{display:none;poi
 
 
 /***/ }),
-/* 423 */
+/* 412 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33354,14 +32949,14 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_bb26195f{display:none;poi
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(421));
-__export(__webpack_require__(131));
+__export(__webpack_require__(410));
+__export(__webpack_require__(130));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 424 */
+/* 413 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33389,8 +32984,8 @@ var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var Image_1 = __webpack_require__(30);
 var Persona_Props_1 = __webpack_require__(72);
-var PersonaConsts_1 = __webpack_require__(133);
-var Persona_scss_1 = __webpack_require__(132);
+var PersonaConsts_1 = __webpack_require__(132);
+var Persona_scss_1 = __webpack_require__(131);
 // The RGB color swatches
 var COLOR_SWATCHES_LOOKUP = [
     Persona_Props_1.PersonaInitialsColor.lightGreen,
@@ -33510,7 +33105,7 @@ exports.Persona = Persona;
 
 
 /***/ }),
-/* 425 */
+/* 414 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33518,15 +33113,15 @@ exports.Persona = Persona;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(424));
+__export(__webpack_require__(413));
 __export(__webpack_require__(72));
-__export(__webpack_require__(133));
+__export(__webpack_require__(132));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 426 */
+/* 415 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33546,10 +33141,10 @@ var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var Button_1 = __webpack_require__(13);
 var FocusZone_1 = __webpack_require__(11);
-var PivotItem_1 = __webpack_require__(134);
+var PivotItem_1 = __webpack_require__(133);
 var Pivot_Props_1 = __webpack_require__(73);
 var Pivot_Props_2 = __webpack_require__(73);
-var Pivot_scss_1 = __webpack_require__(427);
+var Pivot_scss_1 = __webpack_require__(416);
 var Pivot = (function (_super) {
     __extends(Pivot, _super);
     function Pivot(props) {
@@ -33732,7 +33327,7 @@ exports.Pivot = Pivot;
 
 
 /***/ }),
-/* 427 */
+/* 416 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33762,7 +33357,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_0cc7b1b1{font-family:\"Se
 
 
 /***/ }),
-/* 428 */
+/* 417 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33770,8 +33365,8 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_0cc7b1b1{font-family:\"Se
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(426));
-var PivotItem_1 = __webpack_require__(134);
+__export(__webpack_require__(415));
+var PivotItem_1 = __webpack_require__(133);
 exports.PivotItem = PivotItem_1.PivotItem;
 __export(__webpack_require__(73));
 
@@ -33779,7 +33374,7 @@ __export(__webpack_require__(73));
 
 
 /***/ }),
-/* 429 */
+/* 418 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33871,7 +33466,7 @@ exports.Popup = Popup;
 
 
 /***/ }),
-/* 430 */
+/* 419 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33885,7 +33480,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var React = __webpack_require__(0);
 /* tslint:enable:no-unused-variable */
 var Utilities_1 = __webpack_require__(1);
-var ProgressIndicator_scss_1 = __webpack_require__(431);
+var ProgressIndicator_scss_1 = __webpack_require__(420);
 // if the percentComplete is near 0, don't animate it.
 // This prevents animations on reset to 0 scenarios
 var ZERO_THRESHOLD = 0.01;
@@ -33926,7 +33521,7 @@ exports.ProgressIndicator = ProgressIndicator;
 
 
 /***/ }),
-/* 431 */
+/* 420 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33951,7 +33546,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_2144b6fb{font-family:\"Se
 
 
 /***/ }),
-/* 432 */
+/* 421 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33959,13 +33554,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_2144b6fb{font-family:\"Se
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(430));
+__export(__webpack_require__(419));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 433 */
+/* 422 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33977,8 +33572,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-var Rating_Props_1 = __webpack_require__(136);
-var Rating_scss_1 = __webpack_require__(434);
+var Rating_Props_1 = __webpack_require__(135);
+var Rating_scss_1 = __webpack_require__(423);
 var Rating = (function (_super) {
     __extends(Rating, _super);
     function Rating(props) {
@@ -34073,7 +33668,7 @@ exports.Rating = Rating;
 
 
 /***/ }),
-/* 434 */
+/* 423 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34100,7 +33695,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".input_32305c06{position:absolu
 
 
 /***/ }),
-/* 435 */
+/* 424 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34108,14 +33703,14 @@ load_themed_styles_1.loadStyles([{ "rawString": ".input_32305c06{position:absolu
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(433));
-__export(__webpack_require__(136));
+__export(__webpack_require__(422));
+__export(__webpack_require__(135));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 436 */
+/* 425 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34141,8 +33736,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-__webpack_require__(137);
-var SearchBox_scss_1 = __webpack_require__(137);
+__webpack_require__(136);
+var SearchBox_scss_1 = __webpack_require__(136);
 var SearchBox = (function (_super) {
     __extends(SearchBox, _super);
     function SearchBox(props) {
@@ -34261,7 +33856,7 @@ exports.SearchBox = SearchBox;
 
 
 /***/ }),
-/* 437 */
+/* 426 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34269,13 +33864,13 @@ exports.SearchBox = SearchBox;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(436));
+__export(__webpack_require__(425));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 438 */
+/* 427 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34302,7 +33897,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var Label_1 = __webpack_require__(31);
-var Slider_scss_1 = __webpack_require__(439);
+var Slider_scss_1 = __webpack_require__(428);
 var ValuePosition;
 (function (ValuePosition) {
     ValuePosition[ValuePosition["Previous"] = 0] = "Previous";
@@ -34492,7 +34087,7 @@ exports.Slider = Slider;
 
 
 /***/ }),
-/* 439 */
+/* 428 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34522,7 +34117,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_bc4fbee8{-webkit-user-sel
 
 
 /***/ }),
-/* 440 */
+/* 429 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34530,13 +34125,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_bc4fbee8{-webkit-user-sel
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(438));
+__export(__webpack_require__(427));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 441 */
+/* 430 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34548,8 +34143,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-var Spinner_Props_1 = __webpack_require__(138);
-var Spinner_scss_1 = __webpack_require__(442);
+var Spinner_Props_1 = __webpack_require__(137);
+var Spinner_scss_1 = __webpack_require__(431);
 var Spinner = (function (_super) {
     __extends(Spinner, _super);
     function Spinner() {
@@ -34581,7 +34176,7 @@ exports.Spinner = Spinner;
 
 
 /***/ }),
-/* 442 */
+/* 431 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34609,7 +34204,7 @@ load_themed_styles_1.loadStyles([{ "rawString": "@-webkit-keyframes spinAnimatio
 
 
 /***/ }),
-/* 443 */
+/* 432 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34617,14 +34212,14 @@ load_themed_styles_1.loadStyles([{ "rawString": "@-webkit-keyframes spinAnimatio
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(441));
-__export(__webpack_require__(138));
+__export(__webpack_require__(430));
+__export(__webpack_require__(137));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 444 */
+/* 433 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34646,10 +34241,10 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 var React = __webpack_require__(0);
 /* tslint:enable:no-unused-variable */
 var Utilities_1 = __webpack_require__(1);
-var TeachingBubbleContent_1 = __webpack_require__(140);
+var TeachingBubbleContent_1 = __webpack_require__(139);
 var Callout_1 = __webpack_require__(23);
 var DirectionalHint_1 = __webpack_require__(15);
-var TeachingBubble_scss_1 = __webpack_require__(139);
+var TeachingBubble_scss_1 = __webpack_require__(138);
 var TeachingBubble = (function (_super) {
     __extends(TeachingBubble, _super);
     // Constructor
@@ -34681,7 +34276,7 @@ exports.TeachingBubble = TeachingBubble;
 
 
 /***/ }),
-/* 445 */
+/* 434 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34689,14 +34284,14 @@ exports.TeachingBubble = TeachingBubble;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(444));
-__export(__webpack_require__(140));
+__export(__webpack_require__(433));
+__export(__webpack_require__(139));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 446 */
+/* 435 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34717,7 +34312,7 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 var React = __webpack_require__(0);
 var Label_1 = __webpack_require__(31);
 var Utilities_1 = __webpack_require__(1);
-var TextField_scss_1 = __webpack_require__(447);
+var TextField_scss_1 = __webpack_require__(436);
 var TextField = (function (_super) {
     __extends(TextField, _super);
     function TextField(props) {
@@ -34970,7 +34565,7 @@ exports.TextField = TextField;
 
 
 /***/ }),
-/* 447 */
+/* 436 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35001,7 +34596,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_aea9399e{font-family:\"Se
 
 
 /***/ }),
-/* 448 */
+/* 437 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35009,13 +34604,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_aea9399e{font-family:\"Se
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(446));
+__export(__webpack_require__(435));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 449 */
+/* 438 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35042,7 +34637,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var Label_1 = __webpack_require__(31);
-var Toggle_scss_1 = __webpack_require__(450);
+var Toggle_scss_1 = __webpack_require__(439);
 var Toggle = (function (_super) {
     __extends(Toggle, _super);
     function Toggle(props) {
@@ -35129,7 +34724,7 @@ exports.Toggle = Toggle;
 
 
 /***/ }),
-/* 450 */
+/* 439 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35158,7 +34753,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_5ee6b39a{font-family:\"Se
 
 
 /***/ }),
-/* 451 */
+/* 440 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35166,13 +34761,13 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_5ee6b39a{font-family:\"Se
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(449));
+__export(__webpack_require__(438));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 452 */
+/* 441 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35200,9 +34795,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var React = __webpack_require__(0);
 /* tslint:enable:no-unused-variable */
 var Utilities_1 = __webpack_require__(1);
-var Tooltip_1 = __webpack_require__(141);
+var Tooltip_1 = __webpack_require__(140);
 var Tooltip_Props_1 = __webpack_require__(74);
-var Tooltip_scss_1 = __webpack_require__(142);
+var Tooltip_scss_1 = __webpack_require__(141);
 var TooltipHost = (function (_super) {
     __extends(TooltipHost, _super);
     // Constructor
@@ -35259,7 +34854,7 @@ exports.TooltipHost = TooltipHost;
 
 
 /***/ }),
-/* 453 */
+/* 442 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35267,16 +34862,16 @@ exports.TooltipHost = TooltipHost;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-__export(__webpack_require__(141));
+__export(__webpack_require__(140));
 __export(__webpack_require__(74));
-__export(__webpack_require__(452));
+__export(__webpack_require__(441));
 __export(__webpack_require__(15));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 454 */
+/* 443 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35297,7 +34892,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".pickerText_34fa42dd{display:-w
 
 
 /***/ }),
-/* 455 */
+/* 444 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35319,10 +34914,10 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 var React = __webpack_require__(0);
 /* tslint:enable */
 var BasePicker_1 = __webpack_require__(75);
-var SelectedItemDefault_1 = __webpack_require__(456);
-var SuggestionItemDefault_1 = __webpack_require__(458);
-var SelectedItemWithMenu_1 = __webpack_require__(457);
-__webpack_require__(144);
+var SelectedItemDefault_1 = __webpack_require__(445);
+var SuggestionItemDefault_1 = __webpack_require__(447);
+var SelectedItemWithMenu_1 = __webpack_require__(446);
+__webpack_require__(143);
 var BasePeoplePicker = (function (_super) {
     __extends(BasePeoplePicker, _super);
     function BasePeoplePicker() {
@@ -35389,7 +34984,7 @@ exports.ListPeoplePicker = ListPeoplePicker;
 
 
 /***/ }),
-/* 456 */
+/* 445 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35408,7 +35003,7 @@ var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
 var Persona_1 = __webpack_require__(39);
 var Button_1 = __webpack_require__(13);
-var PickerItemsDefault_scss_1 = __webpack_require__(145);
+var PickerItemsDefault_scss_1 = __webpack_require__(144);
 exports.SelectedItemDefault = function (peoplePickerItemProps) {
     var item = peoplePickerItemProps.item, onRemoveItem = peoplePickerItemProps.onRemoveItem, index = peoplePickerItemProps.index, selected = peoplePickerItemProps.selected;
     return (React.createElement("div", { className: Utilities_1.css('ms-PickerPersona-container', PickerItemsDefault_scss_1.default.personaContainer, (_a = {},
@@ -35426,7 +35021,7 @@ exports.SelectedItemDefault = function (peoplePickerItemProps) {
 
 
 /***/ }),
-/* 457 */
+/* 446 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35452,7 +35047,7 @@ var Persona_1 = __webpack_require__(39);
 var ContextualMenu_1 = __webpack_require__(45);
 var Button_1 = __webpack_require__(13);
 var FocusZone_1 = __webpack_require__(11);
-var PickerItemsDefault_scss_1 = __webpack_require__(145);
+var PickerItemsDefault_scss_1 = __webpack_require__(144);
 var SelectedItemWithMenu = (function (_super) {
     __extends(SelectedItemWithMenu, _super);
     function SelectedItemWithMenu(props) {
@@ -35489,7 +35084,7 @@ exports.SelectedItemWithMenu = SelectedItemWithMenu;
 
 
 /***/ }),
-/* 458 */
+/* 447 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35507,7 +35102,7 @@ var React = __webpack_require__(0);
 /* tslint:enable */
 var Utilities_1 = __webpack_require__(1);
 var Persona_1 = __webpack_require__(39);
-var PeoplePicker_scss_1 = __webpack_require__(144);
+var PeoplePicker_scss_1 = __webpack_require__(143);
 exports.SuggestionItemNormal = function (personaProps) {
     return (React.createElement("div", { className: 'ms-PeoplePicker-personaContent' },
         React.createElement(Persona_1.Persona, __assign({}, personaProps, { presence: personaProps.presence !== undefined ? personaProps.presence : Persona_1.PersonaPresence.none, size: Persona_1.PersonaSize.small, className: Utilities_1.css('ms-PeoplePicker-Persona', PeoplePicker_scss_1.default.peoplePickerPersona) }))));
@@ -35521,7 +35116,7 @@ exports.SuggestionItemSmall = function (personaProps) {
 
 
 /***/ }),
-/* 459 */
+/* 448 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35547,7 +35142,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_b756d98f{min-width:180px}
 
 
 /***/ }),
-/* 460 */
+/* 449 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35569,7 +35164,7 @@ load_themed_styles_1.loadStyles([{ "rawString": ".root_0e4e648c{-ms-flex-negativ
 
 
 /***/ }),
-/* 461 */
+/* 450 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35591,7 +35186,7 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 var React = __webpack_require__(0);
 /* tslint:enable */
 var BasePicker_1 = __webpack_require__(75);
-var TagItem_1 = __webpack_require__(148);
+var TagItem_1 = __webpack_require__(147);
 var TagPicker = (function (_super) {
     __extends(TagPicker, _super);
     function TagPicker() {
@@ -35612,7 +35207,7 @@ exports.TagPicker = TagPicker;
 
 
 /***/ }),
-/* 462 */
+/* 451 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35620,19 +35215,19 @@ exports.TagPicker = TagPicker;
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
+__export(__webpack_require__(145));
 __export(__webpack_require__(146));
-__export(__webpack_require__(147));
-__export(__webpack_require__(143));
+__export(__webpack_require__(142));
 __export(__webpack_require__(75));
-__export(__webpack_require__(455));
-__export(__webpack_require__(461));
-__export(__webpack_require__(148));
+__export(__webpack_require__(444));
+__export(__webpack_require__(450));
+__export(__webpack_require__(147));
 
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 463 */
+/* 452 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35651,7 +35246,7 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 var React = __webpack_require__(0);
-var BaseDecorator_1 = __webpack_require__(150);
+var BaseDecorator_1 = __webpack_require__(149);
 var Utilities_1 = __webpack_require__(1);
 var RESIZE_DELAY = 500;
 function withViewport(ComposedComponent) {
@@ -35723,7 +35318,7 @@ exports.withViewport = withViewport;
 
 
 /***/ }),
-/* 464 */
+/* 453 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36017,7 +35612,7 @@ exports.DragDropHelper = DragDropHelper;
 
 
 /***/ }),
-/* 465 */
+/* 454 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36566,7 +36161,7 @@ var _a, _b, _c, _d;
 
 
 /***/ }),
-/* 466 */
+/* 455 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36800,7 +36395,7 @@ exports.Selection = Selection;
 
 
 /***/ }),
-/* 467 */
+/* 456 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36826,7 +36421,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var React = __webpack_require__(0);
 var Utilities_1 = __webpack_require__(1);
-var SelectionLayout_1 = __webpack_require__(152);
+var SelectionLayout_1 = __webpack_require__(151);
 var interfaces_1 = __webpack_require__(34);
 // Selection definitions:
 //
@@ -37220,7 +36815,7 @@ exports.SelectionZone = SelectionZone;
 
 
 /***/ }),
-/* 468 */
+/* 457 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37299,7 +36894,7 @@ var ARIADOMPropertyConfig = {
 module.exports = ARIADOMPropertyConfig;
 
 /***/ }),
-/* 469 */
+/* 458 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37317,7 +36912,7 @@ module.exports = ARIADOMPropertyConfig;
 
 var ReactDOMComponentTree = __webpack_require__(9);
 
-var focusNode = __webpack_require__(102);
+var focusNode = __webpack_require__(101);
 
 var AutoFocusUtils = {
   focusDOMComponent: function () {
@@ -37328,7 +36923,7 @@ var AutoFocusUtils = {
 module.exports = AutoFocusUtils;
 
 /***/ }),
-/* 470 */
+/* 459 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37346,9 +36941,9 @@ module.exports = AutoFocusUtils;
 
 var EventPropagators = __webpack_require__(41);
 var ExecutionEnvironment = __webpack_require__(10);
-var FallbackCompositionState = __webpack_require__(476);
-var SyntheticCompositionEvent = __webpack_require__(519);
-var SyntheticInputEvent = __webpack_require__(522);
+var FallbackCompositionState = __webpack_require__(465);
+var SyntheticCompositionEvent = __webpack_require__(508);
+var SyntheticInputEvent = __webpack_require__(511);
 
 var END_KEYCODES = [9, 13, 27, 32]; // Tab, Return, Esc, Space
 var START_KEYCODE = 229;
@@ -37718,7 +37313,7 @@ var BeforeInputEventPlugin = {
 module.exports = BeforeInputEventPlugin;
 
 /***/ }),
-/* 471 */
+/* 460 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37734,14 +37329,14 @@ module.exports = BeforeInputEventPlugin;
 
 
 
-var CSSProperty = __webpack_require__(153);
+var CSSProperty = __webpack_require__(152);
 var ExecutionEnvironment = __webpack_require__(10);
 var ReactInstrumentation = __webpack_require__(16);
 
-var camelizeStyleName = __webpack_require__(207);
-var dangerousStyleValue = __webpack_require__(529);
-var hyphenateStyleName = __webpack_require__(214);
-var memoizeStringOnly = __webpack_require__(217);
+var camelizeStyleName = __webpack_require__(196);
+var dangerousStyleValue = __webpack_require__(518);
+var hyphenateStyleName = __webpack_require__(203);
+var memoizeStringOnly = __webpack_require__(206);
 var warning = __webpack_require__(6);
 
 var processStyleName = memoizeStringOnly(function (styleName) {
@@ -37933,7 +37528,7 @@ module.exports = CSSPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 472 */
+/* 461 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37958,7 +37553,7 @@ var SyntheticEvent = __webpack_require__(20);
 
 var getEventTarget = __webpack_require__(87);
 var isEventSupported = __webpack_require__(88);
-var isTextInputElement = __webpack_require__(171);
+var isTextInputElement = __webpack_require__(170);
 
 var eventTypes = {
   change: {
@@ -38259,7 +37854,7 @@ var ChangeEventPlugin = {
 module.exports = ChangeEventPlugin;
 
 /***/ }),
-/* 473 */
+/* 462 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38280,7 +37875,7 @@ var _prodInvariant = __webpack_require__(7);
 var DOMLazyTree = __webpack_require__(35);
 var ExecutionEnvironment = __webpack_require__(10);
 
-var createNodesFromMarkup = __webpack_require__(210);
+var createNodesFromMarkup = __webpack_require__(199);
 var emptyFunction = __webpack_require__(17);
 var invariant = __webpack_require__(5);
 
@@ -38313,7 +37908,7 @@ module.exports = Danger;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 474 */
+/* 463 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38344,7 +37939,7 @@ var DefaultEventPluginOrder = ['ResponderEventPlugin', 'SimpleEventPlugin', 'Tap
 module.exports = DefaultEventPluginOrder;
 
 /***/ }),
-/* 475 */
+/* 464 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38449,7 +38044,7 @@ var EnterLeaveEventPlugin = {
 module.exports = EnterLeaveEventPlugin;
 
 /***/ }),
-/* 476 */
+/* 465 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38469,7 +38064,7 @@ var _assign = __webpack_require__(8);
 
 var PooledClass = __webpack_require__(25);
 
-var getTextContentAccessor = __webpack_require__(169);
+var getTextContentAccessor = __webpack_require__(168);
 
 /**
  * This helper class stores information about text content of a target node,
@@ -38549,7 +38144,7 @@ PooledClass.addPoolingTo(FallbackCompositionState);
 module.exports = FallbackCompositionState;
 
 /***/ }),
-/* 477 */
+/* 466 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38766,7 +38361,7 @@ var HTMLDOMPropertyConfig = {
 module.exports = HTMLDOMPropertyConfig;
 
 /***/ }),
-/* 478 */
+/* 467 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38784,10 +38379,10 @@ module.exports = HTMLDOMPropertyConfig;
 
 var ReactReconciler = __webpack_require__(36);
 
-var instantiateReactComponent = __webpack_require__(170);
+var instantiateReactComponent = __webpack_require__(169);
 var KeyEscapeUtils = __webpack_require__(79);
 var shouldUpdateReactComponent = __webpack_require__(89);
-var traverseAllChildren = __webpack_require__(173);
+var traverseAllChildren = __webpack_require__(172);
 var warning = __webpack_require__(6);
 
 var ReactComponentTreeHook;
@@ -38926,7 +38521,7 @@ module.exports = ReactChildReconciler;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 479 */
+/* 468 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38943,7 +38538,7 @@ module.exports = ReactChildReconciler;
 
 
 var DOMChildrenOperations = __webpack_require__(76);
-var ReactDOMIDOperations = __webpack_require__(486);
+var ReactDOMIDOperations = __webpack_require__(475);
 
 /**
  * Abstracts away all functionality of the reconciler that requires knowledge of
@@ -38961,7 +38556,7 @@ var ReactComponentBrowserEnvironment = {
 module.exports = ReactComponentBrowserEnvironment;
 
 /***/ }),
-/* 480 */
+/* 469 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38986,11 +38581,11 @@ var ReactCurrentOwner = __webpack_require__(19);
 var ReactErrorUtils = __webpack_require__(82);
 var ReactInstanceMap = __webpack_require__(42);
 var ReactInstrumentation = __webpack_require__(16);
-var ReactNodeTypes = __webpack_require__(163);
+var ReactNodeTypes = __webpack_require__(162);
 var ReactReconciler = __webpack_require__(36);
 
 if (process.env.NODE_ENV !== 'production') {
-  var checkReactTypeSpec = __webpack_require__(528);
+  var checkReactTypeSpec = __webpack_require__(517);
 }
 
 var emptyObject = __webpack_require__(38);
@@ -39869,7 +39464,7 @@ module.exports = ReactCompositeComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 481 */
+/* 470 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39888,15 +39483,15 @@ module.exports = ReactCompositeComponent;
 
 
 var ReactDOMComponentTree = __webpack_require__(9);
-var ReactDefaultInjection = __webpack_require__(498);
-var ReactMount = __webpack_require__(162);
+var ReactDefaultInjection = __webpack_require__(487);
+var ReactMount = __webpack_require__(161);
 var ReactReconciler = __webpack_require__(36);
 var ReactUpdates = __webpack_require__(18);
-var ReactVersion = __webpack_require__(513);
+var ReactVersion = __webpack_require__(502);
 
-var findDOMNode = __webpack_require__(530);
-var getHostComponentFromComposite = __webpack_require__(168);
-var renderSubtreeIntoContainer = __webpack_require__(538);
+var findDOMNode = __webpack_require__(519);
+var getHostComponentFromComposite = __webpack_require__(167);
+var renderSubtreeIntoContainer = __webpack_require__(527);
 var warning = __webpack_require__(6);
 
 ReactDefaultInjection.inject();
@@ -39973,9 +39568,9 @@ if (process.env.NODE_ENV !== 'production') {
 
 if (process.env.NODE_ENV !== 'production') {
   var ReactInstrumentation = __webpack_require__(16);
-  var ReactDOMUnknownPropertyHook = __webpack_require__(495);
-  var ReactDOMNullInputValuePropHook = __webpack_require__(489);
-  var ReactDOMInvalidARIAHook = __webpack_require__(488);
+  var ReactDOMUnknownPropertyHook = __webpack_require__(484);
+  var ReactDOMNullInputValuePropHook = __webpack_require__(478);
+  var ReactDOMInvalidARIAHook = __webpack_require__(477);
 
   ReactInstrumentation.debugTool.addHook(ReactDOMUnknownPropertyHook);
   ReactInstrumentation.debugTool.addHook(ReactDOMNullInputValuePropHook);
@@ -39986,7 +39581,7 @@ module.exports = ReactDOM;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 482 */
+/* 471 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40007,24 +39602,24 @@ module.exports = ReactDOM;
 var _prodInvariant = __webpack_require__(7),
     _assign = __webpack_require__(8);
 
-var AutoFocusUtils = __webpack_require__(469);
-var CSSPropertyOperations = __webpack_require__(471);
+var AutoFocusUtils = __webpack_require__(458);
+var CSSPropertyOperations = __webpack_require__(460);
 var DOMLazyTree = __webpack_require__(35);
 var DOMNamespaces = __webpack_require__(77);
 var DOMProperty = __webpack_require__(22);
-var DOMPropertyOperations = __webpack_require__(155);
+var DOMPropertyOperations = __webpack_require__(154);
 var EventPluginHub = __webpack_require__(40);
 var EventPluginRegistry = __webpack_require__(50);
 var ReactBrowserEventEmitter = __webpack_require__(51);
-var ReactDOMComponentFlags = __webpack_require__(156);
+var ReactDOMComponentFlags = __webpack_require__(155);
 var ReactDOMComponentTree = __webpack_require__(9);
-var ReactDOMInput = __webpack_require__(487);
-var ReactDOMOption = __webpack_require__(490);
-var ReactDOMSelect = __webpack_require__(157);
-var ReactDOMTextarea = __webpack_require__(493);
+var ReactDOMInput = __webpack_require__(476);
+var ReactDOMOption = __webpack_require__(479);
+var ReactDOMSelect = __webpack_require__(156);
+var ReactDOMTextarea = __webpack_require__(482);
 var ReactInstrumentation = __webpack_require__(16);
-var ReactMultiChild = __webpack_require__(506);
-var ReactServerRenderingTransaction = __webpack_require__(511);
+var ReactMultiChild = __webpack_require__(495);
+var ReactServerRenderingTransaction = __webpack_require__(500);
 
 var emptyFunction = __webpack_require__(17);
 var escapeTextContentForBrowser = __webpack_require__(54);
@@ -40993,7 +40588,7 @@ module.exports = ReactDOMComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 483 */
+/* 472 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41032,7 +40627,7 @@ module.exports = ReactDOMContainerInfo;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 484 */
+/* 473 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41097,7 +40692,7 @@ _assign(ReactDOMEmptyComponent.prototype, {
 module.exports = ReactDOMEmptyComponent;
 
 /***/ }),
-/* 485 */
+/* 474 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41121,7 +40716,7 @@ var ReactDOMFeatureFlags = {
 module.exports = ReactDOMFeatureFlags;
 
 /***/ }),
-/* 486 */
+/* 475 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41160,7 +40755,7 @@ var ReactDOMIDOperations = {
 module.exports = ReactDOMIDOperations;
 
 /***/ }),
-/* 487 */
+/* 476 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41179,7 +40774,7 @@ module.exports = ReactDOMIDOperations;
 var _prodInvariant = __webpack_require__(7),
     _assign = __webpack_require__(8);
 
-var DOMPropertyOperations = __webpack_require__(155);
+var DOMPropertyOperations = __webpack_require__(154);
 var LinkedValueUtils = __webpack_require__(80);
 var ReactDOMComponentTree = __webpack_require__(9);
 var ReactUpdates = __webpack_require__(18);
@@ -41444,7 +41039,7 @@ module.exports = ReactDOMInput;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 488 */
+/* 477 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41543,7 +41138,7 @@ module.exports = ReactDOMInvalidARIAHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 489 */
+/* 478 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41592,7 +41187,7 @@ module.exports = ReactDOMNullInputValuePropHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 490 */
+/* 479 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41612,7 +41207,7 @@ var _assign = __webpack_require__(8);
 
 var React = __webpack_require__(37);
 var ReactDOMComponentTree = __webpack_require__(9);
-var ReactDOMSelect = __webpack_require__(157);
+var ReactDOMSelect = __webpack_require__(156);
 
 var warning = __webpack_require__(6);
 var didWarnInvalidOptionChildren = false;
@@ -41721,7 +41316,7 @@ module.exports = ReactDOMOption;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 491 */
+/* 480 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41739,8 +41334,8 @@ module.exports = ReactDOMOption;
 
 var ExecutionEnvironment = __webpack_require__(10);
 
-var getNodeForCharacterOffset = __webpack_require__(535);
-var getTextContentAccessor = __webpack_require__(169);
+var getNodeForCharacterOffset = __webpack_require__(524);
+var getTextContentAccessor = __webpack_require__(168);
 
 /**
  * While `isCollapsed` is available on the Selection object and `collapsed`
@@ -41938,7 +41533,7 @@ var ReactDOMSelection = {
 module.exports = ReactDOMSelection;
 
 /***/ }),
-/* 492 */
+/* 481 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42108,7 +41703,7 @@ module.exports = ReactDOMTextComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 493 */
+/* 482 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42274,7 +41869,7 @@ module.exports = ReactDOMTextarea;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 494 */
+/* 483 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42416,7 +42011,7 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 495 */
+/* 484 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42534,7 +42129,7 @@ module.exports = ReactDOMUnknownPropertyHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 496 */
+/* 485 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42551,12 +42146,12 @@ module.exports = ReactDOMUnknownPropertyHook;
 
 
 
-var ReactInvalidSetStateWarningHook = __webpack_require__(504);
-var ReactHostOperationHistoryHook = __webpack_require__(502);
+var ReactInvalidSetStateWarningHook = __webpack_require__(493);
+var ReactHostOperationHistoryHook = __webpack_require__(491);
 var ReactComponentTreeHook = __webpack_require__(14);
 var ExecutionEnvironment = __webpack_require__(10);
 
-var performanceNow = __webpack_require__(219);
+var performanceNow = __webpack_require__(208);
 var warning = __webpack_require__(6);
 
 var hooks = [];
@@ -42901,7 +42496,7 @@ module.exports = ReactDebugTool;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 497 */
+/* 486 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42974,7 +42569,7 @@ var ReactDefaultBatchingStrategy = {
 module.exports = ReactDefaultBatchingStrategy;
 
 /***/ }),
-/* 498 */
+/* 487 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42990,25 +42585,25 @@ module.exports = ReactDefaultBatchingStrategy;
 
 
 
-var ARIADOMPropertyConfig = __webpack_require__(468);
-var BeforeInputEventPlugin = __webpack_require__(470);
-var ChangeEventPlugin = __webpack_require__(472);
-var DefaultEventPluginOrder = __webpack_require__(474);
-var EnterLeaveEventPlugin = __webpack_require__(475);
-var HTMLDOMPropertyConfig = __webpack_require__(477);
-var ReactComponentBrowserEnvironment = __webpack_require__(479);
-var ReactDOMComponent = __webpack_require__(482);
+var ARIADOMPropertyConfig = __webpack_require__(457);
+var BeforeInputEventPlugin = __webpack_require__(459);
+var ChangeEventPlugin = __webpack_require__(461);
+var DefaultEventPluginOrder = __webpack_require__(463);
+var EnterLeaveEventPlugin = __webpack_require__(464);
+var HTMLDOMPropertyConfig = __webpack_require__(466);
+var ReactComponentBrowserEnvironment = __webpack_require__(468);
+var ReactDOMComponent = __webpack_require__(471);
 var ReactDOMComponentTree = __webpack_require__(9);
-var ReactDOMEmptyComponent = __webpack_require__(484);
-var ReactDOMTreeTraversal = __webpack_require__(494);
-var ReactDOMTextComponent = __webpack_require__(492);
-var ReactDefaultBatchingStrategy = __webpack_require__(497);
-var ReactEventListener = __webpack_require__(501);
-var ReactInjection = __webpack_require__(503);
-var ReactReconcileTransaction = __webpack_require__(509);
-var SVGDOMPropertyConfig = __webpack_require__(514);
-var SelectEventPlugin = __webpack_require__(515);
-var SimpleEventPlugin = __webpack_require__(516);
+var ReactDOMEmptyComponent = __webpack_require__(473);
+var ReactDOMTreeTraversal = __webpack_require__(483);
+var ReactDOMTextComponent = __webpack_require__(481);
+var ReactDefaultBatchingStrategy = __webpack_require__(486);
+var ReactEventListener = __webpack_require__(490);
+var ReactInjection = __webpack_require__(492);
+var ReactReconcileTransaction = __webpack_require__(498);
+var SVGDOMPropertyConfig = __webpack_require__(503);
+var SelectEventPlugin = __webpack_require__(504);
+var SimpleEventPlugin = __webpack_require__(505);
 
 var alreadyInjected = false;
 
@@ -43065,7 +42660,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 499 */
+/* 488 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43090,7 +42685,7 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-/* 500 */
+/* 489 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43128,7 +42723,7 @@ var ReactEventEmitterMixin = {
 module.exports = ReactEventEmitterMixin;
 
 /***/ }),
-/* 501 */
+/* 490 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43146,14 +42741,14 @@ module.exports = ReactEventEmitterMixin;
 
 var _assign = __webpack_require__(8);
 
-var EventListener = __webpack_require__(101);
+var EventListener = __webpack_require__(100);
 var ExecutionEnvironment = __webpack_require__(10);
 var PooledClass = __webpack_require__(25);
 var ReactDOMComponentTree = __webpack_require__(9);
 var ReactUpdates = __webpack_require__(18);
 
 var getEventTarget = __webpack_require__(87);
-var getUnboundedScrollPosition = __webpack_require__(212);
+var getUnboundedScrollPosition = __webpack_require__(201);
 
 /**
  * Find the deepest React component completely containing the root of the
@@ -43288,7 +42883,7 @@ var ReactEventListener = {
 module.exports = ReactEventListener;
 
 /***/ }),
-/* 502 */
+/* 491 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43327,7 +42922,7 @@ var ReactHostOperationHistoryHook = {
 module.exports = ReactHostOperationHistoryHook;
 
 /***/ }),
-/* 503 */
+/* 492 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43347,9 +42942,9 @@ var DOMProperty = __webpack_require__(22);
 var EventPluginHub = __webpack_require__(40);
 var EventPluginUtils = __webpack_require__(78);
 var ReactComponentEnvironment = __webpack_require__(81);
-var ReactEmptyComponent = __webpack_require__(158);
+var ReactEmptyComponent = __webpack_require__(157);
 var ReactBrowserEventEmitter = __webpack_require__(51);
-var ReactHostComponent = __webpack_require__(160);
+var ReactHostComponent = __webpack_require__(159);
 var ReactUpdates = __webpack_require__(18);
 
 var ReactInjection = {
@@ -43366,7 +42961,7 @@ var ReactInjection = {
 module.exports = ReactInjection;
 
 /***/ }),
-/* 504 */
+/* 493 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43409,7 +43004,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 505 */
+/* 494 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43425,7 +43020,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 
 
 
-var adler32 = __webpack_require__(527);
+var adler32 = __webpack_require__(516);
 
 var TAG_END = /\/?>/;
 var COMMENT_START = /^<\!\-\-/;
@@ -43464,7 +43059,7 @@ var ReactMarkupChecksum = {
 module.exports = ReactMarkupChecksum;
 
 /***/ }),
-/* 506 */
+/* 495 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43488,10 +43083,10 @@ var ReactInstrumentation = __webpack_require__(16);
 
 var ReactCurrentOwner = __webpack_require__(19);
 var ReactReconciler = __webpack_require__(36);
-var ReactChildReconciler = __webpack_require__(478);
+var ReactChildReconciler = __webpack_require__(467);
 
 var emptyFunction = __webpack_require__(17);
-var flattenChildren = __webpack_require__(531);
+var flattenChildren = __webpack_require__(520);
 var invariant = __webpack_require__(5);
 
 /**
@@ -43920,7 +43515,7 @@ module.exports = ReactMultiChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 507 */
+/* 496 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44020,7 +43615,7 @@ module.exports = ReactOwner;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 508 */
+/* 497 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44051,7 +43646,7 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 509 */
+/* 498 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44069,10 +43664,10 @@ module.exports = ReactPropTypeLocationNames;
 
 var _assign = __webpack_require__(8);
 
-var CallbackQueue = __webpack_require__(154);
+var CallbackQueue = __webpack_require__(153);
 var PooledClass = __webpack_require__(25);
 var ReactBrowserEventEmitter = __webpack_require__(51);
-var ReactInputSelection = __webpack_require__(161);
+var ReactInputSelection = __webpack_require__(160);
 var ReactInstrumentation = __webpack_require__(16);
 var Transaction = __webpack_require__(53);
 var ReactUpdateQueue = __webpack_require__(83);
@@ -44235,7 +43830,7 @@ module.exports = ReactReconcileTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 510 */
+/* 499 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44252,7 +43847,7 @@ module.exports = ReactReconcileTransaction;
 
 
 
-var ReactOwner = __webpack_require__(507);
+var ReactOwner = __webpack_require__(496);
 
 var ReactRef = {};
 
@@ -44329,7 +43924,7 @@ ReactRef.detachRefs = function (instance, element) {
 module.exports = ReactRef;
 
 /***/ }),
-/* 511 */
+/* 500 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44350,7 +43945,7 @@ var _assign = __webpack_require__(8);
 var PooledClass = __webpack_require__(25);
 var Transaction = __webpack_require__(53);
 var ReactInstrumentation = __webpack_require__(16);
-var ReactServerUpdateQueue = __webpack_require__(512);
+var ReactServerUpdateQueue = __webpack_require__(501);
 
 /**
  * Executed within the scope of the `Transaction` instance. Consider these as
@@ -44425,7 +44020,7 @@ module.exports = ReactServerRenderingTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 512 */
+/* 501 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44570,7 +44165,7 @@ module.exports = ReactServerUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 513 */
+/* 502 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44589,7 +44184,7 @@ module.exports = ReactServerUpdateQueue;
 module.exports = '15.4.2';
 
 /***/ }),
-/* 514 */
+/* 503 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44896,7 +44491,7 @@ Object.keys(ATTRS).forEach(function (key) {
 module.exports = SVGDOMPropertyConfig;
 
 /***/ }),
-/* 515 */
+/* 504 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44915,11 +44510,11 @@ module.exports = SVGDOMPropertyConfig;
 var EventPropagators = __webpack_require__(41);
 var ExecutionEnvironment = __webpack_require__(10);
 var ReactDOMComponentTree = __webpack_require__(9);
-var ReactInputSelection = __webpack_require__(161);
+var ReactInputSelection = __webpack_require__(160);
 var SyntheticEvent = __webpack_require__(20);
 
-var getActiveElement = __webpack_require__(103);
-var isTextInputElement = __webpack_require__(171);
+var getActiveElement = __webpack_require__(102);
+var isTextInputElement = __webpack_require__(170);
 var shallowEqual = __webpack_require__(59);
 
 var skipSelectionChangeEvent = ExecutionEnvironment.canUseDOM && 'documentMode' in document && document.documentMode <= 11;
@@ -45092,7 +44687,7 @@ var SelectEventPlugin = {
 module.exports = SelectEventPlugin;
 
 /***/ }),
-/* 516 */
+/* 505 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45111,20 +44706,20 @@ module.exports = SelectEventPlugin;
 
 var _prodInvariant = __webpack_require__(7);
 
-var EventListener = __webpack_require__(101);
+var EventListener = __webpack_require__(100);
 var EventPropagators = __webpack_require__(41);
 var ReactDOMComponentTree = __webpack_require__(9);
-var SyntheticAnimationEvent = __webpack_require__(517);
-var SyntheticClipboardEvent = __webpack_require__(518);
+var SyntheticAnimationEvent = __webpack_require__(506);
+var SyntheticClipboardEvent = __webpack_require__(507);
 var SyntheticEvent = __webpack_require__(20);
-var SyntheticFocusEvent = __webpack_require__(521);
-var SyntheticKeyboardEvent = __webpack_require__(523);
+var SyntheticFocusEvent = __webpack_require__(510);
+var SyntheticKeyboardEvent = __webpack_require__(512);
 var SyntheticMouseEvent = __webpack_require__(52);
-var SyntheticDragEvent = __webpack_require__(520);
-var SyntheticTouchEvent = __webpack_require__(524);
-var SyntheticTransitionEvent = __webpack_require__(525);
+var SyntheticDragEvent = __webpack_require__(509);
+var SyntheticTouchEvent = __webpack_require__(513);
+var SyntheticTransitionEvent = __webpack_require__(514);
 var SyntheticUIEvent = __webpack_require__(43);
-var SyntheticWheelEvent = __webpack_require__(526);
+var SyntheticWheelEvent = __webpack_require__(515);
 
 var emptyFunction = __webpack_require__(17);
 var getEventCharCode = __webpack_require__(85);
@@ -45326,7 +44921,7 @@ module.exports = SimpleEventPlugin;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 517 */
+/* 506 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45370,7 +44965,7 @@ SyntheticEvent.augmentClass(SyntheticAnimationEvent, AnimationEventInterface);
 module.exports = SyntheticAnimationEvent;
 
 /***/ }),
-/* 518 */
+/* 507 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45413,7 +45008,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 /***/ }),
-/* 519 */
+/* 508 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45454,7 +45049,7 @@ SyntheticEvent.augmentClass(SyntheticCompositionEvent, CompositionEventInterface
 module.exports = SyntheticCompositionEvent;
 
 /***/ }),
-/* 520 */
+/* 509 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45495,7 +45090,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 module.exports = SyntheticDragEvent;
 
 /***/ }),
-/* 521 */
+/* 510 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45536,7 +45131,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 module.exports = SyntheticFocusEvent;
 
 /***/ }),
-/* 522 */
+/* 511 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45578,7 +45173,7 @@ SyntheticEvent.augmentClass(SyntheticInputEvent, InputEventInterface);
 module.exports = SyntheticInputEvent;
 
 /***/ }),
-/* 523 */
+/* 512 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45597,7 +45192,7 @@ module.exports = SyntheticInputEvent;
 var SyntheticUIEvent = __webpack_require__(43);
 
 var getEventCharCode = __webpack_require__(85);
-var getEventKey = __webpack_require__(532);
+var getEventKey = __webpack_require__(521);
 var getEventModifierState = __webpack_require__(86);
 
 /**
@@ -45667,7 +45262,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 module.exports = SyntheticKeyboardEvent;
 
 /***/ }),
-/* 524 */
+/* 513 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45717,7 +45312,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 module.exports = SyntheticTouchEvent;
 
 /***/ }),
-/* 525 */
+/* 514 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45761,7 +45356,7 @@ SyntheticEvent.augmentClass(SyntheticTransitionEvent, TransitionEventInterface);
 module.exports = SyntheticTransitionEvent;
 
 /***/ }),
-/* 526 */
+/* 515 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45820,7 +45415,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 module.exports = SyntheticWheelEvent;
 
 /***/ }),
-/* 527 */
+/* 516 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45869,7 +45464,7 @@ function adler32(data) {
 module.exports = adler32;
 
 /***/ }),
-/* 528 */
+/* 517 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45887,8 +45482,8 @@ module.exports = adler32;
 
 var _prodInvariant = __webpack_require__(7);
 
-var ReactPropTypeLocationNames = __webpack_require__(508);
-var ReactPropTypesSecret = __webpack_require__(164);
+var ReactPropTypeLocationNames = __webpack_require__(497);
+var ReactPropTypesSecret = __webpack_require__(163);
 
 var invariant = __webpack_require__(5);
 var warning = __webpack_require__(6);
@@ -45962,7 +45557,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 529 */
+/* 518 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45978,7 +45573,7 @@ module.exports = checkReactTypeSpec;
 
 
 
-var CSSProperty = __webpack_require__(153);
+var CSSProperty = __webpack_require__(152);
 var warning = __webpack_require__(6);
 
 var isUnitlessNumber = CSSProperty.isUnitlessNumber;
@@ -46047,7 +45642,7 @@ module.exports = dangerousStyleValue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 530 */
+/* 519 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46069,7 +45664,7 @@ var ReactCurrentOwner = __webpack_require__(19);
 var ReactDOMComponentTree = __webpack_require__(9);
 var ReactInstanceMap = __webpack_require__(42);
 
-var getHostComponentFromComposite = __webpack_require__(168);
+var getHostComponentFromComposite = __webpack_require__(167);
 var invariant = __webpack_require__(5);
 var warning = __webpack_require__(6);
 
@@ -46113,7 +45708,7 @@ module.exports = findDOMNode;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 531 */
+/* 520 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46131,7 +45726,7 @@ module.exports = findDOMNode;
 
 
 var KeyEscapeUtils = __webpack_require__(79);
-var traverseAllChildren = __webpack_require__(173);
+var traverseAllChildren = __webpack_require__(172);
 var warning = __webpack_require__(6);
 
 var ReactComponentTreeHook;
@@ -46195,7 +45790,7 @@ module.exports = flattenChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 532 */
+/* 521 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46302,7 +45897,7 @@ function getEventKey(nativeEvent) {
 module.exports = getEventKey;
 
 /***/ }),
-/* 533 */
+/* 522 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46348,7 +45943,7 @@ function getIteratorFn(maybeIterable) {
 module.exports = getIteratorFn;
 
 /***/ }),
-/* 534 */
+/* 523 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46374,7 +45969,7 @@ function getNextDebugID() {
 module.exports = getNextDebugID;
 
 /***/ }),
-/* 535 */
+/* 524 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46453,7 +46048,7 @@ function getNodeForCharacterOffset(root, offset) {
 module.exports = getNodeForCharacterOffset;
 
 /***/ }),
-/* 536 */
+/* 525 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46559,7 +46154,7 @@ function getVendorPrefixedEventName(eventName) {
 module.exports = getVendorPrefixedEventName;
 
 /***/ }),
-/* 537 */
+/* 526 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46590,7 +46185,7 @@ function quoteAttributeValueForBrowser(value) {
 module.exports = quoteAttributeValueForBrowser;
 
 /***/ }),
-/* 538 */
+/* 527 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46606,12 +46201,12 @@ module.exports = quoteAttributeValueForBrowser;
 
 
 
-var ReactMount = __webpack_require__(162);
+var ReactMount = __webpack_require__(161);
 
 module.exports = ReactMount.renderSubtreeIntoContainer;
 
 /***/ }),
-/* 539 */
+/* 528 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46675,7 +46270,7 @@ var KeyEscapeUtils = {
 module.exports = KeyEscapeUtils;
 
 /***/ }),
-/* 540 */
+/* 529 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46793,7 +46388,7 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 541 */
+/* 530 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46809,11 +46404,11 @@ module.exports = PooledClass;
 
 
 
-var PooledClass = __webpack_require__(540);
+var PooledClass = __webpack_require__(529);
 var ReactElement = __webpack_require__(26);
 
 var emptyFunction = __webpack_require__(17);
-var traverseAllChildren = __webpack_require__(549);
+var traverseAllChildren = __webpack_require__(538);
 
 var twoArgumentPooler = PooledClass.twoArgumentPooler;
 var fourArgumentPooler = PooledClass.fourArgumentPooler;
@@ -46989,7 +46584,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 /***/ }),
-/* 542 */
+/* 531 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47712,7 +47307,7 @@ module.exports = ReactClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 543 */
+/* 532 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47737,7 +47332,7 @@ var ReactElement = __webpack_require__(26);
  */
 var createDOMFactory = ReactElement.createFactory;
 if (process.env.NODE_ENV !== 'production') {
-  var ReactElementValidator = __webpack_require__(175);
+  var ReactElementValidator = __webpack_require__(174);
   createDOMFactory = ReactElementValidator.createFactory;
 }
 
@@ -47888,7 +47483,7 @@ module.exports = ReactDOMFactories;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 544 */
+/* 533 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47906,7 +47501,7 @@ module.exports = ReactDOMFactories;
 
 var ReactElement = __webpack_require__(26);
 var ReactPropTypeLocationNames = __webpack_require__(93);
-var ReactPropTypesSecret = __webpack_require__(176);
+var ReactPropTypesSecret = __webpack_require__(175);
 
 var emptyFunction = __webpack_require__(17);
 var getIteratorFn = __webpack_require__(95);
@@ -48328,7 +47923,7 @@ module.exports = ReactPropTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 545 */
+/* 534 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48375,7 +47970,7 @@ ReactPureComponent.prototype.isPureReactComponent = true;
 module.exports = ReactPureComponent;
 
 /***/ }),
-/* 546 */
+/* 535 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48394,7 +47989,7 @@ module.exports = ReactPureComponent;
 module.exports = '15.4.2';
 
 /***/ }),
-/* 547 */
+/* 536 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48413,7 +48008,7 @@ module.exports = '15.4.2';
 var _prodInvariant = __webpack_require__(27);
 
 var ReactPropTypeLocationNames = __webpack_require__(93);
-var ReactPropTypesSecret = __webpack_require__(176);
+var ReactPropTypesSecret = __webpack_require__(175);
 
 var invariant = __webpack_require__(5);
 var warning = __webpack_require__(6);
@@ -48487,7 +48082,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 548 */
+/* 537 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48531,7 +48126,7 @@ module.exports = onlyChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 549 */
+/* 538 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48550,11 +48145,11 @@ module.exports = onlyChild;
 var _prodInvariant = __webpack_require__(27);
 
 var ReactCurrentOwner = __webpack_require__(19);
-var REACT_ELEMENT_TYPE = __webpack_require__(174);
+var REACT_ELEMENT_TYPE = __webpack_require__(173);
 
 var getIteratorFn = __webpack_require__(95);
 var invariant = __webpack_require__(5);
-var KeyEscapeUtils = __webpack_require__(539);
+var KeyEscapeUtils = __webpack_require__(528);
 var warning = __webpack_require__(6);
 
 var SEPARATOR = '.';
@@ -48713,6 +48308,1114 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
+/* 539 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var React = __webpack_require__(0);
+var office_ui_fabric_react_1 = __webpack_require__(21);
+var strings_1 = __webpack_require__(540);
+// Date picker
+var DatepickerDemo = (function (_super) {
+    __extends(DatepickerDemo, _super);
+    function DatepickerDemo() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    DatepickerDemo.prototype.render = function () {
+        var visible = this.props.visible;
+        return (!visible ? React.createElement("div", null) :
+            React.createElement("div", null,
+                React.createElement("h1", null, "Demo"),
+                React.createElement("div", { className: "ms-Grid" },
+                    React.createElement("div", { className: "ms-Grid-row" },
+                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
+                            React.createElement(office_ui_fabric_react_1.DatePicker, { label: "Select a Date", isRequired: true, firstDayOfWeek: office_ui_fabric_react_1.DayOfWeek.Sunday, strings: strings_1.Strings, placeholder: 'Select a date...' }))))));
+    };
+    return DatepickerDemo;
+}(React.Component));
+exports.DatepickerDemo = DatepickerDemo;
+
+
+/***/ }),
+/* 540 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * Datepicker Strings
+ */
+exports.Strings = {
+    /**
+     * Month Information
+     */
+    months: [
+        'January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June',
+        'July',
+        'August',
+        'September',
+        'October',
+        'November',
+        'December'
+    ],
+    shortMonths: [
+        'Jan',
+        'Feb',
+        'Mar',
+        'Apr',
+        'May',
+        'Jun',
+        'Jul',
+        'Aug',
+        'Sep',
+        'Oct',
+        'Nov',
+        'Dec'
+    ],
+    /**
+     * Day Information
+     */
+    days: [
+        'Sunday',
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday'
+    ],
+    shortDays: [
+        'S',
+        'M',
+        'T',
+        'W',
+        'T',
+        'F',
+        'S'
+    ],
+    /**
+     * Properties
+     */
+    goToToday: 'Go to today',
+    isRequiredErrorMessage: 'This field is required.',
+    invalidInputErrorMessage: 'Invalid date format.'
+};
+
+
+/***/ }),
+/* 541 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var es6_promise_1 = __webpack_require__(58);
+var gd_sprest_1 = __webpack_require__(60);
+/**
+ * Data Source
+ */
+var Data = (function () {
+    function Data() {
+    }
+    Object.defineProperty(Data, "IsSPOnline", {
+        /**
+         * Properties
+         */
+        get: function () { return gd_sprest_1.ContextInfo.existsFl; },
+        enumerable: true,
+        configurable: true
+    });
+    // Method to get the data
+    Data.get = function () {
+        var _this = this;
+        // Return a promise
+        return new es6_promise_1.Promise(function (resolve, reject) {
+            // See if the $REST library exists
+            if (_this.IsSPOnline) {
+                // Get the list
+                (new gd_sprest_1.List("Locations"))
+                    .Items()
+                    .query({
+                    OrderBy: ["State", "County", "Title"]
+                })
+                    .execute(function (items) {
+                    var data = [];
+                    // Parse the items
+                    for (var _i = 0, _a = items.results; _i < _a.length; _i++) {
+                        var item = _a[_i];
+                        // Add the item to the data array
+                        data.push({
+                            City: item["Title"],
+                            County: item["County"],
+                            State: item["State"]
+                        });
+                    }
+                    // Resolve the request
+                    resolve(data);
+                });
+            }
+            else {
+                // Resolve the request with test data
+                resolve(TestData);
+            }
+        });
+    };
+    return Data;
+}());
+exports.Data = Data;
+/**
+ * Test Data
+ */
+var TestData = [
+    { City: "Anchorage", County: "Anchorage", State: "AK" },
+    { City: "Fairbanks", County: "Fairbanks North Star", State: "AK" },
+    { City: "Little Rock", County: "Pulaski", State: "AR" },
+    { City: "Mesa", County: "Maricopa", State: "AZ" },
+    { City: "Peoria", County: "Maricopa", State: "AZ" },
+    { City: "Phoenix", County: "Maricopa", State: "AZ" },
+    { City: "Scottsdale", County: "Maricopa", State: "AZ" },
+    { City: "Berkeley", County: "Alameda", State: "CA" },
+    { City: "Hayward", County: "Alameda", State: "CA" },
+    { City: "Oakland", County: "Alameda", State: "CA" },
+    { City: "San Leandro", County: "Alameda", State: "CA" },
+    { City: "Oroville", County: "Butte", State: "CA" },
+    { City: "Concord", County: "Contra Costa", State: "CA" },
+    { City: "Oakley", County: "Contra Costa", State: "CA" },
+    { City: "San Ramon", County: "Contra Costa", State: "CA" },
+    { City: "Bellflower", County: "Los Angeles", State: "CA" },
+    { City: "Beverly Hills", County: "Los Angeles", State: "CA" },
+    { City: "El Monte", County: "Los Angeles", State: "CA" },
+    { City: "Gardena", County: "Los Angeles", State: "CA" },
+    { City: "Los Angeles", County: "Los Angeles", State: "CA" },
+    { City: "Northridge", County: "Los Angeles", State: "CA" },
+    { City: "Pasadena", County: "Los Angeles", State: "CA" },
+    { City: "Pomona", County: "Los Angeles", State: "CA" },
+    { City: "San Gabriel", County: "Los Angeles", State: "CA" },
+    { City: "Van Nuys", County: "Los Angeles", State: "CA" },
+    { City: "Novato", County: "Marin", State: "CA" },
+    { City: "Anaheim", County: "Orange", State: "CA" },
+    { City: "Costa Mesa", County: "Orange", State: "CA" },
+    { City: "Huntington Beach", County: "Orange", State: "CA" },
+    { City: "Santa Ana", County: "Orange", State: "CA" },
+    { City: "Roseville", County: "Placer", State: "CA" },
+    { City: "Cathedral City", County: "Riverside", State: "CA" },
+    { City: "Riverside", County: "Riverside", State: "CA" },
+    { City: "Thousand Palms", County: "Riverside", State: "CA" },
+    { City: "Sacramento", County: "Sacramento", State: "CA" },
+    { City: "Ontario", County: "San Bernardino", State: "CA" },
+    { City: "San Bernardino", County: "San Bernardino", State: "CA" },
+    { City: "El Cajon", County: "San Diego", State: "CA" },
+    { City: "Escondido", County: "San Diego", State: "CA" },
+    { City: "La Mesa", County: "San Diego", State: "CA" },
+    { City: "San Diego", County: "San Diego", State: "CA" },
+    { City: "San Francisco", County: "San Francisco", State: "CA" },
+    { City: "Stockton", County: "San Joaquin", State: "CA" },
+    { City: "Burlingame", County: "San Mateo", State: "CA" },
+    { City: "Pacifica", County: "San Mateo", State: "CA" },
+    { City: "San Carlos", County: "San Mateo", State: "CA" },
+    { City: "San Mateo", County: "San Mateo", State: "CA" },
+    { City: "South San Francisco", County: "San Mateo", State: "CA" },
+    { City: "San Jose", County: "Santa Clara", State: "CA" },
+    { City: "Santa Clara", County: "Santa Clara", State: "CA" },
+    { City: "Saratoga", County: "Santa Clara", State: "CA" },
+    { City: "Rohnert Park", County: "Sonoma", State: "CA" },
+    { City: "Santa Rosa", County: "Sonoma", State: "CA" },
+    { City: "Camarillo", County: "Ventura", State: "CA" },
+    { City: "Thousand Oaks", County: "Ventura", State: "CA" },
+    { City: "Englewood", County: "Arapahoe", State: "CO" },
+    { City: "Boulder", County: "Boulder", State: "CO" },
+    { City: "Denver", County: "Denver", State: "CO" },
+    { City: "Littleton", County: "Douglas", State: "CO" },
+    { City: "Colorado Springs", County: "El Paso", State: "CO" },
+    { City: "Bridgeport", County: "Fairfield", State: "CT" },
+    { City: "Norwalk", County: "Fairfield", State: "CT" },
+    { City: "New Haven", County: "New Haven", State: "CT" },
+    { City: "North Haven", County: "New Haven", State: "CT" },
+    { City: "Washington", County: "District of Columbia", State: "DC" },
+    { City: "Cocoa", County: "Brevard", State: "FL" },
+    { City: "Satellite Beach", County: "Brevard", State: "FL" },
+    { City: "Crystal River", County: "Citrus", State: "FL" },
+    { City: "Homosassa", County: "Citrus", State: "FL" },
+    { City: "Jacksonville", County: "Duval", State: "FL" },
+    { City: "Brandon", County: "Hillsborough", State: "FL" },
+    { City: "Tampa", County: "Hillsborough", State: "FL" },
+    { City: "Hialeah", County: "Miami-Dade", State: "FL" },
+    { City: "Homestead", County: "Miami-Dade", State: "FL" },
+    { City: "Miami", County: "Miami-Dade", State: "FL" },
+    { City: "Opa Locka", County: "Miami-Dade", State: "FL" },
+    { City: "Crestview", County: "Okaloosa", State: "FL" },
+    { City: "Orlando", County: "Orange", State: "FL" },
+    { City: "Lake Worth", County: "Palm Beach", State: "FL" },
+    { City: "Longwood", County: "Seminole", State: "FL" },
+    { City: "Daytona Beach", County: "Volusia", State: "FL" },
+    { City: "Oak Hill", County: "Volusia", State: "FL" },
+    { City: "Trion", County: "Chattooga", State: "GA" },
+    { City: "Atlanta", County: "Dekalb", State: "GA" },
+    { City: "Albany", County: "Dougherty", State: "GA" },
+    { City: "Douglasville", County: "Douglas", State: "GA" },
+    { City: "Atlanta", County: "Fulton", State: "GA" },
+    { City: "Hilo", County: "Hawaii", State: "HI" },
+    { City: "Honolulu", County: "Honolulu", State: "HI" },
+    { City: "Pearl City", County: "Honolulu", State: "HI" },
+    { City: "Des Moines", County: "Polk", State: "IA" },
+    { City: "Boise", County: "Ada", State: "ID" },
+    { City: "Moscow", County: "Latah", State: "ID" },
+    { City: "Arlington Heights", County: "Cook", State: "IL" },
+    { City: "Chicago", County: "Cook", State: "IL" },
+    { City: "Elk Grove Village", County: "Cook", State: "IL" },
+    { City: "Evanston", County: "Cook", State: "IL" },
+    { City: "Palatine", County: "Cook", State: "IL" },
+    { City: "Rolling Meadows", County: "Cook", State: "IL" },
+    { City: "Wheeling", County: "Cook", State: "IL" },
+    { City: "Highland Park", County: "Lake", State: "IL" },
+    { City: "Rockford", County: "Winnebago", State: "IL" },
+    { City: "Fort Wayne", County: "Allen", State: "IN" },
+    { City: "Elkhart", County: "Elkhart", State: "IN" },
+    { City: "Fortville", County: "Hancock", State: "IN" },
+    { City: "Indianapolis", County: "Marion", State: "IN" },
+    { City: "Bloomington", County: "Monroe", State: "IN" },
+    { City: "South Bend", County: "St Joseph", State: "IN" },
+    { City: "Abilene", County: "Dickinson", State: "KS" },
+    { City: "Hays", County: "Ellis", State: "KS" },
+    { City: "Overland Park", County: "Johnson", State: "KS" },
+    { City: "Shawnee", County: "Johnson", State: "KS" },
+    { City: "Burlington", County: "Boone", State: "KY" },
+    { City: "Metairie", County: "Jefferson", State: "LA" },
+    { City: "Broussard", County: "Lafayette", State: "LA" },
+    { City: "Lafayette", County: "Lafayette", State: "LA" },
+    { City: "New Orleans", County: "Orleans", State: "LA" },
+    { City: "Houma", County: "Terrebonne", State: "LA" },
+    { City: "New Bedford", County: "Bristol", State: "MA" },
+    { City: "North Attleboro", County: "Bristol", State: "MA" },
+    { City: "Cambridge", County: "Middlesex", State: "MA" },
+    { City: "Concord", County: "Middlesex", State: "MA" },
+    { City: "Wilmington", County: "Middlesex", State: "MA" },
+    { City: "Middleboro", County: "Plymouth", State: "MA" },
+    { City: "Boston", County: "Suffolk", State: "MA" },
+    { City: "Westborough", County: "Worcester", State: "MA" },
+    { City: "Worcester", County: "Worcester", State: "MA" },
+    { City: "Glen Burnie", County: "Anne Arundel", State: "MD" },
+    { City: "Hanover", County: "Anne Arundel", State: "MD" },
+    { City: "Owings Mills", County: "Baltimore", State: "MD" },
+    { City: "Parkville", County: "Baltimore", State: "MD" },
+    { City: "Baltimore", County: "Baltimore City", State: "MD" },
+    { City: "Preston", County: "Caroline", State: "MD" },
+    { City: "Hampstead", County: "Carroll", State: "MD" },
+    { City: "Aberdeen", County: "Harford", State: "MD" },
+    { City: "Bladensburg", County: "Prince Georges", State: "MD" },
+    { City: "Clinton", County: "Prince Georges", State: "MD" },
+    { City: "Hyattsville", County: "Prince Georges", State: "MD" },
+    { City: "Easton", County: "Talbot", State: "MD" },
+    { City: "Salisbury", County: "Wicomico", State: "MD" },
+    { City: "Warren", County: "Knox", State: "ME" },
+    { City: "Bangor", County: "Penobscot", State: "ME" },
+    { City: "Niles", County: "Berrien", State: "MI" },
+    { City: "East Lansing", County: "Ingham", State: "MI" },
+    { City: "Lansing", County: "Ingham", State: "MI" },
+    { City: "Grand Rapids", County: "Kent", State: "MI" },
+    { City: "Brighton", County: "Livingston", State: "MI" },
+    { City: "Sterling Heights", County: "Macomb", State: "MI" },
+    { City: "Milan", County: "Monroe", State: "MI" },
+    { City: "Muskegon", County: "Muskegon", State: "MI" },
+    { City: "Rochester", County: "Oakland", State: "MI" },
+    { City: "Southfield", County: "Oakland", State: "MI" },
+    { City: "Waterford", County: "Oakland", State: "MI" },
+    { City: "Ann Arbor", County: "Washtenaw", State: "MI" },
+    { City: "Dearborn", County: "Wayne", State: "MI" },
+    { City: "Taylor", County: "Wayne", State: "MI" },
+    { City: "Burnsville", County: "Dakota", State: "MN" },
+    { City: "Hopkins", County: "Hennepin", State: "MN" },
+    { City: "Minneapolis", County: "Hennepin", State: "MN" },
+    { City: "Saint Paul", County: "Ramsey", State: "MN" },
+    { City: "Northfield", County: "Rice", State: "MN" },
+    { City: "Shakopee", County: "Scott", State: "MN" },
+    { City: "Saint Joseph", County: "Buchanan", State: "MO" },
+    { City: "Valley Park", County: "Saint Louis", State: "MO" },
+    { City: "Saint Louis", County: "Saint Louis City", State: "MO" },
+    { City: "Biloxi", County: "Harrison", State: "MS" },
+    { City: "Jackson", County: "Hinds", State: "MS" },
+    { City: "Meridian", County: "Lauderdale", State: "MS" },
+    { City: "Pearl", County: "Rankin", State: "MS" },
+    { City: "Butte", County: "Silver Bow", State: "MT" },
+    { City: "Burlington", County: "Alamance", State: "NC" },
+    { City: "Fayetteville", County: "Cumberland", State: "NC" },
+    { City: "Greensboro", County: "Guilford", State: "NC" },
+    { City: "High Point", County: "Guilford", State: "NC" },
+    { City: "Smithfield", County: "Johnston", State: "NC" },
+    { City: "Chapel Hill", County: "Orange", State: "NC" },
+    { City: "Raleigh", County: "Wake", State: "NC" },
+    { City: "Fargo", County: "Cass", State: "ND" },
+    { City: "Alliance", County: "Box Butte", State: "NE" },
+    { City: "Omaha", County: "Douglas", State: "NE" },
+    { City: "Plaistow", County: "Rockingham", State: "NH" },
+    { City: "Absecon", County: "Atlantic", State: "NJ" },
+    { City: "Atlantic City", County: "Atlantic", State: "NJ" },
+    { City: "Margate City", County: "Atlantic", State: "NJ" },
+    { City: "Englewood", County: "Bergen", State: "NJ" },
+    { City: "Hackensack", County: "Bergen", State: "NJ" },
+    { City: "Lyndhurst", County: "Bergen", State: "NJ" },
+    { City: "Paramus", County: "Bergen", State: "NJ" },
+    { City: "Ramsey", County: "Bergen", State: "NJ" },
+    { City: "Ridgefield Park", County: "Bergen", State: "NJ" },
+    { City: "Riverton", County: "Burlington", State: "NJ" },
+    { City: "Cherry Hill", County: "Camden", State: "NJ" },
+    { City: "Bloomfield", County: "Essex", State: "NJ" },
+    { City: "Cedar Grove", County: "Essex", State: "NJ" },
+    { City: "Fairfield", County: "Essex", State: "NJ" },
+    { City: "Livingston", County: "Essex", State: "NJ" },
+    { City: "Newark", County: "Essex", State: "NJ" },
+    { City: "Nutley", County: "Essex", State: "NJ" },
+    { City: "Orange", County: "Essex", State: "NJ" },
+    { City: "Bridgeport", County: "Gloucester", State: "NJ" },
+    { City: "Harrison", County: "Hudson", State: "NJ" },
+    { City: "Jersey City", County: "Hudson", State: "NJ" },
+    { City: "Kearny", County: "Hudson", State: "NJ" },
+    { City: "Union City", County: "Hudson", State: "NJ" },
+    { City: "Flemington", County: "Hunterdon", State: "NJ" },
+    { City: "Pittstown", County: "Hunterdon", State: "NJ" },
+    { City: "Trenton", County: "Mercer", State: "NJ" },
+    { City: "Dunellen", County: "Middlesex", State: "NJ" },
+    { City: "Middlesex", County: "Middlesex", State: "NJ" },
+    { City: "Monroe Township", County: "Middlesex", State: "NJ" },
+    { City: "Freehold", County: "Monmouth", State: "NJ" },
+    { City: "Denville", County: "Morris", State: "NJ" },
+    { City: "Randolph", County: "Morris", State: "NJ" },
+    { City: "Rockaway", County: "Morris", State: "NJ" },
+    { City: "Whippany", County: "Morris", State: "NJ" },
+    { City: "Toms River", County: "Ocean", State: "NJ" },
+    { City: "Clifton", County: "Passaic", State: "NJ" },
+    { City: "Little Falls", County: "Passaic", State: "NJ" },
+    { City: "Passaic", County: "Passaic", State: "NJ" },
+    { City: "Paterson", County: "Passaic", State: "NJ" },
+    { City: "Bridgewater", County: "Somerset", State: "NJ" },
+    { City: "Somerset", County: "Somerset", State: "NJ" },
+    { City: "Somerville", County: "Somerset", State: "NJ" },
+    { City: "Plainfield", County: "Union", State: "NJ" },
+    { City: "Clovis", County: "Curry", State: "NM" },
+    { City: "Las Cruces", County: "Dona Ana", State: "NM" },
+    { City: "Carson City", County: "Carson City", State: "NV" },
+    { City: "Reno", County: "Washoe", State: "NV" },
+    { City: "Albany", County: "Albany", State: "NY" },
+    { City: "Wellsville", County: "Allegany", State: "NY" },
+    { City: "Bronx", County: "Bronx", State: "NY" },
+    { City: "Vestal", County: "Broome", State: "NY" },
+    { City: "Buffalo", County: "Erie", State: "NY" },
+    { City: "Brooklyn", County: "Kings", State: "NY" },
+    { City: "Garden City", County: "Nassau", State: "NY" },
+    { City: "Hicksville", County: "Nassau", State: "NY" },
+    { City: "Lynbrook", County: "Nassau", State: "NY" },
+    { City: "Massapequa", County: "Nassau", State: "NY" },
+    { City: "Syosset", County: "Nassau", State: "NY" },
+    { City: "Westbury", County: "Nassau", State: "NY" },
+    { City: "New York", County: "New York", State: "NY" },
+    { City: "Utica", County: "Oneida", State: "NY" },
+    { City: "Syracuse", County: "Onondaga", State: "NY" },
+    { City: "Port Jervis", County: "Orange", State: "NY" },
+    { City: "Astoria", County: "Queens", State: "NY" },
+    { City: "Long Island City", County: "Queens", State: "NY" },
+    { City: "Troy", County: "Rensselaer", State: "NY" },
+    { City: "Staten Island", County: "Richmond", State: "NY" },
+    { City: "Bohemia", County: "Suffolk", State: "NY" },
+    { City: "Coram", County: "Suffolk", State: "NY" },
+    { City: "Deer Park", County: "Suffolk", State: "NY" },
+    { City: "Middle Island", County: "Suffolk", State: "NY" },
+    { City: "Ronkonkoma", County: "Suffolk", State: "NY" },
+    { City: "Katonah", County: "Westchester", State: "NY" },
+    { City: "Mount Vernon", County: "Westchester", State: "NY" },
+    { City: "Pelham", County: "Westchester", State: "NY" },
+    { City: "Yonkers", County: "Westchester", State: "NY" },
+    { City: "Ashland", County: "Ashland", State: "OH" },
+    { City: "Hamilton", County: "Butler", State: "OH" },
+    { City: "Bucyrus", County: "Crawford", State: "OH" },
+    { City: "Beachwood", County: "Cuyahoga", State: "OH" },
+    { City: "Brook Park", County: "Cuyahoga", State: "OH" },
+    { City: "Cleveland", County: "Cuyahoga", State: "OH" },
+    { City: "Strongsville", County: "Cuyahoga", State: "OH" },
+    { City: "Columbus", County: "Franklin", State: "OH" },
+    { City: "Chagrin Falls", County: "Geauga", State: "OH" },
+    { City: "Cincinnati", County: "Hamilton", State: "OH" },
+    { City: "Findlay", County: "Hancock", State: "OH" },
+    { City: "Toledo", County: "Lucas", State: "OH" },
+    { City: "London", County: "Madison", State: "OH" },
+    { City: "Canton", County: "Stark", State: "OH" },
+    { City: "Akron", County: "Summit", State: "OH" },
+    { City: "Barberton", County: "Summit", State: "OH" },
+    { City: "Bowling Green", County: "Wood", State: "OH" },
+    { City: "Perrysburg", County: "Wood", State: "OH" },
+    { City: "Tulsa", County: "Tulsa", State: "OK" },
+    { City: "Prineville", County: "Crook", State: "OR" },
+    { City: "Eugene", County: "Lane", State: "OR" },
+    { City: "Salem", County: "Marion", State: "OR" },
+    { City: "Portland", County: "Multnomah", State: "OR" },
+    { City: "Beaverton", County: "Washington", State: "OR" },
+    { City: "Portland", County: "Washington", State: "OR" },
+    { City: "Richboro", County: "Bucks", State: "PA" },
+    { City: "Southampton", County: "Bucks", State: "PA" },
+    { City: "Coatesville", County: "Chester", State: "PA" },
+    { City: "Harrisburg", County: "Dauphin", State: "PA" },
+    { City: "Aston", County: "Delaware", State: "PA" },
+    { City: "Wayne", County: "Delaware", State: "PA" },
+    { City: "Erie", County: "Erie", State: "PA" },
+    { City: "Clarks Summit", County: "Lackawanna", State: "PA" },
+    { City: "Old Forge", County: "Lackawanna", State: "PA" },
+    { City: "Scranton", County: "Lackawanna", State: "PA" },
+    { City: "Denver", County: "Lancaster", State: "PA" },
+    { City: "Lancaster", County: "Lancaster", State: "PA" },
+    { City: "Hazleton", County: "Luzerne", State: "PA" },
+    { City: "Hatfield", County: "Montgomery", State: "PA" },
+    { City: "Huntingdon Valley", County: "Montgomery", State: "PA" },
+    { City: "Jenkintown", County: "Montgomery", State: "PA" },
+    { City: "King of Prussia", County: "Montgomery", State: "PA" },
+    { City: "Kulpsville", County: "Montgomery", State: "PA" },
+    { City: "Philadelphia", County: "Philadelphia", State: "PA" },
+    { City: "York", County: "York", State: "PA" },
+    { City: "Johnston", County: "Providence", State: "RI" },
+    { City: "Providence", County: "Providence", State: "RI" },
+    { City: "Columbia", County: "Richland", State: "SC" },
+    { City: "Spartanburg", County: "Spartanburg", State: "SC" },
+    { City: "Sioux Falls", County: "Minnehaha", State: "SD" },
+    { City: "Moss", County: "Clay", State: "TN" },
+    { City: "Tullahoma", County: "Coffee", State: "TN" },
+    { City: "Nashville", County: "Davidson", State: "TN" },
+    { City: "Memphis", County: "Shelby", State: "TN" },
+    { City: "Mc Minnville", County: "Warren", State: "TN" },
+    { City: "San Antonio", County: "Bexar", State: "TX" },
+    { City: "College Station", County: "Brazos", State: "TX" },
+    { City: "Plano", County: "Collin", State: "TX" },
+    { City: "Dallas", County: "Dallas", State: "TX" },
+    { City: "Irving", County: "Dallas", State: "TX" },
+    { City: "Mesquite", County: "Dallas", State: "TX" },
+    { City: "El Paso", County: "El Paso", State: "TX" },
+    { City: "Kerrville", County: "Kerr", State: "TX" },
+    { City: "Waco", County: "McLennan", State: "TX" },
+    { City: "Conroe", County: "Montgomery", State: "TX" },
+    { City: "Amarillo", County: "Randall", State: "TX" },
+    { City: "Arlington", County: "Tarrant", State: "TX" },
+    { City: "Euless", County: "Tarrant", State: "TX" },
+    { City: "Fort Worth", County: "Tarrant", State: "TX" },
+    { City: "Kennedale", County: "Tarrant", State: "TX" },
+    { City: "Abilene", County: "Taylor", State: "TX" },
+    { City: "Austin", County: "Travis", State: "TX" },
+    { City: "Laredo", County: "Webb", State: "TX" },
+    { City: "Wichita Falls", County: "Wichita", State: "TX" },
+    { City: "Round Rock", County: "Williamson", State: "TX" },
+    { City: "Salt Lake City", County: "Salt Lake", State: "UT" },
+    { City: "Annandale", County: "Fairfax", State: "VA" },
+    { City: "Mc Lean", County: "Fairfax", State: "VA" },
+    { City: "Fairfax", County: "Fairfax City", State: "VA" },
+    { City: "Newport News", County: "Newport News City", State: "VA" },
+    { City: "Richmond", County: "Richmond City", State: "VA" },
+    { City: "Richland", County: "Benton", State: "WA" },
+    { City: "Kent", County: "King", State: "WA" },
+    { City: "Seattle", County: "King", State: "WA" },
+    { City: "Vashon", County: "King", State: "WA" },
+    { City: "Tacoma", County: "Pierce", State: "WA" },
+    { City: "Bothell", County: "Snohomish", State: "WA" },
+    { City: "Green Bay", County: "Brown", State: "WI" },
+    { City: "Madison", County: "Dane", State: "WI" },
+    { City: "Milwaukee", County: "Milwaukee", State: "WI" },
+    { City: "Stevens Point", County: "Portage", State: "WI" },
+    { City: "Beloit", County: "Rock", State: "WI" },
+    { City: "Riverton", County: "Fremont", State: "WY" },
+    { City: "Cheyenne", County: "Laramie", State: "WY" },
+    { City: "Rock Springs", County: "Sweetwater", State: "WY" }
+];
+
+
+/***/ }),
+/* 542 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var React = __webpack_require__(0);
+var office_ui_fabric_react_1 = __webpack_require__(21);
+var data_1 = __webpack_require__(541);
+/**
+ * Dropdown Demo
+ */
+var DropdownDemo = (function (_super) {
+    __extends(DropdownDemo, _super);
+    /**
+     * Constructor
+     */
+    function DropdownDemo(props) {
+        var _this = _super.call(this, props) || this;
+        _this.data = [];
+        // Default the state
+        _this.state = {
+            Cities: [],
+            Counties: [],
+            SelectedItem: {
+                City: "",
+                County: "",
+                State: ""
+            },
+            States: []
+        };
+        // Get the data
+        data_1.Data.get().then(function (data) {
+            // Save a reference to the data
+            _this.data = data;
+            // Parse the data
+            for (var i = 0; i < data.length; i++) {
+                var prevState = _this.state.States.length > 0 ? _this.state.States[_this.state.States.length - 1] : null;
+                // Remove duplicates
+                if (prevState && prevState.key == data[i].State) {
+                    continue;
+                }
+                // Add the value
+                _this.state.States.push({
+                    key: data[i].State,
+                    text: data[i].State
+                });
+            }
+        });
+        return _this;
+    }
+    /**
+     * Events
+     */
+    // County change event
+    DropdownDemo.prototype.onCountyChange = function (option) {
+        var cities = [];
+        // Update the selected values
+        var item = {
+            City: "",
+            County: option.text,
+            State: this.state.SelectedItem.State
+        };
+        // Parse the data
+        for (var _i = 0, _a = this.data; _i < _a.length; _i++) {
+            var data = _a[_i];
+            var prevState = cities.length > 0 ? cities[cities.length - 1] : null;
+            // Remove duplicates
+            if (prevState && prevState.key == data.City) {
+                continue;
+            }
+            // See if this is the selected state and county
+            if (data.County == option.key && data.State == item.State) {
+                // Add the county
+                cities.push({
+                    key: data.City,
+                    text: data.City
+                });
+            }
+        }
+        // Update the state
+        this.setState({ Cities: cities, SelectedItem: item });
+    };
+    // State change event
+    DropdownDemo.prototype.onStateChange = function (option) {
+        var counties = [];
+        // Update the selected values
+        var item = {
+            City: "",
+            County: "",
+            State: option.text
+        };
+        // Parse the data
+        for (var _i = 0, _a = this.data; _i < _a.length; _i++) {
+            var data = _a[_i];
+            var prevState = counties.length > 0 ? counties[counties.length - 1] : null;
+            // Remove duplicates
+            if (prevState && prevState.key == data.County) {
+                continue;
+            }
+            // See if this is the selected state
+            if (data.State == option.key) {
+                // Add the county
+                counties.push({
+                    key: data.County,
+                    text: data.County
+                });
+            }
+        }
+        // Update the state
+        this.setState({ Cities: [], Counties: counties, SelectedItem: item });
+    };
+    // Render the component
+    DropdownDemo.prototype.render = function () {
+        var _this = this;
+        return !this.props.visible ? React.createElement("div", null) :
+            (React.createElement("div", null,
+                React.createElement("h1", null, "Demo"),
+                React.createElement("div", { className: "ms-Grid" },
+                    React.createElement("div", { className: "ms-Grid-row" },
+                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
+                            React.createElement(office_ui_fabric_react_1.Dropdown, { label: "State", onChanged: function (option) { return _this.onStateChange(option); }, options: this.state.States, selectedKey: this.state.SelectedItem.State }))),
+                    React.createElement("div", { className: "ms-Grid-row" },
+                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
+                            React.createElement(office_ui_fabric_react_1.Dropdown, { label: "County", onChanged: function (option) { return _this.onCountyChange(option); }, options: this.state.Counties, selectedKey: this.state.SelectedItem.County }))),
+                    React.createElement("div", { className: "ms-Grid-row" },
+                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
+                            React.createElement(office_ui_fabric_react_1.Dropdown, { label: "City", options: this.state.Cities, selectedKey: this.state.SelectedItem.City }))))));
+    };
+    return DropdownDemo;
+}(React.Component));
+exports.DropdownDemo = DropdownDemo;
+
+
+/***/ }),
+/* 543 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(539));
+__export(__webpack_require__(542));
+__export(__webpack_require__(544));
+__export(__webpack_require__(548));
+
+
+/***/ }),
+/* 544 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var React = __webpack_require__(0);
+var office_ui_fabric_react_1 = __webpack_require__(21);
+var _1 = __webpack_require__(545);
+/**
+ * List Demo
+ */
+var ListDemo = (function (_super) {
+    __extends(ListDemo, _super);
+    /**
+     * Constructor
+     */
+    function ListDemo(props) {
+        var _this = _super.call(this, props) || this;
+        // Default the state
+        _this.state = {
+            Items: [],
+            SelectedItem: { County: "", State: "", Title: "" },
+            ShowDialog: false,
+            ShowPanel: false
+        };
+        // Get the data
+        _1.Data.get().then(function (data) {
+            // Update the state
+            _this.setState({ Items: data });
+        });
+        return _this;
+    }
+    /**
+     * Methods
+     */
+    // Render cell event
+    ListDemo.prototype.onRenderItemColumn = function (item, index, column) {
+        var _this = this;
+        // See if this is the 'Title' column
+        if (column.key == "Title") {
+            // Return the view item button
+            return (React.createElement(office_ui_fabric_react_1.Button, { buttonType: office_ui_fabric_react_1.ButtonType.normal, onClick: function (event) {
+                    // Disable postback
+                    event.preventDefault();
+                    // Update the state
+                    _this.setState({
+                        SelectedItem: item,
+                        ShowDialog: true
+                    });
+                } }, item[column.key]));
+        }
+        // Return the field value
+        return item[column.key];
+    };
+    // Render the component
+    ListDemo.prototype.render = function () {
+        var _this = this;
+        return !this.props.visible ? React.createElement("div", null) :
+            (React.createElement("div", null,
+                React.createElement("h1", null, "Demo"),
+                React.createElement(office_ui_fabric_react_1.Button, { buttonType: office_ui_fabric_react_1.ButtonType.hero, icon: "Add", onClick: function (event) { event.preventDefault(); _this.setState({ ShowPanel: true }); } }, "New Location"),
+                React.createElement(office_ui_fabric_react_1.DetailsList, { items: this.state.Items, onRenderItemColumn: function (item, index, column) { return _this.onRenderItemColumn(item, index, column); }, selectionMode: office_ui_fabric_react_1.SelectionMode.none }),
+                React.createElement(_1.ViewItemDialog, { closeDialog: function () { return _this.setState({ ShowDialog: false }); }, item: this.state.SelectedItem, visible: this.state.ShowDialog }),
+                React.createElement(_1.NewItemPanel, { closePanel: function () { return _this.setState({ ShowPanel: false }); }, visible: this.state.ShowPanel })));
+    };
+    return ListDemo;
+}(React.Component));
+exports.ListDemo = ListDemo;
+
+
+/***/ }),
+/* 545 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+__export(__webpack_require__(176));
+__export(__webpack_require__(546));
+__export(__webpack_require__(547));
+
+
+/***/ }),
+/* 546 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var React = __webpack_require__(0);
+var office_ui_fabric_react_1 = __webpack_require__(21);
+var data_1 = __webpack_require__(176);
+/**
+ * New Item Panel
+ */
+var NewItemPanel = (function (_super) {
+    __extends(NewItemPanel, _super);
+    /**
+     * Constructor
+     */
+    function NewItemPanel(props) {
+        var _this = _super.call(this, props) || this;
+        // Default the state
+        _this.state = {
+            IsValid: false,
+            Item: {
+                County: "",
+                State: "",
+                Title: ""
+            }
+        };
+        return _this;
+    }
+    /**
+     * Methods
+     */
+    // Method to add a new item
+    NewItemPanel.prototype.addItem = function (event) {
+        // Disable postback
+        event.preventDefault();
+        // Add the item
+        data_1.Data.addItem(this.state.Item).then(function (item) {
+            // Refresh the page
+            document.location.reload();
+        });
+    };
+    // Method to get the error message
+    NewItemPanel.prototype.getErrorMessage = function (value, fieldName) {
+        // Save the value
+        switch (fieldName) {
+            case "city":
+                this.state.Item.Title = value;
+                break;
+            case "county":
+                this.state.Item.County = value;
+                break;
+            case "state":
+                this.state.Item.State = value;
+                break;
+        }
+        // Save the state
+        this.setState({
+            IsValid: this.state.Item.County.length > 0 && this.state.Item.State.length > 0 && this.state.Item.Title.length > 0
+        });
+        // Return the error message
+        return value && value.length > 0 ? "" : "The " + fieldName + " is required.";
+    };
+    // Render the component
+    NewItemPanel.prototype.render = function () {
+        var _this = this;
+        return (React.createElement(office_ui_fabric_react_1.Panel, { headerText: "New Location", isOpen: this.props.visible, onDismiss: function () { return _this.props.closePanel(); } },
+            React.createElement(office_ui_fabric_react_1.TextField, { label: "City:", required: true, value: this.state.Item.Title, onGetErrorMessage: function (value) { return _this.getErrorMessage(value, "city"); } }),
+            React.createElement(office_ui_fabric_react_1.TextField, { label: "County:", required: true, value: this.state.Item.County, onGetErrorMessage: function (value) { return _this.getErrorMessage(value, "county"); } }),
+            React.createElement(office_ui_fabric_react_1.TextField, { label: "State:", required: true, value: this.state.Item.State, onGetErrorMessage: function (value) { return _this.getErrorMessage(value, "state"); } }),
+            React.createElement(office_ui_fabric_react_1.Button, { disabled: !this.state.IsValid, onClick: function (event) { return _this.addItem(event); } }, "Save")));
+    };
+    return NewItemPanel;
+}(React.Component));
+exports.NewItemPanel = NewItemPanel;
+
+
+/***/ }),
+/* 547 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var React = __webpack_require__(0);
+var office_ui_fabric_react_1 = __webpack_require__(21);
+/**
+ * View Item Dialog
+ */
+var ViewItemDialog = (function (_super) {
+    __extends(ViewItemDialog, _super);
+    function ViewItemDialog() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    // Render the component
+    ViewItemDialog.prototype.render = function () {
+        var _this = this;
+        return (React.createElement(office_ui_fabric_react_1.Dialog, { isBlocking: true, isOpen: this.props.visible, title: "Location", type: office_ui_fabric_react_1.DialogType.close, onDismiss: function () { return _this.props.closeDialog(); } },
+            React.createElement(office_ui_fabric_react_1.TextField, { label: "City:", readOnly: true, value: this.props.item.Title }),
+            React.createElement(office_ui_fabric_react_1.TextField, { label: "County:", readOnly: true, value: this.props.item.County }),
+            React.createElement(office_ui_fabric_react_1.TextField, { label: "State:", readOnly: true, value: this.props.item.State })));
+    };
+    return ViewItemDialog;
+}(React.Component));
+exports.ViewItemDialog = ViewItemDialog;
+
+
+/***/ }),
+/* 548 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var React = __webpack_require__(0);
+var office_ui_fabric_react_1 = __webpack_require__(21);
+var peoplepicker_1 = __webpack_require__(549);
+/**
+ * People Picker Demo
+ */
+var PeoplePickerDemo = (function (_super) {
+    __extends(PeoplePickerDemo, _super);
+    function PeoplePickerDemo() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    // Render the component
+    PeoplePickerDemo.prototype.render = function () {
+        return !this.props.visible ? React.createElement("div", null) :
+            (React.createElement("div", null,
+                React.createElement("h1", null, "Demo"),
+                React.createElement("h5", null, "The people picker search requires you to type in a minimum of 3 characters."),
+                React.createElement("div", { className: "ms-Grid" },
+                    React.createElement("div", { className: "ms-Grid-row" },
+                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
+                            React.createElement(office_ui_fabric_react_1.Label, null, "Single User"),
+                            React.createElement(peoplepicker_1.MyPeoplePicker, null)),
+                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
+                            React.createElement(office_ui_fabric_react_1.Label, null, "Multiple Users"),
+                            React.createElement(peoplepicker_1.MyPeoplePicker, { multiple: true }))))));
+    };
+    return PeoplePickerDemo;
+}(React.Component));
+exports.PeoplePickerDemo = PeoplePickerDemo;
+
+
+/***/ }),
+/* 549 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var React = __webpack_require__(0);
+var es6_promise_1 = __webpack_require__(58);
+var gd_sprest_1 = __webpack_require__(60);
+var office_ui_fabric_react_1 = __webpack_require__(21);
+/**
+ * People Picker Default Properties
+ */
+var DefaultProps = {
+    /** The loading text */
+    loadingText: "Loading...",
+    /** Text displayed when no results are found */
+    noResultsFoundText: "No results found",
+    /** Text displayed when displaying suggestions */
+    suggestionsHeaderText: "Suggested People"
+};
+/**
+ * My People Picker
+ */
+var MyPeoplePicker = (function (_super) {
+    __extends(MyPeoplePicker, _super);
+    /**
+     * Constructor
+     */
+    function MyPeoplePicker(props) {
+        var _this = _super.call(this, props) || this;
+        /**
+         * Global Variables
+         */
+        // The search query promise
+        _this._promise = null;
+        // The query string
+        _this._queryString = "";
+        // The search results
+        _this._results = {};
+        // Default the state values
+        _this.state = { pickerProps: props.pickerProps || {}, queryString: "" };
+        _this.state.pickerProps.loadingText = _this.state.pickerProps.loadingText || DefaultProps.loadingText;
+        _this.state.pickerProps.noResultsFoundText = _this.state.pickerProps.noResultsFoundText || DefaultProps.noResultsFoundText;
+        _this.state.pickerProps.suggestionsHeaderText = _this.state.pickerProps.suggestionsHeaderText || DefaultProps.suggestionsHeaderText;
+        return _this;
+    }
+    /**
+     * Methods
+     */
+    // The on change event
+    MyPeoplePicker.prototype.onChange = function (items) {
+        var _this = this;
+        // See if more than one item has been selected
+        if (items && items.length > 0) {
+            // See if this is a single people picker
+            if (!this.props.multiple) {
+                // Remove all items but the last one
+                items.splice(0, items.length - 1);
+                // Get the web
+                (new gd_sprest_1.Web())
+                    .ensureUser(items[0].key)
+                    .execute(function (user) {
+                    // Call the on change event
+                    _this.props.onChange(_this.props.fieldName, user.existsFl ? user : null);
+                });
+            }
+        }
+    };
+    // Method to query the people picker api for the inputed text
+    MyPeoplePicker.prototype.resolveSuggestions = function (filterText, currentPersonas) {
+        var _this = this;
+        // Save the query string
+        this._queryString = filterText.toLowerCase();
+        // See if we have already searched for this result
+        if (this._results[this._queryString] != null) {
+            return this._results[this._queryString];
+        }
+        // See if we are executing a query
+        if (this._promise != null) {
+            return this._promise || [];
+        }
+        // Ensure the min required characters has been entered
+        if (filterText.length < 3) {
+            return this._promise || [];
+        }
+        // Create a promise
+        this._promise = new es6_promise_1.Promise(function (resolve, reject) {
+            // Wait two seconds before querying for the user
+            setTimeout(function () {
+                // Update the filter text
+                filterText = _this._queryString;
+                // Query for the people
+                (new gd_sprest_1.PeoplePicker())
+                    .clientPeoplePickerSearchUser({
+                    MaximumEntitySuggestions: 10,
+                    QueryString: filterText
+                })
+                    .execute(function (results) {
+                    var personas = [];
+                    // Add the result
+                    var key = filterText.toLowerCase();
+                    _this._results[key] = [];
+                    // Parse the results
+                    for (var _i = 0, _a = results.ClientPeoplePickerSearchUser; _i < _a.length; _i++) {
+                        var result = _a[_i];
+                        var persona = {
+                            key: result.Key,
+                            primaryText: result.DisplayText,
+                            secondaryText: result.EntityData.Email
+                        };
+                        // Add the persona
+                        personas.push(persona);
+                    }
+                    // Save the results for this filter
+                    _this._results[key].push(personas);
+                    // Resolve the promise
+                    resolve(personas);
+                    // Clear the promise
+                    _this._promise = null;
+                });
+            }, 2000);
+        });
+        // Return the promise
+        return this._promise;
+    };
+    // Render the component
+    MyPeoplePicker.prototype.render = function () {
+        var _this = this;
+        var pickerProps = this.state.pickerProps;
+        return (this.props.multiple ?
+            React.createElement(office_ui_fabric_react_1.NormalPeoplePicker, { onChange: function (items) { return _this.onChange(items); }, onResolveSuggestions: function (filterText, currentPersonas) { return _this.resolveSuggestions(filterText, currentPersonas); }, getTextFromItem: function (persona) { return persona.primaryText; }, pickerSuggestionsProps: pickerProps, className: 'ms-PeoplePicker' })
+            :
+                React.createElement(office_ui_fabric_react_1.ListPeoplePicker, { onChange: function (items) { return _this.onChange(items); }, onResolveSuggestions: function (filterText, currentPersonas) { return _this.resolveSuggestions(filterText, currentPersonas); }, getTextFromItem: function (persona) { return persona.primaryText; }, pickerSuggestionsProps: pickerProps, className: 'ms-PeoplePicker' }));
+    };
+    return MyPeoplePicker;
+}(React.Component));
+exports.MyPeoplePicker = MyPeoplePicker;
+
+
+/***/ }),
 /* 550 */
 /***/ (function(module, exports) {
 
@@ -48724,13 +49427,12 @@ module.exports = traverseAllChildren;
 
 "use strict";
 
-
-Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var ReactDOM = __webpack_require__(56);
 var dashboard_1 = __webpack_require__(178);
 // Render the dashboard
 ReactDOM.render(React.createElement(dashboard_1.Dashboard, null), document.querySelector("#main"));
+
 
 /***/ })
 /******/ ]);
