@@ -36,7 +36,6 @@
     <Compile Include="webpack.config.js" />
     <Content Include="dist\index.html" />
     <Content Include="index.html" />
-    <Content Include="jsconfig.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="src\components\Datepicker\demo.tsx" />
@@ -53,6 +52,7 @@
     <Content Include="src\components\PeoplePicker\demo.tsx" />
     <Content Include="src\components\PeoplePicker\peoplePicker.tsx" />
     <Content Include="src\index.tsx" />
+    <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dist\" />
