@@ -45,7 +45,7 @@ export class Data {
                 // Add the item
                 .add(item)
                 // Execute the request
-                .execute((item:Types.IListItem) => {
+                .execute((item) => {
                     // Resolve the promise
                     resolve(item);
                 });
@@ -69,7 +69,7 @@ export class Data {
                         Top: 500
                     })
                     // Execute the request
-                    .execute((items:Types.IListItems) => {
+                    .execute((items) => {
                         let data: IData[] = [];
 
                         // Parse the items

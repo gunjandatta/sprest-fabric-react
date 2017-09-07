@@ -24,6 +24,19 @@ module.exports = {
         // Rules
         rules: [
             {
+                // Target the sass files
+                test: /\.scss?$/,
+                // Define the compiler to use
+                use: [
+                    // Create style nodes from the CommonJS code
+                    { loader: "style-loader" },
+                    // Translate css to CommonJS
+                    { loader: "css-loader" },
+                    // Compile sass to css
+                    { loader: "sass-loader" }
+                ]
+            },
+            {
                 // Target the .ts and .tsx files
                 test: /\.tsx$/,
                 // Exclude the node modules folder

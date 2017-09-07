@@ -38,7 +38,7 @@ export class Data {
                         OrderBy: ["State", "County", "Title"]
                     })
                     // Execute the request
-                    .execute((items: Types.IListItems) => {
+                    .execute((items) => {
                         let data: IData[] = [];
 
                         // Parse the items
