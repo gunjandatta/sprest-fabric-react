@@ -160,7 +160,7 @@ export class DropdownDemo extends React.Component<IDropdownDemoProps, IDropdownD
                     <h1>Demo</h1>
                     <div className="ms-Grid">
                         <div className="ms-Grid-row">
-                            <div className="ms-Grid-col ms-u-md3">
+                            <div className="ms-Grid-col ms-md3">
                                 <Dropdown
                                     label="State"
                                     onChanged={option => this.onStateChange(option)}
@@ -170,7 +170,7 @@ export class DropdownDemo extends React.Component<IDropdownDemoProps, IDropdownD
                             </div>
                         </div>
                         <div className="ms-Grid-row">
-                            <div className="ms-Grid-col ms-u-md3">
+                            <div className="ms-Grid-col ms-md3">
                                 <Dropdown
                                     label="County"
                                     onChanged={option => this.onCountyChange(option)}
@@ -180,7 +180,7 @@ export class DropdownDemo extends React.Component<IDropdownDemoProps, IDropdownD
                             </div>
                         </div>
                         <div className="ms-Grid-row">
-                            <div className="ms-Grid-col ms-u-md3">
+                            <div className="ms-Grid-col ms-md3">
                                 <Dropdown
                                     label="City"
                                     options={this.state.Cities}

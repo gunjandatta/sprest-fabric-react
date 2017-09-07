@@ -25,7 +25,7 @@ export class DatepickerDemo extends React.Component<IDatepickerDemoProps, any> {
                 <h1>Demo</h1>
                 <div className="ms-Grid">
                     <div className="ms-Grid-row">
-                        <div className="ms-Grid-col ms-u-md3">
+                        <div className="ms-Grid-col ms-md3">
                             <DatePicker
                                 label="Select a Date"
                                 isRequired={true}
