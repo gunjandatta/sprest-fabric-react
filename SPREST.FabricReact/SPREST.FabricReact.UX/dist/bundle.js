@@ -56888,7 +56888,7 @@ var DropdownDemo = /** @class */ (function (_super) {
                             React.createElement(office_ui_fabric_react_1.Dropdown, { label: "County", onChanged: function (option) { return _this.onCountyChange(option); }, options: this.state.Counties, selectedKey: this.state.SelectedItem.County }))),
                     React.createElement("div", { className: "ms-Grid-row" },
                         React.createElement("div", { className: "ms-Grid-col ms-md3" },
-                            React.createElement(office_ui_fabric_react_1.Dropdown, { label: "City", options: this.state.Cities, selectedKey: this.state.SelectedItem.City }))))));
+                            React.createElement(office_ui_fabric_react_1.Dropdown, { label: "City", options: this.state.Cities }))))));
     };
     return DropdownDemo;
 }(React.Component));

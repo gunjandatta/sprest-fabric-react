@@ -56670,7 +56670,7 @@ var DatepickerDemo = /** @class */ (function (_super) {
                 React.createElement("h1", null, "Demo"),
                 React.createElement("div", { className: "ms-Grid" },
                     React.createElement("div", { className: "ms-Grid-row" },
-                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
+                        React.createElement("div", { className: "ms-Grid-col ms-md3" },
                             React.createElement(office_ui_fabric_react_1.DatePicker, { label: "Select a Date", isRequired: true, firstDayOfWeek: office_ui_fabric_react_1.DayOfWeek.Sunday, strings: strings_1.Strings, placeholder: 'Select a date...' }))))));
     };
     return DatepickerDemo;
@@ -56881,14 +56881,14 @@ var DropdownDemo = /** @class */ (function (_super) {
                 React.createElement("h1", null, "Demo"),
                 React.createElement("div", { className: "ms-Grid" },
                     React.createElement("div", { className: "ms-Grid-row" },
-                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
+                        React.createElement("div", { className: "ms-Grid-col ms-md3" },
                             React.createElement(office_ui_fabric_react_1.Dropdown, { label: "State", onChanged: function (option) { return _this.onStateChange(option); }, options: this.state.States, selectedKey: this.state.SelectedItem.State }))),
                     React.createElement("div", { className: "ms-Grid-row" },
-                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
+                        React.createElement("div", { className: "ms-Grid-col ms-md3" },
                             React.createElement(office_ui_fabric_react_1.Dropdown, { label: "County", onChanged: function (option) { return _this.onCountyChange(option); }, options: this.state.Counties, selectedKey: this.state.SelectedItem.County }))),
                     React.createElement("div", { className: "ms-Grid-row" },
-                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
-                            React.createElement(office_ui_fabric_react_1.Dropdown, { label: "City", options: this.state.Cities, selectedKey: this.state.SelectedItem.City }))))));
+                        React.createElement("div", { className: "ms-Grid-col ms-md3" },
+                            React.createElement(office_ui_fabric_react_1.Dropdown, { label: "City", options: this.state.Cities }))))));
     };
     return DropdownDemo;
 }(React.Component));
@@ -64590,10 +64590,10 @@ var PeoplePickerDemo = /** @class */ (function (_super) {
                 React.createElement("h5", null, "The people picker search requires you to type in a minimum of 3 characters."),
                 React.createElement("div", { className: "ms-Grid" },
                     React.createElement("div", { className: "ms-Grid-row" },
-                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
+                        React.createElement("div", { className: "ms-Grid-col ms-md3" },
                             React.createElement(office_ui_fabric_react_1.Label, null, "Single User"),
                             React.createElement(gd_sprest_react_1.SPPeoplePicker, null)),
-                        React.createElement("div", { className: "ms-Grid-col ms-u-md3" },
+                        React.createElement("div", { className: "ms-Grid-col ms-md3" },
                             React.createElement(office_ui_fabric_react_1.Label, null, "Multiple Users"),
                             React.createElement(gd_sprest_react_1.SPPeoplePicker, { allowMultiple: true }))))));
     };

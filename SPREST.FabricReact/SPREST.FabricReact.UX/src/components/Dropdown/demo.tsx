@@ -184,8 +184,7 @@ export class DropdownDemo extends React.Component<IDropdownDemoProps, IDropdownD
                                 <Dropdown
                                     label="City"
                                     options={this.state.Cities}
-                                    selectedKey={this.state.SelectedItem.City}
-                                    />
+                                />
                             </div>
                         </div>
                     </div>
