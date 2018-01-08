@@ -1,6 +1,7 @@
 ﻿import * as React from "react";
 import {
-    Button,
+    DefaultButton,
+    IconButton,
     ButtonType,
     DetailsList,
     SelectionMode
@@ -64,7 +65,7 @@ export class ListDemo extends React.Component<IListDemoProps, IListDemoState> {
         if (column.key == "Title") {
             // Return the view item button
             return (
-                <Button
+                <DefaultButton
                     buttonType={ButtonType.normal}
                     onClick={event => {
                         // Disable postback
@@ -77,7 +78,7 @@ export class ListDemo extends React.Component<IListDemoProps, IListDemoState> {
                         });
                     }}>
                     {item[column.key]}
-                </Button>
+                </DefaultButton>
             );
         }
 
@@ -91,26 +92,26 @@ export class ListDemo extends React.Component<IListDemoProps, IListDemoState> {
             (
                 <div>
                     <h1>Demo</h1>
-                    <Button
+                    <IconButton
                         buttonType={ButtonType.hero}
-                        icon="Add"
+                        iconProps={{ iconName: "Add" }}
                         onClick={event => { event.preventDefault(); this.setState({ ShowPanel: true }); }}>
                         New Location
-                    </Button>
+                    </IconButton>
                     <DetailsList
                         items={this.state.Items}
                         onRenderItemColumn={(item, index, column) => this.onRenderItemColumn(item, index, column)}
                         selectionMode={SelectionMode.none}
-                        />
+                    />
                     <ViewItemDialog
                         closeDialog={() => this.setState({ ShowDialog: false })}
                         item={this.state.SelectedItem}
                         visible={this.state.ShowDialog}
-                        />
+                    />
                     <NewItemPanel
                         closePanel={() => this.setState({ ShowPanel: false })}
                         visible={this.state.ShowPanel}
-                        />
+                    />
                 </div>
             );
     }
