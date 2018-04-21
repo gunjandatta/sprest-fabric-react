@@ -3,21 +3,19 @@ import {
     CommandBar,
     IContextualMenuItem
 } from "office-ui-fabric-react";
-import {
-    DatepickerDemo,
-    DropdownDemo,
-    ListDemo,
-    PeoplePickerDemo
-} from ".";
+import { DatepickerDemo } from "./Datepicker";
+import { DropdownDemo } from "./Dropdown";
+import { ListDemo } from "./List";
+import { PeoplePickerDemo } from "./PeoplePicker";
 
 /**
  * Dashboard State
  */
 export interface IDashboardState {
-    ShowDatepicker:boolean,
-    ShowDropdown:boolean,
-    ShowList:boolean,
-    ShowPeoplePicker:boolean
+    ShowDatepicker: boolean,
+    ShowDropdown: boolean,
+    ShowList: boolean,
+    ShowPeoplePicker: boolean
 };
 
 /**
@@ -43,7 +41,7 @@ export class Dashboard extends React.Component<any, IDashboardState> {
      * Menu Items
      * Note - event.preventDefault() is needed for the SP App, otherwise a postback will occur.
      */
-    MenuItems:Array<IContextualMenuItem> = [
+    MenuItems: Array<IContextualMenuItem> = [
         {
             key: "datepicker",
             name: "Date Picker",
@@ -76,7 +74,7 @@ export class Dashboard extends React.Component<any, IDashboardState> {
 
     // Render the component
     render() {
-        let {ShowDatepicker, ShowDropdown, ShowList, ShowPeoplePicker} = this.state;
+        let { ShowDatepicker, ShowDropdown, ShowList, ShowPeoplePicker } = this.state;
         return (
             <div>
                 <CommandBar items={this.MenuItems} />
