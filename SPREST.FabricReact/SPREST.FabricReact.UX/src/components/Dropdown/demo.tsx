@@ -12,14 +12,14 @@ import {
 /**
  * Properties
  */
-interface IDropdownDemoProps {
+export interface IDropdownDemoProps {
     visible?: boolean;
 }
 
 /**
  * State
  */
-interface IDropdownDemoState {
+export interface IDropdownDemoState {
     // Cities
     Cities?: IDropdownOption[];
 

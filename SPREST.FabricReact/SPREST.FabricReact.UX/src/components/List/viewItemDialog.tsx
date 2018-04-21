@@ -12,7 +12,7 @@ import {
 /**
  * Properties
  */
-interface IViewItemDialogProps {
+export interface IViewItemDialogProps {
     closeDialog: any;
     item: IData;
     visible?: boolean;
@@ -21,7 +21,7 @@ interface IViewItemDialogProps {
 /**
  * State
  */
-interface IViewItemDialogState {}
+export interface IViewItemDialogState {}
 
 /**
  * View Item Dialog

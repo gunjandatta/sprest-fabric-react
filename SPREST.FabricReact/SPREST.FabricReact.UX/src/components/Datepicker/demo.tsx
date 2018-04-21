@@ -10,7 +10,7 @@ import {
 /**
  * Datepicker Properties
  */
-interface IDatepickerDemoProps {
+export interface IDatepickerDemoProps {
     visible: any;
 }
 

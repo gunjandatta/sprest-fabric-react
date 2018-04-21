@@ -16,14 +16,14 @@ import {
 /**
  * Properties
  */
-interface IListDemoProps {
+export interface IListDemoProps {
     visible?: boolean;
 }
 
 /**
  * State
  */
-interface IListDemoState {
+export interface IListDemoState {
     Items?: IData[];
     SelectedItem?: IData;
     ShowDialog?: boolean;

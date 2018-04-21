@@ -14,7 +14,7 @@ import {
 /**
  * Properties
  */
-interface INewItemPanelProps {
+export interface INewItemPanelProps {
     closePanel: any;
     visible?: boolean;
 }
@@ -22,7 +22,7 @@ interface INewItemPanelProps {
 /**
  * State
  */
-interface INewItemPanelState {
+export interface INewItemPanelState {
     IsValid?: boolean;
     Item?: IData;
 }

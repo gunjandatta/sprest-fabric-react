@@ -7,7 +7,7 @@ import {
 /**
  * Properties
  */
-interface IPeoplePickerDemoProps {
+export interface IPeoplePickerDemoProps {
     visible?: boolean;
 }
 

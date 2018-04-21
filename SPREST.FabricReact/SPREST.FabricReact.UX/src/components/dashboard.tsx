@@ -13,7 +13,7 @@ import {
 /**
  * Dashboard State
  */
-interface IDashboardState {
+export interface IDashboardState {
     ShowDatepicker:boolean,
     ShowDropdown:boolean,
     ShowList:boolean,
