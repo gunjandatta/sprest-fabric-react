@@ -58,7 +58,7 @@ export class NewItemPanel extends React.Component<INewItemPanelProps, INewItemPa
         event.preventDefault();
 
         // Add the item
-        Data.addItem(this.state.Item).then((item: Types.IListItem) => {
+        Data.addItem(this.state.Item).then((item) => {
             // Refresh the page
             document.location.reload();
         });

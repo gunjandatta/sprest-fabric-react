@@ -1,5 +1,5 @@
 import * as React from "react";
-import { SPPeoplePicker } from "gd-sprest-react";
+import { Components } from "gd-sprest-react";
 import {
     Label
 } from "office-ui-fabric-react";
@@ -26,11 +26,11 @@ export class PeoplePickerDemo extends React.Component<IPeoplePickerDemoProps, an
                         <div className="ms-Grid-row">
                             <div className="ms-Grid-col ms-md3">
                                 <Label>Single User</Label>
-                                <SPPeoplePicker />
+                                <Components.SPPeoplePicker />
                             </div>
                             <div className="ms-Grid-col ms-md3">
                                 <Label>Multiple Users</Label>
-                                <SPPeoplePicker allowMultiple={true} />
+                                <Components.SPPeoplePicker allowMultiple={true} />
                             </div>
                         </div>
                     </div>
